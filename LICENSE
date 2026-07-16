@@ -1,0 +1,74 @@
+Danantara AIOS — Proprietary and Confidential
+
+Copyright (c) 2026 Badan Pengelola Investasi (BPI) Danantara.
+All rights reserved.
+
+-------------------------------------------------------------------------------
+STATUS: DRAFT — REQUIRES LEGAL OWNER APPROVAL BEFORE IT IS RELIED UPON
+-------------------------------------------------------------------------------
+
+TODO(legal): This notice was drafted to match the `license: Proprietary-Danantara`
+field declared in all 133 SKILL.md files. It has NOT been reviewed by a Danantara
+legal owner. Before this repository is shared beyond its current access list,
+the accountable legal owner must confirm:
+
+  - the correct full legal entity name and its authority to assert this copyright
+  - the governing law and jurisdiction
+  - the treatment of contributions made by partners and vendors
+  - whether any portion is subject to a separate government or public-body regime
+  - the retention, classification, and disclosure obligations that apply
+
+Until that review is recorded, treat this file as a statement of intent, not as a
+settled legal position.
+
+-------------------------------------------------------------------------------
+1. Scope
+-------------------------------------------------------------------------------
+
+"The Work" means this repository and its contents: the blueprint, registry,
+governance doctrine, templates, skills, evaluations, scripts, schemas, and source
+register.
+
+The Work is proprietary and confidential to BPI Danantara and is made available
+only to named individuals and entities who have been granted access in writing.
+
+-------------------------------------------------------------------------------
+2. Permitted use
+-------------------------------------------------------------------------------
+
+Subject to a written authorization from the accountable Danantara owner, an
+authorized recipient may use, reproduce, and modify the Work solely for the
+internal purposes of BPI Danantara, DAM, DIM, DDMF, portfolio entities, and
+authorized partners.
+
+-------------------------------------------------------------------------------
+3. Restrictions
+-------------------------------------------------------------------------------
+
+Except as expressly authorized in writing, no person may:
+
+  - disclose, publish, distribute, or sublicense the Work to any third party
+  - use the Work outside the entity, purpose, jurisdiction, and data
+    classification for which access was granted
+  - process the Work using models, tools, connectors, or environments that have
+    not been approved for its classification
+
+-------------------------------------------------------------------------------
+4. No authorization to decide
+-------------------------------------------------------------------------------
+
+The Work describes AI-assisted analysis. It confers no mandate, no decision
+right, and no approval authority. Nothing in the Work authorizes any person or
+system to make, imply, or record an institutional decision on behalf of BPI
+Danantara, DAM, DIM, or DDMF. Every material output remains a draft until the
+competent human authority has approved it through the applicable governance
+process.
+
+-------------------------------------------------------------------------------
+5. No warranty
+-------------------------------------------------------------------------------
+
+The Work is provided "as is", without warranty of any kind. It is build-ready,
+not production-authorized. It has not been mapped to actual Danantara laws,
+policies, delegations, committee charters, data classifications, or named human
+owners, and it must not be deployed as though it has been.

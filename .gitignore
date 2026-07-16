@@ -1,0 +1,31 @@
+# Python — the validators in 06-scripts/ run from a checkout.
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Build artifacts.
+#
+# The repository previously carried Danantara_AIOS_Claude_Skills_v1.0_Draft.zip:
+# a 642 KB snapshot of this same tree, committed inside the tree it snapshots.
+# A distributable is built from a tagged commit, never committed alongside it.
+# Attach release archives to a GitHub Release instead.
+*.zip
+*.tar.gz
+
+# Local scratch
+scratch/
+tmp/
+*.local.md

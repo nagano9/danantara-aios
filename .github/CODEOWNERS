@@ -1,0 +1,88 @@
+# Code owners for danantara-aios.
+#
+# -----------------------------------------------------------------------------
+# TODO(governance): @nagano9 is an INTERIM placeholder on every rule below.
+# -----------------------------------------------------------------------------
+# One person cannot be the accountable reviewer for governance doctrine, DIM
+# underwriting, and independent assurance at the same time — that collapses the
+# separation of duties this package exists to enforce, and 10-assurance-evaluation
+# is supposed to challenge the very clusters it would be reviewing.
+#
+# Replace each rule with the real GitHub team once teams exist in this org. The
+# `entity` column of 01-registry/master_skill_registry.csv is the authority for
+# who owns what; the comments below record what that column currently says, so
+# the mapping can be made real without re-deriving it.
+#
+# Note: CODEOWNERS review is only ENFORCED if the default branch has a
+# protection rule requiring review from Code Owners. Without that, this file is
+# advisory — it requests reviewers but blocks nothing.
+
+# Default owner for anything not matched below.
+* @nagano9
+
+# --- Foundation: blueprint, registry, governance, templates, schemas ---------
+# These define the kernel every skill inherits. A change here is a change to all
+# 133 skills at once, so it warrants the strictest review of anything in the repo.
+# TODO(governance): @danantara/ai-governance-committee
+/00-blueprint/    @nagano9
+/01-registry/     @nagano9
+/02-governance/   @nagano9
+/03-templates/    @nagano9
+/07-schemas/      @nagano9
+/08-sources/      @nagano9
+
+# --- CI and repo policy ------------------------------------------------------
+# TODO(governance): @danantara/platform
+/.github/         @nagano9
+/06-scripts/      @nagano9
+/.gitattributes   @nagano9
+/LICENSE          @nagano9
+
+# --- Skill clusters, by owning entity (per registry) -------------------------
+
+# entity: BPI/DAM/DIM/DDMF (9), BPI (2), BPI/DIM/DDMF (1) — risk tier: critical
+# TODO(governance): @danantara/ai-governance-committee
+/04-skills/01-governance-doctrine/ @nagano9
+
+# entity: BPI/DAM/DIM/DDMF (15)
+# TODO(governance): @danantara/platform
+/04-skills/02-orchestration/ @nagano9
+
+# entity: BPI/DAM/DIM/DDMF (7), BPI (1)
+# TODO(governance): @danantara/data-governance
+/04-skills/03-knowledge-data/ @nagano9
+
+# entity: BPI (6), BPI/DAM (2), BPI/DIM/DDMF (1)
+# TODO(governance): @danantara/bpi-control-tower
+/04-skills/04-bpi-control-tower/ @nagano9
+
+# entity: DAM (15), DAM/BPI (3)
+# TODO(governance): @danantara/dam
+/04-skills/05-dam-active-ownership/ @nagano9
+
+# entity: DIM (13), DIM/DDMF (6), DIM/DAM (3)
+# TODO(governance): @danantara/dim
+/04-skills/06-dim-investment-management/ @nagano9
+
+# entity: DDMF (10), DDMF/DIM (2), DDMF/BPI (2)
+# TODO(governance): @danantara/ddmf
+/04-skills/07-ddmf-development-finance/ @nagano9
+
+# entity: BPI/DAM/DIM/DDMF (10), BPI/DIM/DDMF (2), DAM/DIM/DDMF (1)
+# TODO(governance): @danantara/cross-functional
+/04-skills/08-cross-functional/ @nagano9
+
+# entity: DAM/DIM/DDMF (8), DAM/DIM (1)
+# TODO(governance): @danantara/sector-specialists
+/04-skills/09-sector-overlays/ @nagano9
+
+# entity: BPI/DAM/DIM/DDMF (8), BPI (2)
+# Must be owned by a team INDEPENDENT of the clusters it assures.
+# TODO(governance): @danantara/internal-audit
+/04-skills/10-assurance-evaluation/ @nagano9
+
+# --- Evaluations -------------------------------------------------------------
+# ADVERSARIAL_CASES.yaml is the package's core safety claim. Its owner should not
+# be the same team whose skills it is designed to catch.
+# TODO(governance): @danantara/internal-audit
+/05-evaluations/ @nagano9
