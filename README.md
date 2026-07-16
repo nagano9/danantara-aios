@@ -1,6 +1,6 @@
 # Danantara AIOS Claude Skills v1.0 — Draft Build Package
 
-This package contains a governed enterprise Claude Skills architecture for BPI Danantara, DAM, DIM, DDMF, portfolio entities, and authorized partners.
+This package contains a governed enterprise Skills architecture for BPI Danantara, DAM, DIM, DDMF, portfolio entities, and authorized partners.
 
 ## Package contents
 - **00-blueprint/** — AI ecosystem, orchestration, architecture, deployment model
