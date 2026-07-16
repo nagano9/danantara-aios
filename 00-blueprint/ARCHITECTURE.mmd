@@ -1,0 +1,11 @@
+flowchart TB
+  H[Human Decision and Accountability]
+  A[Assurance, Independent Challenge and Audit]
+  M[BPI / DAM / DIM / DDMF Mission Workflows]
+  D[Domain and Sector Skills]
+  O[Orchestration, Routing, State and Escalation]
+  K[Controlled Knowledge, Data and Lineage]
+  G[Security, Identity, Data Classification and AI Governance]
+  G --> K --> O --> D --> M --> A --> H
+  H -->|approved decisions, execution and outcomes| K
+  A -->|stop / remediate / escalate| O

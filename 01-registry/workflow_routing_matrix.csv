@@ -1,0 +1,167 @@
+﻿workflow_id,workflow_name,sequence,skill,human_gate
+dim-investment-committee,DIM Investment Committee Workflow,1,danantara-master-orchestrator,DIM Investment Committee or formally delegated authority
+dim-investment-committee,DIM Investment Committee Workflow,2,intent-and-entity-router,DIM Investment Committee or formally delegated authority
+dim-investment-committee,DIM Investment Committee Workflow,3,investment-mandate-interpreter,DIM Investment Committee or formally delegated authority
+dim-investment-committee,DIM Investment Committee Workflow,4,opportunity-screening,DIM Investment Committee or formally delegated authority
+dim-investment-committee,DIM Investment Committee Workflow,5,investment-thesis-builder,DIM Investment Committee or formally delegated authority
+dim-investment-committee,DIM Investment Committee Workflow,6,evidence-retrieval-orchestrator,DIM Investment Committee or formally delegated authority
+dim-investment-committee,DIM Investment Committee Workflow,7,commercial-due-diligence,DIM Investment Committee or formally delegated authority
+dim-investment-committee,DIM Investment Committee Workflow,8,financial-due-diligence,DIM Investment Committee or formally delegated authority
+dim-investment-committee,DIM Investment Committee Workflow,9,legal-tax-due-diligence,DIM Investment Committee or formally delegated authority
+dim-investment-committee,DIM Investment Committee Workflow,10,technical-operational-due-diligence,DIM Investment Committee or formally delegated authority
+dim-investment-committee,DIM Investment Committee Workflow,11,esg-impact-due-diligence,DIM Investment Committee or formally delegated authority
+dim-investment-committee,DIM Investment Committee Workflow,12,integrity-counterparty-due-diligence,DIM Investment Committee or formally delegated authority
+dim-investment-committee,DIM Investment Committee Workflow,13,valuation-orchestrator,DIM Investment Committee or formally delegated authority
+dim-investment-committee,DIM Investment Committee Workflow,14,dcf-model-challenger,DIM Investment Committee or formally delegated authority
+dim-investment-committee,DIM Investment Committee Workflow,15,risk-adjusted-return-analyzer,DIM Investment Committee or formally delegated authority
+dim-investment-committee,DIM Investment Committee Workflow,16,portfolio-diversification-analyzer,DIM Investment Committee or formally delegated authority
+dim-investment-committee,DIM Investment Committee Workflow,17,deal-structuring-optimizer,DIM Investment Committee or formally delegated authority
+dim-investment-committee,DIM Investment Committee Workflow,18,co-investment-crowding-in,DIM Investment Committee or formally delegated authority
+dim-investment-committee,DIM Investment Committee Workflow,19,dual-mandate-balancer,DIM Investment Committee or formally delegated authority
+dim-investment-committee,DIM Investment Committee Workflow,20,investment-thesis-red-team,DIM Investment Committee or formally delegated authority
+dim-investment-committee,DIM Investment Committee Workflow,21,investment-committee-memo,DIM Investment Committee or formally delegated authority
+dim-investment-committee,DIM Investment Committee Workflow,22,decision-quality-gate,DIM Investment Committee or formally delegated authority
+dim-investment-committee,DIM Investment Committee Workflow,23,human-approval-orchestrator,DIM Investment Committee or formally delegated authority
+dim-investment-committee,DIM Investment Committee Workflow,24,audit-trail-packager,DIM Investment Committee or formally delegated authority
+dim-investment-committee,DIM Investment Committee Workflow,25,conditions-precedent-tracker,DIM Investment Committee or formally delegated authority
+dim-investment-committee,DIM Investment Committee Workflow,26,post-investment-monitor,DIM Investment Committee or formally delegated authority
+dam-value-creation,DAM Active Ownership and Value Creation,1,danantara-master-orchestrator,"DAM portfolio committee, shareholder, board, or delegated authority"
+dam-value-creation,DAM Active Ownership and Value Creation,2,bumn-portfolio-segmenter,"DAM portfolio committee, shareholder, board, or delegated authority"
+dam-value-creation,DAM Active Ownership and Value Creation,3,corporate-parenting-advantage,"DAM portfolio committee, shareholder, board, or delegated authority"
+dam-value-creation,DAM Active Ownership and Value Creation,4,financial-performance-diagnostic,"DAM portfolio committee, shareholder, board, or delegated authority"
+dam-value-creation,DAM Active Ownership and Value Creation,5,operational-excellence-diagnostic,"DAM portfolio committee, shareholder, board, or delegated authority"
+dam-value-creation,DAM Active Ownership and Value Creation,6,benchmark-intelligence-manager,"DAM portfolio committee, shareholder, board, or delegated authority"
+dam-value-creation,DAM Active Ownership and Value Creation,7,value-creation-plan-builder,"DAM portfolio committee, shareholder, board, or delegated authority"
+dam-value-creation,DAM Active Ownership and Value Creation,8,capital-allocation-reviewer,"DAM portfolio committee, shareholder, board, or delegated authority"
+dam-value-creation,DAM Active Ownership and Value Creation,9,ceo-transformation-challenger,"DAM portfolio committee, shareholder, board, or delegated authority"
+dam-value-creation,DAM Active Ownership and Value Creation,10,talent-meritocracy-assessor,"DAM portfolio committee, shareholder, board, or delegated authority"
+dam-value-creation,DAM Active Ownership and Value Creation,11,management-accountability-contract,"DAM portfolio committee, shareholder, board, or delegated authority"
+dam-value-creation,DAM Active Ownership and Value Creation,12,scenario-stress-testing,"DAM portfolio committee, shareholder, board, or delegated authority"
+dam-value-creation,DAM Active Ownership and Value Creation,13,prudence-and-downside-gate,"DAM portfolio committee, shareholder, board, or delegated authority"
+dam-value-creation,DAM Active Ownership and Value Creation,14,decision-quality-gate,"DAM portfolio committee, shareholder, board, or delegated authority"
+dam-value-creation,DAM Active Ownership and Value Creation,15,human-approval-orchestrator,"DAM portfolio committee, shareholder, board, or delegated authority"
+dam-value-creation,DAM Active Ownership and Value Creation,16,workflow-state-manager,"DAM portfolio committee, shareholder, board, or delegated authority"
+dam-value-creation,DAM Active Ownership and Value Creation,17,post-decision-learning,"DAM portfolio committee, shareholder, board, or delegated authority"
+ddmf-bankability,DDMF Project Readiness and Bankability,1,danantara-master-orchestrator,DDMF investment/project authority and any competent public authority
+ddmf-bankability,DDMF Project Readiness and Bankability,2,national-priority-alignment,DDMF investment/project authority and any competent public authority
+ddmf-bankability,DDMF Project Readiness and Bankability,3,project-readiness-gate,DDMF investment/project authority and any competent public authority
+ddmf-bankability,DDMF Project Readiness and Bankability,4,document-evidence-extractor,DDMF investment/project authority and any competent public authority
+ddmf-bankability,DDMF Project Readiness and Bankability,5,technical-operational-due-diligence,DDMF investment/project authority and any competent public authority
+ddmf-bankability,DDMF Project Readiness and Bankability,6,legal-sufficiency-checker,DDMF investment/project authority and any competent public authority
+ddmf-bankability,DDMF Project Readiness and Bankability,7,esg-impact-due-diligence,DDMF investment/project authority and any competent public authority
+ddmf-bankability,DDMF Project Readiness and Bankability,8,bankability-gap-analyzer,DDMF investment/project authority and any competent public authority
+ddmf-bankability,DDMF Project Readiness and Bankability,9,additionality-assessor,DDMF investment/project authority and any competent public authority
+ddmf-bankability,DDMF Project Readiness and Bankability,10,project-finance-structurer,DDMF investment/project authority and any competent public authority
+ddmf-bankability,DDMF Project Readiness and Bankability,11,ppp-risk-allocation,DDMF investment/project authority and any competent public authority
+ddmf-bankability,DDMF Project Readiness and Bankability,12,blended-finance-designer,DDMF investment/project authority and any competent public authority
+ddmf-bankability,DDMF Project Readiness and Bankability,13,viability-gap-support-assessor,DDMF investment/project authority and any competent public authority
+ddmf-bankability,DDMF Project Readiness and Bankability,14,catalytic-capital-optimizer,DDMF investment/project authority and any competent public authority
+ddmf-bankability,DDMF Project Readiness and Bankability,15,co-investment-crowding-in,DDMF investment/project authority and any competent public authority
+ddmf-bankability,DDMF Project Readiness and Bankability,16,development-impact-assessor,DDMF investment/project authority and any competent public authority
+ddmf-bankability,DDMF Project Readiness and Bankability,17,socioeconomic-multiplier-modeler,DDMF investment/project authority and any competent public authority
+ddmf-bankability,DDMF Project Readiness and Bankability,18,dual-mandate-balancer,DDMF investment/project authority and any competent public authority
+ddmf-bankability,DDMF Project Readiness and Bankability,19,decision-quality-gate,DDMF investment/project authority and any competent public authority
+ddmf-bankability,DDMF Project Readiness and Bankability,20,human-approval-orchestrator,DDMF investment/project authority and any competent public authority
+ddmf-bankability,DDMF Project Readiness and Bankability,21,conditions-precedent-tracker,DDMF investment/project authority and any competent public authority
+ddmf-bankability,DDMF Project Readiness and Bankability,22,project-delivery-monitor,DDMF investment/project authority and any competent public authority
+ddmf-bankability,DDMF Project Readiness and Bankability,23,development-outcome-monitor,DDMF investment/project authority and any competent public authority
+distressed-bumn,Distressed BUMN Turnaround and Conditional Capital,1,danantara-master-orchestrator,"Competent DAM, board, shareholder, creditor, and legal authorities"
+distressed-bumn,Distressed BUMN Turnaround and Conditional Capital,2,turnaround-triage,"Competent DAM, board, shareholder, creditor, and legal authorities"
+distressed-bumn,Distressed BUMN Turnaround and Conditional Capital,3,financial-performance-diagnostic,"Competent DAM, board, shareholder, creditor, and legal authorities"
+distressed-bumn,Distressed BUMN Turnaround and Conditional Capital,4,operational-excellence-diagnostic,"Competent DAM, board, shareholder, creditor, and legal authorities"
+distressed-bumn,Distressed BUMN Turnaround and Conditional Capital,5,legal-sufficiency-checker,"Competent DAM, board, shareholder, creditor, and legal authorities"
+distressed-bumn,Distressed BUMN Turnaround and Conditional Capital,6,enterprise-risk-aggregator,"Competent DAM, board, shareholder, creditor, and legal authorities"
+distressed-bumn,Distressed BUMN Turnaround and Conditional Capital,7,restructuring-options-designer,"Competent DAM, board, shareholder, creditor, and legal authorities"
+distressed-bumn,Distressed BUMN Turnaround and Conditional Capital,8,scenario-stress-testing,"Competent DAM, board, shareholder, creditor, and legal authorities"
+distressed-bumn,Distressed BUMN Turnaround and Conditional Capital,9,conditional-capital-designer,"Competent DAM, board, shareholder, creditor, and legal authorities"
+distressed-bumn,Distressed BUMN Turnaround and Conditional Capital,10,management-accountability-contract,"Competent DAM, board, shareholder, creditor, and legal authorities"
+distressed-bumn,Distressed BUMN Turnaround and Conditional Capital,11,conflict-of-interest-gate,"Competent DAM, board, shareholder, creditor, and legal authorities"
+distressed-bumn,Distressed BUMN Turnaround and Conditional Capital,12,prudence-and-downside-gate,"Competent DAM, board, shareholder, creditor, and legal authorities"
+distressed-bumn,Distressed BUMN Turnaround and Conditional Capital,13,bias-and-independence-review,"Competent DAM, board, shareholder, creditor, and legal authorities"
+distressed-bumn,Distressed BUMN Turnaround and Conditional Capital,14,decision-quality-gate,"Competent DAM, board, shareholder, creditor, and legal authorities"
+distressed-bumn,Distressed BUMN Turnaround and Conditional Capital,15,human-approval-orchestrator,"Competent DAM, board, shareholder, creditor, and legal authorities"
+distressed-bumn,Distressed BUMN Turnaround and Conditional Capital,16,workflow-state-manager,"Competent DAM, board, shareholder, creditor, and legal authorities"
+distressed-bumn,Distressed BUMN Turnaround and Conditional Capital,17,post-decision-learning,"Competent DAM, board, shareholder, creditor, and legal authorities"
+portfolio-rationalization,Portfolio Rationalization and Corporate Action,1,danantara-master-orchestrator,"Competent shareholder, corporate bodies, regulators, and transaction authorities"
+portfolio-rationalization,Portfolio Rationalization and Corporate Action,2,bumn-portfolio-segmenter,"Competent shareholder, corporate bodies, regulators, and transaction authorities"
+portfolio-rationalization,Portfolio Rationalization and Corporate Action,3,corporate-parenting-advantage,"Competent shareholder, corporate bodies, regulators, and transaction authorities"
+portfolio-rationalization,Portfolio Rationalization and Corporate Action,4,portfolio-rationalization-analyzer,"Competent shareholder, corporate bodies, regulators, and transaction authorities"
+portfolio-rationalization,Portfolio Rationalization and Corporate Action,5,merger-consolidation-case,"Competent shareholder, corporate bodies, regulators, and transaction authorities"
+portfolio-rationalization,Portfolio Rationalization and Corporate Action,6,divestment-exit-readiness,"Competent shareholder, corporate bodies, regulators, and transaction authorities"
+portfolio-rationalization,Portfolio Rationalization and Corporate Action,7,valuation-orchestrator,"Competent shareholder, corporate bodies, regulators, and transaction authorities"
+portfolio-rationalization,Portfolio Rationalization and Corporate Action,8,cross-portfolio-synergy-finder,"Competent shareholder, corporate bodies, regulators, and transaction authorities"
+portfolio-rationalization,Portfolio Rationalization and Corporate Action,9,national-champion-competitiveness,"Competent shareholder, corporate bodies, regulators, and transaction authorities"
+portfolio-rationalization,Portfolio Rationalization and Corporate Action,10,legal-sufficiency-checker,"Competent shareholder, corporate bodies, regulators, and transaction authorities"
+portfolio-rationalization,Portfolio Rationalization and Corporate Action,11,scenario-stress-testing,"Competent shareholder, corporate bodies, regulators, and transaction authorities"
+portfolio-rationalization,Portfolio Rationalization and Corporate Action,12,stakeholder-communications-planner,"Competent shareholder, corporate bodies, regulators, and transaction authorities"
+portfolio-rationalization,Portfolio Rationalization and Corporate Action,13,investment-thesis-red-team,"Competent shareholder, corporate bodies, regulators, and transaction authorities"
+portfolio-rationalization,Portfolio Rationalization and Corporate Action,14,decision-quality-gate,"Competent shareholder, corporate bodies, regulators, and transaction authorities"
+portfolio-rationalization,Portfolio Rationalization and Corporate Action,15,human-approval-orchestrator,"Competent shareholder, corporate bodies, regulators, and transaction authorities"
+portfolio-rationalization,Portfolio Rationalization and Corporate Action,16,post-merger-integration-planner,"Competent shareholder, corporate bodies, regulators, and transaction authorities"
+portfolio-rationalization,Portfolio Rationalization and Corporate Action,17,audit-trail-packager,"Competent shareholder, corporate bodies, regulators, and transaction authorities"
+board-intelligence,Board and Supervisory Intelligence,1,danantara-master-orchestrator,"The competent board, supervisory board, or committee"
+board-intelligence,Board and Supervisory Intelligence,2,document-evidence-extractor,"The competent board, supervisory board, or committee"
+board-intelligence,Board and Supervisory Intelligence,3,decision-precedent-retriever,"The competent board, supervisory board, or committee"
+board-intelligence,Board and Supervisory Intelligence,4,mandate-authority-interpreter,"The competent board, supervisory board, or committee"
+board-intelligence,Board and Supervisory Intelligence,5,decision-rights-checker,"The competent board, supervisory board, or committee"
+board-intelligence,Board and Supervisory Intelligence,6,assumption-uncertainty-manager,"The competent board, supervisory board, or committee"
+board-intelligence,Board and Supervisory Intelligence,7,enterprise-risk-aggregator,"The competent board, supervisory board, or committee"
+board-intelligence,Board and Supervisory Intelligence,8,conflict-of-interest-gate,"The competent board, supervisory board, or committee"
+board-intelligence,Board and Supervisory Intelligence,9,red-team-orchestrator,"The competent board, supervisory board, or committee"
+board-intelligence,Board and Supervisory Intelligence,10,executive-board-brief-builder,"The competent board, supervisory board, or committee"
+board-intelligence,Board and Supervisory Intelligence,11,governance-board-paper-reviewer,"The competent board, supervisory board, or committee"
+board-intelligence,Board and Supervisory Intelligence,12,evidence-citation-auditor,"The competent board, supervisory board, or committee"
+board-intelligence,Board and Supervisory Intelligence,13,confidentiality-leakage-check,"The competent board, supervisory board, or committee"
+board-intelligence,Board and Supervisory Intelligence,14,human-approval-orchestrator,"The competent board, supervisory board, or committee"
+board-intelligence,Board and Supervisory Intelligence,15,audit-trail-packager,"The competent board, supervisory board, or committee"
+digital-sovereignty,Enterprise Digital Sovereignty and Shared Platform,1,danantara-master-orchestrator,"Enterprise technology, security, investment, procurement, and competent corporate authorities"
+digital-sovereignty,Enterprise Digital Sovereignty and Shared Platform,2,enterprise-digital-synergy,"Enterprise technology, security, investment, procurement, and competent corporate authorities"
+digital-sovereignty,Enterprise Digital Sovereignty and Shared Platform,3,shared-platform-architect,"Enterprise technology, security, investment, procurement, and competent corporate authorities"
+digital-sovereignty,Enterprise Digital Sovereignty and Shared Platform,4,data-sovereignty-assessor,"Enterprise technology, security, investment, procurement, and competent corporate authorities"
+digital-sovereignty,Enterprise Digital Sovereignty and Shared Platform,5,cybersecurity-by-design,"Enterprise technology, security, investment, procurement, and competent corporate authorities"
+digital-sovereignty,Enterprise Digital Sovereignty and Shared Platform,6,technology-transfer-assessor,"Enterprise technology, security, investment, procurement, and competent corporate authorities"
+digital-sovereignty,Enterprise Digital Sovereignty and Shared Platform,7,procurement-commercial-strategy,"Enterprise technology, security, investment, procurement, and competent corporate authorities"
+digital-sovereignty,Enterprise Digital Sovereignty and Shared Platform,8,capital-allocation-reviewer,"Enterprise technology, security, investment, procurement, and competent corporate authorities"
+digital-sovereignty,Enterprise Digital Sovereignty and Shared Platform,9,scenario-stress-testing,"Enterprise technology, security, investment, procurement, and competent corporate authorities"
+digital-sovereignty,Enterprise Digital Sovereignty and Shared Platform,10,strategic-national-interest-test,"Enterprise technology, security, investment, procurement, and competent corporate authorities"
+digital-sovereignty,Enterprise Digital Sovereignty and Shared Platform,11,prudence-and-downside-gate,"Enterprise technology, security, investment, procurement, and competent corporate authorities"
+digital-sovereignty,Enterprise Digital Sovereignty and Shared Platform,12,decision-quality-gate,"Enterprise technology, security, investment, procurement, and competent corporate authorities"
+digital-sovereignty,Enterprise Digital Sovereignty and Shared Platform,13,human-approval-orchestrator,"Enterprise technology, security, investment, procurement, and competent corporate authorities"
+digital-sovereignty,Enterprise Digital Sovereignty and Shared Platform,14,project-delivery-monitor,"Enterprise technology, security, investment, procurement, and competent corporate authorities"
+strategic-partnership,Global Strategic Partnership and Co-investment,1,danantara-master-orchestrator,"Competent investment, partnership, legal, governance, and security authorities"
+strategic-partnership,Global Strategic Partnership and Co-investment,2,integrity-counterparty-due-diligence,"Competent investment, partnership, legal, governance, and security authorities"
+strategic-partnership,Global Strategic Partnership and Co-investment,3,co-investment-crowding-in,"Competent investment, partnership, legal, governance, and security authorities"
+strategic-partnership,Global Strategic Partnership and Co-investment,4,technology-transfer-assessor,"Competent investment, partnership, legal, governance, and security authorities"
+strategic-partnership,Global Strategic Partnership and Co-investment,5,data-sovereignty-assessor,"Competent investment, partnership, legal, governance, and security authorities"
+strategic-partnership,Global Strategic Partnership and Co-investment,6,strategic-national-interest-test,"Competent investment, partnership, legal, governance, and security authorities"
+strategic-partnership,Global Strategic Partnership and Co-investment,7,deal-structuring-optimizer,"Competent investment, partnership, legal, governance, and security authorities"
+strategic-partnership,Global Strategic Partnership and Co-investment,8,legal-tax-due-diligence,"Competent investment, partnership, legal, governance, and security authorities"
+strategic-partnership,Global Strategic Partnership and Co-investment,9,conflict-of-interest-gate,"Competent investment, partnership, legal, governance, and security authorities"
+strategic-partnership,Global Strategic Partnership and Co-investment,10,institutional-trust-monitor,"Competent investment, partnership, legal, governance, and security authorities"
+strategic-partnership,Global Strategic Partnership and Co-investment,11,investment-thesis-red-team,"Competent investment, partnership, legal, governance, and security authorities"
+strategic-partnership,Global Strategic Partnership and Co-investment,12,decision-quality-gate,"Competent investment, partnership, legal, governance, and security authorities"
+strategic-partnership,Global Strategic Partnership and Co-investment,13,human-approval-orchestrator,"Competent investment, partnership, legal, governance, and security authorities"
+strategic-partnership,Global Strategic Partnership and Co-investment,14,conditions-precedent-tracker,"Competent investment, partnership, legal, governance, and security authorities"
+portfolio-early-warning,Enterprise Portfolio Early Warning,1,workflow-state-manager,"Portfolio, risk, executive, or supervisory authority according to threshold"
+portfolio-early-warning,Enterprise Portfolio Early Warning,2,portfolio-knowledge-graph,"Portfolio, risk, executive, or supervisory authority according to threshold"
+portfolio-early-warning,Enterprise Portfolio Early Warning,3,data-quality-and-lineage-checker,"Portfolio, risk, executive, or supervisory authority according to threshold"
+portfolio-early-warning,Enterprise Portfolio Early Warning,4,enterprise-portfolio-synthesizer,"Portfolio, risk, executive, or supervisory authority according to threshold"
+portfolio-early-warning,Enterprise Portfolio Early Warning,5,enterprise-risk-aggregator,"Portfolio, risk, executive, or supervisory authority according to threshold"
+portfolio-early-warning,Enterprise Portfolio Early Warning,6,scenario-stress-testing,"Portfolio, risk, executive, or supervisory authority according to threshold"
+portfolio-early-warning,Enterprise Portfolio Early Warning,7,financial-performance-diagnostic,"Portfolio, risk, executive, or supervisory authority according to threshold"
+portfolio-early-warning,Enterprise Portfolio Early Warning,8,operational-excellence-diagnostic,"Portfolio, risk, executive, or supervisory authority according to threshold"
+portfolio-early-warning,Enterprise Portfolio Early Warning,9,institutional-trust-monitor,"Portfolio, risk, executive, or supervisory authority according to threshold"
+portfolio-early-warning,Enterprise Portfolio Early Warning,10,escalation-and-exception-router,"Portfolio, risk, executive, or supervisory authority according to threshold"
+portfolio-early-warning,Enterprise Portfolio Early Warning,11,executive-board-brief-builder,"Portfolio, risk, executive, or supervisory authority according to threshold"
+portfolio-early-warning,Enterprise Portfolio Early Warning,12,audit-trail-packager,"Portfolio, risk, executive, or supervisory authority according to threshold"
+public-accountability,Transparency and Public Accountability,1,transparency-disclosure-gate,"Authorized disclosure, legal, finance, and executive authority"
+public-accountability,Transparency and Public Accountability,2,strategic-confidentiality-classifier,"Authorized disclosure, legal, finance, and executive authority"
+public-accountability,Transparency and Public Accountability,3,data-quality-and-lineage-checker,"Authorized disclosure, legal, finance, and executive authority"
+public-accountability,Transparency and Public Accountability,4,evidence-citation-auditor,"Authorized disclosure, legal, finance, and executive authority"
+public-accountability,Transparency and Public Accountability,5,public-accountability-packager,"Authorized disclosure, legal, finance, and executive authority"
+public-accountability,Transparency and Public Accountability,6,vocabulary-and-narrative-guard,"Authorized disclosure, legal, finance, and executive authority"
+public-accountability,Transparency and Public Accountability,7,legal-sufficiency-checker,"Authorized disclosure, legal, finance, and executive authority"
+public-accountability,Transparency and Public Accountability,8,confidentiality-leakage-check,"Authorized disclosure, legal, finance, and executive authority"
+public-accountability,Transparency and Public Accountability,9,institutional-trust-monitor,"Authorized disclosure, legal, finance, and executive authority"
+public-accountability,Transparency and Public Accountability,10,human-approval-orchestrator,"Authorized disclosure, legal, finance, and executive authority"
+public-accountability,Transparency and Public Accountability,11,audit-trail-packager,"Authorized disclosure, legal, finance, and executive authority"

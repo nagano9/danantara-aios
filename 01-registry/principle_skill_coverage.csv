@@ -1,0 +1,105 @@
+﻿principle_no,principle,skill
+1,Good Corporate Governance,danantara-way-governance
+1,Good Corporate Governance,mandate-authority-interpreter
+1,Good Corporate Governance,decision-rights-checker
+1,Good Corporate Governance,compliance-policy-checker
+2,Transparency like a public company,transparency-disclosure-gate
+2,Transparency like a public company,public-accountability-packager
+2,Transparency like a public company,audit-trail-packager
+2,Transparency like a public company,evidence-citation-auditor
+3,Prudence atau kehati-hatian,prudence-and-downside-gate
+3,Prudence atau kehati-hatian,scenario-stress-testing
+3,Prudence atau kehati-hatian,decision-quality-gate
+3,Prudence atau kehati-hatian,risk-adjusted-return-analyzer
+4,Integrity,integrity-beneficiary-check
+4,Integrity,conflict-of-interest-gate
+4,Integrity,integrity-counterparty-due-diligence
+4,Integrity,bias-and-independence-review
+5,Long-term sustainable value,long-term-value-test
+5,Long-term sustainable value,dual-mandate-balancer
+5,Long-term sustainable value,investment-thesis-builder
+5,Long-term sustainable value,decision-quality-gate
+6,Value creation,value-creation-plan-builder
+6,Value creation,corporate-parenting-advantage
+6,Value creation,capital-allocation-reviewer
+6,Value creation,post-investment-monitor
+7,Dual mandate,dual-mandate-balancer
+7,Dual mandate,development-impact-assessor
+7,Dual mandate,investment-mandate-interpreter
+7,Dual mandate,tension-resolution-engine
+8,Risk-adjusted return,risk-adjusted-return-analyzer
+8,Risk-adjusted return,valuation-orchestrator
+8,Risk-adjusted return,scenario-stress-testing
+8,Risk-adjusted return,investment-committee-memo
+9,Portfolio diversification,portfolio-diversification-analyzer
+9,Portfolio diversification,concentration-and-liquidity-risk
+9,Portfolio diversification,enterprise-portfolio-synthesizer
+10,Project readiness,project-readiness-gate
+10,Project readiness,conditions-precedent-tracker
+10,Project readiness,project-delivery-monitor
+11,Bankability,bankability-gap-analyzer
+11,Bankability,project-finance-structurer
+11,Bankability,deal-structuring-optimizer
+12,Rigorous due diligence,commercial-due-diligence
+12,Rigorous due diligence,financial-due-diligence
+12,Rigorous due diligence,legal-tax-due-diligence
+12,Rigorous due diligence,technical-operational-due-diligence
+12,Rigorous due diligence,esg-impact-due-diligence
+13,Co-investment,co-investment-crowding-in
+13,Co-investment,multilateral-partner-matcher
+13,Co-investment,catalytic-capital-optimizer
+14,Additionality,additionality-assessor
+14,Additionality,dual-mandate-balancer
+14,Additionality,catalytic-capital-optimizer
+15,Strategic capability building,technology-transfer-assessor
+15,Strategic capability building,industrialization-hilirisasi-analyzer
+15,Strategic capability building,talent-meritocracy-assessor
+16,Corporate parenting advantage,corporate-parenting-advantage
+16,Corporate parenting advantage,cross-portfolio-synergy-finder
+16,Corporate parenting advantage,bumn-portfolio-segmenter
+17,Portfolio rationalization,portfolio-rationalization-analyzer
+17,Portfolio rationalization,merger-consolidation-case
+17,Portfolio rationalization,divestment-exit-readiness
+18,Turnaround dan restructuring,turnaround-triage
+18,Turnaround dan restructuring,restructuring-options-designer
+18,Turnaround dan restructuring,conditional-capital-designer
+19,CEO-led transformation,ceo-transformation-challenger
+19,CEO-led transformation,management-accountability-contract
+19,CEO-led transformation,transformation-agenda-orchestrator
+20,Best talent and meritocracy,talent-meritocracy-assessor
+20,Best talent and meritocracy,ceo-transformation-challenger
+20,Best talent and meritocracy,management-accountability-contract
+21,Industrialization dan hilirisasi,industrialization-hilirisasi-analyzer
+21,Industrialization dan hilirisasi,technology-transfer-assessor
+21,Industrialization dan hilirisasi,minerals-downstream-sector-pack
+22,Import substitution yang selektif,selective-import-substitution-test
+22,Import substitution yang selektif,strategic-national-interest-test
+22,Import substitution yang selektif,technology-transfer-assessor
+23,National champions,national-champion-competitiveness
+23,National champions,merger-consolidation-case
+23,National champions,corporate-parenting-advantage
+24,Job creation,job-quality-and-productivity-impact
+24,Job creation,socioeconomic-multiplier-modeler
+24,Job creation,development-impact-assessor
+25,"Energy, food, health and digital security",national-resilience-assessor
+25,"Energy, food, health and digital security",strategic-national-interest-test
+25,"Energy, food, health and digital security",national-priority-alignment
+26,Digital sovereignty,data-sovereignty-assessor
+26,Digital sovereignty,digital-infrastructure-sector-pack
+26,Digital sovereignty,cybersecurity-by-design
+26,Digital sovereignty,shared-platform-architect
+27,Enterprise digital synergy,enterprise-digital-synergy
+27,Enterprise digital synergy,shared-platform-architect
+27,Enterprise digital synergy,capital-allocation-reviewer
+28,Fundamental-value investing,investment-thesis-builder
+28,Fundamental-value investing,valuation-orchestrator
+28,Fundamental-value investing,dcf-model-challenger
+28,Fundamental-value investing,comparable-transactions-analyzer
+29,Not a bailout vehicle,turnaround-triage
+29,Not a bailout vehicle,conditional-capital-designer
+29,Not a bailout vehicle,prudence-and-downside-gate
+29,Not a bailout vehicle,decision-quality-gate
+30,Trust as strategic capital,institutional-trust-monitor
+30,Trust as strategic capital,transparency-disclosure-gate
+30,Trust as strategic capital,public-accountability-packager
+30,Trust as strategic capital,integrity-beneficiary-check

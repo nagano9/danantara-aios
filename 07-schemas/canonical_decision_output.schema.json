@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Danantara Canonical Decision Output",
+  "type": "object",
+  "required": [
+    "decision_objective",
+    "executive_answer",
+    "mandate_alignment",
+    "commercial_assessment",
+    "national_consequence",
+    "evidence",
+    "assumptions",
+    "options",
+    "downside",
+    "risks",
+    "governance",
+    "independent_challenge",
+    "recommendation",
+    "required_approvals",
+    "ultimate_test"
+  ],
+  "properties": {
+    "decision_objective": {
+      "type": "string"
+    },
+    "executive_answer": {
+      "type": "string"
+    },
+    "mandate_alignment": {
+      "type": "object"
+    },
+    "commercial_assessment": {
+      "type": "object"
+    },
+    "national_consequence": {
+      "type": "object"
+    },
+    "evidence": {
+      "type": "array"
+    },
+    "assumptions": {
+      "type": "array"
+    },
+    "options": {
+      "type": "array"
+    },
+    "downside": {
+      "type": "object"
+    },
+    "risks": {
+      "type": "array"
+    },
+    "governance": {
+      "type": "object"
+    },
+    "independent_challenge": {
+      "type": "object"
+    },
+    "recommendation": {
+      "enum": [
+        "APPROVE",
+        "APPROVE WITH CONDITIONS",
+        "RETURN FOR ADDITIONAL WORK",
+        "DEFER",
+        "REJECT",
+        "ESCALATE",
+        "INFORMATION ONLY"
+      ]
+    },
+    "conditions_precedent": {
+      "type": "array"
+    },
+    "execution_roadmap": {
+      "type": "array"
+    },
+    "monitoring": {
+      "type": "array"
+    },
+    "classification": {
+      "type": "string"
+    },
+    "required_approvals": {
+      "type": "array"
+    },
+    "audit_record_reference": {
+      "type": "string"
+    },
+    "ultimate_test": {
+      "type": "object"
+    }
+  }
+}

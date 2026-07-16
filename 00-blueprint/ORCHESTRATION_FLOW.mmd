@@ -1,0 +1,15 @@
+flowchart LR
+  I[Intake] --> C[Classify]
+  C --> AU[Authority and Access]
+  AU --> P[Plan and Compose Skills]
+  P --> R[Retrieve Evidence]
+  R --> X[Domain and Sector Analysis]
+  X --> RT[Independent Red Team]
+  RT --> T[Resolve Tensions]
+  T --> S[Synthesize]
+  S --> Q[Assurance Gates]
+  Q --> H[Human Approval]
+  H --> E[Execute and Monitor]
+  E --> L[Learn and Update]
+  Q -->|fail| ES[Escalate / Remediate]
+  ES --> P

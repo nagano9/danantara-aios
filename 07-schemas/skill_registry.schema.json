@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Danantara Skill Registry",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "cluster",
+      "name",
+      "description",
+      "entity",
+      "risk_tier",
+      "human_approval",
+      "dependencies"
+    ],
+    "properties": {
+      "cluster": {
+        "type": "string"
+      },
+      "name": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+        "maxLength": 64
+      },
+      "description": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 1024
+      },
+      "entity": {
+        "type": "string"
+      },
+      "risk_tier": {
+        "enum": [
+          "low",
+          "medium",
+          "high",
+          "critical"
+        ]
+      },
+      "human_approval": {
+        "type": "string"
+      },
+      "dependencies": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

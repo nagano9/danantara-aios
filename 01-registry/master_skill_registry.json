@@ -1,0 +1,1339 @@
+[
+  {
+    "cluster": "01-governance-doctrine",
+    "name": "danantara-way-governance",
+    "description": "Applies the Danantara Way doctrines—commercial discipline, national consequence, active ownership, prudence, transparency, measurable transformation, sovereignty, and intergenerational value. Use when framing, assessing, challenging, or approving any material Danantara decision.",
+    "entity": "BPI/DAM/DIM/DDMF",
+    "risk_tier": "critical",
+    "human_approval": "Mandatory for material decisions",
+    "dependencies": [],
+    "purpose": "Applies the Danantara Way doctrines—commercial discipline, national consequence, active ownership, prudence, transparency, measurable transformation, sovereignty, and intergenerational value."
+  },
+  {
+    "cluster": "01-governance-doctrine",
+    "name": "danantara-ai-constitution",
+    "description": "Enforces enterprise AI principles, authority boundaries, confidentiality, evidence standards, human accountability, prohibited actions, and escalation rules. Use for every AI-enabled workflow that handles Danantara information, analysis, recommendations, or decisions.",
+    "entity": "BPI",
+    "risk_tier": "critical",
+    "human_approval": "AI Governance Committee",
+    "dependencies": [],
+    "purpose": "Enforces enterprise AI principles, authority boundaries, confidentiality, evidence standards, human accountability, prohibited actions, and escalation rules. Use for every AI-enabled workflow that handles Danantara information, analysis, recommendations, or decisions."
+  },
+  {
+    "cluster": "01-governance-doctrine",
+    "name": "mandate-authority-interpreter",
+    "description": "Interprets the applicable mandate, legal authority, delegated power, and institutional boundary for a proposed action. Use when responsibility among BPI, DAM, DIM, DDMF, BUMN, boards, committees, or government stakeholders is unclear.",
+    "entity": "BPI",
+    "risk_tier": "critical",
+    "human_approval": "Legal/governance owner",
+    "dependencies": [],
+    "purpose": "Interprets the applicable mandate, legal authority, delegated power, and institutional boundary for a proposed action."
+  },
+  {
+    "cluster": "01-governance-doctrine",
+    "name": "decision-rights-checker",
+    "description": "Identifies who proposes, reviews, recommends, approves, executes, monitors, and bears accountability for a decision. Use before issuing recommendations, commitments, capital allocations, corporate actions, disclosures, or binding instructions.",
+    "entity": "BPI/DAM/DIM/DDMF",
+    "risk_tier": "critical",
+    "human_approval": "Authorized decision owner",
+    "dependencies": [
+      "mandate-authority-interpreter"
+    ],
+    "purpose": "Identifies who proposes, reviews, recommends, approves, executes, monitors, and bears accountability for a decision. Use before issuing recommendations, commitments, capital allocations, corporate actions, disclosures, or binding instructions."
+  },
+  {
+    "cluster": "01-governance-doctrine",
+    "name": "conflict-of-interest-gate",
+    "description": "Detects actual, potential, and perceived conflicts of interest, related parties, hidden beneficiaries, influence channels, and recusal needs. Use for appointments, procurement, investments, partnerships, restructuring, transactions, and material exceptions.",
+    "entity": "BPI/DAM/DIM/DDMF",
+    "risk_tier": "critical",
+    "human_approval": "Independent governance reviewer",
+    "dependencies": [],
+    "purpose": "Detects actual, potential, and perceived conflicts of interest, related parties, hidden beneficiaries, influence channels, and recusal needs. Use for appointments, procurement, investments, partnerships, restructuring, transactions, and material exceptions."
+  },
+  {
+    "cluster": "01-governance-doctrine",
+    "name": "prudence-and-downside-gate",
+    "description": "Tests capital preservation, permanent-loss risk, downside scenarios, reversibility, liquidity, and risk ownership. Use before committing capital, extending support, changing strategy, accepting guarantees, or approving high-uncertainty initiatives.",
+    "entity": "BPI/DAM/DIM/DDMF",
+    "risk_tier": "critical",
+    "human_approval": "Risk owner and approving authority",
+    "dependencies": [],
+    "purpose": "Tests capital preservation, permanent-loss risk, downside scenarios, reversibility, liquidity, and risk ownership. Use before committing capital, extending support, changing strategy, accepting guarantees, or approving high-uncertainty initiatives."
+  },
+  {
+    "cluster": "01-governance-doctrine",
+    "name": "transparency-disclosure-gate",
+    "description": "Determines what material information, assumptions, risks, decisions, and performance must be documented or disclosed while preserving lawful confidentiality. Use for board papers, investor materials, public statements, financial reporting, and major decisions.",
+    "entity": "BPI/DAM/DIM/DDMF",
+    "risk_tier": "high",
+    "human_approval": "Disclosure/legal owner",
+    "dependencies": [],
+    "purpose": "Determines what material information, assumptions, risks, decisions, and performance must be documented or disclosed while preserving lawful confidentiality. Use for board papers, investor materials, public statements, financial reporting, and major decisions."
+  },
+  {
+    "cluster": "01-governance-doctrine",
+    "name": "strategic-confidentiality-classifier",
+    "description": "Classifies information by sensitivity, strategic importance, legal restriction, market impact, personal data, and national-security relevance. Use before retrieval, sharing, model processing, cross-border transfer, publication, or external collaboration.",
+    "entity": "BPI/DAM/DIM/DDMF",
+    "risk_tier": "critical",
+    "human_approval": "Information owner",
+    "dependencies": [],
+    "purpose": "Classifies information by sensitivity, strategic importance, legal restriction, market impact, personal data, and national-security relevance. Use before retrieval, sharing, model processing, cross-border transfer, publication, or external collaboration."
+  },
+  {
+    "cluster": "01-governance-doctrine",
+    "name": "integrity-beneficiary-check",
+    "description": "Tests whether a proposal is lawful, ethical, independently supportable, and free from concealed beneficiaries, side arrangements, or improper advantage. Use when a transaction or instruction appears formally compliant but substantively questionable.",
+    "entity": "BPI/DAM/DIM/DDMF",
+    "risk_tier": "critical",
+    "human_approval": "Ethics/compliance owner",
+    "dependencies": [],
+    "purpose": "Tests whether a proposal is lawful, ethical, independently supportable, and free from concealed beneficiaries, side arrangements, or improper advantage."
+  },
+  {
+    "cluster": "01-governance-doctrine",
+    "name": "long-term-value-test",
+    "description": "Assesses whether a decision creates durable economic, strategic, capability, resilience, and intergenerational value over 10–20 years. Use when short-term earnings, political urgency, or temporary market conditions could distort the decision.",
+    "entity": "BPI/DAM/DIM/DDMF",
+    "risk_tier": "high",
+    "human_approval": "Strategy and investment owner",
+    "dependencies": [],
+    "purpose": "Assesses whether a decision creates durable economic, strategic, capability, resilience, and intergenerational value over 10–20 years."
+  },
+  {
+    "cluster": "01-governance-doctrine",
+    "name": "dual-mandate-balancer",
+    "description": "Balances commercially disciplined return with measurable national impact without disguising subsidy, bailout, or weak economics. Use when return, resilience, employment, sovereignty, industrialization, or public-service outcomes must be evaluated together.",
+    "entity": "BPI/DIM/DDMF",
+    "risk_tier": "critical",
+    "human_approval": "Investment committee or mandated authority",
+    "dependencies": [],
+    "purpose": "Balances commercially disciplined return with measurable national impact without disguising subsidy, bailout, or weak economics."
+  },
+  {
+    "cluster": "01-governance-doctrine",
+    "name": "vocabulary-and-narrative-guard",
+    "description": "Enforces Danantara preferred vocabulary and flags unsupported phrases, vague synergies, informal-instruction logic, unmeasured national impact, bailout framing, and narrative-only decisions. Use when drafting or reviewing any formal Danantara output.",
+    "entity": "BPI/DAM/DIM/DDMF",
+    "risk_tier": "medium",
+    "human_approval": "Document owner",
+    "dependencies": [],
+    "purpose": "Enforces Danantara preferred vocabulary and flags unsupported phrases, vague synergies, informal-instruction logic, unmeasured national impact, bailout framing, and narrative-only decisions."
+  },
+  {
+    "cluster": "02-orchestration",
+    "name": "danantara-master-orchestrator",
+    "description": "Routes complex Danantara requests across governance, DAM, DIM, DDMF, functional, sector, and assurance skills; sequences evidence, analysis, challenge, approval, and audit steps. Use for multi-domain, material, ambiguous, or end-to-end workflows.",
+    "entity": "BPI/DAM/DIM/DDMF",
+    "risk_tier": "critical",
+    "human_approval": "Workflow accountable executive",
+    "dependencies": [
+      "danantara-ai-constitution",
+      "danantara-way-governance",
+      "intent-and-entity-router",
+      "decision-quality-gate"
+    ],
+    "purpose": "Routes complex Danantara requests across governance, DAM, DIM, DDMF, functional, sector, and assurance skills; sequences evidence, analysis, challenge, approval, and audit steps. Use for multi-domain, material, ambiguous, or end-to-end workflows."
+  },
+  {
+    "cluster": "02-orchestration",
+    "name": "intent-and-entity-router",
+    "description": "Classifies user intent, affected entity, decision type, process stage, materiality, sensitivity, and required skill family. Use as the first routing step for requests that may involve BPI, DAM, DIM, DDMF, BUMN, or multiple functions.",
+    "entity": "BPI/DAM/DIM/DDMF",
+    "risk_tier": "high",
+    "human_approval": "Workflow owner",
+    "dependencies": [],
+    "purpose": "Classifies user intent, affected entity, decision type, process stage, materiality, sensitivity, and required skill family. Use as the first routing step for requests that may involve BPI, DAM, DIM, DDMF, BUMN, or multiple functions."
+  },
+  {
+    "cluster": "02-orchestration",
+    "name": "workflow-planner",
+    "description": "Converts an objective into ordered tasks, dependencies, evidence needs, specialist roles, challenge gates, approvals, and deliverables. Use when work requires multiple analytical steps or coordinated human and AI participation.",
+    "entity": "BPI/DAM/DIM/DDMF",
+    "risk_tier": "high",
+    "human_approval": "Workflow owner",
+    "dependencies": [],
+    "purpose": "Converts an objective into ordered tasks, dependencies, evidence needs, specialist roles, challenge gates, approvals, and deliverables."
+  },
+  {
+    "cluster": "02-orchestration",
+    "name": "skill-chain-composer",
+    "description": "Selects and sequences reusable skills into an end-to-end workflow while avoiding duplicated analysis and conflicting mandates. Use after routing when a request requires several domain, sector, governance, or assurance capabilities.",
+    "entity": "BPI/DAM/DIM/DDMF",
+    "risk_tier": "high",
+    "human_approval": "Workflow owner",
+    "dependencies": [],
+    "purpose": "Selects and sequences reusable skills into an end-to-end workflow while avoiding duplicated analysis and conflicting mandates. Use after routing when a request requires several domain, sector, governance, or assurance capabilities."
+  },
+  {
+    "cluster": "02-orchestration",
+    "name": "parallel-analysis-dispatcher",
+    "description": "Dispatches independent workstreams in parallel, defines non-overlapping scopes, and reconciles results. Use for due diligence, portfolio reviews, scenario studies, board preparation, or time-critical analysis requiring multiple specialists.",
+    "entity": "BPI/DAM/DIM/DDMF",
+    "risk_tier": "high",
+    "human_approval": "Workflow owner",
+    "dependencies": [],
+    "purpose": "Dispatches independent workstreams in parallel, defines non-overlapping scopes, and reconciles results. Use for due diligence, portfolio reviews, scenario studies, board preparation, or time-critical analysis requiring multiple specialists."
+  },
+  {
+    "cluster": "02-orchestration",
+    "name": "evidence-retrieval-orchestrator",
+    "description": "Plans and coordinates retrieval from approved internal and external sources, prioritizing authoritative, current, traceable evidence. Use when decisions require documents, data, benchmarks, regulations, market intelligence, or historical precedents.",
+    "entity": "BPI/DAM/DIM/DDMF",
+    "risk_tier": "high",
+    "human_approval": "Information owner",
+    "dependencies": [],
+    "purpose": "Plans and coordinates retrieval from approved internal and external sources, prioritizing authoritative, current, traceable evidence."
+  },
+  {
+    "cluster": "02-orchestration",
+    "name": "source-hierarchy-resolver",
+    "description": "Ranks conflicting sources by legal authority, ownership, recency, audit status, independence, and relevance; records unresolved discrepancies. Use when data, policies, valuations, or narratives disagree.",
+    "entity": "BPI/DAM/DIM/DDMF",
+    "risk_tier": "high",
+    "human_approval": "Subject-matter owner",
+    "dependencies": [],
+    "purpose": "Ranks conflicting sources by legal authority, ownership, recency, audit status, independence, and relevance; records unresolved discrepancies."
+  },
+  {
+    "cluster": "02-orchestration",
+    "name": "data-classification-router",
+    "description": "Routes information and tasks only to models, tools, repositories, locations, and users permitted by the applicable data classification. Use before any AI processing, connector call, cross-entity sharing, or external model use.",
+    "entity": "BPI/DAM/DIM/DDMF",
+    "risk_tier": "critical",
+    "human_approval": "Data owner and security",
+    "dependencies": [],
+    "purpose": "Routes information and tasks only to models, tools, repositories, locations, and users permitted by the applicable data classification. Use before any AI processing, connector call, cross-entity sharing, or external model use."
+  },
+  {
+    "cluster": "02-orchestration",
+    "name": "human-approval-orchestrator",
+    "description": "Maps risk-tiered outputs to required reviewers, approvers, recusals, quorum, conditions, and evidence of approval. Use whenever AI analysis may influence capital, governance, legal, personnel, disclosure, or strategic decisions.",
+    "entity": "BPI/DAM/DIM/DDMF",
+    "risk_tier": "critical",
+    "human_approval": "Authorized approver",
+    "dependencies": [],
+    "purpose": "Maps risk-tiered outputs to required reviewers, approvers, recusals, quorum, conditions, and evidence of approval."
+  },
+  {
+    "cluster": "02-orchestration",
+    "name": "red-team-orchestrator",
+    "description": "Assigns independent challengers to test thesis, valuation, assumptions, legal basis, governance, impact, execution, and downside without sharing the preferred answer. Use before material recommendations or committee decisions.",
+    "entity": "BPI/DAM/DIM/DDMF",
+    "risk_tier": "critical",
+    "human_approval": "Independent review owner",
+    "dependencies": [],
+    "purpose": "Assigns independent challengers to test thesis, valuation, assumptions, legal basis, governance, impact, execution, and downside without sharing the preferred answer. Use before material recommendations or committee decisions."
+  },
+  {
+    "cluster": "02-orchestration",
+    "name": "assumption-uncertainty-manager",
+    "description": "Registers assumptions, confidence, data gaps, sensitivities, disputed facts, and conditions that would change the recommendation. Use in forecasts, valuations, scenarios, due diligence, strategic plans, and incomplete-information decisions.",
+    "entity": "BPI/DAM/DIM/DDMF",
+    "risk_tier": "high",
+    "human_approval": "Analysis owner",
+    "dependencies": [],
+    "purpose": "Registers assumptions, confidence, data gaps, sensitivities, disputed facts, and conditions that would change the recommendation. Use in forecasts, valuations, scenarios, due diligence, strategic plans, and incomplete-information decisions."
+  },
+  {
+    "cluster": "02-orchestration",
+    "name": "tension-resolution-engine",
+    "description": "Frames and tests Danantara's core tensions: commercial return versus national mandate, independence versus direction, long-term value versus short-term intervention, transformation capital versus bailout, and transparency versus confidentiality. Use when objectives conflict.",
+    "entity": "BPI/DAM/DIM/DDMF",
+    "risk_tier": "critical",
+    "human_approval": "Mandated decision authority",
+    "dependencies": [],
+    "purpose": "Frames and tests Danantara's core tensions: commercial return versus national mandate, independence versus direction, long-term value versus short-term intervention, transformation capital versus bailout, and transparency versus confidentiality."
+  },
+  {
+    "cluster": "02-orchestration",
+    "name": "output-assembly-orchestrator",
+    "description": "Integrates specialist outputs into one decision-ready product with recommendation, alternatives, evidence, risks, dissent, approvals, and next actions. Use after multi-skill analysis or parallel workstreams.",
+    "entity": "BPI/DAM/DIM/DDMF",
+    "risk_tier": "high",
+    "human_approval": "Document owner",
+    "dependencies": [],
+    "purpose": "Integrates specialist outputs into one decision-ready product with recommendation, alternatives, evidence, risks, dissent, approvals, and next actions. Use after multi-skill analysis or parallel workstreams."
+  },
+  {
+    "cluster": "02-orchestration",
+    "name": "workflow-state-manager",
+    "description": "Tracks workflow stage, completed evidence, open issues, dependencies, decisions, approvals, deadlines, and handoffs. Use for long-running investments, transformations, restructurings, projects, and recurring portfolio reviews.",
+    "entity": "BPI/DAM/DIM/DDMF",
+    "risk_tier": "medium",
+    "human_approval": "Program owner",
+    "dependencies": [],
+    "purpose": "Tracks workflow stage, completed evidence, open issues, dependencies, decisions, approvals, deadlines, and handoffs. Use for long-running investments, transformations, restructurings, projects, and recurring portfolio reviews."
+  },
+  {
+    "cluster": "02-orchestration",
+    "name": "escalation-and-exception-router",
+    "description": "Escalates unresolved conflicts, missing authority, inadequate evidence, policy exceptions, critical risks, ethical concerns, or prohibited actions to the correct human body. Use whenever standard workflow cannot safely continue.",
+    "entity": "BPI/DAM/DIM/DDMF",
+    "risk_tier": "critical",
+    "human_approval": "Designated escalation authority",
+    "dependencies": [],
+    "purpose": "Escalates unresolved conflicts, missing authority, inadequate evidence, policy exceptions, critical risks, ethical concerns, or prohibited actions to the correct human body."
+  },
+  {
+    "cluster": "03-knowledge-data",
+    "name": "policy-knowledge-curator",
+    "description": "Curates approved policies, manuals, delegations, standards, templates, effective dates, superseded versions, and owners into a controlled knowledge base. Use when building or updating authoritative Danantara policy context.",
+    "entity": "BPI",
+    "risk_tier": "high",
+    "human_approval": "Policy owner",
+    "dependencies": [],
+    "purpose": "Curates approved policies, manuals, delegations, standards, templates, effective dates, superseded versions, and owners into a controlled knowledge base."
+  },
+  {
+    "cluster": "03-knowledge-data",
+    "name": "legal-regulatory-monitor",
+    "description": "Monitors applicable laws, regulations, decisions, standards, and official guidance; maps changes to affected entities, processes, documents, and controls. Use for regulatory horizon scanning and change-impact assessment.",
+    "entity": "BPI/DAM/DIM/DDMF",
+    "risk_tier": "high",
+    "human_approval": "Legal owner",
+    "dependencies": [],
+    "purpose": "Monitors applicable laws, regulations, decisions, standards, and official guidance; maps changes to affected entities, processes, documents, and controls. Use for regulatory horizon scanning and change-impact assessment."
+  },
+  {
+    "cluster": "03-knowledge-data",
+    "name": "portfolio-knowledge-graph",
+    "description": "Builds and queries relationships among entities, assets, ownership, boards, contracts, lenders, projects, risks, KPIs, transactions, and stakeholders. Use when analysis depends on cross-portfolio context or hidden dependencies.",
+    "entity": "BPI/DAM/DIM/DDMF",
+    "risk_tier": "high",
+    "human_approval": "Data owner",
+    "dependencies": [],
+    "purpose": "Builds and queries relationships among entities, assets, ownership, boards, contracts, lenders, projects, risks, KPIs, transactions, and stakeholders."
+  },
+  {
+    "cluster": "03-knowledge-data",
+    "name": "decision-precedent-retriever",
+    "description": "Retrieves comparable prior decisions, their rationale, assumptions, approvals, outcomes, and lessons without treating precedent as automatic authority. Use for board, investment, restructuring, policy, and exception decisions.",
+    "entity": "BPI/DAM/DIM/DDMF",
+    "risk_tier": "medium",
+    "human_approval": "Decision owner",
+    "dependencies": [],
+    "purpose": "Retrieves comparable prior decisions, their rationale, assumptions, approvals, outcomes, and lessons without treating precedent as automatic authority. Use for board, investment, restructuring, policy, and exception decisions."
+  },
+  {
+    "cluster": "03-knowledge-data",
+    "name": "benchmark-intelligence-manager",
+    "description": "Selects relevant global, regional, sector, sovereign-fund, and peer-company benchmarks; normalizes definitions and explains comparability limits. Use for performance targets, valuation, operating models, governance, and transformation ambition.",
+    "entity": "BPI/DAM/DIM/DDMF",
+    "risk_tier": "medium",
+    "human_approval": "Analysis owner",
+    "dependencies": [],
+    "purpose": "Selects relevant global, regional, sector, sovereign-fund, and peer-company benchmarks; normalizes definitions and explains comparability limits. Use for performance targets, valuation, operating models, governance, and transformation ambition."
+  },
+  {
+    "cluster": "03-knowledge-data",
+    "name": "data-quality-and-lineage-checker",
+    "description": "Tests completeness, accuracy, consistency, timeliness, ownership, reconciliation, transformations, and source lineage of decision data. Use before models, dashboards, consolidated reporting, valuations, and material recommendations.",
+    "entity": "BPI/DAM/DIM/DDMF",
+    "risk_tier": "high",
+    "human_approval": "Data owner",
+    "dependencies": [],
+    "purpose": "Tests completeness, accuracy, consistency, timeliness, ownership, reconciliation, transformations, and source lineage of decision data. Use before models, dashboards, consolidated reporting, valuations, and material recommendations."
+  },
+  {
+    "cluster": "03-knowledge-data",
+    "name": "document-evidence-extractor",
+    "description": "Extracts structured facts, obligations, assumptions, dates, financial terms, approvals, risks, and citations from documents while preserving page-level traceability. Use for contracts, board papers, reports, policies, studies, and data rooms.",
+    "entity": "BPI/DAM/DIM/DDMF",
+    "risk_tier": "medium",
+    "human_approval": "Document owner",
+    "dependencies": [],
+    "purpose": "Extracts structured facts, obligations, assumptions, dates, financial terms, approvals, risks, and citations from documents while preserving page-level traceability. Use for contracts, board papers, reports, policies, studies, and data rooms."
+  },
+  {
+    "cluster": "03-knowledge-data",
+    "name": "institutional-memory-capture",
+    "description": "Converts completed decisions, projects, negotiations, transformations, and incidents into reusable lessons, patterns, controls, and precedents. Use at milestones, post-mortems, leadership transitions, and workflow closure.",
+    "entity": "BPI/DAM/DIM/DDMF",
+    "risk_tier": "medium",
+    "human_approval": "Knowledge owner",
+    "dependencies": [],
+    "purpose": "Converts completed decisions, projects, negotiations, transformations, and incidents into reusable lessons, patterns, controls, and precedents. Use at milestones, post-mortems, leadership transitions, and workflow closure."
+  },
+  {
+    "cluster": "04-bpi-control-tower",
+    "name": "national-priority-alignment",
+    "description": "Maps proposals to formal national priorities, economic-transformation objectives, measurable outcomes, and responsible institutions. Use when a project or investment claims strategic-national relevance.",
+    "entity": "BPI",
+    "risk_tier": "high",
+    "human_approval": "Strategy authority",
+    "dependencies": [],
+    "purpose": "Maps proposals to formal national priorities, economic-transformation objectives, measurable outcomes, and responsible institutions."
+  },
+  {
+    "cluster": "04-bpi-control-tower",
+    "name": "strategic-national-interest-test",
+    "description": "Tests whether an action materially advances resilience, sovereignty, industrial capability, productivity, competitiveness, or long-term national value beyond ordinary commercial activity. Use for strategic designations and exceptional support.",
+    "entity": "BPI",
+    "risk_tier": "critical",
+    "human_approval": "Mandated strategic authority",
+    "dependencies": [],
+    "purpose": "Tests whether an action materially advances resilience, sovereignty, industrial capability, productivity, competitiveness, or long-term national value beyond ordinary commercial activity. Use for strategic designations and exceptional support."
+  },
+  {
+    "cluster": "04-bpi-control-tower",
+    "name": "enterprise-portfolio-synthesizer",
+    "description": "Produces a consolidated view of value, performance, risk, capital, impact, transformation, and concentration across the Danantara ecosystem. Use for enterprise reviews, supervisory reporting, and strategic capital allocation.",
+    "entity": "BPI",
+    "risk_tier": "high",
+    "human_approval": "Executive/supervisory owner",
+    "dependencies": [],
+    "purpose": "Produces a consolidated view of value, performance, risk, capital, impact, transformation, and concentration across the Danantara ecosystem. Use for enterprise reviews, supervisory reporting, and strategic capital allocation."
+  },
+  {
+    "cluster": "04-bpi-control-tower",
+    "name": "dam-dim-ddmf-boundary-router",
+    "description": "Determines whether an opportunity belongs primarily to active BUMN ownership, commercial investment, development finance, or coordinated treatment. Use when mandate overlap or funding-vehicle ambiguity exists.",
+    "entity": "BPI",
+    "risk_tier": "critical",
+    "human_approval": "BPI authority",
+    "dependencies": [],
+    "purpose": "Determines whether an opportunity belongs primarily to active BUMN ownership, commercial investment, development finance, or coordinated treatment."
+  },
+  {
+    "cluster": "04-bpi-control-tower",
+    "name": "cross-portfolio-synergy-finder",
+    "description": "Identifies measurable revenue, cost, capital, capability, technology, supply-chain, market-access, and risk synergies across portfolio entities. Use when evaluating collaboration, shared services, consolidation, or ecosystem strategies.",
+    "entity": "BPI/DAM",
+    "risk_tier": "high",
+    "human_approval": "Portfolio owner",
+    "dependencies": [],
+    "purpose": "Identifies measurable revenue, cost, capital, capability, technology, supply-chain, market-access, and risk synergies across portfolio entities."
+  },
+  {
+    "cluster": "04-bpi-control-tower",
+    "name": "transformation-agenda-orchestrator",
+    "description": "Coordinates enterprise-wide transformation themes, target architecture, waves, accountable owners, dependencies, benefits, and intervention thresholds. Use for multi-BUMN or cross-holding transformation programs.",
+    "entity": "BPI/DAM",
+    "risk_tier": "high",
+    "human_approval": "Transformation sponsor",
+    "dependencies": [],
+    "purpose": "Coordinates enterprise-wide transformation themes, target architecture, waves, accountable owners, dependencies, benefits, and intervention thresholds. Use for multi-BUMN or cross-holding transformation programs."
+  },
+  {
+    "cluster": "04-bpi-control-tower",
+    "name": "national-resilience-assessor",
+    "description": "Assesses exposure and response options for disruptions affecting energy, food, health, finance, digital systems, critical minerals, infrastructure, and strategic supply chains. Use for resilience investments and contingency decisions.",
+    "entity": "BPI/DIM/DDMF",
+    "risk_tier": "high",
+    "human_approval": "Resilience owner",
+    "dependencies": [],
+    "purpose": "Assesses exposure and response options for disruptions affecting energy, food, health, finance, digital systems, critical minerals, infrastructure, and strategic supply chains. Use for resilience investments and contingency decisions."
+  },
+  {
+    "cluster": "04-bpi-control-tower",
+    "name": "institutional-trust-monitor",
+    "description": "Evaluates how decisions, disclosures, governance, execution, and exceptions affect credibility, cost of capital, partner confidence, employee confidence, and public legitimacy. Use for sensitive or precedent-setting actions.",
+    "entity": "BPI",
+    "risk_tier": "high",
+    "human_approval": "Executive/governance owner",
+    "dependencies": [],
+    "purpose": "Evaluates how decisions, disclosures, governance, execution, and exceptions affect credibility, cost of capital, partner confidence, employee confidence, and public legitimacy. Use for sensitive or precedent-setting actions."
+  },
+  {
+    "cluster": "04-bpi-control-tower",
+    "name": "executive-board-brief-builder",
+    "description": "Builds concise decision briefs with issue, recommendation, alternatives, evidence, scenarios, risks, dissent, decision rights, approvals, and action tracking. Use for executive, supervisory, board, or committee meetings.",
+    "entity": "BPI/DAM/DIM/DDMF",
+    "risk_tier": "high",
+    "human_approval": "Meeting owner",
+    "dependencies": [],
+    "purpose": "Builds concise decision briefs with issue, recommendation, alternatives, evidence, scenarios, risks, dissent, decision rights, approvals, and action tracking. Use for executive, supervisory, board, or committee meetings."
+  },
+  {
+    "cluster": "04-bpi-control-tower",
+    "name": "public-accountability-packager",
+    "description": "Translates material performance, investments, transformations, risks, and impact into transparent, consistent, auditable public-accountability materials without exposing protected information. Use for reports, hearings, and public communications.",
+    "entity": "BPI",
+    "risk_tier": "high",
+    "human_approval": "Disclosure owner",
+    "dependencies": [],
+    "purpose": "Translates material performance, investments, transformations, risks, and impact into transparent, consistent, auditable public-accountability materials without exposing protected information. Use for reports, hearings, and public communications."
+  },
+  {
+    "cluster": "05-dam-active-ownership",
+    "name": "bumn-portfolio-segmenter",
+    "description": "Segments BUMN and assets by strategic role, economics, competitiveness, maturity, risk, ownership intent, and intervention need. Use to determine retain, transform, consolidate, partner, divest, liquidate, or monitor pathways.",
+    "entity": "DAM",
+    "risk_tier": "high",
+    "human_approval": "DAM portfolio authority",
+    "dependencies": [],
+    "purpose": "Segments BUMN and assets by strategic role, economics, competitiveness, maturity, risk, ownership intent, and intervention need. Use to determine retain, transform, consolidate, partner, divest, liquidate, or monitor pathways."
+  },
+  {
+    "cluster": "05-dam-active-ownership",
+    "name": "corporate-parenting-advantage",
+    "description": "Tests whether Danantara can create more value through governance, capital, talent, market access, technology, risk management, or synergy than an entity could create independently. Use before ownership interventions or retention decisions.",
+    "entity": "DAM",
+    "risk_tier": "high",
+    "human_approval": "DAM portfolio authority",
+    "dependencies": [],
+    "purpose": "Tests whether Danantara can create more value through governance, capital, talent, market access, technology, risk management, or synergy than an entity could create independently. Use before ownership interventions or retention decisions."
+  },
+  {
+    "cluster": "05-dam-active-ownership",
+    "name": "value-creation-plan-builder",
+    "description": "Builds quantified value-creation plans linking baseline, levers, initiatives, owners, investment, milestones, KPIs, cash impact, risks, and exit criteria. Use after portfolio diagnosis or before approving transformation capital.",
+    "entity": "DAM",
+    "risk_tier": "critical",
+    "human_approval": "DAM investment/portfolio committee",
+    "dependencies": [],
+    "purpose": "Builds quantified value-creation plans linking baseline, levers, initiatives, owners, investment, milestones, KPIs, cash impact, risks, and exit criteria. Use after portfolio diagnosis or before approving transformation capital."
+  },
+  {
+    "cluster": "05-dam-active-ownership",
+    "name": "operational-excellence-diagnostic",
+    "description": "Diagnoses reliability, productivity, cost, quality, service, asset utilization, process waste, maintenance, supply chain, and execution discipline against relevant benchmarks. Use for performance improvement and turnaround design.",
+    "entity": "DAM",
+    "risk_tier": "high",
+    "human_approval": "Portfolio company and DAM owner",
+    "dependencies": [],
+    "purpose": "Diagnoses reliability, productivity, cost, quality, service, asset utilization, process waste, maintenance, supply chain, and execution discipline against relevant benchmarks. Use for performance improvement and turnaround design."
+  },
+  {
+    "cluster": "05-dam-active-ownership",
+    "name": "financial-performance-diagnostic",
+    "description": "Analyzes earnings quality, cash conversion, balance sheet, liquidity, leverage, returns, capital intensity, dividend capacity, and value leakage. Use for portfolio reviews, interventions, restructuring, and capital decisions.",
+    "entity": "DAM",
+    "risk_tier": "high",
+    "human_approval": "Finance and portfolio owner",
+    "dependencies": [],
+    "purpose": "Analyzes earnings quality, cash conversion, balance sheet, liquidity, leverage, returns, capital intensity, dividend capacity, and value leakage. Use for portfolio reviews, interventions, restructuring, and capital decisions."
+  },
+  {
+    "cluster": "05-dam-active-ownership",
+    "name": "capital-allocation-reviewer",
+    "description": "Reviews capex, opex, dividends, acquisitions, funding, and portfolio capital against strategy, hurdle rates, risk-adjusted return, alternatives, and opportunity cost. Use before approving material resource allocation.",
+    "entity": "DAM",
+    "risk_tier": "critical",
+    "human_approval": "Authorized capital committee",
+    "dependencies": [],
+    "purpose": "Reviews capex, opex, dividends, acquisitions, funding, and portfolio capital against strategy, hurdle rates, risk-adjusted return, alternatives, and opportunity cost. Use before approving material resource allocation."
+  },
+  {
+    "cluster": "05-dam-active-ownership",
+    "name": "portfolio-rationalization-analyzer",
+    "description": "Evaluates whether entities, subsidiaries, assets, and business lines should remain standalone, merge, consolidate, divest, liquidate, or form partnerships. Use when structure no longer matches economic or strategic logic.",
+    "entity": "DAM",
+    "risk_tier": "critical",
+    "human_approval": "DAM and competent corporate bodies",
+    "dependencies": [],
+    "purpose": "Evaluates whether entities, subsidiaries, assets, and business lines should remain standalone, merge, consolidate, divest, liquidate, or form partnerships."
+  },
+  {
+    "cluster": "05-dam-active-ownership",
+    "name": "merger-consolidation-case",
+    "description": "Builds the economic, strategic, governance, competition, operational, people, technology, and execution case for merger or consolidation. Use only when measurable parenting and synergy advantages exceed integration costs and risks.",
+    "entity": "DAM",
+    "risk_tier": "critical",
+    "human_approval": "Competent corporate and regulatory authorities",
+    "dependencies": [],
+    "purpose": "Builds the economic, strategic, governance, competition, operational, people, technology, and execution case for merger or consolidation. Use only when measurable parenting and synergy advantages exceed integration costs and risks."
+  },
+  {
+    "cluster": "05-dam-active-ownership",
+    "name": "divestment-exit-readiness",
+    "description": "Assesses strategic rationale, value, marketability, legal readiness, stakeholder impact, separation complexity, data-room readiness, and timing for divestment or exit. Use for non-core assets and rational ownership decisions.",
+    "entity": "DAM",
+    "risk_tier": "critical",
+    "human_approval": "Authorized divestment authority",
+    "dependencies": [],
+    "purpose": "Assesses strategic rationale, value, marketability, legal readiness, stakeholder impact, separation complexity, data-room readiness, and timing for divestment or exit. Use for non-core assets and rational ownership decisions."
+  },
+  {
+    "cluster": "05-dam-active-ownership",
+    "name": "turnaround-triage",
+    "description": "Distinguishes temporary liquidity stress, operational underperformance, balance-sheet distress, governance failure, and structurally broken business models. Use at the first sign of material deterioration or support requests.",
+    "entity": "DAM",
+    "risk_tier": "critical",
+    "human_approval": "DAM turnaround authority",
+    "dependencies": [],
+    "purpose": "Distinguishes temporary liquidity stress, operational underperformance, balance-sheet distress, governance failure, and structurally broken business models. Use at the first sign of material deterioration or support requests."
+  },
+  {
+    "cluster": "05-dam-active-ownership",
+    "name": "restructuring-options-designer",
+    "description": "Designs integrated strategic, operational, financial, organizational, governance, leadership, and portfolio restructuring options with scenarios and consequences. Use after turnaround diagnosis and before committing support.",
+    "entity": "DAM",
+    "risk_tier": "critical",
+    "human_approval": "Authorized restructuring authority",
+    "dependencies": [],
+    "purpose": "Designs integrated strategic, operational, financial, organizational, governance, leadership, and portfolio restructuring options with scenarios and consequences. Use after turnaround diagnosis and before committing support."
+  },
+  {
+    "cluster": "05-dam-active-ownership",
+    "name": "conditional-capital-designer",
+    "description": "Structures transformation capital with milestones, covenants, management accountability, drawdown gates, monitoring, consequences, and exit criteria. Use to prevent moral hazard and distinguish investable turnaround from bailout.",
+    "entity": "DAM",
+    "risk_tier": "critical",
+    "human_approval": "Authorized capital and risk authorities",
+    "dependencies": [],
+    "purpose": "Structures transformation capital with milestones, covenants, management accountability, drawdown gates, monitoring, consequences, and exit criteria. Use to prevent moral hazard and distinguish investable turnaround from bailout."
+  },
+  {
+    "cluster": "05-dam-active-ownership",
+    "name": "management-accountability-contract",
+    "description": "Translates transformation commitments into measurable management outcomes, decision rights, resources, milestones, incentives, consequences, and reporting. Use when leadership is accountable for turnaround or value creation.",
+    "entity": "DAM",
+    "risk_tier": "high",
+    "human_approval": "Board/shareholder authority",
+    "dependencies": [],
+    "purpose": "Translates transformation commitments into measurable management outcomes, decision rights, resources, milestones, incentives, consequences, and reporting."
+  },
+  {
+    "cluster": "05-dam-active-ownership",
+    "name": "ceo-transformation-challenger",
+    "description": "Challenges whether a CEO has an evidence-based diagnosis, credible destination, coherent transformation roadmap, capable team, resource plan, milestones, and accountability. Use for appointments, reviews, and major transformation programs.",
+    "entity": "DAM",
+    "risk_tier": "high",
+    "human_approval": "Board/shareholder authority",
+    "dependencies": [],
+    "purpose": "Challenges whether a CEO has an evidence-based diagnosis, credible destination, coherent transformation roadmap, capable team, resource plan, milestones, and accountability. Use for appointments, reviews, and major transformation programs."
+  },
+  {
+    "cluster": "05-dam-active-ownership",
+    "name": "talent-meritocracy-assessor",
+    "description": "Assesses whether critical roles are filled by people with the competence, integrity, track record, leadership capacity, and mission fit required for the problem. Use for board, executive, transformation, and succession decisions.",
+    "entity": "DAM/BPI",
+    "risk_tier": "critical",
+    "human_approval": "Authorized nomination body",
+    "dependencies": [],
+    "purpose": "Assesses whether critical roles are filled by people with the competence, integrity, track record, leadership capacity, and mission fit required for the problem. Use for board, executive, transformation, and succession decisions."
+  },
+  {
+    "cluster": "05-dam-active-ownership",
+    "name": "enterprise-digital-synergy",
+    "description": "Identifies duplicated applications, data, vendors, capabilities, and platforms; defines what should be shared, standardized, interoperable, federated, or retired. Use for cross-BUMN digital strategy and investment review.",
+    "entity": "DAM/BPI",
+    "risk_tier": "high",
+    "human_approval": "Enterprise architecture authority",
+    "dependencies": [],
+    "purpose": "Identifies duplicated applications, data, vendors, capabilities, and platforms; defines what should be shared, standardized, interoperable, federated, or retired. Use for cross-BUMN digital strategy and investment review."
+  },
+  {
+    "cluster": "05-dam-active-ownership",
+    "name": "shared-platform-architect",
+    "description": "Designs reusable enterprise capabilities, data products, integration standards, identity, cybersecurity, cloud, AI, and operating models across portfolio companies. Use when common platforms can outperform fragmented applications.",
+    "entity": "DAM/BPI",
+    "risk_tier": "high",
+    "human_approval": "Technology and data authority",
+    "dependencies": [],
+    "purpose": "Designs reusable enterprise capabilities, data products, integration standards, identity, cybersecurity, cloud, AI, and operating models across portfolio companies."
+  },
+  {
+    "cluster": "05-dam-active-ownership",
+    "name": "post-merger-integration-planner",
+    "description": "Plans value capture, Day-1 continuity, governance, organization, talent, culture, processes, systems, data, controls, brand, and stakeholder integration after corporate consolidation. Use before closing and through stabilization.",
+    "entity": "DAM",
+    "risk_tier": "high",
+    "human_approval": "Integration sponsor",
+    "dependencies": [],
+    "purpose": "Plans value capture, Day-1 continuity, governance, organization, talent, culture, processes, systems, data, controls, brand, and stakeholder integration after corporate consolidation. Use before closing and through stabilization."
+  },
+  {
+    "cluster": "06-dim-investment-management",
+    "name": "investment-mandate-interpreter",
+    "description": "Translates DIM's mandate into eligible assets, return objectives, risk appetite, impact expectations, geography, liquidity, horizon, concentration, exclusions, and approval requirements. Use before screening or designing an investment strategy.",
+    "entity": "DIM",
+    "risk_tier": "critical",
+    "human_approval": "DIM mandate authority",
+    "dependencies": [],
+    "purpose": "Translates DIM's mandate into eligible assets, return objectives, risk appetite, impact expectations, geography, liquidity, horizon, concentration, exclusions, and approval requirements. Use before screening or designing an investment strategy."
+  },
+  {
+    "cluster": "06-dim-investment-management",
+    "name": "investment-theme-generator",
+    "description": "Develops evidence-based investment themes from national priorities, structural trends, market gaps, capabilities, resilience needs, and risk-adjusted opportunity. Use for strategy refresh, origination, and sector allocation.",
+    "entity": "DIM",
+    "risk_tier": "high",
+    "human_approval": "DIM strategy authority",
+    "dependencies": [],
+    "purpose": "Develops evidence-based investment themes from national priorities, structural trends, market gaps, capabilities, resilience needs, and risk-adjusted opportunity. Use for strategy refresh, origination, and sector allocation."
+  },
+  {
+    "cluster": "06-dim-investment-management",
+    "name": "opportunity-screening",
+    "description": "Screens opportunities for mandate fit, strategic relevance, commercial logic, readiness, sponsor quality, preliminary risk-return, additionality, impact, and fatal flaws. Use before allocating due-diligence resources.",
+    "entity": "DIM",
+    "risk_tier": "high",
+    "human_approval": "DIM screening authority",
+    "dependencies": [],
+    "purpose": "Screens opportunities for mandate fit, strategic relevance, commercial logic, readiness, sponsor quality, preliminary risk-return, additionality, impact, and fatal flaws. Use before allocating due-diligence resources."
+  },
+  {
+    "cluster": "06-dim-investment-management",
+    "name": "investment-thesis-builder",
+    "description": "Builds a falsifiable investment thesis covering value drivers, variant perception, competitive advantage, catalysts, downside, national consequence, entry valuation, ownership plan, and exit logic. Use for shortlisted opportunities.",
+    "entity": "DIM",
+    "risk_tier": "critical",
+    "human_approval": "Investment team and committee",
+    "dependencies": [],
+    "purpose": "Builds a falsifiable investment thesis covering value drivers, variant perception, competitive advantage, catalysts, downside, national consequence, entry valuation, ownership plan, and exit logic. Use for shortlisted opportunities."
+  },
+  {
+    "cluster": "06-dim-investment-management",
+    "name": "commercial-due-diligence",
+    "description": "Tests market size, demand, customers, competition, pricing, business model, unit economics, growth, and commercial assumptions using independent evidence. Use before material investment decisions.",
+    "entity": "DIM",
+    "risk_tier": "critical",
+    "human_approval": "Investment committee",
+    "dependencies": [],
+    "purpose": "Tests market size, demand, customers, competition, pricing, business model, unit economics, growth, and commercial assumptions using independent evidence. Use before material investment decisions."
+  },
+  {
+    "cluster": "06-dim-investment-management",
+    "name": "financial-due-diligence",
+    "description": "Tests earnings quality, cash flow, debt, working capital, accounting, tax exposure, forecasts, contingent liabilities, and funding needs. Use before investments, acquisitions, restructurings, and valuation reliance.",
+    "entity": "DIM",
+    "risk_tier": "critical",
+    "human_approval": "Investment committee",
+    "dependencies": [],
+    "purpose": "Tests earnings quality, cash flow, debt, working capital, accounting, tax exposure, forecasts, contingent liabilities, and funding needs. Use before investments, acquisitions, restructurings, and valuation reliance."
+  },
+  {
+    "cluster": "06-dim-investment-management",
+    "name": "legal-tax-due-diligence",
+    "description": "Reviews ownership, authority, licenses, contracts, litigation, compliance, land, tax, sanctions, change-of-control, and transaction enforceability. Use before commitments, signing, closing, or material restructuring.",
+    "entity": "DIM",
+    "risk_tier": "critical",
+    "human_approval": "Legal/tax and investment authority",
+    "dependencies": [],
+    "purpose": "Reviews ownership, authority, licenses, contracts, litigation, compliance, land, tax, sanctions, change-of-control, and transaction enforceability. Use before commitments, signing, closing, or material restructuring."
+  },
+  {
+    "cluster": "06-dim-investment-management",
+    "name": "technical-operational-due-diligence",
+    "description": "Tests technology, design, capacity, reliability, resources, operations, supply chain, capex, schedule, standards, and execution readiness. Use for infrastructure, industrial, energy, digital, and technology investments.",
+    "entity": "DIM/DDMF",
+    "risk_tier": "critical",
+    "human_approval": "Technical and investment authority",
+    "dependencies": [],
+    "purpose": "Tests technology, design, capacity, reliability, resources, operations, supply chain, capex, schedule, standards, and execution readiness. Use for infrastructure, industrial, energy, digital, and technology investments."
+  },
+  {
+    "cluster": "06-dim-investment-management",
+    "name": "esg-impact-due-diligence",
+    "description": "Assesses environmental, social, governance, climate, community, labor, human-rights, transition, and measurable development impacts. Use before investment approval and throughout ownership.",
+    "entity": "DIM/DDMF",
+    "risk_tier": "critical",
+    "human_approval": "ESG and investment authority",
+    "dependencies": [],
+    "purpose": "Assesses environmental, social, governance, climate, community, labor, human-rights, transition, and measurable development impacts. Use before investment approval and throughout ownership."
+  },
+  {
+    "cluster": "06-dim-investment-management",
+    "name": "integrity-counterparty-due-diligence",
+    "description": "Assesses beneficial ownership, reputation, sanctions, politically exposed persons, corruption risk, litigation, governance, financial credibility, and conduct history. Use for sponsors, sellers, partners, co-investors, advisers, and key contractors.",
+    "entity": "DIM/DDMF",
+    "risk_tier": "critical",
+    "human_approval": "Compliance and investment authority",
+    "dependencies": [],
+    "purpose": "Assesses beneficial ownership, reputation, sanctions, politically exposed persons, corruption risk, litigation, governance, financial credibility, and conduct history. Use for sponsors, sellers, partners, co-investors, advisers, and key contractors."
+  },
+  {
+    "cluster": "06-dim-investment-management",
+    "name": "valuation-orchestrator",
+    "description": "Selects and reconciles DCF, comparables, transactions, asset value, project finance, option value, and scenario methods; documents assumptions and valuation range. Use when estimating intrinsic value or negotiating price.",
+    "entity": "DIM/DAM",
+    "risk_tier": "critical",
+    "human_approval": "Investment or transaction authority",
+    "dependencies": [],
+    "purpose": "Selects and reconciles DCF, comparables, transactions, asset value, project finance, option value, and scenario methods; documents assumptions and valuation range."
+  },
+  {
+    "cluster": "06-dim-investment-management",
+    "name": "dcf-model-challenger",
+    "description": "Challenges cash-flow logic, forecast drivers, terminal value, discount rate, inflation, currency, tax, capex, working capital, scenarios, and model integrity. Use before relying on a DCF for valuation or capital allocation.",
+    "entity": "DIM/DAM/DDMF",
+    "risk_tier": "critical",
+    "human_approval": "Independent model reviewer",
+    "dependencies": [],
+    "purpose": "Challenges cash-flow logic, forecast drivers, terminal value, discount rate, inflation, currency, tax, capex, working capital, scenarios, and model integrity. Use before relying on a DCF for valuation or capital allocation."
+  },
+  {
+    "cluster": "06-dim-investment-management",
+    "name": "comparable-transactions-analyzer",
+    "description": "Selects, normalizes, and interprets comparable companies and precedent transactions, including business-model, growth, risk, geography, control, cycle, and accounting differences. Use to triangulate valuation and market expectations.",
+    "entity": "DIM/DAM",
+    "risk_tier": "high",
+    "human_approval": "Valuation owner",
+    "dependencies": [],
+    "purpose": "Selects, normalizes, and interprets comparable companies and precedent transactions, including business-model, growth, risk, geography, control, cycle, and accounting differences. Use to triangulate valuation and market expectations."
+  },
+  {
+    "cluster": "06-dim-investment-management",
+    "name": "risk-adjusted-return-analyzer",
+    "description": "Measures expected return relative to market, credit, liquidity, operational, execution, political, currency, climate, and downside risk against appropriate benchmarks. Use for investment comparison and portfolio allocation.",
+    "entity": "DIM",
+    "risk_tier": "critical",
+    "human_approval": "Investment committee",
+    "dependencies": [],
+    "purpose": "Measures expected return relative to market, credit, liquidity, operational, execution, political, currency, climate, and downside risk against appropriate benchmarks. Use for investment comparison and portfolio allocation."
+  },
+  {
+    "cluster": "06-dim-investment-management",
+    "name": "portfolio-diversification-analyzer",
+    "description": "Assesses concentration and diversification across asset class, sector, geography, currency, counterparty, factor, liquidity, duration, and national exposure. Use before new allocations and during portfolio rebalancing.",
+    "entity": "DIM",
+    "risk_tier": "critical",
+    "human_approval": "Portfolio committee",
+    "dependencies": [],
+    "purpose": "Assesses concentration and diversification across asset class, sector, geography, currency, counterparty, factor, liquidity, duration, and national exposure. Use before new allocations and during portfolio rebalancing."
+  },
+  {
+    "cluster": "06-dim-investment-management",
+    "name": "concentration-and-liquidity-risk",
+    "description": "Quantifies single-name, sector, correlated, currency, funding, exit, and cash-call risks under normal and stressed conditions. Use for portfolio construction, commitment pacing, and risk-limit decisions.",
+    "entity": "DIM",
+    "risk_tier": "critical",
+    "human_approval": "Portfolio risk authority",
+    "dependencies": [],
+    "purpose": "Quantifies single-name, sector, correlated, currency, funding, exit, and cash-call risks under normal and stressed conditions. Use for portfolio construction, commitment pacing, and risk-limit decisions."
+  },
+  {
+    "cluster": "06-dim-investment-management",
+    "name": "deal-structuring-optimizer",
+    "description": "Designs equity, debt, hybrid, governance, downside protection, control, covenant, distribution, tax, currency, and exit terms aligned with risk allocation and objectives. Use after diligence and before term-sheet approval.",
+    "entity": "DIM/DDMF",
+    "risk_tier": "critical",
+    "human_approval": "Investment committee and legal",
+    "dependencies": [],
+    "purpose": "Designs equity, debt, hybrid, governance, downside protection, control, covenant, distribution, tax, currency, and exit terms aligned with risk allocation and objectives. Use after diligence and before term-sheet approval."
+  },
+  {
+    "cluster": "06-dim-investment-management",
+    "name": "co-investment-crowding-in",
+    "description": "Designs co-investment strategy, partner roles, governance, economics, syndication, knowledge transfer, and capital-mobilization metrics. Use when Danantara acts as anchor, catalyst, or strategic partner.",
+    "entity": "DIM/DDMF",
+    "risk_tier": "high",
+    "human_approval": "Investment authority",
+    "dependencies": [],
+    "purpose": "Designs co-investment strategy, partner roles, governance, economics, syndication, knowledge transfer, and capital-mobilization metrics."
+  },
+  {
+    "cluster": "06-dim-investment-management",
+    "name": "investment-committee-memo",
+    "description": "Produces a decision-ready investment memorandum covering mandate fit, thesis, diligence, valuation, structure, risks, impact, alternatives, dissent, approvals, conditions, and monitoring. Use for formal investment committee submissions.",
+    "entity": "DIM",
+    "risk_tier": "critical",
+    "human_approval": "Investment committee",
+    "dependencies": [],
+    "purpose": "Produces a decision-ready investment memorandum covering mandate fit, thesis, diligence, valuation, structure, risks, impact, alternatives, dissent, approvals, conditions, and monitoring. Use for formal investment committee submissions."
+  },
+  {
+    "cluster": "06-dim-investment-management",
+    "name": "investment-thesis-red-team",
+    "description": "Independently attempts to disprove the investment thesis, identify hidden assumptions, construct downside cases, and expose governance, valuation, execution, impact, or exit weaknesses. Use before investment committee decisions.",
+    "entity": "DIM",
+    "risk_tier": "critical",
+    "human_approval": "Independent challenge function",
+    "dependencies": [],
+    "purpose": "Independently attempts to disprove the investment thesis, identify hidden assumptions, construct downside cases, and expose governance, valuation, execution, impact, or exit weaknesses. Use before investment committee decisions."
+  },
+  {
+    "cluster": "06-dim-investment-management",
+    "name": "conditions-precedent-tracker",
+    "description": "Defines, assigns, evidences, and tracks legal, financial, technical, regulatory, governance, ESG, funding, and operational conditions before signing, closing, disbursement, or subsequent drawdown. Use after conditional approval.",
+    "entity": "DIM/DDMF",
+    "risk_tier": "high",
+    "human_approval": "Transaction owner",
+    "dependencies": [],
+    "purpose": "Defines, assigns, evidences, and tracks legal, financial, technical, regulatory, governance, ESG, funding, and operational conditions before signing, closing, disbursement, or subsequent drawdown. Use after conditional approval."
+  },
+  {
+    "cluster": "06-dim-investment-management",
+    "name": "post-investment-monitor",
+    "description": "Monitors thesis, value-creation plan, financial and operational KPIs, covenants, risk, impact, governance, liquidity, valuation, and intervention triggers. Use throughout the ownership period.",
+    "entity": "DIM",
+    "risk_tier": "critical",
+    "human_approval": "Portfolio management authority",
+    "dependencies": [],
+    "purpose": "Monitors thesis, value-creation plan, financial and operational KPIs, covenants, risk, impact, governance, liquidity, valuation, and intervention triggers. Use throughout the ownership period."
+  },
+  {
+    "cluster": "06-dim-investment-management",
+    "name": "exit-strategy-analyzer",
+    "description": "Evaluates strategic sale, IPO, secondary, refinancing, dividend recapitalization, asset sale, wind-down, or continued ownership using value, timing, readiness, impact, and market scenarios. Use from entry planning through exit decision.",
+    "entity": "DIM/DAM",
+    "risk_tier": "critical",
+    "human_approval": "Authorized exit authority",
+    "dependencies": [],
+    "purpose": "Evaluates strategic sale, IPO, secondary, refinancing, dividend recapitalization, asset sale, wind-down, or continued ownership using value, timing, readiness, impact, and market scenarios. Use from entry planning through exit decision."
+  },
+  {
+    "cluster": "07-ddmf-development-finance",
+    "name": "development-impact-assessor",
+    "description": "Defines and measures economic, social, resilience, employment, domestic-value, capability, sovereignty, regional, and environmental outcomes with attribution and baselines. Use for development investments and public-infrastructure decisions.",
+    "entity": "DDMF",
+    "risk_tier": "critical",
+    "human_approval": "DDMF investment authority",
+    "dependencies": [],
+    "purpose": "Defines and measures economic, social, resilience, employment, domestic-value, capability, sovereignty, regional, and environmental outcomes with attribution and baselines. Use for development investments and public-infrastructure decisions."
+  },
+  {
+    "cluster": "07-ddmf-development-finance",
+    "name": "project-readiness-gate",
+    "description": "Tests technical, legal, land, permitting, demand, commercial, environmental, social, institutional, procurement, funding, and stakeholder readiness using stage gates. Use before project preparation advances to investment.",
+    "entity": "DDMF",
+    "risk_tier": "critical",
+    "human_approval": "Project gate authority",
+    "dependencies": [],
+    "purpose": "Tests technical, legal, land, permitting, demand, commercial, environmental, social, institutional, procurement, funding, and stakeholder readiness using stage gates. Use before project preparation advances to investment."
+  },
+  {
+    "cluster": "07-ddmf-development-finance",
+    "name": "bankability-gap-analyzer",
+    "description": "Identifies why a project cannot yet attract finance, including weak cash flow, demand, contracts, risk allocation, sponsor, permits, tariffs, guarantees, or execution capacity. Use to define project-preparation interventions.",
+    "entity": "DDMF",
+    "risk_tier": "critical",
+    "human_approval": "DDMF project/investment authority",
+    "dependencies": [],
+    "purpose": "Identifies why a project cannot yet attract finance, including weak cash flow, demand, contracts, risk allocation, sponsor, permits, tariffs, guarantees, or execution capacity. Use to define project-preparation interventions."
+  },
+  {
+    "cluster": "07-ddmf-development-finance",
+    "name": "additionality-assessor",
+    "description": "Tests whether Danantara participation creates outcomes, scale, speed, quality, risk reduction, capability, or capital mobilization that the market would not deliver alone. Use before catalytic or concessional intervention.",
+    "entity": "DDMF/DIM",
+    "risk_tier": "critical",
+    "human_approval": "Investment authority",
+    "dependencies": [],
+    "purpose": "Tests whether Danantara participation creates outcomes, scale, speed, quality, risk reduction, capability, or capital mobilization that the market would not deliver alone. Use before catalytic or concessional intervention."
+  },
+  {
+    "cluster": "07-ddmf-development-finance",
+    "name": "project-finance-structurer",
+    "description": "Structures project cash flows, contracts, debt capacity, coverage ratios, reserves, security, covenants, risk allocation, and financing plan. Use for infrastructure and ring-fenced project investments.",
+    "entity": "DDMF/DIM",
+    "risk_tier": "critical",
+    "human_approval": "Investment, finance, and legal authorities",
+    "dependencies": [],
+    "purpose": "Structures project cash flows, contracts, debt capacity, coverage ratios, reserves, security, covenants, risk allocation, and financing plan. Use for infrastructure and ring-fenced project investments."
+  },
+  {
+    "cluster": "07-ddmf-development-finance",
+    "name": "blended-finance-designer",
+    "description": "Combines commercial, public, development, concessional, guarantee, grant, and technical-assistance instruments while preserving additionality and avoiding hidden subsidy. Use when risk-return gaps block high-impact projects.",
+    "entity": "DDMF",
+    "risk_tier": "critical",
+    "human_approval": "DDMF investment authority",
+    "dependencies": [],
+    "purpose": "Combines commercial, public, development, concessional, guarantee, grant, and technical-assistance instruments while preserving additionality and avoiding hidden subsidy."
+  },
+  {
+    "cluster": "07-ddmf-development-finance",
+    "name": "ppp-risk-allocation",
+    "description": "Allocates construction, demand, tariff, land, regulatory, political, force-majeure, operating, financing, and residual-value risks to parties best able to manage them. Use for public-private partnership design and review.",
+    "entity": "DDMF",
+    "risk_tier": "critical",
+    "human_approval": "PPP contracting authority",
+    "dependencies": [],
+    "purpose": "Allocates construction, demand, tariff, land, regulatory, political, force-majeure, operating, financing, and residual-value risks to parties best able to manage them. Use for public-private partnership design and review."
+  },
+  {
+    "cluster": "07-ddmf-development-finance",
+    "name": "viability-gap-support-assessor",
+    "description": "Tests whether viability-gap support is necessary, proportionate, transparent, time-bound, competitively allocated, and linked to measurable public outcomes. Use when commercially weak but socially valuable projects seek support.",
+    "entity": "DDMF",
+    "risk_tier": "critical",
+    "human_approval": "Public funding authority",
+    "dependencies": [],
+    "purpose": "Tests whether viability-gap support is necessary, proportionate, transparent, time-bound, competitively allocated, and linked to measurable public outcomes."
+  },
+  {
+    "cluster": "07-ddmf-development-finance",
+    "name": "catalytic-capital-optimizer",
+    "description": "Determines the minimum, best-structured Danantara capital needed to unlock maximum external capital, capability, and development outcome. Use for anchor investments, first-loss layers, guarantees, and project-development facilities.",
+    "entity": "DDMF",
+    "risk_tier": "critical",
+    "human_approval": "DDMF investment authority",
+    "dependencies": [],
+    "purpose": "Determines the minimum, best-structured Danantara capital needed to unlock maximum external capital, capability, and development outcome. Use for anchor investments, first-loss layers, guarantees, and project-development facilities."
+  },
+  {
+    "cluster": "07-ddmf-development-finance",
+    "name": "multilateral-partner-matcher",
+    "description": "Matches projects with suitable multilateral, bilateral, development-finance, export-credit, philanthropic, and institutional partners based on instruments, mandate, geography, sector, standards, and knowledge contribution.",
+    "entity": "DDMF",
+    "risk_tier": "high",
+    "human_approval": "Partnership authority",
+    "dependencies": [],
+    "purpose": "Matches projects with suitable multilateral, bilateral, development-finance, export-credit, philanthropic, and institutional partners based on instruments, mandate, geography, sector, standards, and knowledge contribution."
+  },
+  {
+    "cluster": "07-ddmf-development-finance",
+    "name": "public-service-obligation-analyzer",
+    "description": "Separates commercial activities from public-service obligations, quantifies costs and outcomes, defines compensation mechanisms, and prevents cross-subsidy opacity. Use for infrastructure and essential-service projects.",
+    "entity": "DDMF/BPI",
+    "risk_tier": "critical",
+    "human_approval": "Mandated public authority",
+    "dependencies": [],
+    "purpose": "Separates commercial activities from public-service obligations, quantifies costs and outcomes, defines compensation mechanisms, and prevents cross-subsidy opacity. Use for infrastructure and essential-service projects."
+  },
+  {
+    "cluster": "07-ddmf-development-finance",
+    "name": "socioeconomic-multiplier-modeler",
+    "description": "Models direct, indirect, induced, regional, employment, productivity, tax, import, domestic-value, and distributional effects with transparent assumptions. Use to compare development pathways and validate claimed national impact.",
+    "entity": "DDMF/BPI",
+    "risk_tier": "high",
+    "human_approval": "Impact and economic authority",
+    "dependencies": [],
+    "purpose": "Models direct, indirect, induced, regional, employment, productivity, tax, import, domestic-value, and distributional effects with transparent assumptions. Use to compare development pathways and validate claimed national impact."
+  },
+  {
+    "cluster": "07-ddmf-development-finance",
+    "name": "project-delivery-monitor",
+    "description": "Monitors scope, schedule, cost, quality, permits, land, procurement, financing, contractors, safeguards, benefits, and critical-path risks. Use from development through commissioning and stabilization.",
+    "entity": "DDMF",
+    "risk_tier": "high",
+    "human_approval": "Project sponsor",
+    "dependencies": [],
+    "purpose": "Monitors scope, schedule, cost, quality, permits, land, procurement, financing, contractors, safeguards, benefits, and critical-path risks. Use from development through commissioning and stabilization."
+  },
+  {
+    "cluster": "07-ddmf-development-finance",
+    "name": "development-outcome-monitor",
+    "description": "Tracks whether funded projects deliver agreed return, service, resilience, employment, capability, inclusion, environmental, and capital-mobilization outcomes. Use after financial close and throughout operations.",
+    "entity": "DDMF",
+    "risk_tier": "high",
+    "human_approval": "DDMF impact owner",
+    "dependencies": [],
+    "purpose": "Tracks whether funded projects deliver agreed return, service, resilience, employment, capability, inclusion, environmental, and capital-mobilization outcomes. Use after financial close and throughout operations."
+  },
+  {
+    "cluster": "08-cross-functional",
+    "name": "enterprise-risk-aggregator",
+    "description": "Aggregates financial, investment, operational, strategic, legal, technology, ESG, reputation, concentration, and systemic risks across entities while preventing double counting. Use for enterprise risk reviews and escalation.",
+    "entity": "BPI/DAM/DIM/DDMF",
+    "risk_tier": "critical",
+    "human_approval": "Enterprise risk authority",
+    "dependencies": [],
+    "purpose": "Aggregates financial, investment, operational, strategic, legal, technology, ESG, reputation, concentration, and systemic risks across entities while preventing double counting. Use for enterprise risk reviews and escalation."
+  },
+  {
+    "cluster": "08-cross-functional",
+    "name": "scenario-stress-testing",
+    "description": "Designs coherent base, upside, downside, severe, and reverse-stress scenarios; quantifies impacts, breakpoints, management actions, and residual risk. Use for investments, portfolios, transformations, liquidity, and resilience decisions.",
+    "entity": "BPI/DAM/DIM/DDMF",
+    "risk_tier": "high",
+    "human_approval": "Risk and decision owner",
+    "dependencies": [],
+    "purpose": "Designs coherent base, upside, downside, severe, and reverse-stress scenarios; quantifies impacts, breakpoints, management actions, and residual risk. Use for investments, portfolios, transformations, liquidity, and resilience decisions."
+  },
+  {
+    "cluster": "08-cross-functional",
+    "name": "financial-model-validator",
+    "description": "Independently checks formulas, logic, inputs, circularity, units, scenarios, accounting consistency, outputs, controls, and documentation of financial models. Use before material reliance or approval.",
+    "entity": "DAM/DIM/DDMF",
+    "risk_tier": "critical",
+    "human_approval": "Independent model validation",
+    "dependencies": [],
+    "purpose": "Independently checks formulas, logic, inputs, circularity, units, scenarios, accounting consistency, outputs, controls, and documentation of financial models. Use before material reliance or approval."
+  },
+  {
+    "cluster": "08-cross-functional",
+    "name": "legal-sufficiency-checker",
+    "description": "Tests whether a proposal has adequate legal basis, authority, approvals, enforceability, documentation, rights, remedies, and compliance while distinguishing legal permissibility from strategic wisdom. Use before binding action.",
+    "entity": "BPI/DAM/DIM/DDMF",
+    "risk_tier": "critical",
+    "human_approval": "Legal authority",
+    "dependencies": [],
+    "purpose": "Tests whether a proposal has adequate legal basis, authority, approvals, enforceability, documentation, rights, remedies, and compliance while distinguishing legal permissibility from strategic wisdom. Use before binding action."
+  },
+  {
+    "cluster": "08-cross-functional",
+    "name": "governance-board-paper-reviewer",
+    "description": "Reviews board and committee papers for decision clarity, authority, evidence, alternatives, risks, conflicts, dissent, financial impact, conditions, and auditability. Use before circulation or meeting submission.",
+    "entity": "BPI/DAM/DIM/DDMF",
+    "risk_tier": "high",
+    "human_approval": "Company secretary/governance owner",
+    "dependencies": [],
+    "purpose": "Reviews board and committee papers for decision clarity, authority, evidence, alternatives, risks, conflicts, dissent, financial impact, conditions, and auditability. Use before circulation or meeting submission."
+  },
+  {
+    "cluster": "08-cross-functional",
+    "name": "procurement-commercial-strategy",
+    "description": "Designs sourcing, packaging, competition, evaluation, contracting, incentives, risk allocation, local capability, lifecycle cost, and supplier governance. Use for strategic procurement and major project contracting.",
+    "entity": "BPI/DAM/DIM/DDMF",
+    "risk_tier": "high",
+    "human_approval": "Procurement authority",
+    "dependencies": [],
+    "purpose": "Designs sourcing, packaging, competition, evaluation, contracting, incentives, risk allocation, local capability, lifecycle cost, and supplier governance. Use for strategic procurement and major project contracting."
+  },
+  {
+    "cluster": "08-cross-functional",
+    "name": "cybersecurity-by-design",
+    "description": "Defines security architecture, threat model, identity, access, encryption, monitoring, resilience, supply-chain security, incident response, and assurance from project inception. Use for digital platforms, AI, data, and critical infrastructure.",
+    "entity": "BPI/DAM/DIM/DDMF",
+    "risk_tier": "critical",
+    "human_approval": "CISO/security authority",
+    "dependencies": [],
+    "purpose": "Defines security architecture, threat model, identity, access, encryption, monitoring, resilience, supply-chain security, incident response, and assurance from project inception. Use for digital platforms, AI, data, and critical infrastructure."
+  },
+  {
+    "cluster": "08-cross-functional",
+    "name": "data-sovereignty-assessor",
+    "description": "Determines which data, models, cloud layers, cryptographic control, operational access, and intellectual property require national or enterprise control. Use for digital infrastructure, AI, cloud, data-sharing, and foreign partnerships.",
+    "entity": "BPI/DAM/DIM/DDMF",
+    "risk_tier": "critical",
+    "human_approval": "Data, security, and strategic authority",
+    "dependencies": [],
+    "purpose": "Determines which data, models, cloud layers, cryptographic control, operational access, and intellectual property require national or enterprise control. Use for digital infrastructure, AI, cloud, data-sharing, and foreign partnerships."
+  },
+  {
+    "cluster": "08-cross-functional",
+    "name": "technology-transfer-assessor",
+    "description": "Tests whether partnerships deliver enduring local know-how, IP access, engineering capability, supplier development, training, standards, and operating independence. Use for foreign investment, procurement, licensing, and joint ventures.",
+    "entity": "BPI/DAM/DIM/DDMF",
+    "risk_tier": "high",
+    "human_approval": "Technology/industrial authority",
+    "dependencies": [],
+    "purpose": "Tests whether partnerships deliver enduring local know-how, IP access, engineering capability, supplier development, training, standards, and operating independence. Use for foreign investment, procurement, licensing, and joint ventures."
+  },
+  {
+    "cluster": "08-cross-functional",
+    "name": "industrialization-hilirisasi-analyzer",
+    "description": "Assesses value-chain upgrading, domestic value added, technology depth, productivity, export competitiveness, resource security, ecosystem readiness, and environmental constraints. Use for industrialization and downstream-investment decisions.",
+    "entity": "BPI/DIM/DDMF",
+    "risk_tier": "high",
+    "human_approval": "Industrial strategy authority",
+    "dependencies": [],
+    "purpose": "Assesses value-chain upgrading, domestic value added, technology depth, productivity, export competitiveness, resource security, ecosystem readiness, and environmental constraints. Use for industrialization and downstream-investment decisions."
+  },
+  {
+    "cluster": "08-cross-functional",
+    "name": "selective-import-substitution-test",
+    "description": "Tests whether proposed import substitution is strategically critical, economically competitive, technologically feasible, time-bound, and superior to diversification or trade alternatives. Use before granting support or protection.",
+    "entity": "BPI/DIM/DDMF",
+    "risk_tier": "critical",
+    "human_approval": "Strategic and investment authority",
+    "dependencies": [],
+    "purpose": "Tests whether proposed import substitution is strategically critical, economically competitive, technologically feasible, time-bound, and superior to diversification or trade alternatives. Use before granting support or protection."
+  },
+  {
+    "cluster": "08-cross-functional",
+    "name": "national-champion-competitiveness",
+    "description": "Assesses whether scale, capabilities, economics, governance, innovation, and international market access can support global competitiveness without permanent protection. Use for consolidation, expansion, and national-champion strategies.",
+    "entity": "BPI/DAM/DIM",
+    "risk_tier": "high",
+    "human_approval": "Strategy and portfolio authority",
+    "dependencies": [],
+    "purpose": "Assesses whether scale, capabilities, economics, governance, innovation, and international market access can support global competitiveness without permanent protection. Use for consolidation, expansion, and national-champion strategies."
+  },
+  {
+    "cluster": "08-cross-functional",
+    "name": "job-quality-and-productivity-impact",
+    "description": "Measures direct and indirect jobs, wages, skills, formalization, safety, inclusion, productivity, durability, and displacement effects. Use when employment is a stated investment, transformation, or development outcome.",
+    "entity": "BPI/DAM/DIM/DDMF",
+    "risk_tier": "high",
+    "human_approval": "Impact owner",
+    "dependencies": [],
+    "purpose": "Measures direct and indirect jobs, wages, skills, formalization, safety, inclusion, productivity, durability, and displacement effects."
+  },
+  {
+    "cluster": "08-cross-functional",
+    "name": "stakeholder-communications-planner",
+    "description": "Maps stakeholders, interests, influence, concerns, disclosures, engagement sequence, messages, evidence, commitments, and escalation. Use for transactions, transformations, projects, incidents, partnerships, and public accountability.",
+    "entity": "BPI/DAM/DIM/DDMF",
+    "risk_tier": "high",
+    "human_approval": "Communications and decision owner",
+    "dependencies": [],
+    "purpose": "Maps stakeholders, interests, influence, concerns, disclosures, engagement sequence, messages, evidence, commitments, and escalation. Use for transactions, transformations, projects, incidents, partnerships, and public accountability."
+  },
+  {
+    "cluster": "09-sector-overlays",
+    "name": "energy-transition-sector-pack",
+    "description": "Provides sector-specific market, regulation, technology, grid, resource, contracting, financing, valuation, risk, ESG, and sovereignty analysis for renewable energy, storage, grids, and transition assets. Use with DAM, DIM, or DDMF workflows.",
+    "entity": "DAM/DIM/DDMF",
+    "risk_tier": "high",
+    "human_approval": "Sector and decision owner",
+    "dependencies": [],
+    "purpose": "Provides sector-specific market, regulation, technology, grid, resource, contracting, financing, valuation, risk, ESG, and sovereignty analysis for renewable energy, storage, grids, and transition assets. Use with DAM, DIM, or DDMF workflows."
+  },
+  {
+    "cluster": "09-sector-overlays",
+    "name": "upstream-energy-sector-pack",
+    "description": "Provides sector-specific subsurface, reserves, development, production, fiscal, commodity, decommissioning, emissions, partner, valuation, and geopolitical analysis for upstream energy. Use with DAM, DIM, or DDMF workflows.",
+    "entity": "DAM/DIM/DDMF",
+    "risk_tier": "high",
+    "human_approval": "Sector and decision owner",
+    "dependencies": [],
+    "purpose": "Provides sector-specific subsurface, reserves, development, production, fiscal, commodity, decommissioning, emissions, partner, valuation, and geopolitical analysis for upstream energy. Use with DAM, DIM, or DDMF workflows."
+  },
+  {
+    "cluster": "09-sector-overlays",
+    "name": "minerals-downstream-sector-pack",
+    "description": "Provides value-chain, resource, processing, technology, power, logistics, commodity, market, ESG, local-content, and competitiveness analysis for minerals and downstream industries. Use with DAM, DIM, or DDMF workflows.",
+    "entity": "DAM/DIM/DDMF",
+    "risk_tier": "high",
+    "human_approval": "Sector and decision owner",
+    "dependencies": [],
+    "purpose": "Provides value-chain, resource, processing, technology, power, logistics, commodity, market, ESG, local-content, and competitiveness analysis for minerals and downstream industries. Use with DAM, DIM, or DDMF workflows."
+  },
+  {
+    "cluster": "09-sector-overlays",
+    "name": "digital-infrastructure-sector-pack",
+    "description": "Provides market, demand, capacity, network, cloud, data-center, spectrum, cybersecurity, data-sovereignty, power, valuation, and technology analysis for digital infrastructure. Use with DAM, DIM, or DDMF workflows.",
+    "entity": "DAM/DIM/DDMF",
+    "risk_tier": "high",
+    "human_approval": "Sector and decision owner",
+    "dependencies": [],
+    "purpose": "Provides market, demand, capacity, network, cloud, data-center, spectrum, cybersecurity, data-sovereignty, power, valuation, and technology analysis for digital infrastructure. Use with DAM, DIM, or DDMF workflows."
+  },
+  {
+    "cluster": "09-sector-overlays",
+    "name": "infrastructure-utilities-sector-pack",
+    "description": "Provides demand, tariff, regulation, concession, service, asset-life, project-finance, resilience, procurement, and public-impact analysis for transport, water, waste, utilities, and critical infrastructure.",
+    "entity": "DAM/DIM/DDMF",
+    "risk_tier": "high",
+    "human_approval": "Sector and decision owner",
+    "dependencies": [],
+    "purpose": "Provides demand, tariff, regulation, concession, service, asset-life, project-finance, resilience, procurement, and public-impact analysis for transport, water, waste, utilities, and critical infrastructure."
+  },
+  {
+    "cluster": "09-sector-overlays",
+    "name": "financial-services-sector-pack",
+    "description": "Provides capital, liquidity, credit, market, insurance, payments, regulation, conduct, digital, inclusion, valuation, and systemic-risk analysis for financial-services assets and investments.",
+    "entity": "DAM/DIM",
+    "risk_tier": "high",
+    "human_approval": "Sector and decision owner",
+    "dependencies": [],
+    "purpose": "Provides capital, liquidity, credit, market, insurance, payments, regulation, conduct, digital, inclusion, valuation, and systemic-risk analysis for financial-services assets and investments."
+  },
+  {
+    "cluster": "09-sector-overlays",
+    "name": "food-agriculture-sector-pack",
+    "description": "Provides value-chain, yield, climate, input, logistics, storage, processing, trade, price, farmer, land, water, food-security, and technology analysis for food and agriculture investments.",
+    "entity": "DAM/DIM/DDMF",
+    "risk_tier": "high",
+    "human_approval": "Sector and decision owner",
+    "dependencies": [],
+    "purpose": "Provides value-chain, yield, climate, input, logistics, storage, processing, trade, price, farmer, land, water, food-security, and technology analysis for food and agriculture investments."
+  },
+  {
+    "cluster": "09-sector-overlays",
+    "name": "healthcare-sector-pack",
+    "description": "Provides demand, outcomes, capacity, reimbursement, regulation, quality, workforce, supply chain, technology, affordability, data, and public-health analysis for healthcare investments.",
+    "entity": "DAM/DIM/DDMF",
+    "risk_tier": "high",
+    "human_approval": "Sector and decision owner",
+    "dependencies": [],
+    "purpose": "Provides demand, outcomes, capacity, reimbursement, regulation, quality, workforce, supply chain, technology, affordability, data, and public-health analysis for healthcare investments."
+  },
+  {
+    "cluster": "09-sector-overlays",
+    "name": "real-estate-sez-sector-pack",
+    "description": "Provides land, planning, demand, absorption, infrastructure, tenant, anchor, financing, valuation, governance, environmental, and economic-cluster analysis for real estate and special economic zones.",
+    "entity": "DAM/DIM/DDMF",
+    "risk_tier": "high",
+    "human_approval": "Sector and decision owner",
+    "dependencies": [],
+    "purpose": "Provides land, planning, demand, absorption, infrastructure, tenant, anchor, financing, valuation, governance, environmental, and economic-cluster analysis for real estate and special economic zones."
+  },
+  {
+    "cluster": "10-assurance-evaluation",
+    "name": "decision-quality-gate",
+    "description": "Applies mandatory commercial, strategic, governance, impact, execution, evidence, downside, authority, long-term, and auditability tests before a material recommendation proceeds. Use as the final pre-decision assurance gate.",
+    "entity": "BPI/DAM/DIM/DDMF",
+    "risk_tier": "critical",
+    "human_approval": "Independent assurance and decision authority",
+    "dependencies": [],
+    "purpose": "Applies mandatory commercial, strategic, governance, impact, execution, evidence, downside, authority, long-term, and auditability tests before a material recommendation proceeds. Use as the final pre-decision assurance gate."
+  },
+  {
+    "cluster": "10-assurance-evaluation",
+    "name": "evidence-citation-auditor",
+    "description": "Verifies that material claims are supported by authoritative, current, traceable sources and that quotations, calculations, and interpretations accurately represent the evidence. Use before formal decision or publication.",
+    "entity": "BPI/DAM/DIM/DDMF",
+    "risk_tier": "high",
+    "human_approval": "Independent reviewer",
+    "dependencies": [],
+    "purpose": "Verifies that material claims are supported by authoritative, current, traceable sources and that quotations, calculations, and interpretations accurately represent the evidence. Use before formal decision or publication."
+  },
+  {
+    "cluster": "10-assurance-evaluation",
+    "name": "model-risk-validator",
+    "description": "Assesses model purpose, methodology, data, assumptions, limitations, calibration, sensitivity, governance, reproducibility, and misuse risk. Use for financial, economic, risk, forecasting, scoring, and AI models.",
+    "entity": "BPI/DAM/DIM/DDMF",
+    "risk_tier": "critical",
+    "human_approval": "Independent model-risk authority",
+    "dependencies": [],
+    "purpose": "Assesses model purpose, methodology, data, assumptions, limitations, calibration, sensitivity, governance, reproducibility, and misuse risk. Use for financial, economic, risk, forecasting, scoring, and AI models."
+  },
+  {
+    "cluster": "10-assurance-evaluation",
+    "name": "bias-and-independence-review",
+    "description": "Tests anchoring, confirmation, political, sponsor, sunk-cost, optimism, groupthink, selection, and model biases; checks reviewer independence and dissent quality. Use before material decisions and exception approvals.",
+    "entity": "BPI/DAM/DIM/DDMF",
+    "risk_tier": "critical",
+    "human_approval": "Independent review owner",
+    "dependencies": [],
+    "purpose": "Tests anchoring, confirmation, political, sponsor, sunk-cost, optimism, groupthink, selection, and model biases; checks reviewer independence and dissent quality. Use before material decisions and exception approvals."
+  },
+  {
+    "cluster": "10-assurance-evaluation",
+    "name": "compliance-policy-checker",
+    "description": "Checks outputs and proposed actions against applicable law, policy, delegations, standards, covenants, approvals, and control requirements; records exceptions and owners. Use before execution or formal submission.",
+    "entity": "BPI/DAM/DIM/DDMF",
+    "risk_tier": "critical",
+    "human_approval": "Compliance/legal owner",
+    "dependencies": [],
+    "purpose": "Checks outputs and proposed actions against applicable law, policy, delegations, standards, covenants, approvals, and control requirements; records exceptions and owners. Use before execution or formal submission."
+  },
+  {
+    "cluster": "10-assurance-evaluation",
+    "name": "confidentiality-leakage-check",
+    "description": "Tests documents, prompts, outputs, tools, recipients, metadata, and attachments for unauthorized disclosure of strategic, market-sensitive, personal, contractual, or national-interest information. Use before sharing or publication.",
+    "entity": "BPI/DAM/DIM/DDMF",
+    "risk_tier": "critical",
+    "human_approval": "Information-security owner",
+    "dependencies": [],
+    "purpose": "Tests documents, prompts, outputs, tools, recipients, metadata, and attachments for unauthorized disclosure of strategic, market-sensitive, personal, contractual, or national-interest information. Use before sharing or publication."
+  },
+  {
+    "cluster": "10-assurance-evaluation",
+    "name": "audit-trail-packager",
+    "description": "Packages request, evidence, versions, analysis, assumptions, tool actions, challenges, approvals, decisions, conditions, and follow-up into a tamper-evident audit record. Use at every material workflow milestone.",
+    "entity": "BPI/DAM/DIM/DDMF",
+    "risk_tier": "high",
+    "human_approval": "Records and audit owner",
+    "dependencies": [],
+    "purpose": "Packages request, evidence, versions, analysis, assumptions, tool actions, challenges, approvals, decisions, conditions, and follow-up into a tamper-evident audit record. Use at every material workflow milestone."
+  },
+  {
+    "cluster": "10-assurance-evaluation",
+    "name": "post-decision-learning",
+    "description": "Compares expected and actual outcomes, identifies thesis or execution errors, captures lessons, updates controls, and assigns corrective actions. Use after milestones, exits, incidents, restructurings, and material decisions.",
+    "entity": "BPI/DAM/DIM/DDMF",
+    "risk_tier": "high",
+    "human_approval": "Decision owner and assurance",
+    "dependencies": [],
+    "purpose": "Compares expected and actual outcomes, identifies thesis or execution errors, captures lessons, updates controls, and assigns corrective actions. Use after milestones, exits, incidents, restructurings, and material decisions."
+  },
+  {
+    "cluster": "10-assurance-evaluation",
+    "name": "skill-evaluation-runner",
+    "description": "Runs schema, trigger, non-trigger, functional, golden-case, adversarial, safety, governance, and regression evaluations for Claude Skills. Use before release, after changes, and on a defined monitoring cycle.",
+    "entity": "BPI",
+    "risk_tier": "high",
+    "human_approval": "AI assurance owner",
+    "dependencies": [],
+    "purpose": "Runs schema, trigger, non-trigger, functional, golden-case, adversarial, safety, governance, and regression evaluations for Claude Skills. Use before release, after changes, and on a defined monitoring cycle."
+  },
+  {
+    "cluster": "10-assurance-evaluation",
+    "name": "skill-lifecycle-governor",
+    "description": "Controls skill ownership, approval, versioning, dependencies, release, monitoring, incidents, retraining references, deprecation, archival, and periodic recertification. Use for enterprise management of the Danantara skill estate.",
+    "entity": "BPI",
+    "risk_tier": "critical",
+    "human_approval": "AI Governance Committee",
+    "dependencies": [],
+    "purpose": "Controls skill ownership, approval, versioning, dependencies, release, monitoring, incidents, retraining references, deprecation, archival, and periodic recertification. Use for enterprise management of the Danantara skill estate."
+  }
+]

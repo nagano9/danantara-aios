@@ -1,0 +1,6 @@
+﻿from_skill,depends_on
+decision-rights-checker,mandate-authority-interpreter
+danantara-master-orchestrator,danantara-ai-constitution
+danantara-master-orchestrator,danantara-way-governance
+danantara-master-orchestrator,intent-and-entity-router
+danantara-master-orchestrator,decision-quality-gate
