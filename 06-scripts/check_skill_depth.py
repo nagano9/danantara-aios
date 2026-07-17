@@ -34,8 +34,8 @@ SKILLS_ROOT = ROOT / "04-skills"
 # Raise as skills are deepened. Lowering one to go green is the failure this
 # script exists to make visible.
 MIN_SKILLS_WITH_OWN_WORKFLOW = 10
-MIN_SKILLS_WITH_VERDICT_VOCAB = 6
-MIN_SKILLS_WITH_FAILURE_MODES = 6
+MIN_SKILLS_WITH_VERDICT_VOCAB = 7
+MIN_SKILLS_WITH_FAILURE_MODES = 7
 
 # A skill declares a verdict vocabulary by naming mutually exclusive outcomes,
 # one of which declines to answer or halts. Two detection routes, because the
