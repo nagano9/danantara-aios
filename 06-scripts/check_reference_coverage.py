@@ -23,8 +23,8 @@ SKILLS_ROOT = ROOT / "04-skills"
 
 # Raise these as skills are deepened. Lowering one to go green is the exact
 # failure this script exists to make visible.
-MIN_SKILLS_WITH_REFERENCES = 3
-MIN_SKILLS_WITH_REAL_TRIGGERS = 3
+MIN_SKILLS_WITH_REFERENCES = 4
+MIN_SKILLS_WITH_REAL_TRIGGERS = 4
 
 PLACEHOLDER_REF_MARKER = "Add only approved, versioned, authoritative references."
 PLACEHOLDER_TRIGGER_MARKER = "to support a material Danantara decision."

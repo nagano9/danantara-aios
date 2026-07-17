@@ -34,13 +34,27 @@ SKILLS_ROOT = ROOT / "04-skills"
 # Raise as skills are deepened. Lowering one to go green is the failure this
 # script exists to make visible.
 MIN_SKILLS_WITH_OWN_WORKFLOW = 8
-MIN_SKILLS_WITH_VERDICT_VOCAB = 3
-MIN_SKILLS_WITH_FAILURE_MODES = 3
+MIN_SKILLS_WITH_VERDICT_VOCAB = 4
+MIN_SKILLS_WITH_FAILURE_MODES = 4
 
 # A skill declares a verdict vocabulary by naming mutually exclusive outcomes,
-# one of which admits it cannot answer. Matching the honest-uncertainty verdict
-# is the reliable signal: templates never contain it.
-VERDICT_MARKERS = ("indeterminate", "not fit", "outside mandate")
+# one of which declines to answer or halts. Two detection routes, because the
+# first version of this check assumed every vocabulary looks like
+# `indeterminate` and therefore missed danantara-master-orchestrator, whose
+# verdicts are dispatch / stop / escalate before proceeding. The heuristic
+# encoded one skill's idiom as if it were the general rule.
+#
+#   1. an explicit `## Verdicts` section — the unambiguous signal;
+#   2. a declining verdict named in prose — for skills that state it inline.
+#
+# Templates contain neither.
+VERDICT_SECTION = "Verdicts"
+VERDICT_MARKERS = (
+    "indeterminate",
+    "not fit",
+    "outside mandate",
+    "escalate before proceeding",
+)
 
 FAILURE_MODE_MARKERS = ("failure mode", "how this skill gets fooled", "gets fooled")
 
@@ -80,7 +94,7 @@ for path in skills:
         objective_copies.append(name)
 
     low = text.lower()
-    if any(m in low for m in VERDICT_MARKERS):
+    if section(text, VERDICT_SECTION) or any(m in low for m in VERDICT_MARKERS):
         with_verdict.append(name)
     if any(m in low for m in FAILURE_MODE_MARKERS):
         with_failure_modes.append(name)
