@@ -1,0 +1,52 @@
+name: validate
+
+# The validators existed since the first commit but had never run automatically,
+# so "PASS: 133 skills" was a claim someone had to remember to check by hand.
+# This makes it a gate.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Both validators are stdlib-only by design. If this step ever needs a
+      # requirements file, that is a decision to make deliberately, not a
+      # dependency to add by reflex.
+      - name: Show environment
+        run: python --version
+
+      # Guards the repository structure: no gitlinks, no committed archives,
+      # no CRLF in the index, and all 133 skills still tracked.
+      - name: Repository hygiene
+        run: python 06-scripts/check_repo_hygiene.py
+
+      # Guards each skill: frontmatter schema, name/directory match, description
+      # length, risk tier, required governance headings, registry agreement, and
+      # an explicit human-authority boundary.
+      - name: Skill schema, registry, and governance
+        run: python 06-scripts/validate_skills.py
+
+      # Guards doctrine vocabulary: flags restricted phrasing used outside an
+      # explicit prohibition context. Exits 2 on findings.
+      - name: Restricted vocabulary
+        run: python 06-scripts/lint_vocabulary.py
