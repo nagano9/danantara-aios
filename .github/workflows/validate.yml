@@ -50,3 +50,17 @@ jobs:
       # explicit prohibition context. Exits 2 on findings.
       - name: Restricted vocabulary
         run: python 06-scripts/lint_vocabulary.py
+
+      # Ratchet, not a gate. Most skills are still generated placeholders, so
+      # failing on that would block all work. Fails only if a skill that has
+      # been given real references or real trigger cases reverts to a stub.
+      - name: Reference and trigger coverage
+        run: python 06-scripts/check_reference_coverage.py
+
+      # Ratchet. Enforces the mechanically checkable subset of the Elite Skill
+      # Standard (03-templates/ELITE_SKILL_STANDARD.md): workflow uniqueness,
+      # Objective != description, verdict vocabulary, named failure modes.
+      # It measures regression, not quality — it cannot judge whether a test
+      # discriminates or a method is correct.
+      - name: Skill depth
+        run: python 06-scripts/check_skill_depth.py

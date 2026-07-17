@@ -25,6 +25,21 @@ desktop.ini
 *.zip
 *.tar.gz
 
+# Actual Condition Input Workbook, and any filled intake instrument.
+#
+# The workbook's own 99_LOOKUPS classification list offers Confidential,
+# Market-Sensitive, and Sovereign-Sensitive. A filled workbook may carry all
+# three. This repository has no classification boundary, so it is not a lawful
+# home for that content — ingest it from outside via
+# 06-scripts/ingest_actual_condition.py, which refuses a workbook found inside
+# the repo.
+*.xlsx
+*.xlsm
+
+# Derived from the workbook. Regenerate with ingest_actual_condition.py rather
+# than committing a snapshot that silently goes stale against the source.
+08-sources/tier2_index.json
+
 # Local scratch
 scratch/
 tmp/
