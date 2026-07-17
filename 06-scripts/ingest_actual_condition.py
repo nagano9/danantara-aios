@@ -87,6 +87,27 @@ TIER2_SHEETS = {
 
 EMPTY = {"", "0", "none", "tbd", "n/a", "-"}
 
+# Open change requests against the workbook, checked on every ingest so they
+# cannot quietly lapse. See 08-sources/WORKBOOK_CHANGE_REQUEST.md.
+CHANGE_REQUESTS = [
+    {
+        "id": "CR-001",
+        "sheet": "20_DECISION_LOG",
+        "columns": [
+            "Predicted Outcome / Falsification Trigger",
+            "Prediction Verdict",
+        ],
+        "blocks": "decision-quality-gate, post-decision-learning",
+        "why": (
+            "decision-quality-gate requires a recorded prediction before PASS, and "
+            "post-decision-learning can only settle one recorded BEFORE the "
+            "decision. Without these columns the gate correctly RETURNs every "
+            "material decision, and every decision is permanently `unlearnable`. "
+            "Key Assumptions is a belief, not a scoreable claim."
+        ),
+    },
+]
+
 
 def is_blank(v) -> bool:
     return v is None or str(v).strip().lower() in EMPTY
@@ -219,6 +240,30 @@ def main():
     print("            own ATURAN EVIDENCE this is a claim, not a source. A skill")
     print("            relying on it would invent authority with extra steps.")
     print("EMPTY     = not yet filled. Honest and expected.")
+
+    # --- open change requests -------------------------------------------------
+    print()
+    print("=" * 56)
+    print("OPEN CHANGE REQUESTS (08-sources/WORKBOOK_CHANGE_REQUEST.md)")
+    print("=" * 56)
+    open_crs = 0
+    for cr in CHANGE_REQUESTS:
+        sheet = cr["sheet"]
+        if sheet not in wb.sheetnames:
+            print(f"{cr['id']}  SHEET MISSING: {sheet}")
+            open_crs += 1
+            continue
+        headers, _ = read_sheet(wb[sheet])
+        missing = [c for c in cr["columns"] if c not in headers]
+        if missing:
+            open_crs += 1
+            print(f"{cr['id']}  OPEN — {sheet} is missing:")
+            for c in missing:
+                print(f"           - {c}")
+            print(f"           blocks: {cr['blocks']}")
+            print(f"           why   : {cr['why']}")
+        else:
+            print(f"{cr['id']}  CLOSED — {sheet} carries all required columns.")
 
     args.out.parent.mkdir(parents=True, exist_ok=True)
     args.out.write_text(json.dumps(index, indent=2, ensure_ascii=False), encoding="utf-8")
