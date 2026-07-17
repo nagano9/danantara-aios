@@ -72,10 +72,27 @@ and what it would decide.
    Keppres 30/2025 (appointments). Cite base **and** amendment, never the base
    alone.
 2. **Effective Danantara and entity policies, delegations, charters, standards.**
-   **Currently unavailable.** The delegation matrix, DIM Investment Committee
-   charter, and investment policy statement do not exist in this repository. Any
-   question that depends on them escalates. See `08-sources/SOURCE_REGISTER.md`
-   Tier 2.
+   Supplied by the **Actual Condition Input Workbook**, ingested via
+   `06-scripts/ingest_actual_condition.py`. Cite workbook IDs the way Tier 1
+   instruments are cited — with clause and effective date:
+
+   | Question | Workbook source |
+   |---|---|
+   | May DIM decide this alone, and at what size? | `05_DECISION_RIGHTS_DOA` → `DOA-xx` (`Financial / Risk Threshold`, `Approver`, `Risk Bearer`) |
+   | Which forum, quorum, threshold? | `06_COMMITTEE_CHARTERS` → `COM-xx` |
+   | Which policy governs, and is it current? | `07_POLICY_REGULATION` → `POL-xx` (`Effective Date`) |
+   | Entity mandate and boundary | `02_ENTITAS_MANDAT` → `ENT-xx` (`Legal Basis`, `Authority Boundary`) |
+   | Who is accountable | `15_SKILL_RACI` → `Business Accountable (A)`, `Human Approver` |
+
+   **A workbook row is a source only if it carries `DoA / Legal Document` +
+   `Clause / Page` + `Effective Date`.** A row with an approver and a threshold
+   but no clause and no date is a *claim about* a delegation. Relying on it is
+   inventing authority with extra steps. The ingest script marks such rows
+   `UNSOURCED` and does not promote them; treat them as absent.
+
+   **Status as of 2026-07-16: Tier 2 is empty.** Every DOA/COM/POL row is
+   unfilled, so most real questions resolve to `indeterminate`. See
+   `08-sources/SOURCE_REGISTER.md` Tier 2.
 3. Audited or owner-certified internal data and primary transaction documents.
 4. Independent external evidence. Note: `danantaraindonesia.co.id` is **Tier 4
    corporate self-description**, outranked by Tier 1 on every point of authority.
@@ -127,6 +144,37 @@ gap at step 3 is not repaired by strength at step 4.
   subsidy; do not hide trade-offs.
 - State assumptions, confidence, data gaps, dissent, and unresolved tensions
   explicitly.
+
+## Failure modes
+How this skill produces a confidently wrong answer. The middle column is the
+load-bearing one: skills fail under *pressure*, not from ignorance.
+
+| Failure | The pressure that causes it | Correct behaviour |
+|---|---|---|
+| **Inferring a threshold** | The charter is missing, the IC is tomorrow, and a number is needed to finish | Escalate. Name `DOA-xx` and its owner. A plausible invented threshold is worse than an absent one: it is wrong **and** unchallenged. |
+| **Citing UU 1/2025 alone** | It is the founding text and the famous one | Cite `UU 1/2025 jo. UU 16/2025`. The base text is not the operative text. |
+| **Accepting a workbook row without clause or date** | The cell is filled, so it looks like evidence | An answer without `Clause / Page` + `Effective Date` is a claim about a delegation. Treat as absent. |
+| **Reading a strategic label as mandate** | Political framing arrives with urgency and seniority | A label is a conclusion requiring an instrument, not a substitute for one. |
+| **Accepting informal direction** | It comes from someone senior, credible, and in a hurry | Pasal 3E delegates to the Badan through its organs. Verbal direction is not an instrument. |
+| **Treating silence as permission** | Nothing prohibits it, and the deal is attractive | A delegate cannot enlarge its own delegation. Absence of prohibition is not a grant. |
+| **Inferring control from equity %** | It is the ordinary commercial reflex | Series A Dwiwarna special rights (UU 16/2025) may sit above ordinary economics. Verify separately. |
+| **Answering `within mandate` on Tier 1 alone** | Tier 1 is present and Tier 2 is not, so Tier 1 is what's available | Tier 1 establishes what *the Badan* may do; only Tier 2 establishes what *DIM* may do without escalation. The honest verdict is `indeterminate`. |
+
+## Falsification hooks
+State up front what would change the verdict. This makes the determination cheap
+to overturn with **evidence** and expensive to overturn with **pressure** — which
+is the whole purpose of the kernel.
+
+Every `indeterminate` verdict must name its own flip condition:
+
+- *"This becomes `within mandate` when `DOA-04` supplies a threshold at or above
+  the ticket size, with `Clause / Page` and an `Effective Date` after 6 Oct 2025,
+  and the approver is not barred by the concurrent-position prohibition."*
+- *"This becomes `outside mandate` if the action cannot be located within
+  *increasing and optimizing BUMN investment and operations and other sources of
+  funds* (Pasal 3E)."*
+
+A verdict with no stated flip condition is not a determination. It is an opinion.
 
 ## Output contract
 Primary output: **a mandate determination** —

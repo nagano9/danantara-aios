@@ -69,6 +69,20 @@ for path in tracked:
             f"    GitHub Release. Do not commit an archive of this tree into it."
         )
 
+# --- 2b. No classified intake workbook committed ------------------------------
+# The Actual Condition Input Workbook may carry Confidential, Market-Sensitive,
+# or Sovereign-Sensitive content (its own 99_LOOKUPS offers all three). This
+# repository has no classification boundary. .gitignore covers the accident;
+# this covers `git add -f` and anything that slips past it.
+for path in tracked:
+    if path.lower().endswith((".xlsx", ".xlsm")):
+        errors.append(
+            f"spreadsheet committed: {path}\n"
+            f"    A filled intake workbook may be Sovereign-Sensitive and this repo\n"
+            f"    has no classification boundary. Keep it outside and ingest via\n"
+            f"    06-scripts/ingest_actual_condition.py."
+        )
+
 # --- 3. No unreviewably large files ------------------------------------------
 for path in tracked:
     fp = ROOT / path

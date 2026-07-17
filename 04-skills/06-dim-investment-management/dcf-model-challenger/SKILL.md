@@ -143,6 +143,32 @@ model with a circular reference is wasted effort.
 - State assumptions, confidence, data gaps, dissent, and unresolved tensions
   explicitly.
 
+## Failure modes
+How this skill produces a confidently wrong answer. The middle column is the
+load-bearing one: challenges fail under *pressure*, not from ignorance.
+
+| Failure | The pressure that causes it | Correct behaviour |
+|---|---|---|
+| **Challenging inputs before structure** | WACC is where the argument is, so that is where attention goes | A hardcode or circularity makes every input debate moot. Structure first, always. |
+| **Accepting the model's own TV framing** | The model presents a value; TV share is not on the page | Compute TV/EV yourself and say it. Above ~75% the perpetuity assumption *is* the decision. |
+| **Finding nothing** | The model is polished and the team is credible | A challenge that finds nothing was almost certainly run at the wrong altitude. Polish is not evidence. |
+| **Letting national consequence into WACC or g** | It is the sanctioned vocabulary, and it makes the deal work | This is the opaque single score every skill here prohibits, made invisible. Extract it; hand it to `dual-mandate-balancer`. |
+| **Accepting a sensitivity table as downside** | It exists, it has a low case, and it is already built | Sensitivity moves one variable while holding correlated ones fixed — precisely the correlation that hurts. Require a mechanism. |
+| **Treating a carried-over WACC as evidence** | It was used on the last deal and nobody objected | An unexamined assumption with a history is still an unexamined assumption. |
+| **Softening under authorship pressure** | The model's author is senior, or is in the room | Record the change, who requested it, and the direction it moved the answer. Escalate if a downside is weakened. |
+| **Inventing a hurdle rate** | The valuation policy is missing and a pass/fail is expected | No Danantara valuation standard exists (`SOURCE_REGISTER` Tier 2 empty). Say the protocol is being applied in its absence; escalate for the standard. |
+
+## Falsification hooks
+State up front what would change the verdict.
+
+- *"`not fit` flips to `fit with conditions` if terminal capex/D&A is defended at
+  g = 3%, and the country risk premium is removed from either the rate or the
+  cash flows — not both."*
+- *"`fit` flips to `not fit` if TV/EV exceeds 75% and the perpetuity growth
+  anchor cannot be sourced to long-run nominal GDP."*
+- *"Any verdict is void if the live model is withheld: a PDF of outputs is
+  unauditable."*
+
 ## Output contract
 Primary output: **a challenge finding**, never a re-run model —
 
