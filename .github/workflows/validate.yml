@@ -50,3 +50,9 @@ jobs:
       # explicit prohibition context. Exits 2 on findings.
       - name: Restricted vocabulary
         run: python 06-scripts/lint_vocabulary.py
+
+      # Ratchet, not a gate. Most skills are still generated placeholders, so
+      # failing on that would block all work. Fails only if a skill that has
+      # been given real references or real trigger cases reverts to a stub.
+      - name: Reference and trigger coverage
+        run: python 06-scripts/check_reference_coverage.py
