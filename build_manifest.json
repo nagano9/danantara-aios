@@ -4,7 +4,7 @@
   "generated": "2026-07-20",
   "skill_count": 133,
   "cluster_count": 10,
-  "file_count_excluding_manifest": 465,
+  "file_count_excluding_manifest": 467,
   "files": [
     {
       "path": "00-blueprint/ARCHITECTURE.mmd",
@@ -2153,8 +2153,8 @@
     },
     {
       "path": "06-scripts/bootstrap_tier2_source_pack.py",
-      "size_bytes": 27273,
-      "sha256": "06067c0d0db5d930e0af40cc1e34ec38265e328e0d1a8242ee2502a6933b38b6"
+      "size_bytes": 27584,
+      "sha256": "e93352e8bacc08d665eabe650702ac9918561699115aaa037b21ad9d959ed8e3"
     },
     {
       "path": "06-scripts/check_reference_coverage.py",
@@ -2173,8 +2173,8 @@
     },
     {
       "path": "06-scripts/check_tier2_source_pack.py",
-      "size_bytes": 4679,
-      "sha256": "246ad0377a11f36eb6e8af2ff94e4713a52a71053b7daf8c8aa8cdbaa319e209"
+      "size_bytes": 5091,
+      "sha256": "14932b0f12379a95bd8896310a314d6a2c335390a0a10fd3f3648442108e9d8b"
     },
     {
       "path": "06-scripts/ingest_actual_condition.py",
@@ -2185,6 +2185,11 @@
       "path": "06-scripts/lint_vocabulary.py",
       "size_bytes": 1341,
       "sha256": "7b3a6984e990a0d713e235783b5768acc6cbb683f2634f6de0624f7a9d2f227b"
+    },
+    {
+      "path": "06-scripts/report_source_layer_audit.py",
+      "size_bytes": 8150,
+      "sha256": "f7b029dc36d94e2311bf22cf696bba686ea1fbbbb619bc93df929a40ca410456"
     },
     {
       "path": "06-scripts/report_tier2_status.py",
@@ -2213,8 +2218,13 @@
     },
     {
       "path": "08-sources/README.md",
-      "size_bytes": 1510,
-      "sha256": "a4aa1624c936159cb433c918a2a85af263316b3c7d4ebba3ae609a10bff185ec"
+      "size_bytes": 1734,
+      "sha256": "02bf96c597203829c2bdceea52dd65f99fd3e7e7194c746c1ea2ff8b6fae759e"
+    },
+    {
+      "path": "08-sources/SOURCE_LAYER_AUDIT.md",
+      "size_bytes": 1372,
+      "sha256": "81a94117227541c1359fa7897fdb053b78f446c51f8e217fddcabfef2d77d81d"
     },
     {
       "path": "08-sources/SOURCE_REGISTER.md",
@@ -2233,8 +2243,8 @@
     },
     {
       "path": "08-sources/TIER2_STATUS.md",
-      "size_bytes": 1002,
-      "sha256": "81a2ef2c731ecbdc3798b1bc7086023432e393417816bcdca398dc9c8c437039"
+      "size_bytes": 1040,
+      "sha256": "aec4cfc4482b775e7061a404a1b98099e4e440da1bf8fbedaf7eb32baa47a861"
     },
     {
       "path": "08-sources/WORKBOOK_CHANGE_REQUEST.md",
