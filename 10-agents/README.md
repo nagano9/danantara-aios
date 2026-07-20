@@ -32,11 +32,12 @@ See the official references:
 
 1. `danantara-master-orchestrator`
 2. `source-layer-curator`
-3. `repo-audit-gate`
+3. `source-layer-enrichment`
+4. `repo-audit-gate`
 
-These three give the repo a practical operating loop:
+These four give the repo a practical operating loop:
 
-`master orchestrator -> source curator -> audit gate`
+`master orchestrator -> source curator -> enrichment -> audit gate`
 
 ## Workflow
 
@@ -50,6 +51,8 @@ run with [`python/run_repo_agent_workflow.py`](./python/run_repo_agent_workflow.
   in `02-orchestration/` to decide the right path for a task.
 - `source-layer-curator` keeps `08-sources/`, `01-registry/`, and `09-roadmap/`
   aligned when source material or backlog items change.
+- `source-layer-enrichment` converts source-layer findings into a concrete
+  enrichment plan artifact.
 - `repo-audit-gate` checks consistency across the source layer, backlog,
   roadmap, and build manifest.
 

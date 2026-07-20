@@ -57,13 +57,14 @@ themselves.
 Recommended first agents:
 - `danantara-master-orchestrator`
 - `source-layer-curator`
+- `source-layer-enrichment`
 - `repo-audit-gate`
 
 Recommended orchestration pattern:
-`danantara-master-orchestrator` -> `source-layer-curator` -> `repo-audit-gate`
+`danantara-master-orchestrator` -> `source-layer-curator` -> `source-layer-enrichment` -> `repo-audit-gate`
 
 First workflow:
-`repo-agent-loop` stitches the three agents together with the repo audit and
+`repo-agent-loop` stitches the four agents together with the repo audit and
 repo hygiene scripts as supporting functions.
 
 ## Production prerequisites

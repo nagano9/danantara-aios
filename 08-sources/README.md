@@ -12,6 +12,8 @@ implementation backlog, and the Tier 2 source-pack workspace.
 - `TIER2_FILL_PLAYBOOK.md` - the operating playbook for promoting placeholders
 - `TIER2_STATUS.md` - current status snapshot for the Tier 2 working area
 - `SOURCE_LAYER_AUDIT.md` - cross-artifact consistency audit for the source layer
+- `SOURCE_LAYER_ENRICHMENT_PLAN.md` - tracked enrichment plan generated from
+  source-layer findings
 - `tier2/` - working folder for Tier 2 source documents
 - `tier2/INDEX.md` - working index for Tier 2 placeholders
 - `tier2/TIER2_SOURCE_TEMPLATE.md` - standard template for future authenticated sources
@@ -28,6 +30,9 @@ implementation backlog, and the Tier 2 source-pack workspace.
   roadmap, backlog, and Tier 2 status into a single audit view.
 - `06-scripts/report_tier2_status.py` prints a quick status summary for the
   Tier 2 working area.
+- `10-agents/python/danantara_agents.py` can generate
+  `SOURCE_LAYER_ENRICHMENT_PLAN.md` from the current audit, backlog, and
+  roadmap state.
 
 ## Priority
 

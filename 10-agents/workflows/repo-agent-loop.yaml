@@ -46,6 +46,28 @@ actions:
       messages: Local.CurationMessages
       autoSend: false
 
+  - kind: InvokeAzureAgent
+    id: enrich_sources
+    displayName: Enrich source layer
+    agent:
+      name: SourceLayerEnrichment
+    input:
+      messages: =UserMessage(Concat("Produce an enrichment plan for this repo task: ", Local.request, ". Focus: ", Local.focus))
+    output:
+      responseObject: Local.EnrichmentDecision
+      messages: Local.EnrichmentMessages
+      autoSend: false
+
+  - kind: InvokeFunctionTool
+    id: generate_enrichment_plan
+    displayName: Generate enrichment plan
+    functionName: generate_source_layer_enrichment_plan
+    arguments:
+      focus: =Local.focus
+    output:
+      result: Local.EnrichmentPlan
+      autoSend: false
+
   - kind: InvokeFunctionTool
     id: run_source_audit
     displayName: Run source-layer audit
@@ -87,6 +109,12 @@ actions:
     value: =Local.CurationDecision
 
   - kind: SetVariable
+    id: set_enrichment_output
+    displayName: Store enrichment decision
+    variable: Workflow.Outputs.enrichment
+    value: =Local.EnrichmentDecision
+
+  - kind: SetVariable
     id: set_audit_output
     displayName: Store audit report
     variable: Workflow.Outputs.audit
@@ -103,3 +131,9 @@ actions:
     displayName: Store audit gate decision
     variable: Workflow.Outputs.audit_gate
     value: =Local.AuditDecision
+
+  - kind: SetVariable
+    id: set_plan_output
+    displayName: Store enrichment plan
+    variable: Workflow.Outputs.enrichment_plan
+    value: =Local.EnrichmentPlan
