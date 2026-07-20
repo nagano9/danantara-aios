@@ -9,6 +9,7 @@ implementation backlog, and the Tier 2 source-pack workspace.
 - `WORKBOOK_CHANGE_REQUEST.md` - open workbook change request CR-001
 - `19_IMPLEMENTATION_BACKLOG.md` - sink for blocked or indeterminate decisions
 - `TIER2_SOURCE_PACK.md` - index and folder plan for missing Tier 2 sources
+- `TIER2_FILL_PLAYBOOK.md` - the operating playbook for promoting placeholders
 - `tier2/` - working folder for Tier 2 source documents
 - `tier2/INDEX.md` - working index for Tier 2 placeholders
 - `tier2/TIER2_SOURCE_TEMPLATE.md` - standard template for future authenticated sources
@@ -19,6 +20,8 @@ implementation backlog, and the Tier 2 source-pack workspace.
   scaffolding if files are removed.
 - `06-scripts/check_tier2_source_pack.py` validates that the Tier 2 scaffold is
   still internally consistent.
+- `06-scripts/report_tier2_status.py` prints a quick status summary for the
+  Tier 2 working area.
 
 ## Priority
 

@@ -52,6 +52,7 @@ Every Tier 2 source entry should carry these fields:
 08-sources/
   README.md
   TIER2_SOURCE_PACK.md
+  TIER2_FILL_PLAYBOOK.md
   19_IMPLEMENTATION_BACKLOG.md
   tier2/
     INDEX.md
