@@ -2178,8 +2178,8 @@
     },
     {
       "path": "06-scripts/ingest_actual_condition.py",
-      "size_bytes": 10926,
-      "sha256": "77bf0a81cc0c57a06fe1c44f6fdb828a650c419cea7a02aae311f11b9b4d6096"
+      "size_bytes": 14178,
+      "sha256": "2833ce858d230a664885c0461155f9aecaf3701f7926d4f67b942d51ec56d74b"
     },
     {
       "path": "06-scripts/lint_vocabulary.py",
@@ -2213,8 +2213,8 @@
     },
     {
       "path": "08-sources/README.md",
-      "size_bytes": 1363,
-      "sha256": "9512e80aa167fc37484ca7312e00a075d28f23b3cb917cc6594c92cdf93e4f23"
+      "size_bytes": 1510,
+      "sha256": "a4aa1624c936159cb433c918a2a85af263316b3c7d4ebba3ae609a10bff185ec"
     },
     {
       "path": "08-sources/SOURCE_REGISTER.md",
@@ -2238,8 +2238,8 @@
     },
     {
       "path": "08-sources/WORKBOOK_CHANGE_REQUEST.md",
-      "size_bytes": 4695,
-      "sha256": "7bc4913f2ed85ec3d14389a7c9b0558b19cf3d758f45433b24e44c4ba75dd1b8"
+      "size_bytes": 4800,
+      "sha256": "b5e11b06b398cb01889275be23b507f3569a23a28765d876c9ec171f0e5c52f3"
     },
     {
       "path": "08-sources/tier2/01_dewan_pengawas_charter.md",

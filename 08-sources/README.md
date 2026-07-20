@@ -21,6 +21,8 @@ implementation backlog, and the Tier 2 source-pack workspace.
   scaffolding if files are removed.
 - `06-scripts/check_tier2_source_pack.py` validates that the Tier 2 scaffold is
   still internally consistent.
+- `06-scripts/ingest_actual_condition.py` can ingest the external workbook and
+  emit `tier2_index.json` plus an optional markdown status summary.
 - `06-scripts/report_tier2_status.py` prints a quick status summary for the
   Tier 2 working area.
 

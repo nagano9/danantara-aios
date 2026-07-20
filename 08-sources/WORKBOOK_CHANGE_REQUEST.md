@@ -94,8 +94,9 @@ decisions recorded before this CR lands.
 ### Acceptance
 
 Verified by `06-scripts/ingest_actual_condition.py`, which checks `20_DECISION_LOG`
-for both headers and reports `CR-001 OPEN` until they exist. The requirement is
-machine-checked so it cannot quietly lapse.
+for both headers and reports `CR-001 OPEN` until they exist. The same script can
+also emit `tier2_index.json` and an optional markdown summary of the workbook
+shape. The requirement is machine-checked so it cannot quietly lapse.
 
 ```
 python 06-scripts/ingest_actual_condition.py <workbook.xlsx>

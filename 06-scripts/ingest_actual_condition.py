@@ -126,6 +126,56 @@ def col(headers, name):
     return headers.index(name) if name in headers else None
 
 
+def render_markdown_summary(workbook_name, emit_values, summary, cr_results, total_sourced):
+    lines = [
+        "# Actual Condition Ingest Summary",
+        "",
+        f"Workbook: `{workbook_name}`",
+        f"Mode: {'VALUES (approved env only)' if emit_values else 'STRUCTURE ONLY (safe default)'}",
+        "",
+        "## Sheet Counts",
+        "",
+        "| Sheet | Sourced | Unsourced | Empty |",
+        "|---|---:|---:|---:|",
+    ]
+    for sheet, sourced, unsourced, empty, note in summary:
+        suffix = f"  {note}" if note else ""
+        lines.append(f"| `{sheet}` | {sourced} | {unsourced} | {empty} |{suffix}")
+    lines.extend(
+        [
+            "",
+            "## Interpretation",
+            "",
+            f"- total sourced rows: {total_sourced}",
+            "- SOURCED means every required evidence column is present and the row is promotable to Tier 2.",
+            "- UNSOURCED means the row is answered but still missing at least one required evidence column.",
+            "- EMPTY means the row has not yet been filled.",
+            "",
+            "## Open Change Requests",
+            "",
+        ]
+    )
+    if cr_results:
+        for cr in cr_results:
+            lines.append(f"- `{cr['id']}` on `{cr['sheet']}`: {cr['status']}")
+            if cr.get("missing"):
+                lines.append(f"  - missing: {', '.join(cr['missing'])}")
+            if cr.get("blocks"):
+                lines.append(f"  - blocks: {cr['blocks']}")
+    else:
+        lines.append("- none")
+    lines.extend(
+        [
+            "",
+            "## Note",
+            "",
+            "This summary is safe to keep in-repo because it contains only structure",
+            "and counts, not workbook content.",
+        ]
+    )
+    return "\n".join(lines) + "\n"
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("workbook", type=Path)
@@ -137,6 +187,12 @@ def main():
         "content and this repository has no classification boundary.",
     )
     ap.add_argument("--out", type=Path, default=ROOT / "08-sources" / "tier2_index.json")
+    ap.add_argument(
+        "--markdown-out",
+        type=Path,
+        default=None,
+        help="Write a human-readable workbook summary to this path.",
+    )
     args = ap.parse_args()
 
     if not args.workbook.is_file():
@@ -160,7 +216,7 @@ def main():
     warnings.filterwarnings("ignore")
     wb = openpyxl.load_workbook(args.workbook, data_only=True)
 
-    index, summary = {}, []
+    index, summary, cr_results = {}, [], []
 
     for sheet, spec in TIER2_SHEETS.items():
         if sheet not in wb.sheetnames:
@@ -252,6 +308,15 @@ def main():
         if sheet not in wb.sheetnames:
             print(f"{cr['id']}  SHEET MISSING: {sheet}")
             open_crs += 1
+            cr_results.append(
+                {
+                    "id": cr["id"],
+                    "sheet": sheet,
+                    "status": "SHEET MISSING",
+                    "missing": None,
+                    "blocks": cr["blocks"],
+                }
+            )
             continue
         headers, _ = read_sheet(wb[sheet])
         missing = [c for c in cr["columns"] if c not in headers]
@@ -262,13 +327,45 @@ def main():
                 print(f"           - {c}")
             print(f"           blocks: {cr['blocks']}")
             print(f"           why   : {cr['why']}")
+            cr_results.append(
+                {
+                    "id": cr["id"],
+                    "sheet": sheet,
+                    "status": "OPEN",
+                    "missing": missing,
+                    "blocks": cr["blocks"],
+                }
+            )
         else:
             print(f"{cr['id']}  CLOSED — {sheet} carries all required columns.")
+            cr_results.append(
+                {
+                    "id": cr["id"],
+                    "sheet": sheet,
+                    "status": "CLOSED",
+                    "missing": None,
+                    "blocks": cr["blocks"],
+                }
+            )
 
     args.out.parent.mkdir(parents=True, exist_ok=True)
     args.out.write_text(json.dumps(index, indent=2, ensure_ascii=False), encoding="utf-8")
     print()
     print(f"Wrote {args.out.relative_to(ROOT)}")
+
+    if args.markdown_out is not None:
+        args.markdown_out.parent.mkdir(parents=True, exist_ok=True)
+        args.markdown_out.write_text(
+            render_markdown_summary(
+                args.workbook.name,
+                args.emit_values,
+                summary,
+                cr_results,
+                total_sourced,
+            ),
+            encoding="utf-8",
+        )
+        print(f"Wrote {args.markdown_out.relative_to(ROOT)}")
 
     if total_sourced == 0:
         print()
