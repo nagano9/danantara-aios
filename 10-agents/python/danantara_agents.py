@@ -6,7 +6,9 @@ This module provides a small local agent layer for the repo.
 The recommended use is:
 1. master orchestrator for routing
 2. source-layer curator for enrichment and alignment
-3. repo audit gate for consistency checks
+3. source-layer enrichment for tracked source-layer plans
+4. decision packager for reviewable handoff artifacts
+5. repo audit gate for consistency checks
 
 Install:
     pip install agent-framework
@@ -130,6 +132,92 @@ being treated as a maintained source artifact.
     return f"Wrote {plan_path.relative_to(ROOT).as_posix()} with focus={focus}"
 
 
+def generate_decision_package(focus: str = "decision-package") -> str:
+    """Generate a repo decision package from the current agent outputs."""
+    audit = read_repo_file("08-sources/SOURCE_LAYER_AUDIT.md")
+    enrichment = read_repo_file("08-sources/SOURCE_LAYER_ENRICHMENT_PLAN.md")
+    status = read_repo_file("08-sources/TIER2_STATUS.md")
+    backlog = read_repo_file("08-sources/19_IMPLEMENTATION_BACKLOG.md")
+    roadmap = read_repo_file("09-roadmap/README.md")
+    root_readme = read_repo_file("README.md")
+    workflow = read_repo_file("10-agents/workflows/repo-agent-loop.yaml")
+
+    package_path = ROOT / "08-sources" / "DECISION_PACKAGE.md"
+    generated_at = datetime.now(timezone.utc).isoformat(timespec="seconds")
+
+    content = f"""# Decision Package
+
+Generated: {generated_at}
+Focus: {focus}
+
+## Purpose
+
+Package the latest repo routing, curation, enrichment, and audit outputs into a
+single reviewable artifact.
+
+## Sources Reviewed
+
+- `08-sources/SOURCE_LAYER_AUDIT.md`
+- `08-sources/SOURCE_LAYER_ENRICHMENT_PLAN.md`
+- `08-sources/TIER2_STATUS.md`
+- `08-sources/19_IMPLEMENTATION_BACKLOG.md`
+- `09-roadmap/README.md`
+- `10-agents/workflows/repo-agent-loop.yaml`
+- `README.md`
+
+## Routing Summary
+
+The repo agent loop should be used when a task needs route selection, source
+curation, enrichment planning, and a final audit gate before handoff.
+
+## Consolidated Signals
+
+### Audit
+
+{audit.strip()}
+
+### Enrichment plan
+
+{enrichment.strip()}
+
+### Status
+
+{status.strip()}
+
+### Backlog
+
+{backlog.strip()}
+
+### Roadmap
+
+{roadmap.strip()}
+
+### Repo framing
+
+{root_readme.strip()}
+
+### Workflow
+
+{workflow.strip()}
+
+## Decision Package
+
+1. Route the task through the repo agent loop when it touches source grounding,
+   backlog closure, or workflow audit.
+2. Prefer enrichment-plan updates before expanding the agent estate again.
+3. Keep the source layer and roadmap in sync with any accepted change.
+4. Re-run the audit and repo hygiene checks before marking a package final.
+
+## Handoff
+
+Use this package as the review artifact for human approval or follow-up agent
+work.
+"""
+
+    package_path.write_text(content, encoding="utf-8")
+    return f"Wrote {package_path.relative_to(ROOT).as_posix()} with focus={focus}"
+
+
 def read_repo_file(relative_path: str) -> str:
     """Read a text file inside the repo root."""
     candidate = (ROOT / relative_path).resolve()
@@ -223,12 +311,35 @@ def build_source_layer_enrichment_agent():
     )
 
 
+def build_decision_packager_agent():
+    """Create the decision packaging agent."""
+    from agent_framework import Agent
+
+    return Agent(
+        name="DecisionPackager",
+        client=_chat_client(),
+        instructions=(
+            "Convert the current repo routing, curation, enrichment, and audit "
+            "outputs into a single decision package artifact. Keep the package "
+            "concise, reviewable, and suitable for human handoff."
+        ),
+        tools=[
+            get_repo_status,
+            run_source_layer_audit,
+            read_repo_file,
+            generate_source_layer_enrichment_plan,
+            generate_decision_package,
+        ],
+    )
+
+
 def build_agent_stack() -> dict[str, object]:
     """Build the default repo agent stack."""
     return {
         "master": build_master_orchestrator(),
         "curator": build_source_layer_curator(),
         "enrichment": build_source_layer_enrichment_agent(),
+        "packager": build_decision_packager_agent(),
         "audit": build_repo_audit_gate(),
     }
 
@@ -242,8 +353,10 @@ def build_workflow_factory():
         .register_agent("DanantaraMasterOrchestrator", build_master_orchestrator())
         .register_agent("SourceLayerCurator", build_source_layer_curator())
         .register_agent("SourceLayerEnrichment", build_source_layer_enrichment_agent())
+        .register_agent("DecisionPackager", build_decision_packager_agent())
         .register_agent("RepoAuditGate", build_repo_audit_gate())
         .register_tool("generate_source_layer_enrichment_plan", generate_source_layer_enrichment_plan)
+        .register_tool("generate_decision_package", generate_decision_package)
         .register_tool("run_source_layer_audit", run_source_layer_audit)
         .register_tool("run_repo_hygiene", run_repo_hygiene)
     )
@@ -253,7 +366,7 @@ async def main() -> int:
     parser = argparse.ArgumentParser(description="Run a Danantara repo agent locally.")
     parser.add_argument(
         "--agent",
-        choices=("master", "curator", "enrichment", "audit"),
+        choices=("master", "curator", "enrichment", "packager", "audit"),
         default="master",
         help="Which agent to run.",
     )

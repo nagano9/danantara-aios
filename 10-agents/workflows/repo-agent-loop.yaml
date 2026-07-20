@@ -96,6 +96,28 @@ actions:
       messages: Local.AuditMessages
       autoSend: false
 
+  - kind: InvokeAzureAgent
+    id: package_decision
+    displayName: Package decision
+    agent:
+      name: DecisionPackager
+    input:
+      messages: =UserMessage(Concat("Package the final repo decision from this workflow. Route: ", Local.RouteDecision, " Curation: ", Local.CurationDecision, " Enrichment: ", Local.EnrichmentDecision, " Audit: ", Local.AuditDecision))
+    output:
+      responseObject: Local.PackageDecision
+      messages: Local.PackageMessages
+      autoSend: false
+
+  - kind: InvokeFunctionTool
+    id: generate_decision_package
+    displayName: Generate decision package
+    functionName: generate_decision_package
+    arguments:
+      focus: =Local.focus
+    output:
+      result: Local.DecisionPackage
+      autoSend: false
+
   - kind: SetVariable
     id: set_route_output
     displayName: Store routing decision
@@ -137,3 +159,9 @@ actions:
     displayName: Store enrichment plan
     variable: Workflow.Outputs.enrichment_plan
     value: =Local.EnrichmentPlan
+
+  - kind: SetVariable
+    id: set_package_output
+    displayName: Store decision package
+    variable: Workflow.Outputs.decision_package
+    value: =Local.DecisionPackage

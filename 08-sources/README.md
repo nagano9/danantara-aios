@@ -14,6 +14,7 @@ implementation backlog, and the Tier 2 source-pack workspace.
 - `SOURCE_LAYER_AUDIT.md` - cross-artifact consistency audit for the source layer
 - `SOURCE_LAYER_ENRICHMENT_PLAN.md` - tracked enrichment plan generated from
   source-layer findings
+- `DECISION_PACKAGE.md` - consolidated handoff package from the agent loop
 - `tier2/` - working folder for Tier 2 source documents
 - `tier2/INDEX.md` - working index for Tier 2 placeholders
 - `tier2/TIER2_SOURCE_TEMPLATE.md` - standard template for future authenticated sources
@@ -33,6 +34,8 @@ implementation backlog, and the Tier 2 source-pack workspace.
 - `10-agents/python/danantara_agents.py` can generate
   `SOURCE_LAYER_ENRICHMENT_PLAN.md` from the current audit, backlog, and
   roadmap state.
+- `10-agents/python/danantara_agents.py` can also generate
+  `DECISION_PACKAGE.md` from the current workflow outputs.
 
 ## Priority
 
