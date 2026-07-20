@@ -25,6 +25,7 @@ should_trigger:
   - "Before we screen this pipeline, what's our eligible universe and concentration limit?"
   - "Berapa batas eksposur kita untuk satu sektor?"
   - "What's our risk appetite for offshore infrastructure?"
+  - "Can you trace the authority chain from Pasal 3E to this proposed action?"
 
   # --- currency of the mandate statement ---
   - "We're using the mandate note from March. Is that still current?"
@@ -41,6 +42,7 @@ should_not_trigger:
 
   # --- who signs, not whether we may ---
   - "Who has to sign this once it's cleared as in-mandate?"      # decision-rights-checker
+  - "After mandate is confirmed, balance commercial return and national consequence." # dual-mandate-balancer
 
   # --- enterprise-wide authority, not DIM's investment mandate ---
   - "What is BPI's authority over BUMN boards generally?"        # mandate-authority-interpreter

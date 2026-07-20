@@ -32,12 +32,16 @@ interpolate.
   UU 16/2025 (6 Oct 2025) or PP 19/2026 (8 Apr 2026).
 - Whenever an action sits near a boundary: DIM vs. DAM vs. DDMF; DIM vs. Badan
   Pelaksana; Badan vs. President.
+- When the workflow needs a hard answer on whether the proposed action is within
+  DIM's delegated authority, before any thesis, valuation, or committee work.
 
 ## Do not use when
 - The question is whether an eligible deal is *good* — that is
   `investment-thesis-builder`. This skill answers *may we*, not *should we*.
 - The question is who signs a specific decision — that is
   `decision-rights-checker`, which this skill hands off to.
+- The question is how to reconcile commercial return and national consequence
+  after mandate is confirmed — that is `dual-mandate-balancer`.
 - The action is not DIM's — route via `intent-and-entity-router`.
 
 Do not use this skill to bypass a competent authority, replace licensed or
@@ -63,8 +67,10 @@ and what it would decide.
 - `decision-rights-checker` — receives the approval path this skill identifies.
 - `source-hierarchy-resolver` — where mandate sources conflict.
 - `dual-mandate-balancer` — receives the commercial/national tension, unresolved.
+- `investment-thesis-builder` — receives the opportunity once mandate fit is confirmed.
 
 ## Authoritative sources
+Start with `references/repo-mandate-source-map.md` for the repo-native mandate hierarchy.
 1. **Applicable law, regulation, official decision, and formal mandate.**
    See `references/legal-mandate-basis.md` for the verified chain: UU 1/2025
    jo. UU 16/2025 (Pasal 3E delegation, Pasal 3G capital, economic-democracy
@@ -119,7 +125,8 @@ gap at step 3 is not repaired by strength at step 4.
    escalate**, naming the document and the question it would answer.
 4. **Test the asas**, especially *efisiensi berkeadilan* and *berkelanjutan*.
    Where commercial return and national consequence diverge, hand the tension to
-   `dual-mandate-balancer` intact. Do not blend it into a single score.
+   `dual-mandate-balancer` intact. Do not blend it into a single score or use it
+   to justify mandate that is not there.
 5. **Check currency.** Post-UU 16/2025 and post-PP 19/2026? Undated → unverified.
    Note that UU 16/2025 separated supervisory and operational functions: any
    earlier "who decides" statement is suspect.
@@ -247,6 +254,9 @@ Specific to this skill — escalate when:
   where Tier 2 is missing rather than resolved by inference.
 - Each missing document is named with its owner and the question it would answer.
 - Tier 4 sources are not used to establish authority.
+- Tier 1 establishes the Badan's authority; Tier 2 is required before DIM can be
+  said to act without escalation.
+- Mandate fit is separated from commercial merit and from who signs.
 - Relevant Danantara Way principles and core tensions were explicitly tested.
 - Risk owner, decision owner, approvals, conditions, and escalation path are
   identified.
