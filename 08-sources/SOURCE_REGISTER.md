@@ -195,3 +195,5 @@ what they may conclude.
 - Record for every source: owner, title, version, effective date, retrieval date,
   classification, and exact location.
 - A source that cannot be retrieved by an independent reviewer is not a source.
+- Work-tracker scaffolds live in `19_IMPLEMENTATION_BACKLOG.md` and
+  `TIER2_SOURCE_PACK.md`; they are not sources and must not be cited as one.

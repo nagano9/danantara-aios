@@ -1,55 +1,130 @@
 {
   "package": "Danantara AIOS Claude Skills",
   "version": "1.0.0-draft",
-  "generated": "2026-07-16",
+  "generated": "2026-07-20",
   "skill_count": 133,
   "cluster_count": 10,
-  "file_count_excluding_manifest": 427,
+  "file_count_excluding_manifest": 462,
   "files": [
     {
-      "path": "00-blueprint/ARCHITECTURE.mmd",
-      "size_bytes": 466,
-      "sha256": "6af788006565c5247f0c8cf6666d2a096c37f7771dcca15bc76c87391649e285"
+      "path": "README.md",
+      "size_bytes": 2151,
+      "sha256": "35fb997c45ad80e6b6b69f1f86cd48362933fbee2482473a243faceb4e0a54be"
     },
     {
-      "path": "00-blueprint/DANANTARA_AIOS_BLUEPRINT.md",
-      "size_bytes": 3016,
-      "sha256": "320f3fdc887f9f9a5653eec408c57227db219fe174557f06ef88f55429f49b63"
+      "path": "LICENSE",
+      "size_bytes": 3641,
+      "sha256": "0ffe1822977d8e54eb8b4a0de4eb286ad529ca42bc05d36fc8745382f0dd6314"
     },
     {
-      "path": "00-blueprint/MASTER_ORCHESTRATION_PROTOCOL.md",
-      "size_bytes": 2059,
-      "sha256": "15dd0f225d9502db595ee565ab2cc357bee6d83f80d807d89aca129c710fa9b4"
+      "path": "09-roadmap/README.md",
+      "size_bytes": 4722,
+      "sha256": "88025fde20508756389fa52149699aea48bf189219403d8677df7dc6976a2d57"
     },
     {
-      "path": "00-blueprint/ORCHESTRATION_FLOW.mmd",
-      "size_bytes": 423,
-      "sha256": "21cf5c622f5cbfb3144d492dcf49e2f3b70ed7b07ce96138d80f28840fe1b513"
+      "path": "08-sources/WORKBOOK_CHANGE_REQUEST.md",
+      "size_bytes": 4695,
+      "sha256": "7bc4913f2ed85ec3d14389a7c9b0558b19cf3d758f45433b24e44c4ba75dd1b8"
     },
     {
-      "path": "00-blueprint/WORKFLOW_CHAINS.md",
-      "size_bytes": 8396,
-      "sha256": "202e55bab7299ef35418389f1ab3c9d6a40b442e238f83182c0e7cb5db8258bc"
+      "path": "08-sources/TIER2_SOURCE_PACK.md",
+      "size_bytes": 3446,
+      "sha256": "095c06c6980a3975f1043ea22ff48d268935fbf78e6f8eb9ebee1bb2b6fee9db"
     },
     {
-      "path": "00-blueprint/workflow_chains.json",
-      "size_bytes": 9610,
-      "sha256": "130078f33c5689d0dcf26b086a009ab461bc5eb0a20fd670db1d2fff614964a4"
+      "path": "08-sources/tier2/TIER2_SOURCE_TEMPLATE.md",
+      "size_bytes": 718,
+      "sha256": "eb08027421f9fda134dbc65c438bd3a3270fd7a32f095d6912207feee815b572"
     },
     {
-      "path": "01-registry/MASTER_SKILL_CATALOG.md",
-      "size_bytes": 42793,
-      "sha256": "64718512bb3682304a9f13b4596ca037cd82e165e1857866391ddae343f20bc0"
+      "path": "08-sources/tier2/README.md",
+      "size_bytes": 792,
+      "sha256": "0b2a0d2c154525e5ff345eab8e0745f67fcfe108bc0aa1270175fdd486f1e145"
     },
     {
-      "path": "01-registry/PRINCIPLE_SKILL_COVERAGE.md",
-      "size_bytes": 4338,
-      "sha256": "e4a6143769e3089958fcf5f90c7facd7b8c27d6a98a6a9fe6319c64516ece060"
+      "path": "08-sources/tier2/INDEX.md",
+      "size_bytes": 1174,
+      "sha256": "63afd03f1293e57f8f8702b03ffbd7639db1a1b760d895f5bf58670d3c9ce168"
     },
     {
-      "path": "01-registry/README.md",
-      "size_bytes": 613,
-      "sha256": "b627e1e6553475932347e10e494146b7e83e3c444745fa6233a1001b6381972b"
+      "path": "08-sources/tier2/12_entity_model_map.md",
+      "size_bytes": 348,
+      "sha256": "eeca9ee0cca5d3ba9c5e54c76f42291c4162bb46ab2b4510c8135e11a3ebf53e"
+    },
+    {
+      "path": "08-sources/tier2/11_whistleblowing_escalation.md",
+      "size_bytes": 321,
+      "sha256": "00cd3b782fb0cbe3e268ddc2dca646cdaa76b353496ddcb3019dbf27ad3ea864"
+    },
+    {
+      "path": "08-sources/tier2/10_procurement_integrity_standard.md",
+      "size_bytes": 337,
+      "sha256": "fa788971f2238480331442c4c2f960ce370cb9d98f8840c2f1acbc21137ce503"
+    },
+    {
+      "path": "08-sources/tier2/09_data_classification_policy.md",
+      "size_bytes": 347,
+      "sha256": "4d9bdfb46ccc3778fe83df39d3914f5278b122db196543ad8ab09ec4c9f9c181"
+    },
+    {
+      "path": "08-sources/tier2/08_conflict_of_interest_policy.md",
+      "size_bytes": 332,
+      "sha256": "361a63c10c4b91be6ebfcba70a9b70d0a2957e5ec97de8aef4bcceacfc9d53b8"
+    },
+    {
+      "path": "08-sources/tier2/07_valuation_policy.md",
+      "size_bytes": 338,
+      "sha256": "d9722b1c2801cea21b609309ac34c120197777c7f7fd13616639df3e1cb39557"
+    },
+    {
+      "path": "08-sources/tier2/06_investment_policy_statement.md",
+      "size_bytes": 334,
+      "sha256": "22de753e09e43775792017d6d82d31e1c1a91a06adef583ed582aaab3e2215eb"
+    },
+    {
+      "path": "08-sources/tier2/05_ddmf_additionality_policy.md",
+      "size_bytes": 346,
+      "sha256": "b52bf019a5f82161c146981e92aa4cc501240285f539e81874211e237f2f3066"
+    },
+    {
+      "path": "08-sources/tier2/04_dam_active_ownership_policy.md",
+      "size_bytes": 371,
+      "sha256": "64e2b20d16f28d5374fadc44d488c818b8f150b5c644ad2c0fab806c62985fd0"
+    },
+    {
+      "path": "08-sources/tier2/03_dim_ic_charter.md",
+      "size_bytes": 326,
+      "sha256": "baa610e060acc3404853398dcacaf77f4ae5a151a1de86a3b4babf5c88106c03"
+    },
+    {
+      "path": "08-sources/tier2/02_badan_pelaksana_doa.md",
+      "size_bytes": 347,
+      "sha256": "317b08266c51dabeef497b20b4b4e1e5b69e04803605419daf096389f784fa95"
+    },
+    {
+      "path": "08-sources/tier2/01_dewan_pengawas_charter.md",
+      "size_bytes": 340,
+      "sha256": "0d3a04c330a732d3bd5814e8e45f42378693250f8a232bd82a7ddecb5bc2a565"
+    },
+    {
+      "path": "08-sources/SOURCE_REGISTER.md",
+      "size_bytes": 10286,
+      "sha256": "b4abeecffe0bcf5fcb2dc5c310eedcc514f68b63c3e35fe0edc63a39aaf21725"
+    },
+    {
+      "path": "08-sources/README.md",
+      "size_bytes": 1111,
+      "sha256": "7f91b871ea07b5e831e1481bca5cb447d86efe87dfd71f84d7db645e2ea64c8e"
+    },
+    {
+      "path": "08-sources/19_IMPLEMENTATION_BACKLOG.md",
+      "size_bytes": 5166,
+      "sha256": "b551f611442d2917067ac209e5bf26863743525358feba796ea3b98ca464a948"
+    },
+    {
+      "path": "01-registry/workflow_routing_matrix.csv",
+      "size_bytes": 27198,
+      "sha256": "f632ee520601c045a85fce467531c12e5b76a7712a8c697de3c97a6c3feb889e"
     },
     {
       "path": "01-registry/TENSION_SKILL_COVERAGE.md",
@@ -57,49 +132,14 @@
       "sha256": "8502ec7f32a750834f05fc0d155d8249c476047a15b71783fb265bfaf975ab98"
     },
     {
-      "path": "01-registry/dependency_edges.csv",
-      "size_bytes": 303,
-      "sha256": "c7c48eaf8f43d68c5e1650cc0226fda16b909974ef36a34352540ff2653d6108"
+      "path": "01-registry/README.md",
+      "size_bytes": 613,
+      "sha256": "b627e1e6553475932347e10e494146b7e83e3c444745fa6233a1001b6381972b"
     },
     {
-      "path": "01-registry/master_skill_registry.csv",
-      "size_bytes": 72079,
-      "sha256": "313d47e38d9a38af07b23db9106f21314a9e1a22ff33eff38277f57ef55e04e6"
-    },
-    {
-      "path": "01-registry/master_skill_registry.json",
-      "size_bytes": 93463,
-      "sha256": "51bca8518794176ed22600d742121c4d3fa829ec545d47b0833f2989439c45fa"
-    },
-    {
-      "path": "01-registry/principle_skill_coverage.csv",
-      "size_bytes": 5793,
-      "sha256": "485951ef8944a699462d350970b2ff63c6b4b02ab2728bce8d99a841eb8f1bdb"
-    },
-    {
-      "path": "01-registry/workflow_routing_matrix.csv",
-      "size_bytes": 27365,
-      "sha256": "be6245bbf25ca107d2aea9710bbdeaf68c20e0acd629f2916cc8b98d294b2907"
-    },
-    {
-      "path": "02-governance/AI_CONSTITUTION.md",
-      "size_bytes": 3209,
-      "sha256": "8a9bcb4e78ad6bd59ce103940ff66fc5d78a2334784c5db3f170685594e22717"
-    },
-    {
-      "path": "02-governance/DANANTARA_WAY.md",
-      "size_bytes": 10661,
-      "sha256": "9716d9d40e9d84e67bf29b5a35da14ba3a85cc8727cb2d3131eceada12c17910"
-    },
-    {
-      "path": "02-governance/RISK_APPROVAL_MATRIX.md",
-      "size_bytes": 1255,
-      "sha256": "609d1fc783bf7f38bda659c2723c4a2c431268323fd86b804d18d07c944e10d3"
-    },
-    {
-      "path": "03-templates/CANONICAL_OUTPUT_CONTRACT.md",
-      "size_bytes": 1264,
-      "sha256": "6bdbe2046cee3005dd05f0da966acb112e47477061ce36fd6ff175cfcdd0f96c"
+      "path": "01-registry/PRINCIPLE_SKILL_COVERAGE.md",
+      "size_bytes": 4338,
+      "sha256": "e4a6143769e3089958fcf5f90c7facd7b8c27d6a98a6a9fe6319c64516ece060"
     },
     {
       "path": "03-templates/SKILL_TEMPLATE.md",
@@ -107,179 +147,154 @@
       "sha256": "0209d2f21cd48d4efb6a39c91e338d6434038df41679d80e186ce1d32438dde3"
     },
     {
-      "path": "04-skills/01-governance-doctrine/conflict-of-interest-gate/SKILL.md",
-      "size_bytes": 6384,
-      "sha256": "cc5aedd59b6713dca50244770bd549b857ee0df9b34412ed4447007a1103ec1c"
+      "path": "01-registry/principle_skill_coverage.csv",
+      "size_bytes": 5688,
+      "sha256": "a6b9fe412cf92f9eac2a85ea8bb11ae31832aa34e54f42abf0f10f57e6f0970e"
     },
     {
-      "path": "04-skills/01-governance-doctrine/conflict-of-interest-gate/references/README.md",
-      "size_bytes": 169,
-      "sha256": "c1495f1142dcb4a1efce260987910226b9aeaf0dfb7391beec0165d721056fff"
+      "path": "03-templates/ELITE_SKILL_STANDARD.md",
+      "size_bytes": 12355,
+      "sha256": "c75d734b8008660d9b4b34be61a8dc8c4af1e57b50a6b7e8bd55ce2b2e1babb2"
     },
     {
-      "path": "04-skills/01-governance-doctrine/conflict-of-interest-gate/tests/trigger_cases.yaml",
-      "size_bytes": 925,
-      "sha256": "9daa715ff53a560abd10870329f4faf7bf031a03d763f610a3f7633bda1ac1d8"
+      "path": "01-registry/master_skill_registry.json",
+      "size_bytes": 93463,
+      "sha256": "51bca8518794176ed22600d742121c4d3fa829ec545d47b0833f2989439c45fa"
     },
     {
-      "path": "04-skills/01-governance-doctrine/danantara-ai-constitution/SKILL.md",
-      "size_bytes": 6396,
-      "sha256": "40db1ffc772c976a00280fe0d82f02ee0dcf4c2dd12750edf2275058497cae10"
+      "path": "01-registry/master_skill_registry.csv",
+      "size_bytes": 71945,
+      "sha256": "2f3716df98bfdeaf97339c88bae7693d52c3bafa6d13435b2840db50d06dc324"
     },
     {
-      "path": "04-skills/01-governance-doctrine/danantara-ai-constitution/references/README.md",
-      "size_bytes": 169,
-      "sha256": "ddefec8b85826029e8de758f543b377ac79034d8b595474d6efc16dd2eb3ccf6"
+      "path": "01-registry/MASTER_SKILL_CATALOG.md",
+      "size_bytes": 42793,
+      "sha256": "64718512bb3682304a9f13b4596ca037cd82e165e1857866391ddae343f20bc0"
     },
     {
-      "path": "04-skills/01-governance-doctrine/danantara-ai-constitution/tests/trigger_cases.yaml",
-      "size_bytes": 936,
-      "sha256": "6b5cdc01952e70a2e072172b6ad0a25c9e8f38f87d47749098d9b98ea657789c"
+      "path": "01-registry/dependency_edges.csv",
+      "size_bytes": 297,
+      "sha256": "7151f1531d5428644e7c30a2dc90a1195609f1c018ca4810a1af0ec69c24ed72"
     },
     {
-      "path": "04-skills/01-governance-doctrine/danantara-way-governance/SKILL.md",
-      "size_bytes": 5262,
-      "sha256": "b508acd7ac5f9cd5e22110f58bf68d48065094ac4591ada5f0941df33773a6e3"
+      "path": "03-templates/CANONICAL_OUTPUT_CONTRACT.md",
+      "size_bytes": 1264,
+      "sha256": "6bdbe2046cee3005dd05f0da966acb112e47477061ce36fd6ff175cfcdd0f96c"
     },
     {
-      "path": "04-skills/01-governance-doctrine/danantara-way-governance/references/README.md",
-      "size_bytes": 168,
-      "sha256": "2af368d36596d9ef8ca870085a392e1f65b08c6cce5927726fdfdaf0bf1be6b4"
+      "path": "06-scripts/check_skill_depth.py",
+      "size_bytes": 5569,
+      "sha256": "161b02d951d477a8c32c9615f30d3e837f12b7ff6542ff7347bc86226193c216"
     },
     {
-      "path": "04-skills/01-governance-doctrine/danantara-way-governance/tests/trigger_cases.yaml",
-      "size_bytes": 859,
-      "sha256": "d5cc409399d17778f14fb6bf21a0f41685ab68feb073d20cf97cae6b5fcf3f66"
+      "path": "06-scripts/check_repo_hygiene.py",
+      "size_bytes": 5205,
+      "sha256": "271d73b26cd23a92a3d2b671335281f50a9ecea67179313bcb49006897442fb5"
     },
     {
-      "path": "04-skills/01-governance-doctrine/decision-rights-checker/SKILL.md",
-      "size_bytes": 6263,
-      "sha256": "09736a46c7bbc43503c0a9db235bd282074d417cfd80f0b7d2d760a9a652b0aa"
+      "path": "06-scripts/check_reference_coverage.py",
+      "size_bytes": 3466,
+      "sha256": "aacb421ec09397ca78b1e9f89b257d64e4cd667ba1c04b3363d3da136b1ca454"
     },
     {
-      "path": "04-skills/01-governance-doctrine/decision-rights-checker/references/README.md",
-      "size_bytes": 167,
-      "sha256": "8f77f06d0cd50d1436ab86fcf7a8b93225dcbf840afd3cc3e1f45ae6ad9826aa"
+      "path": "06-scripts/bootstrap_tier2_source_pack.py",
+      "size_bytes": 22233,
+      "sha256": "3a0a1d53fa246660a5a8a11d3584133280522eb3c2e663258eb20ccde7f999e9"
     },
     {
-      "path": "04-skills/01-governance-doctrine/decision-rights-checker/tests/trigger_cases.yaml",
-      "size_bytes": 907,
-      "sha256": "97555dd882db922c729d3247118d74a332dd54e935e797cc0bee37d86ecf140c"
+      "path": "06-scripts/ingest_actual_condition.py",
+      "size_bytes": 10926,
+      "sha256": "77bf0a81cc0c57a06fe1c44f6fdb828a650c419cea7a02aae311f11b9b4d6096"
     },
     {
-      "path": "04-skills/01-governance-doctrine/dual-mandate-balancer/SKILL.md",
-      "size_bytes": 4918,
-      "sha256": "51b0b1fe3460d9ffb934f31597aaaf6a8acf2e646bc8679655ea8ed494ee4c99"
+      "path": "06-scripts/check_tier2_source_pack.py",
+      "size_bytes": 3675,
+      "sha256": "01fb8309fef98bb546669e9f4d60b818904b8f8d0167ded379cab7e326286784"
     },
     {
-      "path": "04-skills/01-governance-doctrine/dual-mandate-balancer/references/README.md",
-      "size_bytes": 165,
-      "sha256": "286239716ffe227ec87de79cdff28b9e29f47926564bd6d19ff114c7bf939f23"
+      "path": "06-scripts/lint_vocabulary.py",
+      "size_bytes": 1341,
+      "sha256": "7b3a6984e990a0d713e235783b5768acc6cbb683f2634f6de0624f7a9d2f227b"
     },
     {
-      "path": "04-skills/01-governance-doctrine/dual-mandate-balancer/tests/trigger_cases.yaml",
-      "size_bytes": 788,
-      "sha256": "f68a7e29525cf97b914d6287d8875b69ea293c47a33c763816ee94e8c3988f2e"
+      "path": "06-scripts/validate_skills.py",
+      "size_bytes": 3278,
+      "sha256": "39e5364b37839408ed8a154ef7f3c5ad7808b88408cf8eefaf699b45de437389"
     },
     {
-      "path": "04-skills/01-governance-doctrine/integrity-beneficiary-check/SKILL.md",
-      "size_bytes": 6097,
-      "sha256": "f1e1b08562a589dfe01a8fb0f13819e45cee0b318c17b4cc8ef93f190c9734c4"
+      "path": "00-blueprint/WORKFLOW_CHAINS.md",
+      "size_bytes": 8396,
+      "sha256": "202e55bab7299ef35418389f1ab3c9d6a40b442e238f83182c0e7cb5db8258bc"
     },
     {
-      "path": "04-skills/01-governance-doctrine/integrity-beneficiary-check/references/README.md",
-      "size_bytes": 171,
-      "sha256": "d9a782926e8ff87613ab20a58ce28c80bdfb81ab96589afc401a0a4f1f7b3a14"
+      "path": "05-evaluations/EVALUATION_STRATEGY.md",
+      "size_bytes": 2029,
+      "sha256": "6e8e8827c8de80b6b5924ad396c920a83797a548c54e2058c584214e833673ea"
     },
     {
-      "path": "04-skills/01-governance-doctrine/integrity-beneficiary-check/tests/trigger_cases.yaml",
-      "size_bytes": 824,
-      "sha256": "9d138f0b65750243b6007f895c0c02615a9e6b327861318281739de3f620c484"
+      "path": "00-blueprint/workflow_chains.json",
+      "size_bytes": 9610,
+      "sha256": "130078f33c5689d0dcf26b086a009ab461bc5eb0a20fd670db1d2fff614964a4"
     },
     {
-      "path": "04-skills/01-governance-doctrine/long-term-value-test/SKILL.md",
-      "size_bytes": 6075,
-      "sha256": "dfb21a3a36af89bf48125b2c577ffe3ed72b8c5b3e6174ab91d75b570d5de2ec"
+      "path": "05-evaluations/ADVERSARIAL_CASES.yaml",
+      "size_bytes": 1902,
+      "sha256": "502ddbd15f39f6320da9194667b2113d5c955baf2bd511eb7c9ceee06b1ddc2f"
     },
     {
-      "path": "04-skills/01-governance-doctrine/long-term-value-test/references/README.md",
-      "size_bytes": 164,
-      "sha256": "ffbf24dab5df7797d155a9ae4f1af6e29799388e03426825ac88fb045dba058f"
+      "path": "00-blueprint/ORCHESTRATION_FLOW.mmd",
+      "size_bytes": 423,
+      "sha256": "21cf5c622f5cbfb3144d492dcf49e2f3b70ed7b07ce96138d80f28840fe1b513"
     },
     {
-      "path": "04-skills/01-governance-doctrine/long-term-value-test/tests/trigger_cases.yaml",
-      "size_bytes": 794,
-      "sha256": "91807e41b1f89b0dcaea2c590b9647de6f06ca060f50a03dd51418907f4c1772"
+      "path": "00-blueprint/MASTER_ORCHESTRATION_PROTOCOL.md",
+      "size_bytes": 2059,
+      "sha256": "15dd0f225d9502db595ee565ab2cc357bee6d83f80d807d89aca129c710fa9b4"
     },
     {
-      "path": "04-skills/01-governance-doctrine/mandate-authority-interpreter/SKILL.md",
-      "size_bytes": 6057,
-      "sha256": "68b21968b36d6010668aca5a7c36910f938a8e62efce83191963be38106e600e"
+      "path": "00-blueprint/DANANTARA_AIOS_BLUEPRINT.md",
+      "size_bytes": 3016,
+      "sha256": "320f3fdc887f9f9a5653eec408c57227db219fe174557f06ef88f55429f49b63"
     },
     {
-      "path": "04-skills/01-governance-doctrine/mandate-authority-interpreter/references/README.md",
-      "size_bytes": 173,
-      "sha256": "64cc03892b0ed9f43fef21360286a89da8d8a47b738caff12f25de8d2584149e"
+      "path": "00-blueprint/ARCHITECTURE.mmd",
+      "size_bytes": 466,
+      "sha256": "6af788006565c5247f0c8cf6666d2a096c37f7771dcca15bc76c87391649e285"
     },
     {
-      "path": "04-skills/01-governance-doctrine/mandate-authority-interpreter/tests/trigger_cases.yaml",
-      "size_bytes": 794,
-      "sha256": "290dbd3e4ffe29341fa6b2ccc1e50539a8b81019f2700635c6651785d99e84cb"
+      "path": "07-schemas/canonical_decision_output.schema.json",
+      "size_bytes": 1759,
+      "sha256": "b8653c8b55ad043bb19a0b3a7f58228bf629451d4e8d1aae30dfe470468fbe6d"
     },
     {
-      "path": "04-skills/01-governance-doctrine/prudence-and-downside-gate/SKILL.md",
-      "size_bytes": 6362,
-      "sha256": "cfb58e0aabfa8106a4dc794706ec6050c16e486de74eee27aac7572b5e738f46"
+      "path": "07-schemas/skill_registry.schema.json",
+      "size_bytes": 988,
+      "sha256": "36045e62edc8f9f9882a8450a826e7e7126fcb0e58eee1f09f32f1437ef57eaa"
     },
     {
-      "path": "04-skills/01-governance-doctrine/prudence-and-downside-gate/references/README.md",
-      "size_bytes": 170,
-      "sha256": "40f44a9c54e7015f56278b54a2caa0a2529b1e6fa8dc51531aca8eb0ed334a64"
+      "path": "02-governance/RISK_APPROVAL_MATRIX.md",
+      "size_bytes": 1255,
+      "sha256": "609d1fc783bf7f38bda659c2723c4a2c431268323fd86b804d18d07c944e10d3"
     },
     {
-      "path": "04-skills/01-governance-doctrine/prudence-and-downside-gate/tests/trigger_cases.yaml",
-      "size_bytes": 918,
-      "sha256": "4413bc36a19c931732a6ce699868f787de6ffc2be273dbd1559da4ea57823dfe"
+      "path": "02-governance/DANANTARA_WAY.md",
+      "size_bytes": 10661,
+      "sha256": "9716d9d40e9d84e67bf29b5a35da14ba3a85cc8727cb2d3131eceada12c17910"
     },
     {
-      "path": "04-skills/01-governance-doctrine/strategic-confidentiality-classifier/SKILL.md",
-      "size_bytes": 6383,
-      "sha256": "7559413030002509ee9324c32d00cbd186deea857b02eba0ac3729aeeebf961f"
+      "path": "02-governance/AI_CONSTITUTION.md",
+      "size_bytes": 3209,
+      "sha256": "8a9bcb4e78ad6bd59ce103940ff66fc5d78a2334784c5db3f170685594e22717"
     },
     {
-      "path": "04-skills/01-governance-doctrine/strategic-confidentiality-classifier/references/README.md",
-      "size_bytes": 180,
-      "sha256": "01fbc1e2a45ac6d96bd8f6c379198e3f1e9d899a2bcf3e971fd9e83a0d928244"
+      "path": "04-skills/10-assurance-evaluation/skill-lifecycle-governor/tests/trigger_cases.yaml",
+      "size_bytes": 6016,
+      "sha256": "f8a3f9e6b2411c5ae1a97184412520a2d3edc2118fc8c6486a5a504e73663102"
     },
     {
-      "path": "04-skills/01-governance-doctrine/strategic-confidentiality-classifier/tests/trigger_cases.yaml",
-      "size_bytes": 944,
-      "sha256": "8e65fa7ac59401cf23665e8b4c080290d3c63429840925914c3b6263977cb693"
-    },
-    {
-      "path": "04-skills/01-governance-doctrine/transparency-disclosure-gate/SKILL.md",
-      "size_bytes": 6386,
-      "sha256": "050c3c2872a8042019d1bd5518dcc1cf56acfb1169746ece4d5be07e98fd202e"
-    },
-    {
-      "path": "04-skills/01-governance-doctrine/transparency-disclosure-gate/references/README.md",
-      "size_bytes": 172,
-      "sha256": "49e90df45a2b1b7cb13f290c4aa995c72b76ebf4955a1201e8513b8db81a3718"
-    },
-    {
-      "path": "04-skills/01-governance-doctrine/transparency-disclosure-gate/tests/trigger_cases.yaml",
-      "size_bytes": 934,
-      "sha256": "d6b256f2bd20e881f8109eb7282645053b1446d4a061b1677152698c017e2c4c"
-    },
-    {
-      "path": "04-skills/01-governance-doctrine/vocabulary-and-narrative-guard/SKILL.md",
-      "size_bytes": 6094,
-      "sha256": "acc9659fc05d58ccd1f15e9bda72b175423c7d0d5bc984ce22a9e29e0931f9af"
-    },
-    {
-      "path": "04-skills/01-governance-doctrine/vocabulary-and-narrative-guard/references/README.md",
-      "size_bytes": 174,
-      "sha256": "a7c60eeda3fb3f0eba9f1353ad1b5cf1b4dca49b5f06001b91026745bcf274c2"
+      "path": "04-skills/10-assurance-evaluation/skill-lifecycle-governor/SKILL.md",
+      "size_bytes": 13543,
+      "sha256": "721241111e6c50884d9e6a45d47ca39d22399f3541832a79ebeded1996dc6c9a"
     },
     {
       "path": "04-skills/01-governance-doctrine/vocabulary-and-narrative-guard/tests/trigger_cases.yaml",
@@ -287,224 +302,39 @@
       "sha256": "99b71569f1d88aedeeaca9b5565181d282e1baa78e84b925438073af723c0f17"
     },
     {
-      "path": "04-skills/02-orchestration/assumption-uncertainty-manager/SKILL.md",
-      "size_bytes": 6324,
-      "sha256": "f2643a3e252e3a3dfe4449c50efc589160f0c108a4491c419af94a5b72facf6e"
+      "path": "04-skills/05-dam-active-ownership/value-creation-plan-builder/tests/trigger_cases.yaml",
+      "size_bytes": 900,
+      "sha256": "7b711ee9dc9a2e21f2fd0562a1680d4dd2219c67167ae130a51290d3d9d0ab9b"
     },
     {
-      "path": "04-skills/02-orchestration/assumption-uncertainty-manager/references/README.md",
-      "size_bytes": 174,
-      "sha256": "c5925f2d790dd12780dbafe063816bd39728f372e2677f430c52297a75ceae0e"
+      "path": "04-skills/05-dam-active-ownership/value-creation-plan-builder/SKILL.md",
+      "size_bytes": 6362,
+      "sha256": "7f6cd9906365fd396b5ced211ec4aab110e2acd3ef31739a0bc4e1ac49265eac"
     },
     {
-      "path": "04-skills/02-orchestration/assumption-uncertainty-manager/tests/trigger_cases.yaml",
-      "size_bytes": 918,
-      "sha256": "58d2d1ec37275260e6ded7927da1cf6c148a22eeeec599176c9da52e0158620d"
+      "path": "04-skills/10-assurance-evaluation/skill-lifecycle-governor/references/skill-change-protocol.md",
+      "size_bytes": 10099,
+      "sha256": "24257b1daaf2aa5bda03a02deeb578a17dcca880f117852f36fa9eed0abc0cfe"
     },
     {
-      "path": "04-skills/02-orchestration/danantara-master-orchestrator/SKILL.md",
-      "size_bytes": 7626,
-      "sha256": "52c60cf1daabc172828e2dc7f88684a4e4e2651a5902a886016723c1a2261b68"
-    },
-    {
-      "path": "04-skills/02-orchestration/danantara-master-orchestrator/references/README.md",
-      "size_bytes": 173,
-      "sha256": "fc4bd3bc39465e038c18af30f7789440bea34767e9e93d7a34ae6cfc771bca82"
-    },
-    {
-      "path": "04-skills/02-orchestration/danantara-master-orchestrator/tests/trigger_cases.yaml",
-      "size_bytes": 922,
-      "sha256": "9176e38cb662fa18ecf356935b352deae1dd37de060a4307deffd1a287164d16"
-    },
-    {
-      "path": "04-skills/02-orchestration/data-classification-router/SKILL.md",
-      "size_bytes": 6287,
-      "sha256": "96d2b44203b98b60c06f3e8d8bba8c0bc42a6fdc27b585269dcf1e405a2f60a9"
-    },
-    {
-      "path": "04-skills/02-orchestration/data-classification-router/references/README.md",
-      "size_bytes": 170,
-      "sha256": "2a88b9ae79a07290d45b6991eca3a99cfae7f8a5b180805eb55e70085b8a69b2"
-    },
-    {
-      "path": "04-skills/02-orchestration/data-classification-router/tests/trigger_cases.yaml",
-      "size_bytes": 896,
-      "sha256": "10a9351981132c77ff5ae12e18511bb0ad92978f6bf8465f6828eee08a1c06a6"
-    },
-    {
-      "path": "04-skills/02-orchestration/escalation-and-exception-router/SKILL.md",
-      "size_bytes": 6074,
-      "sha256": "9bb7d9cfcbb9ac5dfa5248f96b34628c58845567fcfc8b111769f0bb9114b344"
-    },
-    {
-      "path": "04-skills/02-orchestration/escalation-and-exception-router/references/README.md",
-      "size_bytes": 175,
-      "sha256": "91987ac57dde00ac262f503964f7daf8efcc0622e487e448ad3472ceb731a5af"
-    },
-    {
-      "path": "04-skills/02-orchestration/escalation-and-exception-router/tests/trigger_cases.yaml",
-      "size_bytes": 853,
-      "sha256": "beb020a245865741db7498eefc548cb52a6ac0ddff59ab774a2420b572a98505"
-    },
-    {
-      "path": "04-skills/02-orchestration/evidence-retrieval-orchestrator/SKILL.md",
-      "size_bytes": 6097,
-      "sha256": "b269e30bd3cf998ef1ed4579026ab6c5511993db0118f8d63e286a4e259fb6a2"
-    },
-    {
-      "path": "04-skills/02-orchestration/evidence-retrieval-orchestrator/references/README.md",
-      "size_bytes": 175,
-      "sha256": "f2ce676eea27cf5a02ce93b6b213b6c245db448991a79bc96f5187af897c1e1b"
-    },
-    {
-      "path": "04-skills/02-orchestration/evidence-retrieval-orchestrator/tests/trigger_cases.yaml",
-      "size_bytes": 813,
-      "sha256": "7b65b8e51094f3b8f5c9af3e397895bb08264883456b673604803571445bda16"
-    },
-    {
-      "path": "04-skills/02-orchestration/human-approval-orchestrator/SKILL.md",
-      "size_bytes": 6054,
-      "sha256": "4d5a9695dac859d0d67da30b131f6c0d17d2207c3f22e90bfc44855d0f3e3128"
-    },
-    {
-      "path": "04-skills/02-orchestration/human-approval-orchestrator/references/README.md",
-      "size_bytes": 171,
-      "sha256": "9e7e0cb655dae5cafd6c370b59df46afe3f91514f52f24638504c6a5958422c1"
-    },
-    {
-      "path": "04-skills/02-orchestration/human-approval-orchestrator/tests/trigger_cases.yaml",
-      "size_bytes": 786,
-      "sha256": "3a16d2da878f0b4eef7a1f447da6a89acea40541a5fda92fe6b0414186bd09dc"
-    },
-    {
-      "path": "04-skills/02-orchestration/intent-and-entity-router/SKILL.md",
-      "size_bytes": 6291,
-      "sha256": "1005419985b1f5fec3d22a4bcbea122102cd6e29cfed38b7762edf22347f4503"
-    },
-    {
-      "path": "04-skills/02-orchestration/intent-and-entity-router/references/README.md",
+      "path": "04-skills/10-assurance-evaluation/skill-lifecycle-governor/references/README.md",
       "size_bytes": 168,
-      "sha256": "0ed4edf0f3298d861ae4f4649a8374d000766c23a3da89f1e92aa8b20ce938e9"
+      "sha256": "8fd488e8d7583119f1a19a88d009e733ef7f23c414dbd0b96adef01de8f55cc5"
     },
     {
-      "path": "04-skills/02-orchestration/intent-and-entity-router/tests/trigger_cases.yaml",
-      "size_bytes": 899,
-      "sha256": "21b43229d14238a7e4917a7d9d11bf9b747793806098e6234cf26d63edf95d9d"
+      "path": "04-skills/01-governance-doctrine/vocabulary-and-narrative-guard/SKILL.md",
+      "size_bytes": 6094,
+      "sha256": "acc9659fc05d58ccd1f15e9bda72b175423c7d0d5bc984ce22a9e29e0931f9af"
     },
     {
-      "path": "04-skills/02-orchestration/output-assembly-orchestrator/SKILL.md",
-      "size_bytes": 6221,
-      "sha256": "c504d0b4935a2f797270bf060ec44175e7dacb7c828c7e8f0580dab8b70e9658"
+      "path": "04-skills/05-dam-active-ownership/value-creation-plan-builder/references/README.md",
+      "size_bytes": 171,
+      "sha256": "c052d6edd97a0689317c0a8c80f58c512324f38bf742fe4c541735a1ea70cb14"
     },
     {
-      "path": "04-skills/02-orchestration/output-assembly-orchestrator/references/README.md",
-      "size_bytes": 172,
-      "sha256": "53150df1a4a9bf47dd10c3d2a38fa575f911efb1d5dea92da9142f14141bd482"
-    },
-    {
-      "path": "04-skills/02-orchestration/output-assembly-orchestrator/tests/trigger_cases.yaml",
-      "size_bytes": 881,
-      "sha256": "82f6d5258ae7db4b3cd51d1843ebf80a9ff4a5c5158ba3d348aa9dc40ca85c5d"
-    },
-    {
-      "path": "04-skills/02-orchestration/parallel-analysis-dispatcher/SKILL.md",
-      "size_bytes": 6320,
-      "sha256": "907ff0d34474a469236b53968fb96f493ed555316a8c014b2991b6bdecdfa3b1"
-    },
-    {
-      "path": "04-skills/02-orchestration/parallel-analysis-dispatcher/references/README.md",
-      "size_bytes": 172,
-      "sha256": "e6bee0702d367fae25cf63281be298ffa7cf37aad1e7ead512352765435759e3"
-    },
-    {
-      "path": "04-skills/02-orchestration/parallel-analysis-dispatcher/tests/trigger_cases.yaml",
-      "size_bytes": 914,
-      "sha256": "0547ef59d2022676c384b5cb25d3ff666332cb1d020fa0fd4e51d7254fff60c3"
-    },
-    {
-      "path": "04-skills/02-orchestration/red-team-orchestrator/SKILL.md",
-      "size_bytes": 6278,
-      "sha256": "1c3793fb9b6cd9d9691da8615aa93844192ba34c90e1bea72deda180389a71ec"
-    },
-    {
-      "path": "04-skills/02-orchestration/red-team-orchestrator/references/README.md",
-      "size_bytes": 165,
-      "sha256": "14ab2898c26112896325ee6b3dba8442aa44a5b29d38da910d6dd5523f363e16"
-    },
-    {
-      "path": "04-skills/02-orchestration/red-team-orchestrator/tests/trigger_cases.yaml",
-      "size_bytes": 886,
-      "sha256": "de92caca9254fc819b4a1531d575c78e5b28fa5576f97ca2c690880f6961e2be"
-    },
-    {
-      "path": "04-skills/02-orchestration/skill-chain-composer/SKILL.md",
-      "size_bytes": 6277,
-      "sha256": "84cda5e317d315c982acdbf867ae2d56bfd48632da3e64087473d337f6d36cd9"
-    },
-    {
-      "path": "04-skills/02-orchestration/skill-chain-composer/references/README.md",
-      "size_bytes": 164,
-      "sha256": "1cc9baf71a9fa2f0bbca0f25d7fab3ec2943374e167bf287aa73824fd2d7ad1b"
-    },
-    {
-      "path": "04-skills/02-orchestration/skill-chain-composer/tests/trigger_cases.yaml",
-      "size_bytes": 889,
-      "sha256": "6eca847c24c3a83cd98467dbfbdef8edfe3837593954041b3d5de659bc5de704"
-    },
-    {
-      "path": "04-skills/02-orchestration/source-hierarchy-resolver/SKILL.md",
-      "size_bytes": 5996,
-      "sha256": "86ad980ac6feb90c26e157e39f8d8123602b56339c2814abfdb8ab3829fb2b14"
-    },
-    {
-      "path": "04-skills/02-orchestration/source-hierarchy-resolver/references/README.md",
-      "size_bytes": 169,
-      "sha256": "f81068d5fdac839b3d222d4c340a87c3e166be2ac9402b518b2f36e5e40f3afc"
-    },
-    {
-      "path": "04-skills/02-orchestration/source-hierarchy-resolver/tests/trigger_cases.yaml",
-      "size_bytes": 810,
-      "sha256": "c3c13eb4fdffac1f17a15ba17670eff3b1863ed77647be2df89ba0499235645e"
-    },
-    {
-      "path": "04-skills/02-orchestration/tension-resolution-engine/SKILL.md",
-      "size_bytes": 4939,
-      "sha256": "0f2e70dca64f2be69594947256cc7f90e1591479df93fd326fd83670b381113e"
-    },
-    {
-      "path": "04-skills/02-orchestration/tension-resolution-engine/references/README.md",
-      "size_bytes": 169,
-      "sha256": "9df2f72c217464dc84bef65c63cb03ee4a75b25ce91250e79212c4a4e3866bde"
-    },
-    {
-      "path": "04-skills/02-orchestration/tension-resolution-engine/tests/trigger_cases.yaml",
-      "size_bytes": 913,
-      "sha256": "1b5d6414756dbaadc3295b6ac34b8d4ab75d147d5028eeadd23e31bd2264590c"
-    },
-    {
-      "path": "04-skills/02-orchestration/workflow-planner/SKILL.md",
-      "size_bytes": 6020,
-      "sha256": "bee5f2b7c091cd8e8fb2a303d6e62a9f657bab2c7c97029a323fe1f86b5ea536"
-    },
-    {
-      "path": "04-skills/02-orchestration/workflow-planner/references/README.md",
-      "size_bytes": 160,
-      "sha256": "4b751d9cbcd3c11d8234d611348238487e8f1bfa5fc77be73b845f8612c4e0a9"
-    },
-    {
-      "path": "04-skills/02-orchestration/workflow-planner/tests/trigger_cases.yaml",
-      "size_bytes": 785,
-      "sha256": "d25761ae7f5128126c6366936656ec63f58f4f9e581fac03a089f127fe599b2d"
-    },
-    {
-      "path": "04-skills/02-orchestration/workflow-state-manager/SKILL.md",
-      "size_bytes": 6267,
-      "sha256": "f4028a605a222f0e987105674ad926a995ee6eff43714aacb79eb7a0b90a473e"
-    },
-    {
-      "path": "04-skills/02-orchestration/workflow-state-manager/references/README.md",
-      "size_bytes": 166,
-      "sha256": "32d8b932a79954b3523ce469fffc91543794ecd0fa5ee505da256eae2280ea42"
+      "path": "04-skills/01-governance-doctrine/vocabulary-and-narrative-guard/references/README.md",
+      "size_bytes": 174,
+      "sha256": "a7c60eeda3fb3f0eba9f1353ad1b5cf1b4dca49b5f06001b91026745bcf274c2"
     },
     {
       "path": "04-skills/02-orchestration/workflow-state-manager/tests/trigger_cases.yaml",
@@ -512,109 +342,19 @@
       "sha256": "6722257792ae675eb0e20849e5fde5b8abe8994bd76059e373d6e090f31d09ce"
     },
     {
-      "path": "04-skills/03-knowledge-data/benchmark-intelligence-manager/SKILL.md",
-      "size_bytes": 6310,
-      "sha256": "367f684805da11dc051cbbc09a2c7be194bd879d35d0c9bcb28f4e9fab5de608"
+      "path": "04-skills/03-knowledge-data/portfolio-knowledge-graph/tests/trigger_cases.yaml",
+      "size_bytes": 818,
+      "sha256": "45efc4070d2faf5fe8c8aeeb0093c2f8e406264873934c0c4375916c60e63643"
     },
     {
-      "path": "04-skills/03-knowledge-data/benchmark-intelligence-manager/references/README.md",
-      "size_bytes": 174,
-      "sha256": "7b7efe774454bd6e5750776b7c36a4f48c658eda2c489f28597f8c553f447d3f"
+      "path": "04-skills/10-assurance-evaluation/skill-evaluation-runner/tests/trigger_cases.yaml",
+      "size_bytes": 872,
+      "sha256": "50e62287d667940083cfe80e662453dbcd9e01978c45dc0b10a8cc0ece561f6e"
     },
     {
-      "path": "04-skills/03-knowledge-data/benchmark-intelligence-manager/tests/trigger_cases.yaml",
-      "size_bytes": 922,
-      "sha256": "8a961202afa80c4c7c496714fcaa07eef3db9909e1fc71f262e9ef05fdb9b7eb"
-    },
-    {
-      "path": "04-skills/03-knowledge-data/data-quality-and-lineage-checker/SKILL.md",
-      "size_bytes": 6272,
-      "sha256": "fcbb83003e29cd47e8e7106e30b49de482065f8459c08a9b46701574393596a9"
-    },
-    {
-      "path": "04-skills/03-knowledge-data/data-quality-and-lineage-checker/references/README.md",
-      "size_bytes": 176,
-      "sha256": "b61fd62c1018efd96cb1bcf4b53ec44efa014e39524bdb2a96b9619c4531abf3"
-    },
-    {
-      "path": "04-skills/03-knowledge-data/data-quality-and-lineage-checker/tests/trigger_cases.yaml",
-      "size_bytes": 914,
-      "sha256": "f68d8c4a630da6fb507bcc93a4423f7dd9bc8401709eee4fb4b4910e027c88df"
-    },
-    {
-      "path": "04-skills/03-knowledge-data/decision-precedent-retriever/SKILL.md",
-      "size_bytes": 6252,
-      "sha256": "659cc9b06173ffe3efc9cb950fec917deba888e24d2ef11e32aa6bb5c7d4ffab"
-    },
-    {
-      "path": "04-skills/03-knowledge-data/decision-precedent-retriever/references/README.md",
-      "size_bytes": 172,
-      "sha256": "1a50f7b970665a01bffb591bb041d38d1cf800bc3b0912da8c1bc07deb1e54a2"
-    },
-    {
-      "path": "04-skills/03-knowledge-data/decision-precedent-retriever/tests/trigger_cases.yaml",
-      "size_bytes": 900,
-      "sha256": "e0a5a075a4a5466028517839bae8382d43d672f1b100391355848a2b34d340a0"
-    },
-    {
-      "path": "04-skills/03-knowledge-data/document-evidence-extractor/SKILL.md",
-      "size_bytes": 6298,
-      "sha256": "b4f318db4421246a14010a4195daeeffcfd5eba6d0dc54fbce2348e8348816a3"
-    },
-    {
-      "path": "04-skills/03-knowledge-data/document-evidence-extractor/references/README.md",
-      "size_bytes": 171,
-      "sha256": "09d0d1c3a8eabbd292b79d36d5ba3eb3e3546c8e070a6c91c5668adc77623403"
-    },
-    {
-      "path": "04-skills/03-knowledge-data/document-evidence-extractor/tests/trigger_cases.yaml",
-      "size_bytes": 914,
-      "sha256": "944da6a4180c573df4d822f05e8159c79e7322896b25ee57d7f2a700c30637ce"
-    },
-    {
-      "path": "04-skills/03-knowledge-data/institutional-memory-capture/SKILL.md",
-      "size_bytes": 6241,
-      "sha256": "0fd836355fc5371c6b91c84c7d1947822b191697cd022ccb6a15e5a3355cf747"
-    },
-    {
-      "path": "04-skills/03-knowledge-data/institutional-memory-capture/references/README.md",
-      "size_bytes": 172,
-      "sha256": "3c560ec8afbe18160380d7c51f856e0ab3908a84bb7eedef2fa5a7e63f617043"
-    },
-    {
-      "path": "04-skills/03-knowledge-data/institutional-memory-capture/tests/trigger_cases.yaml",
-      "size_bytes": 896,
-      "sha256": "5b70b2f6c37b781512c6d3cf5728fd1b4ca51e430d21b995e0f7d72e19cf9b40"
-    },
-    {
-      "path": "04-skills/03-knowledge-data/legal-regulatory-monitor/SKILL.md",
-      "size_bytes": 6221,
-      "sha256": "1ca4af612a61cf864a626d72ef5cac3957fe4eba6704183341cc10a6397706dd"
-    },
-    {
-      "path": "04-skills/03-knowledge-data/legal-regulatory-monitor/references/README.md",
-      "size_bytes": 168,
-      "sha256": "7cce43ededf82919cb4bdf1af60cff2148c0147babd8cd90150b42127edf4d4c"
-    },
-    {
-      "path": "04-skills/03-knowledge-data/legal-regulatory-monitor/tests/trigger_cases.yaml",
-      "size_bytes": 886,
-      "sha256": "eddb994b3882f579e090576d48a7ab3afdd8c88d549e34a9fdb804f6c5ba24bf"
-    },
-    {
-      "path": "04-skills/03-knowledge-data/policy-knowledge-curator/SKILL.md",
-      "size_bytes": 5985,
-      "sha256": "d71607ddac885fd3144d29acf0c92ce9d5bec6edc1584ac37b13c50edaf80897"
-    },
-    {
-      "path": "04-skills/03-knowledge-data/policy-knowledge-curator/references/README.md",
-      "size_bytes": 168,
-      "sha256": "1a22e4195087798685a13377701442bf2f63199efb7c0b609c58dfe0e8f83ba3"
-    },
-    {
-      "path": "04-skills/03-knowledge-data/policy-knowledge-curator/tests/trigger_cases.yaml",
-      "size_bytes": 819,
-      "sha256": "6400cf80cfca252c3e1de61fb7b71f9ca0ab5fd2fbb6e0bbbd9c5e87a214d4a4"
+      "path": "04-skills/10-assurance-evaluation/skill-evaluation-runner/SKILL.md",
+      "size_bytes": 6246,
+      "sha256": "383f54c1bb98c0cadec04c34a43b36930e3b6abfb459dcefdb8b31d75a5302c1"
     },
     {
       "path": "04-skills/03-knowledge-data/portfolio-knowledge-graph/SKILL.md",
@@ -622,204 +362,454 @@
       "sha256": "e2c5e66921f932417fb59634b31ad7edbc6183a8cf8cb10f3cad9fb549ee368d"
     },
     {
+      "path": "04-skills/02-orchestration/workflow-state-manager/SKILL.md",
+      "size_bytes": 6267,
+      "sha256": "f4028a605a222f0e987105674ad926a995ee6eff43714aacb79eb7a0b90a473e"
+    },
+    {
+      "path": "04-skills/10-assurance-evaluation/skill-evaluation-runner/references/README.md",
+      "size_bytes": 167,
+      "sha256": "8d437e59ce45c67beb064c000a431968fcda4f46cd53009da0cc81b4308e218d"
+    },
+    {
+      "path": "04-skills/05-dam-active-ownership/turnaround-triage/tests/trigger_cases.yaml",
+      "size_bytes": 877,
+      "sha256": "784251c065b5ce0af48273073d854ab1b841d2858c97ae729dd5d6d247a61fe2"
+    },
+    {
+      "path": "04-skills/05-dam-active-ownership/turnaround-triage/SKILL.md",
+      "size_bytes": 6323,
+      "sha256": "acd3db3c0548c5817c822edb6549444c5e7200f9bf76dcfdd2599c774b51eefd"
+    },
+    {
+      "path": "04-skills/02-orchestration/workflow-state-manager/references/README.md",
+      "size_bytes": 166,
+      "sha256": "32d8b932a79954b3523ce469fffc91543794ecd0fa5ee505da256eae2280ea42"
+    },
+    {
+      "path": "04-skills/01-governance-doctrine/transparency-disclosure-gate/tests/trigger_cases.yaml",
+      "size_bytes": 934,
+      "sha256": "d6b256f2bd20e881f8109eb7282645053b1446d4a061b1677152698c017e2c4c"
+    },
+    {
+      "path": "04-skills/01-governance-doctrine/transparency-disclosure-gate/SKILL.md",
+      "size_bytes": 6386,
+      "sha256": "050c3c2872a8042019d1bd5518dcc1cf56acfb1169746ece4d5be07e98fd202e"
+    },
+    {
       "path": "04-skills/03-knowledge-data/portfolio-knowledge-graph/references/README.md",
       "size_bytes": 169,
       "sha256": "f77816b314b937d5d8bb6e1cf73c1e4203dc83f57d25ee5bb351df090787e29b"
     },
     {
-      "path": "04-skills/03-knowledge-data/portfolio-knowledge-graph/tests/trigger_cases.yaml",
-      "size_bytes": 818,
-      "sha256": "45efc4070d2faf5fe8c8aeeb0093c2f8e406264873934c0c4375916c60e63643"
+      "path": "04-skills/05-dam-active-ownership/turnaround-triage/references/README.md",
+      "size_bytes": 161,
+      "sha256": "f90aec2e0f92e632f41e8e1bbc6e01427a8ed0a318aacaf2c3fc18a8ff489681"
     },
     {
-      "path": "04-skills/04-bpi-control-tower/cross-portfolio-synergy-finder/SKILL.md",
-      "size_bytes": 6083,
-      "sha256": "a6fdbd46e6d5769b98a9251ac6330ca412a3a7f9c665b113d5726830a8aba7a2"
-    },
-    {
-      "path": "04-skills/04-bpi-control-tower/cross-portfolio-synergy-finder/references/README.md",
-      "size_bytes": 174,
-      "sha256": "1a3879758b010cbb1cbabe3c7fbfbbaaa4a9f38ff905e08fb1e30bd66e9d1584"
-    },
-    {
-      "path": "04-skills/04-bpi-control-tower/cross-portfolio-synergy-finder/tests/trigger_cases.yaml",
-      "size_bytes": 822,
-      "sha256": "329d8e7682c49c315196a2a80fba76f7b7d0cd24fa6fdfb9be60d566099389fa"
-    },
-    {
-      "path": "04-skills/04-bpi-control-tower/dam-dim-ddmf-boundary-router/SKILL.md",
-      "size_bytes": 6023,
-      "sha256": "322a07e5ea53e85838945686a1c038ca15dcf453da97e4a93196ba5c1168b1b5"
-    },
-    {
-      "path": "04-skills/04-bpi-control-tower/dam-dim-ddmf-boundary-router/references/README.md",
+      "path": "04-skills/01-governance-doctrine/transparency-disclosure-gate/references/README.md",
       "size_bytes": 172,
-      "sha256": "fcb541e2ccda67463b30ee49fc7c1faa83038df9ec226ab1647dfb71962067da"
+      "sha256": "49e90df45a2b1b7cb13f290c4aa995c72b76ebf4955a1201e8513b8db81a3718"
     },
     {
-      "path": "04-skills/04-bpi-control-tower/dam-dim-ddmf-boundary-router/tests/trigger_cases.yaml",
-      "size_bytes": 821,
-      "sha256": "ca96ebabc387c9a4d358783ff4ea819d5389c992ce3f7b6a5362f63b58989596"
+      "path": "04-skills/10-assurance-evaluation/post-decision-learning/tests/trigger_cases.yaml",
+      "size_bytes": 5503,
+      "sha256": "491bc6d9cb0acd036aef03bdd26d50960092d51a0b8c143fcd9943f9963f4184"
     },
     {
-      "path": "04-skills/04-bpi-control-tower/enterprise-portfolio-synthesizer/SKILL.md",
-      "size_bytes": 6308,
-      "sha256": "19dad45f6fd38726a57a97136e596c822fb98012fd05adb0d03fea8ce108e80a"
+      "path": "04-skills/10-assurance-evaluation/post-decision-learning/SKILL.md",
+      "size_bytes": 13939,
+      "sha256": "57b1f74be55f7f4eb01ab8ca53a5e5d9aaaaf773cdcb165b1a9287f294786db2"
     },
     {
-      "path": "04-skills/04-bpi-control-tower/enterprise-portfolio-synthesizer/references/README.md",
-      "size_bytes": 176,
-      "sha256": "e91db62a258da2a4d65e7131ca72220c3caa50649d205097ef3ce4bc5d9d2f8d"
+      "path": "04-skills/02-orchestration/workflow-planner/tests/trigger_cases.yaml",
+      "size_bytes": 785,
+      "sha256": "d25761ae7f5128126c6366936656ec63f58f4f9e581fac03a089f127fe599b2d"
     },
     {
-      "path": "04-skills/04-bpi-control-tower/enterprise-portfolio-synthesizer/tests/trigger_cases.yaml",
-      "size_bytes": 907,
-      "sha256": "82f34a3baa8de10d0ff3cf62086c0660aaab588aa9b61ad3eb1b991b7ad310aa"
+      "path": "04-skills/02-orchestration/workflow-planner/SKILL.md",
+      "size_bytes": 6020,
+      "sha256": "bee5f2b7c091cd8e8fb2a303d6e62a9f657bab2c7c97029a323fe1f86b5ea536"
     },
     {
-      "path": "04-skills/04-bpi-control-tower/executive-board-brief-builder/SKILL.md",
+      "path": "04-skills/10-assurance-evaluation/post-decision-learning/references/README.md",
+      "size_bytes": 166,
+      "sha256": "5520126f3285ad74f5e2302798c3b23fb3cd0e7b82a04689cf89e3fa65a3fda0"
+    },
+    {
+      "path": "04-skills/10-assurance-evaluation/post-decision-learning/references/learning-loop-protocol.md",
+      "size_bytes": 11830,
+      "sha256": "f498a788206721abcc966cbed5f8e0e661b6bde313af70d11932bf9aceb3d40d"
+    },
+    {
+      "path": "04-skills/02-orchestration/workflow-planner/references/README.md",
+      "size_bytes": 160,
+      "sha256": "4b751d9cbcd3c11d8234d611348238487e8f1bfa5fc77be73b845f8612c4e0a9"
+    },
+    {
+      "path": "04-skills/03-knowledge-data/institutional-memory-capture/tests/trigger_cases.yaml",
+      "size_bytes": 896,
+      "sha256": "5b70b2f6c37b781512c6d3cf5728fd1b4ca51e430d21b995e0f7d72e19cf9b40"
+    },
+    {
+      "path": "04-skills/03-knowledge-data/institutional-memory-capture/SKILL.md",
+      "size_bytes": 6241,
+      "sha256": "0fd836355fc5371c6b91c84c7d1947822b191697cd022ccb6a15e5a3355cf747"
+    },
+    {
+      "path": "04-skills/03-knowledge-data/policy-knowledge-curator/tests/trigger_cases.yaml",
+      "size_bytes": 819,
+      "sha256": "6400cf80cfca252c3e1de61fb7b71f9ca0ab5fd2fbb6e0bbbd9c5e87a214d4a4"
+    },
+    {
+      "path": "04-skills/03-knowledge-data/policy-knowledge-curator/SKILL.md",
+      "size_bytes": 5985,
+      "sha256": "d71607ddac885fd3144d29acf0c92ce9d5bec6edc1584ac37b13c50edaf80897"
+    },
+    {
+      "path": "04-skills/10-assurance-evaluation/model-risk-validator/tests/trigger_cases.yaml",
+      "size_bytes": 870,
+      "sha256": "c473f14969cd28780e5381cf8dd8cfd5af42fc8ec39d68a6da3dce5bc5da7c5b"
+    },
+    {
+      "path": "04-skills/10-assurance-evaluation/model-risk-validator/SKILL.md",
+      "size_bytes": 6283,
+      "sha256": "7db8aa1733dbf5d5d2f5b0bb7246ed38aec31cfd3bb14fa72a6e53e9829fd47d"
+    },
+    {
+      "path": "04-skills/10-assurance-evaluation/compliance-policy-checker/tests/trigger_cases.yaml",
+      "size_bytes": 881,
+      "sha256": "cd803dc5cdef4ac2f402eb862787ce460c0c5f4931f6e8172d2c0acafc0246d8"
+    },
+    {
+      "path": "04-skills/10-assurance-evaluation/compliance-policy-checker/SKILL.md",
       "size_bytes": 6286,
-      "sha256": "d6a84f8c61cd37da7360e11e93637037388eb784635658debf67023bfa0fc770"
+      "sha256": "9097a363ee9d1dfc530a575d389b9a0e7b8e756a6d1e3c117a8586c8dcb336d6"
     },
     {
-      "path": "04-skills/04-bpi-control-tower/executive-board-brief-builder/references/README.md",
-      "size_bytes": 173,
-      "sha256": "311431ab9c3cc0c19f8a14607b9ec2b2325415dffc4106a4be7dc39035cf429b"
-    },
-    {
-      "path": "04-skills/04-bpi-control-tower/executive-board-brief-builder/tests/trigger_cases.yaml",
-      "size_bytes": 896,
-      "sha256": "c8bf6b2b9a97aaa59690933f9f0da2bb3057034957627521a142c77b3034c4df"
-    },
-    {
-      "path": "04-skills/04-bpi-control-tower/institutional-trust-monitor/SKILL.md",
-      "size_bytes": 6294,
-      "sha256": "86555bcf929f0fcefadff261b4e2cfb89d77fdb53bcc90aa28a4a8e034e859eb"
-    },
-    {
-      "path": "04-skills/04-bpi-control-tower/institutional-trust-monitor/references/README.md",
-      "size_bytes": 171,
-      "sha256": "f83bf81f6d97056d8beb97bb06b77095e431d636cdfdf4e862f2cf4db88f5f3f"
-    },
-    {
-      "path": "04-skills/04-bpi-control-tower/institutional-trust-monitor/tests/trigger_cases.yaml",
-      "size_bytes": 896,
-      "sha256": "2729fdaa8a7766df84ea202b6cfa9e9cd74c255f09732b7e9bcce0554c01c298"
-    },
-    {
-      "path": "04-skills/04-bpi-control-tower/national-priority-alignment/SKILL.md",
-      "size_bytes": 6008,
-      "sha256": "d72a964d459f705b939bc6f3f9bffd4dc7b0bbce0781cad51882f438a021500a"
-    },
-    {
-      "path": "04-skills/04-bpi-control-tower/national-priority-alignment/references/README.md",
-      "size_bytes": 171,
-      "sha256": "f6215732fe4bc0a2d809c595e21c0d2f3ee3d270bfac161e937a0303a8679d2b"
-    },
-    {
-      "path": "04-skills/04-bpi-control-tower/national-priority-alignment/tests/trigger_cases.yaml",
-      "size_bytes": 804,
-      "sha256": "078bf14aca8241dfb60ab84f15231ebf2f4ec94b0498a7d45ff82bd7bac6898e"
-    },
-    {
-      "path": "04-skills/04-bpi-control-tower/national-resilience-assessor/SKILL.md",
-      "size_bytes": 6325,
-      "sha256": "7d44c4297a2df1eb0254ee0fca57abd883138bbc643d4917696e737b50bba743"
-    },
-    {
-      "path": "04-skills/04-bpi-control-tower/national-resilience-assessor/references/README.md",
+      "path": "04-skills/03-knowledge-data/institutional-memory-capture/references/README.md",
       "size_bytes": 172,
-      "sha256": "219e1db4e6db06b10979a290c38b83d58c930dc500f0ef191aa0def91d253919"
+      "sha256": "3c560ec8afbe18160380d7c51f856e0ab3908a84bb7eedef2fa5a7e63f617043"
     },
     {
-      "path": "04-skills/04-bpi-control-tower/national-resilience-assessor/tests/trigger_cases.yaml",
-      "size_bytes": 908,
-      "sha256": "a224c24054eb40b8d288d850a648cebec591181969ea8538fbb1952eba01c0b6"
+      "path": "04-skills/01-governance-doctrine/strategic-confidentiality-classifier/tests/trigger_cases.yaml",
+      "size_bytes": 944,
+      "sha256": "8e65fa7ac59401cf23665e8b4c080290d3c63429840925914c3b6263977cb693"
     },
     {
-      "path": "04-skills/04-bpi-control-tower/public-accountability-packager/SKILL.md",
-      "size_bytes": 6356,
-      "sha256": "c953d9698b4cde135d71d8c8b366108cc1e23f0163b7d2dcb0ae02645ada36da"
+      "path": "04-skills/01-governance-doctrine/strategic-confidentiality-classifier/SKILL.md",
+      "size_bytes": 6383,
+      "sha256": "7559413030002509ee9324c32d00cbd186deea857b02eba0ac3729aeeebf961f"
     },
     {
-      "path": "04-skills/04-bpi-control-tower/public-accountability-packager/references/README.md",
-      "size_bytes": 174,
-      "sha256": "a30ad1121cd087d04f358ea5aa543c12cb687298f3146dbc6e34018edd7fbcb9"
+      "path": "04-skills/02-orchestration/tension-resolution-engine/tests/trigger_cases.yaml",
+      "size_bytes": 913,
+      "sha256": "1b5d6414756dbaadc3295b6ac34b8d4ab75d147d5028eeadd23e31bd2264590c"
     },
     {
-      "path": "04-skills/04-bpi-control-tower/public-accountability-packager/tests/trigger_cases.yaml",
-      "size_bytes": 924,
-      "sha256": "1f8b9857b6d59bf76435f3df8ef94d5b02b5bd82e8a162e52bcbca028dd5d2c0"
+      "path": "04-skills/02-orchestration/tension-resolution-engine/SKILL.md",
+      "size_bytes": 4939,
+      "sha256": "0f2e70dca64f2be69594947256cc7f90e1591479df93fd326fd83670b381113e"
     },
     {
-      "path": "04-skills/04-bpi-control-tower/strategic-national-interest-test/SKILL.md",
-      "size_bytes": 6367,
-      "sha256": "290d1f16a52f375fd49be9fac37bfe7c1c2225e848a4ef4d1df672f8a1ca07e2"
-    },
-    {
-      "path": "04-skills/04-bpi-control-tower/strategic-national-interest-test/references/README.md",
-      "size_bytes": 176,
-      "sha256": "5987712f1689ecd3289a0eb23827ab0d1f8d595daf007fe32da4c48b22e02e3c"
-    },
-    {
-      "path": "04-skills/04-bpi-control-tower/strategic-national-interest-test/tests/trigger_cases.yaml",
-      "size_bytes": 925,
-      "sha256": "e571fecac55618e668c1fdbcf3d01918a4cd3aa1f6198392f15fb083467ce1aa"
-    },
-    {
-      "path": "04-skills/04-bpi-control-tower/transformation-agenda-orchestrator/SKILL.md",
-      "size_bytes": 6272,
-      "sha256": "f639a10ec82fde6fcb98f6623cbf64b74c8a8cb1cec95109b0a15c4675480af4"
-    },
-    {
-      "path": "04-skills/04-bpi-control-tower/transformation-agenda-orchestrator/references/README.md",
-      "size_bytes": 178,
-      "sha256": "b8de24e773c86810dfa6ff2c7a40b80f07bbdecae73dea33518e38c5d8d0d577"
-    },
-    {
-      "path": "04-skills/04-bpi-control-tower/transformation-agenda-orchestrator/tests/trigger_cases.yaml",
-      "size_bytes": 898,
-      "sha256": "b82695498a196f84b471a93296f19dc1f523e6cf31c3d4c0b6d1e26db88fd904"
-    },
-    {
-      "path": "04-skills/05-dam-active-ownership/bumn-portfolio-segmenter/SKILL.md",
-      "size_bytes": 6335,
-      "sha256": "0bfa9179766bc8ca1389409a41c331a44f9cba82c4b9509b95861d548679e6a1"
-    },
-    {
-      "path": "04-skills/05-dam-active-ownership/bumn-portfolio-segmenter/references/README.md",
+      "path": "04-skills/03-knowledge-data/policy-knowledge-curator/references/README.md",
       "size_bytes": 168,
-      "sha256": "317ecc3fc57da3c14d24176e9d6f1c22bb0a884c306956922834f30267861306"
+      "sha256": "1a22e4195087798685a13377701442bf2f63199efb7c0b609c58dfe0e8f83ba3"
     },
     {
-      "path": "04-skills/05-dam-active-ownership/bumn-portfolio-segmenter/tests/trigger_cases.yaml",
-      "size_bytes": 892,
-      "sha256": "690ddec7af005fe34d32eeef798921ce97c70e63cc5f1b9c43bfea8729b0b701"
+      "path": "04-skills/03-knowledge-data/benchmark-intelligence-manager/tests/trigger_cases.yaml",
+      "size_bytes": 922,
+      "sha256": "8a961202afa80c4c7c496714fcaa07eef3db9909e1fc71f262e9ef05fdb9b7eb"
     },
     {
-      "path": "04-skills/05-dam-active-ownership/capital-allocation-reviewer/SKILL.md",
-      "size_bytes": 6323,
-      "sha256": "800c767b3e0d843651bf57bc2665577cb88936800376f5ebef499f04d8c7cbfe"
+      "path": "04-skills/03-knowledge-data/benchmark-intelligence-manager/SKILL.md",
+      "size_bytes": 6310,
+      "sha256": "367f684805da11dc051cbbc09a2c7be194bd879d35d0c9bcb28f4e9fab5de608"
     },
     {
-      "path": "04-skills/05-dam-active-ownership/capital-allocation-reviewer/references/README.md",
+      "path": "04-skills/10-assurance-evaluation/compliance-policy-checker/references/README.md",
+      "size_bytes": 169,
+      "sha256": "3b05e9fcdae51e544ee6b795c2848d522a3ec80084f7971e2ce01c27479a2880"
+    },
+    {
+      "path": "04-skills/02-orchestration/tension-resolution-engine/references/README.md",
+      "size_bytes": 169,
+      "sha256": "9df2f72c217464dc84bef65c63cb03ee4a75b25ce91250e79212c4a4e3866bde"
+    },
+    {
+      "path": "04-skills/01-governance-doctrine/strategic-confidentiality-classifier/references/README.md",
+      "size_bytes": 180,
+      "sha256": "01fbc1e2a45ac6d96bd8f6c379198e3f1e9d899a2bcf3e971fd9e83a0d928244"
+    },
+    {
+      "path": "04-skills/03-knowledge-data/document-evidence-extractor/tests/trigger_cases.yaml",
+      "size_bytes": 914,
+      "sha256": "944da6a4180c573df4d822f05e8159c79e7322896b25ee57d7f2a700c30637ce"
+    },
+    {
+      "path": "04-skills/03-knowledge-data/document-evidence-extractor/SKILL.md",
+      "size_bytes": 6298,
+      "sha256": "b4f318db4421246a14010a4195daeeffcfd5eba6d0dc54fbce2348e8348816a3"
+    },
+    {
+      "path": "04-skills/03-knowledge-data/decision-precedent-retriever/tests/trigger_cases.yaml",
+      "size_bytes": 900,
+      "sha256": "e0a5a075a4a5466028517839bae8382d43d672f1b100391355848a2b34d340a0"
+    },
+    {
+      "path": "04-skills/10-assurance-evaluation/model-risk-validator/references/README.md",
+      "size_bytes": 164,
+      "sha256": "cfa55046a657b9a188e2209dc580e32e41d389f4ac82c8a6145fdd98a7dbd841"
+    },
+    {
+      "path": "04-skills/03-knowledge-data/decision-precedent-retriever/SKILL.md",
+      "size_bytes": 6252,
+      "sha256": "659cc9b06173ffe3efc9cb950fec917deba888e24d2ef11e32aa6bb5c7d4ffab"
+    },
+    {
+      "path": "04-skills/03-knowledge-data/legal-regulatory-monitor/tests/trigger_cases.yaml",
+      "size_bytes": 886,
+      "sha256": "eddb994b3882f579e090576d48a7ab3afdd8c88d549e34a9fdb804f6c5ba24bf"
+    },
+    {
+      "path": "04-skills/03-knowledge-data/legal-regulatory-monitor/SKILL.md",
+      "size_bytes": 6221,
+      "sha256": "1ca4af612a61cf864a626d72ef5cac3957fe4eba6704183341cc10a6397706dd"
+    },
+    {
+      "path": "04-skills/03-knowledge-data/data-quality-and-lineage-checker/tests/trigger_cases.yaml",
+      "size_bytes": 914,
+      "sha256": "f68d8c4a630da6fb507bcc93a4423f7dd9bc8401709eee4fb4b4910e027c88df"
+    },
+    {
+      "path": "04-skills/03-knowledge-data/data-quality-and-lineage-checker/SKILL.md",
+      "size_bytes": 6272,
+      "sha256": "fcbb83003e29cd47e8e7106e30b49de482065f8459c08a9b46701574393596a9"
+    },
+    {
+      "path": "04-skills/03-knowledge-data/benchmark-intelligence-manager/references/README.md",
+      "size_bytes": 174,
+      "sha256": "7b7efe774454bd6e5750776b7c36a4f48c658eda2c489f28597f8c553f447d3f"
+    },
+    {
+      "path": "04-skills/03-knowledge-data/document-evidence-extractor/references/README.md",
       "size_bytes": 171,
-      "sha256": "371204ebe45ad32145535df039514eabaac7227f248ad534dc7b68b2e8c0e878"
+      "sha256": "09d0d1c3a8eabbd292b79d36d5ba3eb3e3546c8e070a6c91c5668adc77623403"
     },
     {
-      "path": "04-skills/05-dam-active-ownership/capital-allocation-reviewer/tests/trigger_cases.yaml",
+      "path": "04-skills/08-cross-functional/technology-transfer-assessor/tests/trigger_cases.yaml",
+      "size_bytes": 911,
+      "sha256": "befe12b3bc378fdbb53a3105bb7a7267cff06351226c6f3596c0da4587dd4c4e"
+    },
+    {
+      "path": "04-skills/08-cross-functional/technology-transfer-assessor/SKILL.md",
+      "size_bytes": 6360,
+      "sha256": "6b06f50e6180bde7af589401a285fcabf7b7cccb51c25c7d94d49e1b039130a7"
+    },
+    {
+      "path": "04-skills/03-knowledge-data/decision-precedent-retriever/references/README.md",
+      "size_bytes": 172,
+      "sha256": "1a50f7b970665a01bffb591bb041d38d1cf800bc3b0912da8c1bc07deb1e54a2"
+    },
+    {
+      "path": "04-skills/05-dam-active-ownership/talent-meritocracy-assessor/tests/trigger_cases.yaml",
+      "size_bytes": 901,
+      "sha256": "71ad515f35f90370deddd6842af46db295e043cbc5e7e1881d7ad6b7ed54be0e"
+    },
+    {
+      "path": "04-skills/05-dam-active-ownership/talent-meritocracy-assessor/SKILL.md",
+      "size_bytes": 6361,
+      "sha256": "28b4f81cdda2f4c47edf0a4acbaa59e88437a9f5f8028c3a33ff85944119bd3b"
+    },
+    {
+      "path": "04-skills/01-governance-doctrine/dual-mandate-balancer/tests/trigger_cases.yaml",
+      "size_bytes": 788,
+      "sha256": "f68a7e29525cf97b914d6287d8875b69ea293c47a33c763816ee94e8c3988f2e"
+    },
+    {
+      "path": "04-skills/03-knowledge-data/legal-regulatory-monitor/references/README.md",
+      "size_bytes": 168,
+      "sha256": "7cce43ededf82919cb4bdf1af60cff2148c0147babd8cd90150b42127edf4d4c"
+    },
+    {
+      "path": "04-skills/01-governance-doctrine/dual-mandate-balancer/SKILL.md",
+      "size_bytes": 4918,
+      "sha256": "51b0b1fe3460d9ffb934f31597aaaf6a8acf2e646bc8679655ea8ed494ee4c99"
+    },
+    {
+      "path": "04-skills/03-knowledge-data/data-quality-and-lineage-checker/references/README.md",
+      "size_bytes": 176,
+      "sha256": "b61fd62c1018efd96cb1bcf4b53ec44efa014e39524bdb2a96b9619c4531abf3"
+    },
+    {
+      "path": "04-skills/01-governance-doctrine/dual-mandate-balancer/references/README.md",
+      "size_bytes": 165,
+      "sha256": "286239716ffe227ec87de79cdff28b9e29f47926564bd6d19ff114c7bf939f23"
+    },
+    {
+      "path": "04-skills/10-assurance-evaluation/bias-and-independence-review/tests/trigger_cases.yaml",
+      "size_bytes": 891,
+      "sha256": "9bdc73a18d577171e9ea989cbd3819a5c75646713674e7857b54c8b6b2096c3d"
+    },
+    {
+      "path": "04-skills/10-assurance-evaluation/bias-and-independence-review/SKILL.md",
+      "size_bytes": 6306,
+      "sha256": "385f2208168072d239f64073d7c9f7b0ae15e895fb7e9dec44e30c7313520d69"
+    },
+    {
+      "path": "04-skills/01-governance-doctrine/prudence-and-downside-gate/references/README.md",
+      "size_bytes": 170,
+      "sha256": "40f44a9c54e7015f56278b54a2caa0a2529b1e6fa8dc51531aca8eb0ed334a64"
+    },
+    {
+      "path": "04-skills/01-governance-doctrine/integrity-beneficiary-check/SKILL.md",
+      "size_bytes": 6097,
+      "sha256": "f1e1b08562a589dfe01a8fb0f13819e45cee0b318c17b4cc8ef93f190c9734c4"
+    },
+    {
+      "path": "04-skills/05-dam-active-ownership/talent-meritocracy-assessor/references/README.md",
+      "size_bytes": 171,
+      "sha256": "9538abbdc2588896bf2e9239e5aeb5f9da34d73531c79a233137af4ea9132202"
+    },
+    {
+      "path": "04-skills/01-governance-doctrine/prudence-and-downside-gate/tests/trigger_cases.yaml",
+      "size_bytes": 918,
+      "sha256": "4413bc36a19c931732a6ce699868f787de6ffc2be273dbd1559da4ea57823dfe"
+    },
+    {
+      "path": "04-skills/01-governance-doctrine/prudence-and-downside-gate/SKILL.md",
+      "size_bytes": 6362,
+      "sha256": "cfb58e0aabfa8106a4dc794706ec6050c16e486de74eee27aac7572b5e738f46"
+    },
+    {
+      "path": "04-skills/01-governance-doctrine/decision-rights-checker/tests/trigger_cases.yaml",
+      "size_bytes": 907,
+      "sha256": "97555dd882db922c729d3247118d74a332dd54e935e797cc0bee37d86ecf140c"
+    },
+    {
+      "path": "04-skills/01-governance-doctrine/decision-rights-checker/SKILL.md",
+      "size_bytes": 6263,
+      "sha256": "09736a46c7bbc43503c0a9db235bd282074d417cfd80f0b7d2d760a9a652b0aa"
+    },
+    {
+      "path": "04-skills/02-orchestration/source-hierarchy-resolver/tests/trigger_cases.yaml",
+      "size_bytes": 810,
+      "sha256": "c3c13eb4fdffac1f17a15ba17670eff3b1863ed77647be2df89ba0499235645e"
+    },
+    {
+      "path": "04-skills/02-orchestration/source-hierarchy-resolver/SKILL.md",
+      "size_bytes": 5996,
+      "sha256": "86ad980ac6feb90c26e157e39f8d8123602b56339c2814abfdb8ab3829fb2b14"
+    },
+    {
+      "path": "04-skills/01-governance-doctrine/integrity-beneficiary-check/tests/trigger_cases.yaml",
+      "size_bytes": 824,
+      "sha256": "9d138f0b65750243b6007f895c0c02615a9e6b327861318281739de3f620c484"
+    },
+    {
+      "path": "04-skills/01-governance-doctrine/integrity-beneficiary-check/references/README.md",
+      "size_bytes": 171,
+      "sha256": "d9a782926e8ff87613ab20a58ce28c80bdfb81ab96589afc401a0a4f1f7b3a14"
+    },
+    {
+      "path": "04-skills/01-governance-doctrine/mandate-authority-interpreter/SKILL.md",
+      "size_bytes": 6057,
+      "sha256": "68b21968b36d6010668aca5a7c36910f938a8e62efce83191963be38106e600e"
+    },
+    {
+      "path": "04-skills/01-governance-doctrine/long-term-value-test/tests/trigger_cases.yaml",
+      "size_bytes": 794,
+      "sha256": "91807e41b1f89b0dcaea2c590b9647de6f06ca060f50a03dd51418907f4c1772"
+    },
+    {
+      "path": "04-skills/01-governance-doctrine/long-term-value-test/SKILL.md",
+      "size_bytes": 6075,
+      "sha256": "dfb21a3a36af89bf48125b2c577ffe3ed72b8c5b3e6174ab91d75b570d5de2ec"
+    },
+    {
+      "path": "04-skills/10-assurance-evaluation/evidence-citation-auditor/tests/trigger_cases.yaml",
       "size_bytes": 889,
-      "sha256": "b47f8e6352fcf3eb4a754da1b40a60024579ab6dc2701b345ed088b749fe5d8b"
+      "sha256": "a39f2889a559f5d4160e57b3b597d45698310be802468a5369cb50dfad83bf72"
     },
     {
-      "path": "04-skills/05-dam-active-ownership/ceo-transformation-challenger/SKILL.md",
-      "size_bytes": 6388,
-      "sha256": "267a9beba0c36db4e1f8028ebbd48d28525567cafbf39b8ebb7f07fc26c58a20"
+      "path": "04-skills/10-assurance-evaluation/evidence-citation-auditor/SKILL.md",
+      "size_bytes": 6304,
+      "sha256": "d5195b791e50ed8ab8276c9ab86f322934fb691434800f9f59be78d062ba51e4"
     },
     {
-      "path": "04-skills/05-dam-active-ownership/ceo-transformation-challenger/references/README.md",
+      "path": "04-skills/01-governance-doctrine/danantara-way-governance/tests/trigger_cases.yaml",
+      "size_bytes": 859,
+      "sha256": "d5cc409399d17778f14fb6bf21a0f41685ab68feb073d20cf97cae6b5fcf3f66"
+    },
+    {
+      "path": "04-skills/01-governance-doctrine/danantara-way-governance/SKILL.md",
+      "size_bytes": 5262,
+      "sha256": "b508acd7ac5f9cd5e22110f58bf68d48065094ac4591ada5f0941df33773a6e3"
+    },
+    {
+      "path": "04-skills/10-assurance-evaluation/bias-and-independence-review/references/README.md",
+      "size_bytes": 172,
+      "sha256": "b1f6cebda533f092f73b8312f3b3049ed958cbb2062a93fa652f574ef337f351"
+    },
+    {
+      "path": "04-skills/01-governance-doctrine/decision-rights-checker/references/README.md",
+      "size_bytes": 167,
+      "sha256": "8f77f06d0cd50d1436ab86fcf7a8b93225dcbf840afd3cc3e1f45ae6ad9826aa"
+    },
+    {
+      "path": "04-skills/01-governance-doctrine/long-term-value-test/references/README.md",
+      "size_bytes": 164,
+      "sha256": "ffbf24dab5df7797d155a9ae4f1af6e29799388e03426825ac88fb045dba058f"
+    },
+    {
+      "path": "04-skills/08-cross-functional/technology-transfer-assessor/references/README.md",
+      "size_bytes": 172,
+      "sha256": "e365744d14b7eda892f5dee624cb664a2aa09fcdead6dd635a0106ca47a6b97d"
+    },
+    {
+      "path": "04-skills/10-assurance-evaluation/evidence-citation-auditor/references/README.md",
+      "size_bytes": 169,
+      "sha256": "aa75bac3eb4e43f2b7c60d2cae6f1fa58887dba5b7ebbf792f341c0ae4b975b0"
+    },
+    {
+      "path": "04-skills/02-orchestration/source-hierarchy-resolver/references/README.md",
+      "size_bytes": 169,
+      "sha256": "f81068d5fdac839b3d222d4c340a87c3e166be2ac9402b518b2f36e5e40f3afc"
+    },
+    {
+      "path": "04-skills/01-governance-doctrine/mandate-authority-interpreter/tests/trigger_cases.yaml",
+      "size_bytes": 794,
+      "sha256": "290dbd3e4ffe29341fa6b2ccc1e50539a8b81019f2700635c6651785d99e84cb"
+    },
+    {
+      "path": "04-skills/05-dam-active-ownership/shared-platform-architect/tests/trigger_cases.yaml",
+      "size_bytes": 832,
+      "sha256": "69e8574c3ee9139b7f229b545bd1069ae5291907ab5431774d98a31db31ab3db"
+    },
+    {
+      "path": "04-skills/05-dam-active-ownership/shared-platform-architect/SKILL.md",
+      "size_bytes": 6119,
+      "sha256": "31e77009e2e8e7404a6c1c4a1adabdaa9c8bb8d1a05537e7020a86f38fd2301a"
+    },
+    {
+      "path": "04-skills/01-governance-doctrine/mandate-authority-interpreter/references/README.md",
       "size_bytes": 173,
-      "sha256": "f527fbf16c620d52e2128b79f5b17d26216aff495e4c2b2bd386883b18e3b5b1"
+      "sha256": "64cc03892b0ed9f43fef21360286a89da8d8a47b738caff12f25de8d2584149e"
+    },
+    {
+      "path": "04-skills/05-dam-active-ownership/enterprise-digital-synergy/tests/trigger_cases.yaml",
+      "size_bytes": 891,
+      "sha256": "cc11146f0e740c1606dd6bea93ef7cc7e78b3e5a193f0c9ca5684958d466e68c"
+    },
+    {
+      "path": "04-skills/05-dam-active-ownership/enterprise-digital-synergy/SKILL.md",
+      "size_bytes": 6338,
+      "sha256": "9fdca13f9541dcf51dcd60e5a157c26eb9046733a667bdb95f43dad30b3581e6"
+    },
+    {
+      "path": "04-skills/01-governance-doctrine/danantara-way-governance/references/README.md",
+      "size_bytes": 168,
+      "sha256": "2af368d36596d9ef8ca870085a392e1f65b08c6cce5927726fdfdaf0bf1be6b4"
     },
     {
       "path": "04-skills/05-dam-active-ownership/ceo-transformation-challenger/tests/trigger_cases.yaml",
@@ -827,14 +817,109 @@
       "sha256": "0cbb6aa2d25b0a1ff6ff2d2e3219ffe569212fc28d06eb4f1cbedae7e6c6d689"
     },
     {
-      "path": "04-skills/05-dam-active-ownership/conditional-capital-designer/SKILL.md",
-      "size_bytes": 6372,
-      "sha256": "69fa9e7a57a340fb464f0c384b095106f45ec5f25ac17c1dd6dedddd770dfd8f"
+      "path": "04-skills/05-dam-active-ownership/ceo-transformation-challenger/SKILL.md",
+      "size_bytes": 6388,
+      "sha256": "267a9beba0c36db4e1f8028ebbd48d28525567cafbf39b8ebb7f07fc26c58a20"
     },
     {
-      "path": "04-skills/05-dam-active-ownership/conditional-capital-designer/references/README.md",
-      "size_bytes": 172,
-      "sha256": "a736287dd26207c4aee3ba158c0537ef703799ee38bb7d60e9f8346631a96f5e"
+      "path": "04-skills/05-dam-active-ownership/shared-platform-architect/references/README.md",
+      "size_bytes": 169,
+      "sha256": "08b3fe5019d56d05dc9bdb3d7a696b112552970e485eaa3b7f83f48a6f71fb65"
+    },
+    {
+      "path": "04-skills/05-dam-active-ownership/bumn-portfolio-segmenter/tests/trigger_cases.yaml",
+      "size_bytes": 892,
+      "sha256": "690ddec7af005fe34d32eeef798921ce97c70e63cc5f1b9c43bfea8729b0b701"
+    },
+    {
+      "path": "04-skills/05-dam-active-ownership/bumn-portfolio-segmenter/SKILL.md",
+      "size_bytes": 6335,
+      "sha256": "0bfa9179766bc8ca1389409a41c331a44f9cba82c4b9509b95861d548679e6a1"
+    },
+    {
+      "path": "04-skills/05-dam-active-ownership/ceo-transformation-challenger/references/README.md",
+      "size_bytes": 173,
+      "sha256": "f527fbf16c620d52e2128b79f5b17d26216aff495e4c2b2bd386883b18e3b5b1"
+    },
+    {
+      "path": "04-skills/08-cross-functional/stakeholder-communications-planner/tests/trigger_cases.yaml",
+      "size_bytes": 920,
+      "sha256": "2c6405b7f4f07b0ff17533526d0a82c385f48487b097554e04389ca6a1852e48"
+    },
+    {
+      "path": "04-skills/08-cross-functional/stakeholder-communications-planner/SKILL.md",
+      "size_bytes": 6365,
+      "sha256": "6ad11c963640e8a6403c12d96410fe82e2e0728993a948047544d5ee1b9a30a6"
+    },
+    {
+      "path": "04-skills/05-dam-active-ownership/enterprise-digital-synergy/references/README.md",
+      "size_bytes": 170,
+      "sha256": "e300c6a5286062803535db3a2b3c6c6c7e0051d386af066325c62d935f7b3f56"
+    },
+    {
+      "path": "04-skills/10-assurance-evaluation/decision-quality-gate/tests/trigger_cases.yaml",
+      "size_bytes": 5632,
+      "sha256": "83e32594d2d9d781098f48ccdf492ba86fb2c8d8d234be37a360bb97bb50068f"
+    },
+    {
+      "path": "04-skills/10-assurance-evaluation/decision-quality-gate/SKILL.md",
+      "size_bytes": 9378,
+      "sha256": "4acf920ae85c9c57589a00a09c8ab489632395a9600c17233658f4fe7bdef34d"
+    },
+    {
+      "path": "04-skills/08-cross-functional/stakeholder-communications-planner/references/README.md",
+      "size_bytes": 178,
+      "sha256": "d809418dfdd7b6e5326ef478ad7cf7d26ce97a5751e00781363dd4efecfbc495"
+    },
+    {
+      "path": "04-skills/04-bpi-control-tower/transformation-agenda-orchestrator/tests/trigger_cases.yaml",
+      "size_bytes": 898,
+      "sha256": "b82695498a196f84b471a93296f19dc1f523e6cf31c3d4c0b6d1e26db88fd904"
+    },
+    {
+      "path": "04-skills/04-bpi-control-tower/transformation-agenda-orchestrator/SKILL.md",
+      "size_bytes": 6272,
+      "sha256": "f639a10ec82fde6fcb98f6623cbf64b74c8a8cb1cec95109b0a15c4675480af4"
+    },
+    {
+      "path": "04-skills/02-orchestration/skill-chain-composer/tests/trigger_cases.yaml",
+      "size_bytes": 889,
+      "sha256": "6eca847c24c3a83cd98467dbfbdef8edfe3837593954041b3d5de659bc5de704"
+    },
+    {
+      "path": "04-skills/02-orchestration/skill-chain-composer/SKILL.md",
+      "size_bytes": 6277,
+      "sha256": "84cda5e317d315c982acdbf867ae2d56bfd48632da3e64087473d337f6d36cd9"
+    },
+    {
+      "path": "04-skills/10-assurance-evaluation/decision-quality-gate/references/README.md",
+      "size_bytes": 165,
+      "sha256": "d59c7ef89eb23130a177bb8d164bc0b3c4b1f529108a3de963f1fd2f007f2567"
+    },
+    {
+      "path": "04-skills/10-assurance-evaluation/decision-quality-gate/references/decision-quality-protocol.md",
+      "size_bytes": 8411,
+      "sha256": "ef452f8d3360fe68ee3ec9e7cfafddbe9ff93f1b226c69d71551211fd1b777e9"
+    },
+    {
+      "path": "04-skills/05-dam-active-ownership/capital-allocation-reviewer/tests/trigger_cases.yaml",
+      "size_bytes": 889,
+      "sha256": "b47f8e6352fcf3eb4a754da1b40a60024579ab6dc2701b345ed088b749fe5d8b"
+    },
+    {
+      "path": "04-skills/05-dam-active-ownership/capital-allocation-reviewer/SKILL.md",
+      "size_bytes": 6323,
+      "sha256": "800c767b3e0d843651bf57bc2665577cb88936800376f5ebef499f04d8c7cbfe"
+    },
+    {
+      "path": "04-skills/10-assurance-evaluation/audit-trail-packager/tests/trigger_cases.yaml",
+      "size_bytes": 870,
+      "sha256": "4192b49e32119fce7a8e6ac6168b129fe0e5c5eb17b1695856c5eaeceb3e05d7"
+    },
+    {
+      "path": "04-skills/10-assurance-evaluation/audit-trail-packager/SKILL.md",
+      "size_bytes": 6270,
+      "sha256": "9052ddb187eed90a9d233e549358fb8a69b807cc5015d6c4ff49520b80798155"
     },
     {
       "path": "04-skills/05-dam-active-ownership/conditional-capital-designer/tests/trigger_cases.yaml",
@@ -842,19 +927,54 @@
       "sha256": "8aaa9f1b11eb42f6e878e4fdf6ddc305b46bb2dbc8ba2a032fecb3b7a89effd0"
     },
     {
-      "path": "04-skills/05-dam-active-ownership/corporate-parenting-advantage/SKILL.md",
-      "size_bytes": 6384,
-      "sha256": "d12ba54faec2ea3461fc78ad78ab29871fcc45a277bd52f6e3d668420229d81c"
+      "path": "04-skills/05-dam-active-ownership/conditional-capital-designer/SKILL.md",
+      "size_bytes": 6372,
+      "sha256": "69fa9e7a57a340fb464f0c384b095106f45ec5f25ac17c1dd6dedddd770dfd8f"
     },
     {
-      "path": "04-skills/05-dam-active-ownership/corporate-parenting-advantage/references/README.md",
-      "size_bytes": 173,
-      "sha256": "2b40c982881b4918f1c707319107d2aa2c14b29799e40de4788b547c18d75e5e"
+      "path": "04-skills/05-dam-active-ownership/capital-allocation-reviewer/references/README.md",
+      "size_bytes": 171,
+      "sha256": "371204ebe45ad32145535df039514eabaac7227f248ad534dc7b68b2e8c0e878"
     },
     {
-      "path": "04-skills/05-dam-active-ownership/corporate-parenting-advantage/tests/trigger_cases.yaml",
-      "size_bytes": 915,
-      "sha256": "12e1ee62a72efb5e1f9eca300f469257903b7453e1b7174cbf98919bba12fa92"
+      "path": "04-skills/02-orchestration/skill-chain-composer/references/README.md",
+      "size_bytes": 164,
+      "sha256": "1cc9baf71a9fa2f0bbca0f25d7fab3ec2943374e167bf287aa73824fd2d7ad1b"
+    },
+    {
+      "path": "04-skills/05-dam-active-ownership/restructuring-options-designer/tests/trigger_cases.yaml",
+      "size_bytes": 902,
+      "sha256": "70a5334be0a411cc7a36b2bc926e60e6b45d7a91ebdd5b3db4860ccd3c0f59e4"
+    },
+    {
+      "path": "04-skills/05-dam-active-ownership/restructuring-options-designer/SKILL.md",
+      "size_bytes": 6356,
+      "sha256": "33d735df7e919bfac48ac751c21aa4b70ef5b171a67e80993180c7d2821efd37"
+    },
+    {
+      "path": "04-skills/08-cross-functional/selective-import-substitution-test/tests/trigger_cases.yaml",
+      "size_bytes": 917,
+      "sha256": "541e53df713a9b34615c21f886fa6d974b88dd36a9270cb16c0791b9ac23169b"
+    },
+    {
+      "path": "04-skills/08-cross-functional/selective-import-substitution-test/SKILL.md",
+      "size_bytes": 6357,
+      "sha256": "fdc94a2d585946047c65580919dd6063f062b1023ad9f28ed2db8fe220e5b014"
+    },
+    {
+      "path": "04-skills/05-dam-active-ownership/merger-consolidation-case/tests/trigger_cases.yaml",
+      "size_bytes": 899,
+      "sha256": "456640806f7b89f56776de72d978d4a105b230e7d98b13530bb33c42f4e8959a"
+    },
+    {
+      "path": "04-skills/05-dam-active-ownership/merger-consolidation-case/SKILL.md",
+      "size_bytes": 6379,
+      "sha256": "03cc9f88c4fbc8adced4114ade9fbaa486b793c2bc3f9ea52b725318146cedb9"
+    },
+    {
+      "path": "04-skills/05-dam-active-ownership/divestment-exit-readiness/tests/trigger_cases.yaml",
+      "size_bytes": 893,
+      "sha256": "bd9778c03eb4ab1929658eb7258f669cebde87470f0bbfb83d019506f5b44f92"
     },
     {
       "path": "04-skills/05-dam-active-ownership/divestment-exit-readiness/SKILL.md",
@@ -867,119 +987,34 @@
       "sha256": "49fc4a754af0170cc2bed913039059c29c378c425311441da0c066351340e640"
     },
     {
-      "path": "04-skills/05-dam-active-ownership/divestment-exit-readiness/tests/trigger_cases.yaml",
-      "size_bytes": 893,
-      "sha256": "bd9778c03eb4ab1929658eb7258f669cebde87470f0bbfb83d019506f5b44f92"
+      "path": "04-skills/05-dam-active-ownership/bumn-portfolio-segmenter/references/README.md",
+      "size_bytes": 168,
+      "sha256": "317ecc3fc57da3c14d24176e9d6f1c22bb0a884c306956922834f30267861306"
     },
     {
-      "path": "04-skills/05-dam-active-ownership/enterprise-digital-synergy/SKILL.md",
-      "size_bytes": 6338,
-      "sha256": "9fdca13f9541dcf51dcd60e5a157c26eb9046733a667bdb95f43dad30b3581e6"
-    },
-    {
-      "path": "04-skills/05-dam-active-ownership/enterprise-digital-synergy/references/README.md",
-      "size_bytes": 170,
-      "sha256": "e300c6a5286062803535db3a2b3c6c6c7e0051d386af066325c62d935f7b3f56"
-    },
-    {
-      "path": "04-skills/05-dam-active-ownership/enterprise-digital-synergy/tests/trigger_cases.yaml",
-      "size_bytes": 891,
-      "sha256": "cc11146f0e740c1606dd6bea93ef7cc7e78b3e5a193f0c9ca5684958d466e68c"
-    },
-    {
-      "path": "04-skills/05-dam-active-ownership/financial-performance-diagnostic/SKILL.md",
-      "size_bytes": 6352,
-      "sha256": "570baeb63cdfed99729b38622794cefdd60c6073b05e78334a3fd0a7289a25ef"
-    },
-    {
-      "path": "04-skills/05-dam-active-ownership/financial-performance-diagnostic/references/README.md",
-      "size_bytes": 176,
-      "sha256": "945ec73ffedcd0a98304812a978fe03b950af12fe64452aaf851b74a79267036"
-    },
-    {
-      "path": "04-skills/05-dam-active-ownership/financial-performance-diagnostic/tests/trigger_cases.yaml",
+      "path": "04-skills/10-assurance-evaluation/confidentiality-leakage-check/tests/trigger_cases.yaml",
       "size_bytes": 907,
-      "sha256": "367e72441e7b060c61bd6dc92792dd769820707e97a0a8abb1515021018ccf52"
+      "sha256": "92424bdf1040724575256133967c569a30ffd5a784d42eac1412b2d864ea6bff"
     },
     {
-      "path": "04-skills/05-dam-active-ownership/management-accountability-contract/SKILL.md",
-      "size_bytes": 6119,
-      "sha256": "35cfe0d826555e7a92d722979a6e6ff931ec497b66fe5cd02599bdfddf043e37"
+      "path": "04-skills/10-assurance-evaluation/confidentiality-leakage-check/SKILL.md",
+      "size_bytes": 6352,
+      "sha256": "2661ae57fbf74be658dedf2fa6697d4d5dc282c45c24d2793220d7bc967bbae3"
     },
     {
-      "path": "04-skills/05-dam-active-ownership/management-accountability-contract/references/README.md",
+      "path": "04-skills/10-assurance-evaluation/audit-trail-packager/references/README.md",
+      "size_bytes": 164,
+      "sha256": "f9dd50d536026f960871abd33ffbf6d6266070c0eb21d840213bd392a9b1b1c5"
+    },
+    {
+      "path": "04-skills/05-dam-active-ownership/conditional-capital-designer/references/README.md",
+      "size_bytes": 172,
+      "sha256": "a736287dd26207c4aee3ba158c0537ef703799ee38bb7d60e9f8346631a96f5e"
+    },
+    {
+      "path": "04-skills/08-cross-functional/selective-import-substitution-test/references/README.md",
       "size_bytes": 178,
-      "sha256": "82ad5466c12f8ae208b0483c77063befd37bfcb588fca976470b3619229cf0de"
-    },
-    {
-      "path": "04-skills/05-dam-active-ownership/management-accountability-contract/tests/trigger_cases.yaml",
-      "size_bytes": 841,
-      "sha256": "aa475b23024e835175f83a8b5ee58fdaaeb7a2444f2436f3e8705034856ae82f"
-    },
-    {
-      "path": "04-skills/05-dam-active-ownership/merger-consolidation-case/SKILL.md",
-      "size_bytes": 6379,
-      "sha256": "03cc9f88c4fbc8adced4114ade9fbaa486b793c2bc3f9ea52b725318146cedb9"
-    },
-    {
-      "path": "04-skills/05-dam-active-ownership/merger-consolidation-case/references/README.md",
-      "size_bytes": 169,
-      "sha256": "d00f66afdc8a1257b42ad1353028f435c65659cdabef6633c42db1b472ed34dc"
-    },
-    {
-      "path": "04-skills/05-dam-active-ownership/merger-consolidation-case/tests/trigger_cases.yaml",
-      "size_bytes": 899,
-      "sha256": "456640806f7b89f56776de72d978d4a105b230e7d98b13530bb33c42f4e8959a"
-    },
-    {
-      "path": "04-skills/05-dam-active-ownership/operational-excellence-diagnostic/SKILL.md",
-      "size_bytes": 6373,
-      "sha256": "78d62cfa57771b0c23b50655ab2ec1512b950d382e70a1c52d633c7b89ede84f"
-    },
-    {
-      "path": "04-skills/05-dam-active-ownership/operational-excellence-diagnostic/references/README.md",
-      "size_bytes": 177,
-      "sha256": "b5ed45215d9a3f4ac6b31423474b527bc2b90c7e3a331643b29630998991f9b8"
-    },
-    {
-      "path": "04-skills/05-dam-active-ownership/operational-excellence-diagnostic/tests/trigger_cases.yaml",
-      "size_bytes": 914,
-      "sha256": "5faa0a6254d3e96e0df1be38df663f1f653695d3421ead194c39ba4ebefc92e0"
-    },
-    {
-      "path": "04-skills/05-dam-active-ownership/portfolio-rationalization-analyzer/SKILL.md",
-      "size_bytes": 6124,
-      "sha256": "e76dd61514334bf35d3db19b4241c5b25fc464535fd60194efb932332786cfa9"
-    },
-    {
-      "path": "04-skills/05-dam-active-ownership/portfolio-rationalization-analyzer/references/README.md",
-      "size_bytes": 178,
-      "sha256": "f0dadfb85b9344e88171506876af20c4f4692066e99e8ef6271c7a3c4b67f500"
-    },
-    {
-      "path": "04-skills/05-dam-active-ownership/portfolio-rationalization-analyzer/tests/trigger_cases.yaml",
-      "size_bytes": 841,
-      "sha256": "69304eb6b95c336f5a4f59d490c8ba3f2e904003fb483ffe87fe347ae062ef1e"
-    },
-    {
-      "path": "04-skills/05-dam-active-ownership/post-merger-integration-planner/SKILL.md",
-      "size_bytes": 6354,
-      "sha256": "3d7426807c54a1de7bbc364e6fc2e3c4c60167def159332f2d03df8ca5dd3536"
-    },
-    {
-      "path": "04-skills/05-dam-active-ownership/post-merger-integration-planner/references/README.md",
-      "size_bytes": 175,
-      "sha256": "6fa288350562142f693cad0738ee9801219c99a39035a1c2e88d8a2df9790c14"
-    },
-    {
-      "path": "04-skills/05-dam-active-ownership/post-merger-integration-planner/tests/trigger_cases.yaml",
-      "size_bytes": 909,
-      "sha256": "e84fad312489cc22350e690bd8221793a6cca1d2ed722e61dddb93bbff664ab9"
-    },
-    {
-      "path": "04-skills/05-dam-active-ownership/restructuring-options-designer/SKILL.md",
-      "size_bytes": 6356,
-      "sha256": "33d735df7e919bfac48ac751c21aa4b70ef5b171a67e80993180c7d2821efd37"
+      "sha256": "aa85db23f74d3d9a9a05b76fa97f754bae12b9cbe2c9ccf06a1fcb4ae73aff87"
     },
     {
       "path": "04-skills/05-dam-active-ownership/restructuring-options-designer/references/README.md",
@@ -987,139 +1022,724 @@
       "sha256": "5ee3c5b8758251ecc353be2022ffdc4b3e7f0b2bbc4bfe72109387ae1837dd06"
     },
     {
-      "path": "04-skills/05-dam-active-ownership/restructuring-options-designer/tests/trigger_cases.yaml",
-      "size_bytes": 902,
-      "sha256": "70a5334be0a411cc7a36b2bc926e60e6b45d7a91ebdd5b3db4860ccd3c0f59e4"
+      "path": "04-skills/10-assurance-evaluation/confidentiality-leakage-check/references/README.md",
+      "size_bytes": 173,
+      "sha256": "cb2df25be95542d33f77810c3864658da1f3099e8826a9a239c46aa003d423fb"
     },
     {
-      "path": "04-skills/05-dam-active-ownership/shared-platform-architect/SKILL.md",
-      "size_bytes": 6119,
-      "sha256": "31e77009e2e8e7404a6c1c4a1adabdaa9c8bb8d1a05537e7020a86f38fd2301a"
-    },
-    {
-      "path": "04-skills/05-dam-active-ownership/shared-platform-architect/references/README.md",
+      "path": "04-skills/05-dam-active-ownership/merger-consolidation-case/references/README.md",
       "size_bytes": 169,
-      "sha256": "08b3fe5019d56d05dc9bdb3d7a696b112552970e485eaa3b7f83f48a6f71fb65"
+      "sha256": "d00f66afdc8a1257b42ad1353028f435c65659cdabef6633c42db1b472ed34dc"
     },
     {
-      "path": "04-skills/05-dam-active-ownership/shared-platform-architect/tests/trigger_cases.yaml",
-      "size_bytes": 832,
-      "sha256": "69e8574c3ee9139b7f229b545bd1069ae5291907ab5431774d98a31db31ab3db"
-    },
-    {
-      "path": "04-skills/05-dam-active-ownership/talent-meritocracy-assessor/SKILL.md",
-      "size_bytes": 6361,
-      "sha256": "28b4f81cdda2f4c47edf0a4acbaa59e88437a9f5f8028c3a33ff85944119bd3b"
-    },
-    {
-      "path": "04-skills/05-dam-active-ownership/talent-meritocracy-assessor/references/README.md",
-      "size_bytes": 171,
-      "sha256": "9538abbdc2588896bf2e9239e5aeb5f9da34d73531c79a233137af4ea9132202"
-    },
-    {
-      "path": "04-skills/05-dam-active-ownership/talent-meritocracy-assessor/tests/trigger_cases.yaml",
-      "size_bytes": 901,
-      "sha256": "71ad515f35f90370deddd6842af46db295e043cbc5e7e1881d7ad6b7ed54be0e"
-    },
-    {
-      "path": "04-skills/05-dam-active-ownership/turnaround-triage/SKILL.md",
-      "size_bytes": 6323,
-      "sha256": "acd3db3c0548c5817c822edb6549444c5e7200f9bf76dcfdd2599c774b51eefd"
-    },
-    {
-      "path": "04-skills/05-dam-active-ownership/turnaround-triage/references/README.md",
-      "size_bytes": 161,
-      "sha256": "f90aec2e0f92e632f41e8e1bbc6e01427a8ed0a318aacaf2c3fc18a8ff489681"
-    },
-    {
-      "path": "04-skills/05-dam-active-ownership/turnaround-triage/tests/trigger_cases.yaml",
-      "size_bytes": 877,
-      "sha256": "784251c065b5ce0af48273073d854ab1b841d2858c97ae729dd5d6d247a61fe2"
-    },
-    {
-      "path": "04-skills/05-dam-active-ownership/value-creation-plan-builder/SKILL.md",
-      "size_bytes": 6362,
-      "sha256": "7f6cd9906365fd396b5ced211ec4aab110e2acd3ef31739a0bc4e1ac49265eac"
-    },
-    {
-      "path": "04-skills/05-dam-active-ownership/value-creation-plan-builder/references/README.md",
-      "size_bytes": 171,
-      "sha256": "c052d6edd97a0689317c0a8c80f58c512324f38bf742fe4c541735a1ea70cb14"
-    },
-    {
-      "path": "04-skills/05-dam-active-ownership/value-creation-plan-builder/tests/trigger_cases.yaml",
-      "size_bytes": 900,
-      "sha256": "7b711ee9dc9a2e21f2fd0562a1680d4dd2219c67167ae130a51290d3d9d0ab9b"
-    },
-    {
-      "path": "04-skills/06-dim-investment-management/co-investment-crowding-in/SKILL.md",
-      "size_bytes": 6099,
-      "sha256": "d0a9efbc8289bd8500bf2ceb86d4e05dd25b5abf2ec4deb06ca6f3f9c14d9acd"
-    },
-    {
-      "path": "04-skills/06-dim-investment-management/co-investment-crowding-in/references/README.md",
-      "size_bytes": 169,
-      "sha256": "e7b1d827f841beed1787e92866d6f6cbd48307d5f46906940595f7105be6076d"
-    },
-    {
-      "path": "04-skills/06-dim-investment-management/co-investment-crowding-in/tests/trigger_cases.yaml",
-      "size_bytes": 804,
-      "sha256": "a4ca3e06639b27f8ef57bb505dff9a8ef51705b8e1c597c02175a06e2273178f"
-    },
-    {
-      "path": "04-skills/06-dim-investment-management/commercial-due-diligence/SKILL.md",
-      "size_bytes": 6288,
-      "sha256": "4353025041b5018b1f30284a8515d0a7efc73d54fb3bc3ea48e0951be34f54ff"
-    },
-    {
-      "path": "04-skills/06-dim-investment-management/commercial-due-diligence/references/README.md",
-      "size_bytes": 168,
-      "sha256": "93181f9f1e504b0b94c858eecf67253ae3b2fcab442b3105a5f9503be9f6c032"
-    },
-    {
-      "path": "04-skills/06-dim-investment-management/commercial-due-diligence/tests/trigger_cases.yaml",
-      "size_bytes": 862,
-      "sha256": "b4b254eb1f36a5787916e88d97c68287100b789a18f535a67cb09298003320b2"
-    },
-    {
-      "path": "04-skills/06-dim-investment-management/comparable-transactions-analyzer/SKILL.md",
-      "size_bytes": 6410,
-      "sha256": "e6ed12e3ca59073bc765d13d4df8140651e8ccf54a893682e14735ca033cdec6"
-    },
-    {
-      "path": "04-skills/06-dim-investment-management/comparable-transactions-analyzer/references/README.md",
-      "size_bytes": 176,
-      "sha256": "6bc102357c1b0abd9ec8fc1814b4bcba48351a515eb62b81cc3500b31f0f7ba3"
-    },
-    {
-      "path": "04-skills/06-dim-investment-management/comparable-transactions-analyzer/tests/trigger_cases.yaml",
+      "path": "04-skills/05-dam-active-ownership/corporate-parenting-advantage/tests/trigger_cases.yaml",
       "size_bytes": 915,
-      "sha256": "bc5d475957cb961e95e581a6db9524f98fdeee80b03d6599646f09b566a7d2df"
+      "sha256": "12e1ee62a72efb5e1f9eca300f469257903b7453e1b7174cbf98919bba12fa92"
     },
     {
-      "path": "04-skills/06-dim-investment-management/concentration-and-liquidity-risk/SKILL.md",
-      "size_bytes": 6329,
-      "sha256": "1d5d9b8b16bb696c90b0740726f4f869562991e4645fb44fab6e182574376cfd"
+      "path": "04-skills/05-dam-active-ownership/corporate-parenting-advantage/SKILL.md",
+      "size_bytes": 6384,
+      "sha256": "d12ba54faec2ea3461fc78ad78ab29871fcc45a277bd52f6e3d668420229d81c"
     },
     {
-      "path": "04-skills/06-dim-investment-management/concentration-and-liquidity-risk/references/README.md",
+      "path": "04-skills/01-governance-doctrine/danantara-ai-constitution/tests/trigger_cases.yaml",
+      "size_bytes": 936,
+      "sha256": "6b5cdc01952e70a2e072172b6ad0a25c9e8f38f87d47749098d9b98ea657789c"
+    },
+    {
+      "path": "04-skills/01-governance-doctrine/danantara-ai-constitution/SKILL.md",
+      "size_bytes": 6396,
+      "sha256": "40db1ffc772c976a00280fe0d82f02ee0dcf4c2dd12750edf2275058497cae10"
+    },
+    {
+      "path": "04-skills/08-cross-functional/scenario-stress-testing/tests/trigger_cases.yaml",
+      "size_bytes": 901,
+      "sha256": "0259ce1efb443a4a8d9c83c4e6887421732e107f3084e1d140c10953d6e3828a"
+    },
+    {
+      "path": "04-skills/08-cross-functional/scenario-stress-testing/SKILL.md",
+      "size_bytes": 6342,
+      "sha256": "334fe84134c1fedb5dae1fadeec89d1940db1e6c9a31b5f246abf187e588f986"
+    },
+    {
+      "path": "04-skills/05-dam-active-ownership/corporate-parenting-advantage/references/README.md",
+      "size_bytes": 173,
+      "sha256": "2b40c982881b4918f1c707319107d2aa2c14b29799e40de4788b547c18d75e5e"
+    },
+    {
+      "path": "04-skills/02-orchestration/human-approval-orchestrator/tests/trigger_cases.yaml",
+      "size_bytes": 6019,
+      "sha256": "d303ab038e549b693eb3be4afbfdce8693d27a82dde36a5cb7aba29c272fd77b"
+    },
+    {
+      "path": "04-skills/02-orchestration/human-approval-orchestrator/SKILL.md",
+      "size_bytes": 14561,
+      "sha256": "fd00b16a7223c7fef45805ce07901ea3b61a81ba540964c5df487950c5d0eee3"
+    },
+    {
+      "path": "04-skills/05-dam-active-ownership/post-merger-integration-planner/tests/trigger_cases.yaml",
+      "size_bytes": 909,
+      "sha256": "e84fad312489cc22350e690bd8221793a6cca1d2ed722e61dddb93bbff664ab9"
+    },
+    {
+      "path": "04-skills/05-dam-active-ownership/post-merger-integration-planner/SKILL.md",
+      "size_bytes": 6354,
+      "sha256": "3d7426807c54a1de7bbc364e6fc2e3c4c60167def159332f2d03df8ca5dd3536"
+    },
+    {
+      "path": "04-skills/04-bpi-control-tower/transformation-agenda-orchestrator/references/README.md",
+      "size_bytes": 178,
+      "sha256": "b8de24e773c86810dfa6ff2c7a40b80f07bbdecae73dea33518e38c5d8d0d577"
+    },
+    {
+      "path": "04-skills/05-dam-active-ownership/management-accountability-contract/tests/trigger_cases.yaml",
+      "size_bytes": 841,
+      "sha256": "aa475b23024e835175f83a8b5ee58fdaaeb7a2444f2436f3e8705034856ae82f"
+    },
+    {
+      "path": "04-skills/05-dam-active-ownership/management-accountability-contract/SKILL.md",
+      "size_bytes": 6119,
+      "sha256": "35cfe0d826555e7a92d722979a6e6ff931ec497b66fe5cd02599bdfddf043e37"
+    },
+    {
+      "path": "04-skills/02-orchestration/human-approval-orchestrator/references/README.md",
+      "size_bytes": 171,
+      "sha256": "9e7e0cb655dae5cafd6c370b59df46afe3f91514f52f24638504c6a5958422c1"
+    },
+    {
+      "path": "04-skills/02-orchestration/human-approval-orchestrator/references/approval-validity-protocol.md",
+      "size_bytes": 9150,
+      "sha256": "4f02aa254e84d68958cffb02ba710dea90dfb46d5adb509ab7afd9821b031b65"
+    },
+    {
+      "path": "04-skills/05-dam-active-ownership/management-accountability-contract/references/README.md",
+      "size_bytes": 178,
+      "sha256": "82ad5466c12f8ae208b0483c77063befd37bfcb588fca976470b3619229cf0de"
+    },
+    {
+      "path": "04-skills/09-sector-overlays/upstream-energy-sector-pack/tests/trigger_cases.yaml",
+      "size_bytes": 895,
+      "sha256": "873305cfa3e2dc6c6475d7ae9f49b5e48864801131f1b5233d3f3dadbca18177"
+    },
+    {
+      "path": "04-skills/09-sector-overlays/upstream-energy-sector-pack/SKILL.md",
+      "size_bytes": 6365,
+      "sha256": "96a6d8d4c02d9ed514de11732846e38e0d05dc9a48a0faece7dafed97ff509c5"
+    },
+    {
+      "path": "04-skills/05-dam-active-ownership/financial-performance-diagnostic/tests/trigger_cases.yaml",
+      "size_bytes": 907,
+      "sha256": "367e72441e7b060c61bd6dc92792dd769820707e97a0a8abb1515021018ccf52"
+    },
+    {
+      "path": "04-skills/05-dam-active-ownership/financial-performance-diagnostic/SKILL.md",
+      "size_bytes": 6352,
+      "sha256": "570baeb63cdfed99729b38622794cefdd60c6073b05e78334a3fd0a7289a25ef"
+    },
+    {
+      "path": "04-skills/02-orchestration/red-team-orchestrator/tests/trigger_cases.yaml",
+      "size_bytes": 886,
+      "sha256": "de92caca9254fc819b4a1531d575c78e5b28fa5576f97ca2c690880f6961e2be"
+    },
+    {
+      "path": "04-skills/02-orchestration/red-team-orchestrator/SKILL.md",
+      "size_bytes": 6278,
+      "sha256": "1c3793fb9b6cd9d9691da8615aa93844192ba34c90e1bea72deda180389a71ec"
+    },
+    {
+      "path": "04-skills/05-dam-active-ownership/financial-performance-diagnostic/references/README.md",
       "size_bytes": 176,
-      "sha256": "96e95d57dc42d5ab49ab2581a1947e475a07700c2e205f8f287086e3ea4c30c1"
+      "sha256": "945ec73ffedcd0a98304812a978fe03b950af12fe64452aaf851b74a79267036"
     },
     {
-      "path": "04-skills/06-dim-investment-management/concentration-and-liquidity-risk/tests/trigger_cases.yaml",
-      "size_bytes": 885,
-      "sha256": "18451704bab2e693ef852fe0e3d812129f2809656cdaa46c8d7b987a74be7b16"
+      "path": "04-skills/04-bpi-control-tower/strategic-national-interest-test/tests/trigger_cases.yaml",
+      "size_bytes": 925,
+      "sha256": "e571fecac55618e668c1fdbcf3d01918a4cd3aa1f6198392f15fb083467ce1aa"
     },
     {
-      "path": "04-skills/06-dim-investment-management/conditions-precedent-tracker/SKILL.md",
-      "size_bytes": 6390,
-      "sha256": "28703da94f0d4bc0708ba2eed65f0643be3ff84232a21e89f361783556745506"
+      "path": "04-skills/04-bpi-control-tower/strategic-national-interest-test/SKILL.md",
+      "size_bytes": 6367,
+      "sha256": "290d1f16a52f375fd49be9fac37bfe7c1c2225e848a4ef4d1df672f8a1ca07e2"
     },
     {
-      "path": "04-skills/06-dim-investment-management/conditions-precedent-tracker/references/README.md",
+      "path": "04-skills/05-dam-active-ownership/operational-excellence-diagnostic/tests/trigger_cases.yaml",
+      "size_bytes": 914,
+      "sha256": "5faa0a6254d3e96e0df1be38df663f1f653695d3421ead194c39ba4ebefc92e0"
+    },
+    {
+      "path": "04-skills/05-dam-active-ownership/operational-excellence-diagnostic/SKILL.md",
+      "size_bytes": 6373,
+      "sha256": "78d62cfa57771b0c23b50655ab2ec1512b950d382e70a1c52d633c7b89ede84f"
+    },
+    {
+      "path": "04-skills/02-orchestration/evidence-retrieval-orchestrator/tests/trigger_cases.yaml",
+      "size_bytes": 813,
+      "sha256": "7b65b8e51094f3b8f5c9af3e397895bb08264883456b673604803571445bda16"
+    },
+    {
+      "path": "04-skills/02-orchestration/evidence-retrieval-orchestrator/SKILL.md",
+      "size_bytes": 6097,
+      "sha256": "b269e30bd3cf998ef1ed4579026ab6c5511993db0118f8d63e286a4e259fb6a2"
+    },
+    {
+      "path": "04-skills/09-sector-overlays/upstream-energy-sector-pack/references/README.md",
+      "size_bytes": 171,
+      "sha256": "c429ca8e018c596f6c046e3bf6a32b2086c59e42c96befcc96d867c27af0fe3e"
+    },
+    {
+      "path": "04-skills/05-dam-active-ownership/operational-excellence-diagnostic/references/README.md",
+      "size_bytes": 177,
+      "sha256": "b5ed45215d9a3f4ac6b31423474b527bc2b90c7e3a331643b29630998991f9b8"
+    },
+    {
+      "path": "04-skills/04-bpi-control-tower/strategic-national-interest-test/references/README.md",
+      "size_bytes": 176,
+      "sha256": "5987712f1689ecd3289a0eb23827ab0d1f8d595daf007fe32da4c48b22e02e3c"
+    },
+    {
+      "path": "04-skills/02-orchestration/evidence-retrieval-orchestrator/references/README.md",
+      "size_bytes": 175,
+      "sha256": "f2ce676eea27cf5a02ce93b6b213b6c245db448991a79bc96f5187af897c1e1b"
+    },
+    {
+      "path": "04-skills/02-orchestration/red-team-orchestrator/references/README.md",
+      "size_bytes": 165,
+      "sha256": "14ab2898c26112896325ee6b3dba8442aa44a5b29d38da910d6dd5523f363e16"
+    },
+    {
+      "path": "04-skills/05-dam-active-ownership/post-merger-integration-planner/references/README.md",
+      "size_bytes": 175,
+      "sha256": "6fa288350562142f693cad0738ee9801219c99a39035a1c2e88d8a2df9790c14"
+    },
+    {
+      "path": "04-skills/08-cross-functional/governance-board-paper-reviewer/tests/trigger_cases.yaml",
+      "size_bytes": 892,
+      "sha256": "df5dcbb21e1a37450b25d6ae99db219050b1dea706e1ccefdb56aa384f18c72b"
+    },
+    {
+      "path": "04-skills/08-cross-functional/governance-board-paper-reviewer/SKILL.md",
+      "size_bytes": 6294,
+      "sha256": "6f2e5ed75c1881b2f876f5be575e3c3b6d76637aba97a2b643df0c172dea55e7"
+    },
+    {
+      "path": "04-skills/01-governance-doctrine/danantara-ai-constitution/references/README.md",
+      "size_bytes": 169,
+      "sha256": "ddefec8b85826029e8de758f543b377ac79034d8b595474d6efc16dd2eb3ccf6"
+    },
+    {
+      "path": "04-skills/04-bpi-control-tower/public-accountability-packager/tests/trigger_cases.yaml",
+      "size_bytes": 924,
+      "sha256": "1f8b9857b6d59bf76435f3df8ef94d5b02b5bd82e8a162e52bcbca028dd5d2c0"
+    },
+    {
+      "path": "04-skills/04-bpi-control-tower/public-accountability-packager/SKILL.md",
+      "size_bytes": 6356,
+      "sha256": "c953d9698b4cde135d71d8c8b366108cc1e23f0163b7d2dcb0ae02645ada36da"
+    },
+    {
+      "path": "04-skills/08-cross-functional/enterprise-risk-aggregator/tests/trigger_cases.yaml",
+      "size_bytes": 895,
+      "sha256": "671667a4af7845a3b7e73c368cde1d1cd885ba4a75ac2a2662a1ac2a89d4cfb0"
+    },
+    {
+      "path": "04-skills/08-cross-functional/enterprise-risk-aggregator/SKILL.md",
+      "size_bytes": 6318,
+      "sha256": "239325e5e7c039af2eee0c0b0fbb7f3a73d86689b8f7b29c810a447db81550b4"
+    },
+    {
+      "path": "04-skills/02-orchestration/escalation-and-exception-router/tests/trigger_cases.yaml",
+      "size_bytes": 853,
+      "sha256": "beb020a245865741db7498eefc548cb52a6ac0ddff59ab774a2420b572a98505"
+    },
+    {
+      "path": "04-skills/02-orchestration/escalation-and-exception-router/SKILL.md",
+      "size_bytes": 6074,
+      "sha256": "9bb7d9cfcbb9ac5dfa5248f96b34628c58845567fcfc8b111769f0bb9114b344"
+    },
+    {
+      "path": "04-skills/04-bpi-control-tower/public-accountability-packager/references/README.md",
+      "size_bytes": 174,
+      "sha256": "a30ad1121cd087d04f358ea5aa543c12cb687298f3146dbc6e34018edd7fbcb9"
+    },
+    {
+      "path": "04-skills/09-sector-overlays/real-estate-sez-sector-pack/tests/trigger_cases.yaml",
+      "size_bytes": 871,
+      "sha256": "46d99413e16b0ff9289ca897bc6fef30515bcb753361e9738a7942cfcdc6e30a"
+    },
+    {
+      "path": "04-skills/09-sector-overlays/real-estate-sez-sector-pack/SKILL.md",
+      "size_bytes": 6293,
+      "sha256": "ad52377f5bcffd9fbea59ac7ea0190d9bd02ff3fcebc91311c4a5a092924bd05"
+    },
+    {
+      "path": "04-skills/08-cross-functional/governance-board-paper-reviewer/references/README.md",
+      "size_bytes": 175,
+      "sha256": "580392a9907b29ed592fd3d529f33a760934b60e32a7baf029efa5fcb916a159"
+    },
+    {
+      "path": "04-skills/02-orchestration/escalation-and-exception-router/references/README.md",
+      "size_bytes": 175,
+      "sha256": "91987ac57dde00ac262f503964f7daf8efcc0622e487e448ad3472ceb731a5af"
+    },
+    {
+      "path": "04-skills/06-dim-investment-management/valuation-orchestrator/tests/trigger_cases.yaml",
+      "size_bytes": 825,
+      "sha256": "b65a62ca3fdc04278156ad4926ee9a30a087d8403860f21a786ded3019b1dc44"
+    },
+    {
+      "path": "04-skills/06-dim-investment-management/valuation-orchestrator/SKILL.md",
+      "size_bytes": 6147,
+      "sha256": "588781a57b17c8a50560ce0d0573d00fb326813306253dd06806345601b99966"
+    },
+    {
+      "path": "04-skills/08-cross-functional/enterprise-risk-aggregator/references/README.md",
+      "size_bytes": 170,
+      "sha256": "b6cd8521a862e0b20f5f431906feee48a1e86f79d995a4e40dc58ad59c1166f3"
+    },
+    {
+      "path": "04-skills/07-ddmf-development-finance/viability-gap-support-assessor/tests/trigger_cases.yaml",
+      "size_bytes": 834,
+      "sha256": "60118009a9eecb7d5add9c98a54349a63886cfdd8783a37239126b7c36d484ee"
+    },
+    {
+      "path": "04-skills/07-ddmf-development-finance/viability-gap-support-assessor/SKILL.md",
+      "size_bytes": 6255,
+      "sha256": "5d800fe872a76d0f3ae2f5414735ec7d1a7b4edf3d916df939d6dae6d5792775"
+    },
+    {
+      "path": "04-skills/02-orchestration/parallel-analysis-dispatcher/tests/trigger_cases.yaml",
+      "size_bytes": 914,
+      "sha256": "0547ef59d2022676c384b5cb25d3ff666332cb1d020fa0fd4e51d7254fff60c3"
+    },
+    {
+      "path": "04-skills/02-orchestration/parallel-analysis-dispatcher/SKILL.md",
+      "size_bytes": 6320,
+      "sha256": "907ff0d34474a469236b53968fb96f493ed555316a8c014b2991b6bdecdfa3b1"
+    },
+    {
+      "path": "04-skills/09-sector-overlays/real-estate-sez-sector-pack/references/README.md",
+      "size_bytes": 171,
+      "sha256": "e0b61f71bc4bef3b05c1523fd1c43a522c86abd4fcd0af6f00342a2771bf4283"
+    },
+    {
+      "path": "04-skills/01-governance-doctrine/conflict-of-interest-gate/tests/trigger_cases.yaml",
+      "size_bytes": 925,
+      "sha256": "9daa715ff53a560abd10870329f4faf7bf031a03d763f610a3f7633bda1ac1d8"
+    },
+    {
+      "path": "04-skills/01-governance-doctrine/conflict-of-interest-gate/SKILL.md",
+      "size_bytes": 6384,
+      "sha256": "cc5aedd59b6713dca50244770bd549b857ee0df9b34412ed4447007a1103ec1c"
+    },
+    {
+      "path": "04-skills/04-bpi-control-tower/national-resilience-assessor/tests/trigger_cases.yaml",
+      "size_bytes": 908,
+      "sha256": "a224c24054eb40b8d288d850a648cebec591181969ea8538fbb1952eba01c0b6"
+    },
+    {
+      "path": "04-skills/04-bpi-control-tower/national-resilience-assessor/SKILL.md",
+      "size_bytes": 6325,
+      "sha256": "7d44c4297a2df1eb0254ee0fca57abd883138bbc643d4917696e737b50bba743"
+    },
+    {
+      "path": "04-skills/02-orchestration/parallel-analysis-dispatcher/references/README.md",
       "size_bytes": 172,
-      "sha256": "e744e58439ef536dcec4b7e537869ad6f1668f9fba04346127ea8fb1a2b172ce"
+      "sha256": "e6bee0702d367fae25cf63281be298ffa7cf37aad1e7ead512352765435759e3"
+    },
+    {
+      "path": "04-skills/06-dim-investment-management/valuation-orchestrator/references/README.md",
+      "size_bytes": 166,
+      "sha256": "43d642a527da885c4cf196a4d77ce334ff0bc507276dba88528ace06febcd756"
+    },
+    {
+      "path": "04-skills/02-orchestration/data-classification-router/tests/trigger_cases.yaml",
+      "size_bytes": 896,
+      "sha256": "10a9351981132c77ff5ae12e18511bb0ad92978f6bf8465f6828eee08a1c06a6"
+    },
+    {
+      "path": "04-skills/02-orchestration/data-classification-router/SKILL.md",
+      "size_bytes": 6287,
+      "sha256": "96d2b44203b98b60c06f3e8d8bba8c0bc42a6fdc27b585269dcf1e405a2f60a9"
+    },
+    {
+      "path": "04-skills/05-dam-active-ownership/portfolio-rationalization-analyzer/tests/trigger_cases.yaml",
+      "size_bytes": 841,
+      "sha256": "69304eb6b95c336f5a4f59d490c8ba3f2e904003fb483ffe87fe347ae062ef1e"
+    },
+    {
+      "path": "04-skills/05-dam-active-ownership/portfolio-rationalization-analyzer/SKILL.md",
+      "size_bytes": 6124,
+      "sha256": "e76dd61514334bf35d3db19b4241c5b25fc464535fd60194efb932332786cfa9"
+    },
+    {
+      "path": "04-skills/08-cross-functional/financial-model-validator/tests/trigger_cases.yaml",
+      "size_bytes": 868,
+      "sha256": "3000211716afce02e0a277302a7af0a673952399f29cddd85707e081cbfa36d5"
+    },
+    {
+      "path": "04-skills/08-cross-functional/financial-model-validator/SKILL.md",
+      "size_bytes": 6240,
+      "sha256": "af0f4e87c44a412e51d025eb14a4ac580e8d48e220b6702969a720bff747e526"
+    },
+    {
+      "path": "04-skills/04-bpi-control-tower/national-resilience-assessor/references/README.md",
+      "size_bytes": 172,
+      "sha256": "219e1db4e6db06b10979a290c38b83d58c930dc500f0ef191aa0def91d253919"
+    },
+    {
+      "path": "04-skills/01-governance-doctrine/conflict-of-interest-gate/references/README.md",
+      "size_bytes": 169,
+      "sha256": "c1495f1142dcb4a1efce260987910226b9aeaf0dfb7391beec0165d721056fff"
+    },
+    {
+      "path": "04-skills/08-cross-functional/data-sovereignty-assessor/tests/trigger_cases.yaml",
+      "size_bytes": 904,
+      "sha256": "499eb2ec6af2e37ee89b696526f3b5b2fdcd00970ad6ef02546b4f0acd54ff53"
+    },
+    {
+      "path": "04-skills/08-cross-functional/data-sovereignty-assessor/SKILL.md",
+      "size_bytes": 6363,
+      "sha256": "096903952735f2bb053196bd28edb37151bc8d13246d15ade262adfb8236eee3"
+    },
+    {
+      "path": "04-skills/02-orchestration/data-classification-router/references/README.md",
+      "size_bytes": 170,
+      "sha256": "2a88b9ae79a07290d45b6991eca3a99cfae7f8a5b180805eb55e70085b8a69b2"
+    },
+    {
+      "path": "04-skills/02-orchestration/output-assembly-orchestrator/tests/trigger_cases.yaml",
+      "size_bytes": 881,
+      "sha256": "82f6d5258ae7db4b3cd51d1843ebf80a9ff4a5c5158ba3d348aa9dc40ca85c5d"
+    },
+    {
+      "path": "04-skills/02-orchestration/output-assembly-orchestrator/SKILL.md",
+      "size_bytes": 6221,
+      "sha256": "c504d0b4935a2f797270bf060ec44175e7dacb7c828c7e8f0580dab8b70e9658"
+    },
+    {
+      "path": "04-skills/09-sector-overlays/minerals-downstream-sector-pack/tests/trigger_cases.yaml",
+      "size_bytes": 899,
+      "sha256": "35b5c3f256793f0c27f8a724363dae4aed0ca5bd15dcce14e80229d4e42af2c5"
+    },
+    {
+      "path": "04-skills/09-sector-overlays/minerals-downstream-sector-pack/SKILL.md",
+      "size_bytes": 6361,
+      "sha256": "c252d666d89984fd81306bb552fae796c7e517b7c4d703a366b50877c05570d9"
+    },
+    {
+      "path": "04-skills/08-cross-functional/financial-model-validator/references/README.md",
+      "size_bytes": 169,
+      "sha256": "e6f93216f54529834b66aba4eed1504a560ddee75b591614f93c8db6cf3271c3"
+    },
+    {
+      "path": "04-skills/08-cross-functional/legal-sufficiency-checker/tests/trigger_cases.yaml",
+      "size_bytes": 896,
+      "sha256": "8123e3642a21a8ceb08894e4b7f4c2648d4b928baebf4645658e9ab25c75c5be"
+    },
+    {
+      "path": "04-skills/08-cross-functional/legal-sufficiency-checker/SKILL.md",
+      "size_bytes": 6315,
+      "sha256": "ea8eff4b1fe7edc521db854da6143bcd6d9f13dd54bd5a64e159d5aca54a4988"
+    },
+    {
+      "path": "04-skills/06-dim-investment-management/technical-operational-due-diligence/tests/trigger_cases.yaml",
+      "size_bytes": 907,
+      "sha256": "48addcf70c523e1c2d1d4b00d5163378585773b30713f2657bc68f482575a257"
+    },
+    {
+      "path": "04-skills/06-dim-investment-management/technical-operational-due-diligence/SKILL.md",
+      "size_bytes": 6398,
+      "sha256": "514d46a8cab45f33f6e8ea37736853c3a4e301cccf22639c408ef46c4a46fa4e"
+    },
+    {
+      "path": "04-skills/05-dam-active-ownership/portfolio-rationalization-analyzer/references/README.md",
+      "size_bytes": 178,
+      "sha256": "f0dadfb85b9344e88171506876af20c4f4692066e99e8ef6271c7a3c4b67f500"
+    },
+    {
+      "path": "04-skills/08-cross-functional/scenario-stress-testing/references/README.md",
+      "size_bytes": 167,
+      "sha256": "b5d9f462636171f92aa9a35b9e5b758e2fcf00956df008be5891ae2c75db603e"
+    },
+    {
+      "path": "04-skills/07-ddmf-development-finance/viability-gap-support-assessor/references/README.md",
+      "size_bytes": 174,
+      "sha256": "9e879a4472fbc7b0f3c716eec916cb9b5a3b0421d4827149f13f911400ec3d16"
+    },
+    {
+      "path": "04-skills/08-cross-functional/data-sovereignty-assessor/references/README.md",
+      "size_bytes": 169,
+      "sha256": "e2d7f84a26a35075e028970ca714f9d55dd84d7ab58f84048de0ec93771f4c8a"
+    },
+    {
+      "path": "04-skills/02-orchestration/output-assembly-orchestrator/references/README.md",
+      "size_bytes": 172,
+      "sha256": "53150df1a4a9bf47dd10c3d2a38fa575f911efb1d5dea92da9142f14141bd482"
+    },
+    {
+      "path": "04-skills/04-bpi-control-tower/national-priority-alignment/tests/trigger_cases.yaml",
+      "size_bytes": 804,
+      "sha256": "078bf14aca8241dfb60ab84f15231ebf2f4ec94b0498a7d45ff82bd7bac6898e"
+    },
+    {
+      "path": "04-skills/04-bpi-control-tower/national-priority-alignment/SKILL.md",
+      "size_bytes": 6008,
+      "sha256": "d72a964d459f705b939bc6f3f9bffd4dc7b0bbce0781cad51882f438a021500a"
+    },
+    {
+      "path": "04-skills/09-sector-overlays/minerals-downstream-sector-pack/references/README.md",
+      "size_bytes": 175,
+      "sha256": "8920eaf2e806f850b0fe1aaa867bec51eb87711d24b131247cbe62d649fe4e7e"
+    },
+    {
+      "path": "04-skills/04-bpi-control-tower/national-priority-alignment/references/README.md",
+      "size_bytes": 171,
+      "sha256": "f6215732fe4bc0a2d809c595e21c0d2f3ee3d270bfac161e937a0303a8679d2b"
+    },
+    {
+      "path": "04-skills/08-cross-functional/legal-sufficiency-checker/references/README.md",
+      "size_bytes": 169,
+      "sha256": "8c9505e8eba2220234a2a6803b09defc9608ee8c9c0ea78f1b25786d2f202309"
+    },
+    {
+      "path": "04-skills/02-orchestration/danantara-master-orchestrator/tests/trigger_cases.yaml",
+      "size_bytes": 5120,
+      "sha256": "995d743453d88e76d114a6d958e554c27f3f4211a5a62c2b561e9bd39c85a8db"
+    },
+    {
+      "path": "04-skills/04-bpi-control-tower/enterprise-portfolio-synthesizer/tests/trigger_cases.yaml",
+      "size_bytes": 907,
+      "sha256": "82f34a3baa8de10d0ff3cf62086c0660aaab588aa9b61ad3eb1b991b7ad310aa"
+    },
+    {
+      "path": "04-skills/04-bpi-control-tower/enterprise-portfolio-synthesizer/SKILL.md",
+      "size_bytes": 6308,
+      "sha256": "19dad45f6fd38726a57a97136e596c822fb98012fd05adb0d03fea8ce108e80a"
+    },
+    {
+      "path": "04-skills/02-orchestration/danantara-master-orchestrator/SKILL.md",
+      "size_bytes": 13281,
+      "sha256": "ec81337add9a8910578776059098f24e72110cfb96f51dcc885c48897b8b2e8d"
+    },
+    {
+      "path": "04-skills/07-ddmf-development-finance/socioeconomic-multiplier-modeler/tests/trigger_cases.yaml",
+      "size_bytes": 911,
+      "sha256": "1c60df8acaf12c85e47ed10b046f9b94a5aee36467473c891345840f7fb3ac4b"
+    },
+    {
+      "path": "04-skills/07-ddmf-development-finance/socioeconomic-multiplier-modeler/SKILL.md",
+      "size_bytes": 6505,
+      "sha256": "ddf83cdc5016215d91b5efd2acec40387ff6406f83a624252fa12e68a6ce42aa"
+    },
+    {
+      "path": "04-skills/08-cross-functional/procurement-commercial-strategy/tests/trigger_cases.yaml",
+      "size_bytes": 895,
+      "sha256": "4d1cf84200c68c7192e890e4ed46c27af957dafc9bfdc72108142df78846334e"
+    },
+    {
+      "path": "04-skills/08-cross-functional/procurement-commercial-strategy/SKILL.md",
+      "size_bytes": 6290,
+      "sha256": "00219620d709b2e5f92e13ae15a56e2702b2f6bc69e5058cb1b673a5087a74b2"
+    },
+    {
+      "path": "04-skills/02-orchestration/intent-and-entity-router/tests/trigger_cases.yaml",
+      "size_bytes": 899,
+      "sha256": "21b43229d14238a7e4917a7d9d11bf9b747793806098e6234cf26d63edf95d9d"
+    },
+    {
+      "path": "04-skills/02-orchestration/intent-and-entity-router/SKILL.md",
+      "size_bytes": 6291,
+      "sha256": "1005419985b1f5fec3d22a4bcbea122102cd6e29cfed38b7762edf22347f4503"
+    },
+    {
+      "path": "04-skills/08-cross-functional/industrialization-hilirisasi-analyzer/tests/trigger_cases.yaml",
+      "size_bytes": 935,
+      "sha256": "d8cd246b806fcdddb1243a1384dd0f6254c7af1ba068f884b61009c32124cba8"
+    },
+    {
+      "path": "04-skills/08-cross-functional/industrialization-hilirisasi-analyzer/SKILL.md",
+      "size_bytes": 6390,
+      "sha256": "03cfecbd77e2763eb69660124fc42b74fa42e4508ac4d88768bb6677f4dcaeee"
+    },
+    {
+      "path": "04-skills/07-ddmf-development-finance/socioeconomic-multiplier-modeler/references/README.md",
+      "size_bytes": 176,
+      "sha256": "03c778124533dadcfe017a1704598a1965efeea66972fb6617183f8a5f02f86b"
+    },
+    {
+      "path": "04-skills/02-orchestration/intent-and-entity-router/references/README.md",
+      "size_bytes": 168,
+      "sha256": "0ed4edf0f3298d861ae4f4649a8374d000766c23a3da89f1e92aa8b20ce938e9"
+    },
+    {
+      "path": "04-skills/04-bpi-control-tower/institutional-trust-monitor/tests/trigger_cases.yaml",
+      "size_bytes": 896,
+      "sha256": "2729fdaa8a7766df84ea202b6cfa9e9cd74c255f09732b7e9bcce0554c01c298"
+    },
+    {
+      "path": "04-skills/04-bpi-control-tower/institutional-trust-monitor/SKILL.md",
+      "size_bytes": 6294,
+      "sha256": "86555bcf929f0fcefadff261b4e2cfb89d77fdb53bcc90aa28a4a8e034e859eb"
+    },
+    {
+      "path": "04-skills/08-cross-functional/industrialization-hilirisasi-analyzer/references/README.md",
+      "size_bytes": 181,
+      "sha256": "f7f3b4e5b403bc6f0bd5e8a5680bce9a113802ae26c661a5495269a9084f50fb"
+    },
+    {
+      "path": "04-skills/04-bpi-control-tower/enterprise-portfolio-synthesizer/references/README.md",
+      "size_bytes": 176,
+      "sha256": "e91db62a258da2a4d65e7131ca72220c3caa50649d205097ef3ce4bc5d9d2f8d"
+    },
+    {
+      "path": "04-skills/02-orchestration/danantara-master-orchestrator/references/README.md",
+      "size_bytes": 173,
+      "sha256": "fc4bd3bc39465e038c18af30f7789440bea34767e9e93d7a34ae6cfc771bca82"
+    },
+    {
+      "path": "04-skills/02-orchestration/danantara-master-orchestrator/references/orchestration-control-protocol.md",
+      "size_bytes": 9434,
+      "sha256": "256fd7835f1071e193bf1d8ccce4761d236da59faefebbcc602e33af56928cb1"
+    },
+    {
+      "path": "04-skills/08-cross-functional/procurement-commercial-strategy/references/README.md",
+      "size_bytes": 175,
+      "sha256": "69b487e009fb3a3832f0cd3ebdc87d41ffd204b37223c7509a098857f0994d93"
+    },
+    {
+      "path": "04-skills/04-bpi-control-tower/institutional-trust-monitor/references/README.md",
+      "size_bytes": 171,
+      "sha256": "f83bf81f6d97056d8beb97bb06b77095e431d636cdfdf4e862f2cf4db88f5f3f"
+    },
+    {
+      "path": "04-skills/09-sector-overlays/infrastructure-utilities-sector-pack/tests/trigger_cases.yaml",
+      "size_bytes": 897,
+      "sha256": "c584a7d094b56e7d3cac54713624b2c7c01dc53fc574451b7f8015796619f335"
+    },
+    {
+      "path": "04-skills/09-sector-overlays/infrastructure-utilities-sector-pack/SKILL.md",
+      "size_bytes": 6335,
+      "sha256": "8b7c7adb77ffbc9e030a531db310ede5a551914e6c5e8ab04254fdc572ca4d7b"
+    },
+    {
+      "path": "04-skills/04-bpi-control-tower/cross-portfolio-synergy-finder/tests/trigger_cases.yaml",
+      "size_bytes": 822,
+      "sha256": "329d8e7682c49c315196a2a80fba76f7b7d0cd24fa6fdfb9be60d566099389fa"
+    },
+    {
+      "path": "04-skills/04-bpi-control-tower/cross-portfolio-synergy-finder/SKILL.md",
+      "size_bytes": 6083,
+      "sha256": "a6fdbd46e6d5769b98a9251ac6330ca412a3a7f9c665b113d5726830a8aba7a2"
+    },
+    {
+      "path": "04-skills/08-cross-functional/job-quality-and-productivity-impact/tests/trigger_cases.yaml",
+      "size_bytes": 823,
+      "sha256": "fce3cf2dd5ef2a3cbb0a38e61a2829d8f25b681dc270419c0ebfd04dfdc674d9"
+    },
+    {
+      "path": "04-skills/08-cross-functional/job-quality-and-productivity-impact/SKILL.md",
+      "size_bytes": 6072,
+      "sha256": "e6db26d801569ce050d92fc3f283c07dbbb293119c3861f25ace44a025969f3a"
+    },
+    {
+      "path": "04-skills/08-cross-functional/national-champion-competitiveness/tests/trigger_cases.yaml",
+      "size_bytes": 921,
+      "sha256": "59a30e14acdf145e9a2257145be2cf6af8e6764f52c33a27f1f2a90ff01c8e04"
+    },
+    {
+      "path": "04-skills/08-cross-functional/national-champion-competitiveness/SKILL.md",
+      "size_bytes": 6366,
+      "sha256": "155409e11438c828a9e837bbe099325eb6ef1260791226db4bef7d653ab2414e"
+    },
+    {
+      "path": "04-skills/07-ddmf-development-finance/public-service-obligation-analyzer/tests/trigger_cases.yaml",
+      "size_bytes": 905,
+      "sha256": "54152477340778cda686454845b208a9638dcfa854bc48d05868fdb43721d1c8"
+    },
+    {
+      "path": "04-skills/07-ddmf-development-finance/public-service-obligation-analyzer/SKILL.md",
+      "size_bytes": 6479,
+      "sha256": "5c788237e0d5ccb6471f111c0b46a37f35d15d16b4a2316586c8bb4ca3dff7b0"
+    },
+    {
+      "path": "04-skills/04-bpi-control-tower/executive-board-brief-builder/tests/trigger_cases.yaml",
+      "size_bytes": 896,
+      "sha256": "c8bf6b2b9a97aaa59690933f9f0da2bb3057034957627521a142c77b3034c4df"
+    },
+    {
+      "path": "04-skills/04-bpi-control-tower/executive-board-brief-builder/SKILL.md",
+      "size_bytes": 6286,
+      "sha256": "d6a84f8c61cd37da7360e11e93637037388eb784635658debf67023bfa0fc770"
+    },
+    {
+      "path": "04-skills/04-bpi-control-tower/cross-portfolio-synergy-finder/references/README.md",
+      "size_bytes": 174,
+      "sha256": "1a3879758b010cbb1cbabe3c7fbfbbaaa4a9f38ff905e08fb1e30bd66e9d1584"
+    },
+    {
+      "path": "04-skills/09-sector-overlays/infrastructure-utilities-sector-pack/references/README.md",
+      "size_bytes": 180,
+      "sha256": "09e0cb918c61f5c1d95cc1a1eaec53e4b62511d5415db5ea9608de373f2981c1"
+    },
+    {
+      "path": "04-skills/07-ddmf-development-finance/public-service-obligation-analyzer/references/README.md",
+      "size_bytes": 178,
+      "sha256": "45b0c55ce0f1fbcfb32ac4d28a809a5813e5026950cd5ed92eae43880a22f5bf"
+    },
+    {
+      "path": "04-skills/08-cross-functional/national-champion-competitiveness/references/README.md",
+      "size_bytes": 177,
+      "sha256": "0736dfea77dbefd1e1d336e74c0d37ced2ea06d03739fc37b0cb3fbe97bd1f01"
+    },
+    {
+      "path": "04-skills/04-bpi-control-tower/dam-dim-ddmf-boundary-router/tests/trigger_cases.yaml",
+      "size_bytes": 821,
+      "sha256": "ca96ebabc387c9a4d358783ff4ea819d5389c992ce3f7b6a5362f63b58989596"
+    },
+    {
+      "path": "04-skills/04-bpi-control-tower/dam-dim-ddmf-boundary-router/SKILL.md",
+      "size_bytes": 6023,
+      "sha256": "322a07e5ea53e85838945686a1c038ca15dcf453da97e4a93196ba5c1168b1b5"
+    },
+    {
+      "path": "04-skills/02-orchestration/assumption-uncertainty-manager/tests/trigger_cases.yaml",
+      "size_bytes": 918,
+      "sha256": "58d2d1ec37275260e6ded7927da1cf6c148a22eeeec599176c9da52e0158620d"
+    },
+    {
+      "path": "04-skills/02-orchestration/assumption-uncertainty-manager/SKILL.md",
+      "size_bytes": 6324,
+      "sha256": "f2643a3e252e3a3dfe4449c50efc589160f0c108a4491c419af94a5b72facf6e"
+    },
+    {
+      "path": "04-skills/08-cross-functional/job-quality-and-productivity-impact/references/README.md",
+      "size_bytes": 179,
+      "sha256": "5b04cc872cc0b14cea70ffef6ef953e5766944d00c8287eb2ac479509ffba96f"
+    },
+    {
+      "path": "04-skills/09-sector-overlays/digital-infrastructure-sector-pack/SKILL.md",
+      "size_bytes": 6352,
+      "sha256": "d2d841f8806e3d8ded8f95c7aaab9b25653e8ac5b59da767f7f0afcbe339eb5d"
+    },
+    {
+      "path": "04-skills/09-sector-overlays/digital-infrastructure-sector-pack/tests/trigger_cases.yaml",
+      "size_bytes": 900,
+      "sha256": "dbf5755e3efb3b92840488f11e6cad16607caefe38a0adab3e5d4f6118db2e81"
+    },
+    {
+      "path": "04-skills/04-bpi-control-tower/executive-board-brief-builder/references/README.md",
+      "size_bytes": 173,
+      "sha256": "311431ab9c3cc0c19f8a14607b9ec2b2325415dffc4106a4be7dc39035cf429b"
+    },
+    {
+      "path": "04-skills/04-bpi-control-tower/dam-dim-ddmf-boundary-router/references/README.md",
+      "size_bytes": 172,
+      "sha256": "fcb541e2ccda67463b30ee49fc7c1faa83038df9ec226ab1647dfb71962067da"
+    },
+    {
+      "path": "04-skills/09-sector-overlays/digital-infrastructure-sector-pack/references/README.md",
+      "size_bytes": 178,
+      "sha256": "572b60b66ba28ba9eab298d8ac2abc4e70216df4fdb29a38ff1ad7258de8afa8"
     },
     {
       "path": "04-skills/06-dim-investment-management/conditions-precedent-tracker/tests/trigger_cases.yaml",
@@ -1127,89 +1747,79 @@
       "sha256": "4ec0a26169e67259d7c2ba24c2e05edf3ab1e4d43c8802cfcc3154f959444d73"
     },
     {
-      "path": "04-skills/06-dim-investment-management/dcf-model-challenger/SKILL.md",
-      "size_bytes": 6376,
-      "sha256": "08117827162a72df229f6566ea74edec15686955933599c04f0960aca685ebcf"
+      "path": "04-skills/06-dim-investment-management/conditions-precedent-tracker/SKILL.md",
+      "size_bytes": 6390,
+      "sha256": "28703da94f0d4bc0708ba2eed65f0643be3ff84232a21e89f361783556745506"
     },
     {
-      "path": "04-skills/06-dim-investment-management/dcf-model-challenger/references/README.md",
-      "size_bytes": 164,
-      "sha256": "1e28678339fad7c05400fc3b52eb2da4f15666571c4c40e39771d60b92bdf65d"
+      "path": "04-skills/02-orchestration/assumption-uncertainty-manager/references/README.md",
+      "size_bytes": 174,
+      "sha256": "c5925f2d790dd12780dbafe063816bd39728f372e2677f430c52297a75ceae0e"
     },
     {
-      "path": "04-skills/06-dim-investment-management/dcf-model-challenger/tests/trigger_cases.yaml",
-      "size_bytes": 881,
-      "sha256": "ac846e77e2261655ef73d3b3594a94cf4d9fb42fb65f222a1a97adffefa2ad65"
+      "path": "04-skills/07-ddmf-development-finance/project-readiness-gate/tests/trigger_cases.yaml",
+      "size_bytes": 883,
+      "sha256": "8d33a15891263540b264e20277e55ffa540a4cd00a1725ad7f0ca81b49ec8eb4"
     },
     {
-      "path": "04-skills/06-dim-investment-management/deal-structuring-optimizer/SKILL.md",
-      "size_bytes": 6385,
-      "sha256": "8767a8360454d71df3df9b36849bb285748e764d72c237d3a0334c447908cf2f"
+      "path": "04-skills/07-ddmf-development-finance/project-readiness-gate/SKILL.md",
+      "size_bytes": 6454,
+      "sha256": "5ecec1f9710d148354ea2a514b87d1cf236ebefb2a6e7e1b8bd9a1739a1ac356"
     },
     {
-      "path": "04-skills/06-dim-investment-management/deal-structuring-optimizer/references/README.md",
-      "size_bytes": 170,
-      "sha256": "5b5da9e48b983b8fb03585ac49c1c188877f823c97f6c6691e5384bc0acc709f"
-    },
-    {
-      "path": "04-skills/06-dim-investment-management/deal-structuring-optimizer/tests/trigger_cases.yaml",
-      "size_bytes": 892,
-      "sha256": "bc0de0ba1be816448fbe3ed28dcd0661eabb3c7b5eb1660c37bfd54785610869"
-    },
-    {
-      "path": "04-skills/06-dim-investment-management/esg-impact-due-diligence/SKILL.md",
-      "size_bytes": 6280,
-      "sha256": "37dc48c70845dd5cdcdeef4d3c12b40ddfb9bdc0bec65429f17d44822645d3e8"
-    },
-    {
-      "path": "04-skills/06-dim-investment-management/esg-impact-due-diligence/references/README.md",
-      "size_bytes": 168,
-      "sha256": "522a2e7a03dc09fb354593793a152719f37d73b5ba86da8ecba9a76d77546405"
-    },
-    {
-      "path": "04-skills/06-dim-investment-management/esg-impact-due-diligence/tests/trigger_cases.yaml",
-      "size_bytes": 855,
-      "sha256": "7a2672a02711dff8a229d2b20d72734cfc16b9c8f76dcf58ca342ce818cfd06a"
-    },
-    {
-      "path": "04-skills/06-dim-investment-management/exit-strategy-analyzer/SKILL.md",
-      "size_bytes": 6413,
-      "sha256": "0866a788de9f01db212c6d5bae4d05e074a031da72a5c6c1cf19d3b14f1e9e4c"
-    },
-    {
-      "path": "04-skills/06-dim-investment-management/exit-strategy-analyzer/references/README.md",
-      "size_bytes": 166,
-      "sha256": "dc64dfb42a1993b5d0ee7b21c397623f0d13f3cbf123de77520ba37a71ddae4c"
-    },
-    {
-      "path": "04-skills/06-dim-investment-management/exit-strategy-analyzer/tests/trigger_cases.yaml",
+      "path": "04-skills/06-dim-investment-management/investment-thesis-red-team/tests/trigger_cases.yaml",
       "size_bytes": 898,
-      "sha256": "7d55c96b928baf4726d86c8f1fd231a8b0bd5dfef9d0adec6f56daa4c964bfc4"
+      "sha256": "3000a76266c9a50f0bfda442249cbe6e959495ded706c1c9cb63a5faa81a00ee"
     },
     {
-      "path": "04-skills/06-dim-investment-management/financial-due-diligence/SKILL.md",
-      "size_bytes": 6343,
-      "sha256": "06c638f1d1d575c57f8f1c3aeb99234beaa03f1a9cf70bb16fcffd67cc7bbf47"
+      "path": "04-skills/06-dim-investment-management/investment-thesis-red-team/SKILL.md",
+      "size_bytes": 6398,
+      "sha256": "997e48a6ee1bc4d8b09bdbcc7625038e326f5a85029071d8b31a03d618fb6c62"
     },
     {
-      "path": "04-skills/06-dim-investment-management/financial-due-diligence/references/README.md",
-      "size_bytes": 167,
-      "sha256": "799774a49e4056a5b984d8e21d5c1f4f1c25febd4ba06f2199d7861d4863a8f1"
+      "path": "04-skills/06-dim-investment-management/commercial-due-diligence/tests/trigger_cases.yaml",
+      "size_bytes": 862,
+      "sha256": "b4b254eb1f36a5787916e88d97c68287100b789a18f535a67cb09298003320b2"
     },
     {
-      "path": "04-skills/06-dim-investment-management/financial-due-diligence/tests/trigger_cases.yaml",
-      "size_bytes": 879,
-      "sha256": "3fa00055a62015acc1e3d7ce842baff640e9305c3c19d1821e7c2af8631266ce"
+      "path": "04-skills/06-dim-investment-management/commercial-due-diligence/SKILL.md",
+      "size_bytes": 6288,
+      "sha256": "4353025041b5018b1f30284a8515d0a7efc73d54fb3bc3ea48e0951be34f54ff"
     },
     {
-      "path": "04-skills/06-dim-investment-management/integrity-counterparty-due-diligence/SKILL.md",
-      "size_bytes": 6491,
-      "sha256": "5c933bda34311ebd96e2e2d3e5de176995f55a3544b5364bcba5acbd6346db32"
+      "path": "04-skills/06-dim-investment-management/conditions-precedent-tracker/references/README.md",
+      "size_bytes": 172,
+      "sha256": "e744e58439ef536dcec4b7e537869ad6f1668f9fba04346127ea8fb1a2b172ce"
     },
     {
-      "path": "04-skills/06-dim-investment-management/integrity-counterparty-due-diligence/references/README.md",
-      "size_bytes": 180,
-      "sha256": "cebe4a53670aa555ae4765bec958d538ae052e854e0611c9dd9fa787ad88b2a6"
+      "path": "04-skills/09-sector-overlays/healthcare-sector-pack/tests/trigger_cases.yaml",
+      "size_bytes": 847,
+      "sha256": "05c4e4f84734925b5ad0ee6c133411b0332af152b4b638dffc58fbd69b8d11e6"
+    },
+    {
+      "path": "04-skills/09-sector-overlays/healthcare-sector-pack/SKILL.md",
+      "size_bytes": 6241,
+      "sha256": "1597b771fd2b4a1f1bf2c24e08a020cd3fcf076ec1408abfa2f2012691fb92ab"
+    },
+    {
+      "path": "04-skills/09-sector-overlays/food-agriculture-sector-pack/tests/trigger_cases.yaml",
+      "size_bytes": 862,
+      "sha256": "ed5968d2e11e7e36e479b66f8e8f0a2bdf87deaa21bf1b4919469b8b8a02a7e9"
+    },
+    {
+      "path": "04-skills/09-sector-overlays/food-agriculture-sector-pack/SKILL.md",
+      "size_bytes": 6262,
+      "sha256": "28cb345c3bf6da4a58068018201ebccbcf121a4e956f1b494212fa1ea05a9365"
+    },
+    {
+      "path": "04-skills/09-sector-overlays/energy-transition-sector-pack/tests/trigger_cases.yaml",
+      "size_bytes": 918,
+      "sha256": "d2d67ee571bd8269443a735986c6221c3ceba95d6153f270da62a7fa04f488fd"
+    },
+    {
+      "path": "04-skills/09-sector-overlays/energy-transition-sector-pack/SKILL.md",
+      "size_bytes": 6426,
+      "sha256": "304ac7ea369684bc087203bde83f482c07c14e9cb99705eb6f70c668a37dbd59"
     },
     {
       "path": "04-skills/06-dim-investment-management/integrity-counterparty-due-diligence/tests/trigger_cases.yaml",
@@ -1217,49 +1827,119 @@
       "sha256": "16b7353229769380ddbd9403ac8e8643a91ca45922bfc3d0f5fbe4b3c7f7011d"
     },
     {
-      "path": "04-skills/06-dim-investment-management/investment-committee-memo/SKILL.md",
+      "path": "04-skills/07-ddmf-development-finance/project-readiness-gate/references/README.md",
+      "size_bytes": 166,
+      "sha256": "9638861f05a24e66c3370b6484e56b3e7211ee095e8dc1aec0788ba0f004569a"
+    },
+    {
+      "path": "04-skills/06-dim-investment-management/integrity-counterparty-due-diligence/SKILL.md",
+      "size_bytes": 6491,
+      "sha256": "5c933bda34311ebd96e2e2d3e5de176995f55a3544b5364bcba5acbd6346db32"
+    },
+    {
+      "path": "04-skills/06-dim-investment-management/commercial-due-diligence/references/README.md",
+      "size_bytes": 168,
+      "sha256": "93181f9f1e504b0b94c858eecf67253ae3b2fcab442b3105a5f9503be9f6c032"
+    },
+    {
+      "path": "04-skills/09-sector-overlays/food-agriculture-sector-pack/references/README.md",
+      "size_bytes": 172,
+      "sha256": "2e80e9632719703870b9043b4d5a4430e4e09cfdc9ceaae71800d323f6862294"
+    },
+    {
+      "path": "04-skills/06-dim-investment-management/comparable-transactions-analyzer/SKILL.md",
       "size_bytes": 6410,
-      "sha256": "47ef59d152cf49bea4c3f1871c439dc123612cce05756ae23072a56c256ddd84"
+      "sha256": "e6ed12e3ca59073bc765d13d4df8140651e8ccf54a893682e14735ca033cdec6"
     },
     {
-      "path": "04-skills/06-dim-investment-management/investment-committee-memo/references/README.md",
-      "size_bytes": 169,
-      "sha256": "cf5eb193b296c75c1f9715c6be280a17a343f3da5e4dfc7712d0b45d76ecd84e"
+      "path": "04-skills/09-sector-overlays/healthcare-sector-pack/references/README.md",
+      "size_bytes": 166,
+      "sha256": "8eea32eb36bafd6a98994998484d5c3a625a71392e3e30a350f1fa135975642c"
     },
     {
-      "path": "04-skills/06-dim-investment-management/investment-committee-memo/tests/trigger_cases.yaml",
-      "size_bytes": 904,
-      "sha256": "11fa773ec28e11e9d97c1c9584fadaa702fa34f6923b9936c5f5e68a9f5bd118"
+      "path": "04-skills/09-sector-overlays/energy-transition-sector-pack/references/README.md",
+      "size_bytes": 173,
+      "sha256": "7cd35038dc61e2396f958eea279769c9fcc921a359179557224b80ff20c4cef3"
     },
     {
-      "path": "04-skills/06-dim-investment-management/investment-mandate-interpreter/SKILL.md",
-      "size_bytes": 6445,
-      "sha256": "2da68c4a9af0ed4897f684d7cf9107b4d5aed9e7b098c6f89ae95f7759dd3a52"
+      "path": "04-skills/06-dim-investment-management/concentration-and-liquidity-risk/SKILL.md",
+      "size_bytes": 6329,
+      "sha256": "1d5d9b8b16bb696c90b0740726f4f869562991e4645fb44fab6e182574376cfd"
     },
     {
-      "path": "04-skills/06-dim-investment-management/investment-mandate-interpreter/references/README.md",
-      "size_bytes": 174,
-      "sha256": "aa4680bbb8b6cee03d642464f4dbf05c0a40905e50fba2d09580ab385ca2e3dd"
-    },
-    {
-      "path": "04-skills/06-dim-investment-management/investment-mandate-interpreter/tests/trigger_cases.yaml",
-      "size_bytes": 922,
-      "sha256": "df551e3352ebe8066ae84b9c34a332d4ca8756fe92faf922a394efe2d371d1c7"
-    },
-    {
-      "path": "04-skills/06-dim-investment-management/investment-theme-generator/SKILL.md",
-      "size_bytes": 6374,
-      "sha256": "ac0e7b06a637cfcae4b1989fea8356acc8d82ac0a4504f72a75ee1252721b09d"
-    },
-    {
-      "path": "04-skills/06-dim-investment-management/investment-theme-generator/references/README.md",
+      "path": "04-skills/06-dim-investment-management/investment-thesis-red-team/references/README.md",
       "size_bytes": 170,
-      "sha256": "128c7cdd3fcc210bc6b825156dcfde7901b1d2f3f138f1fa342c263ab241b5af"
+      "sha256": "33c52a1fb416346258209cd36a19ad73b0d1c0686bc2f0c9a62f5839bdaf2134"
     },
     {
-      "path": "04-skills/06-dim-investment-management/investment-theme-generator/tests/trigger_cases.yaml",
-      "size_bytes": 894,
-      "sha256": "a9ee5a08a1ef13af831a186b6fdc72f0ebc25b7791d736e9cbddb7d35efca4d6"
+      "path": "04-skills/06-dim-investment-management/concentration-and-liquidity-risk/tests/trigger_cases.yaml",
+      "size_bytes": 885,
+      "sha256": "18451704bab2e693ef852fe0e3d812129f2809656cdaa46c8d7b987a74be7b16"
+    },
+    {
+      "path": "04-skills/06-dim-investment-management/technical-operational-due-diligence/references/README.md",
+      "size_bytes": 179,
+      "sha256": "d82f053d1d44d64fe85a524c3db321fb3f4f71df3362fe084395d4e31db3e7e6"
+    },
+    {
+      "path": "04-skills/07-ddmf-development-finance/project-finance-structurer/tests/trigger_cases.yaml",
+      "size_bytes": 871,
+      "sha256": "47915800beb0afedc2f817116c47d968e37a51605940e6bbddf301f33aee137c"
+    },
+    {
+      "path": "04-skills/07-ddmf-development-finance/project-finance-structurer/SKILL.md",
+      "size_bytes": 6426,
+      "sha256": "fd4aa6ecab2459ede6d74f998abb18919755de91f456c189423cdd483ce15906"
+    },
+    {
+      "path": "04-skills/06-dim-investment-management/concentration-and-liquidity-risk/references/README.md",
+      "size_bytes": 176,
+      "sha256": "96e95d57dc42d5ab49ab2581a1947e475a07700c2e205f8f287086e3ea4c30c1"
+    },
+    {
+      "path": "04-skills/06-dim-investment-management/comparable-transactions-analyzer/tests/trigger_cases.yaml",
+      "size_bytes": 915,
+      "sha256": "bc5d475957cb961e95e581a6db9524f98fdeee80b03d6599646f09b566a7d2df"
+    },
+    {
+      "path": "04-skills/06-dim-investment-management/comparable-transactions-analyzer/references/README.md",
+      "size_bytes": 176,
+      "sha256": "6bc102357c1b0abd9ec8fc1814b4bcba48351a515eb62b81cc3500b31f0f7ba3"
+    },
+    {
+      "path": "04-skills/06-dim-investment-management/co-investment-crowding-in/tests/trigger_cases.yaml",
+      "size_bytes": 804,
+      "sha256": "a4ca3e06639b27f8ef57bb505dff9a8ef51705b8e1c597c02175a06e2273178f"
+    },
+    {
+      "path": "04-skills/06-dim-investment-management/co-investment-crowding-in/SKILL.md",
+      "size_bytes": 6099,
+      "sha256": "d0a9efbc8289bd8500bf2ceb86d4e05dd25b5abf2ec4deb06ca6f3f9c14d9acd"
+    },
+    {
+      "path": "04-skills/06-dim-investment-management/integrity-counterparty-due-diligence/references/README.md",
+      "size_bytes": 180,
+      "sha256": "cebe4a53670aa555ae4765bec958d538ae052e854e0611c9dd9fa787ad88b2a6"
+    },
+    {
+      "path": "04-skills/07-ddmf-development-finance/project-finance-structurer/references/README.md",
+      "size_bytes": 170,
+      "sha256": "1ddecb7ead552347b896c88264e7dcb92825397136690ba8aedf72fbb4bb2d0a"
+    },
+    {
+      "path": "04-skills/06-dim-investment-management/exit-strategy-analyzer/tests/trigger_cases.yaml",
+      "size_bytes": 898,
+      "sha256": "7d55c96b928baf4726d86c8f1fd231a8b0bd5dfef9d0adec6f56daa4c964bfc4"
+    },
+    {
+      "path": "04-skills/06-dim-investment-management/exit-strategy-analyzer/SKILL.md",
+      "size_bytes": 6413,
+      "sha256": "0866a788de9f01db212c6d5bae4d05e074a031da72a5c6c1cf19d3b14f1e9e4c"
+    },
+    {
+      "path": "04-skills/06-dim-investment-management/investment-thesis-builder/tests/trigger_cases.yaml",
+      "size_bytes": 900,
+      "sha256": "3f7b4b06499e2ac6cc7554b03e7379060472b7ce260d7ae636be7a2e11f46463"
     },
     {
       "path": "04-skills/06-dim-investment-management/investment-thesis-builder/SKILL.md",
@@ -1272,259 +1952,24 @@
       "sha256": "cf46d126bc2888abadbe0e1cf8a005f83692cb9c0f1629a6aa4c2a422eea023b"
     },
     {
-      "path": "04-skills/06-dim-investment-management/investment-thesis-builder/tests/trigger_cases.yaml",
-      "size_bytes": 900,
-      "sha256": "3f7b4b06499e2ac6cc7554b03e7379060472b7ce260d7ae636be7a2e11f46463"
+      "path": "04-skills/06-dim-investment-management/esg-impact-due-diligence/tests/trigger_cases.yaml",
+      "size_bytes": 855,
+      "sha256": "7a2672a02711dff8a229d2b20d72734cfc16b9c8f76dcf58ca342ce818cfd06a"
     },
     {
-      "path": "04-skills/06-dim-investment-management/investment-thesis-red-team/SKILL.md",
-      "size_bytes": 6398,
-      "sha256": "997e48a6ee1bc4d8b09bdbcc7625038e326f5a85029071d8b31a03d618fb6c62"
+      "path": "04-skills/06-dim-investment-management/esg-impact-due-diligence/SKILL.md",
+      "size_bytes": 6280,
+      "sha256": "37dc48c70845dd5cdcdeef4d3c12b40ddfb9bdc0bec65429f17d44822645d3e8"
     },
     {
-      "path": "04-skills/06-dim-investment-management/investment-thesis-red-team/references/README.md",
-      "size_bytes": 170,
-      "sha256": "33c52a1fb416346258209cd36a19ad73b0d1c0686bc2f0c9a62f5839bdaf2134"
+      "path": "04-skills/06-dim-investment-management/co-investment-crowding-in/references/README.md",
+      "size_bytes": 169,
+      "sha256": "e7b1d827f841beed1787e92866d6f6cbd48307d5f46906940595f7105be6076d"
     },
     {
-      "path": "04-skills/06-dim-investment-management/investment-thesis-red-team/tests/trigger_cases.yaml",
-      "size_bytes": 898,
-      "sha256": "3000a76266c9a50f0bfda442249cbe6e959495ded706c1c9cb63a5faa81a00ee"
-    },
-    {
-      "path": "04-skills/06-dim-investment-management/legal-tax-due-diligence/SKILL.md",
-      "size_bytes": 6360,
-      "sha256": "c3d97aa19fd4c507e0d5474fce451aa9145df6c6b623d11004d9faabb9a9ca49"
-    },
-    {
-      "path": "04-skills/06-dim-investment-management/legal-tax-due-diligence/references/README.md",
-      "size_bytes": 167,
-      "sha256": "4ed4ca921b4a5d2215b5ad6f8d67071d569a730295abcda270bf1e42178bfdca"
-    },
-    {
-      "path": "04-skills/06-dim-investment-management/legal-tax-due-diligence/tests/trigger_cases.yaml",
-      "size_bytes": 880,
-      "sha256": "ad64d28f7e0a42469528f10d672c7cafe54453ba2de63080422c2dac6c9bc78f"
-    },
-    {
-      "path": "04-skills/06-dim-investment-management/opportunity-screening/SKILL.md",
-      "size_bytes": 6344,
-      "sha256": "a70dbcdaf4661cc8bba46d1a412dc32593637884e09f6f2ec05aebb157790826"
-    },
-    {
-      "path": "04-skills/06-dim-investment-management/opportunity-screening/references/README.md",
-      "size_bytes": 165,
-      "sha256": "ef78e43e38f4370921a69035403b8c275ac52895bd615b7686acbf73ebf754b6"
-    },
-    {
-      "path": "04-skills/06-dim-investment-management/opportunity-screening/tests/trigger_cases.yaml",
-      "size_bytes": 877,
-      "sha256": "bffb5addfa52d2d6f89ed3240de2b8421b377a41f3ea1839d8dd1420b394f35f"
-    },
-    {
-      "path": "04-skills/06-dim-investment-management/portfolio-diversification-analyzer/SKILL.md",
-      "size_bytes": 6373,
-      "sha256": "e67dd11316de435bdaba4c8047a2b5cc91518fb1f493e20a150c7d5d022e1c78"
-    },
-    {
-      "path": "04-skills/06-dim-investment-management/portfolio-diversification-analyzer/references/README.md",
-      "size_bytes": 178,
-      "sha256": "857f0830e2e80f1fd8935ef0753a8cd89be226a383fb7f815e40a6906d9d0ea8"
-    },
-    {
-      "path": "04-skills/06-dim-investment-management/portfolio-diversification-analyzer/tests/trigger_cases.yaml",
-      "size_bytes": 904,
-      "sha256": "78262f2792f05b1dc6147dd6a2b05af504153fb2343505470d2773ff80b3418b"
-    },
-    {
-      "path": "04-skills/06-dim-investment-management/post-investment-monitor/SKILL.md",
-      "size_bytes": 6284,
-      "sha256": "6f5d8863da34cc438ab417b2faaa06a137a3255d07746bd2f34166a6250fe849"
-    },
-    {
-      "path": "04-skills/06-dim-investment-management/post-investment-monitor/references/README.md",
-      "size_bytes": 167,
-      "sha256": "02ffff22c4c767aef02cb15239dd0db2a8904e3f138d3cf4049eca3b6e5596cc"
-    },
-    {
-      "path": "04-skills/06-dim-investment-management/post-investment-monitor/tests/trigger_cases.yaml",
-      "size_bytes": 856,
-      "sha256": "7ea221bf0915f7ae1e2d3f1c40beb481f4c44c29aeacac9d6130388169872832"
-    },
-    {
-      "path": "04-skills/06-dim-investment-management/risk-adjusted-return-analyzer/SKILL.md",
-      "size_bytes": 6379,
-      "sha256": "02ba81d979eae9f38365ad74072b80d5cb1593f3c185ce455c38416a9b4aa2d9"
-    },
-    {
-      "path": "04-skills/06-dim-investment-management/risk-adjusted-return-analyzer/references/README.md",
-      "size_bytes": 173,
-      "sha256": "9ad6d825ee8d4c085c7d6480727ea95de430c29b9879ff370b8ef7e342870363"
-    },
-    {
-      "path": "04-skills/06-dim-investment-management/risk-adjusted-return-analyzer/tests/trigger_cases.yaml",
-      "size_bytes": 899,
-      "sha256": "dab17fd4c5a556605d558338ba4c1541202918a18cc32cd6b31f985cb3d5ebdd"
-    },
-    {
-      "path": "04-skills/06-dim-investment-management/technical-operational-due-diligence/SKILL.md",
-      "size_bytes": 6398,
-      "sha256": "514d46a8cab45f33f6e8ea37736853c3a4e301cccf22639c408ef46c4a46fa4e"
-    },
-    {
-      "path": "04-skills/06-dim-investment-management/technical-operational-due-diligence/references/README.md",
-      "size_bytes": 179,
-      "sha256": "d82f053d1d44d64fe85a524c3db321fb3f4f71df3362fe084395d4e31db3e7e6"
-    },
-    {
-      "path": "04-skills/06-dim-investment-management/technical-operational-due-diligence/tests/trigger_cases.yaml",
-      "size_bytes": 907,
-      "sha256": "48addcf70c523e1c2d1d4b00d5163378585773b30713f2657bc68f482575a257"
-    },
-    {
-      "path": "04-skills/06-dim-investment-management/valuation-orchestrator/SKILL.md",
-      "size_bytes": 6147,
-      "sha256": "588781a57b17c8a50560ce0d0573d00fb326813306253dd06806345601b99966"
-    },
-    {
-      "path": "04-skills/06-dim-investment-management/valuation-orchestrator/references/README.md",
+      "path": "04-skills/06-dim-investment-management/exit-strategy-analyzer/references/README.md",
       "size_bytes": 166,
-      "sha256": "43d642a527da885c4cf196a4d77ce334ff0bc507276dba88528ace06febcd756"
-    },
-    {
-      "path": "04-skills/06-dim-investment-management/valuation-orchestrator/tests/trigger_cases.yaml",
-      "size_bytes": 825,
-      "sha256": "b65a62ca3fdc04278156ad4926ee9a30a087d8403860f21a786ded3019b1dc44"
-    },
-    {
-      "path": "04-skills/07-ddmf-development-finance/additionality-assessor/SKILL.md",
-      "size_bytes": 6459,
-      "sha256": "3d4d4290d916f02a4220a09600a6cd06ad4cd60f2cced4e56fdec8b42e6ce7e8"
-    },
-    {
-      "path": "04-skills/07-ddmf-development-finance/additionality-assessor/references/README.md",
-      "size_bytes": 166,
-      "sha256": "daf533acb2d7257c2335deac85bb598e2ea4be106453a043a42336242d971260"
-    },
-    {
-      "path": "04-skills/07-ddmf-development-finance/additionality-assessor/tests/trigger_cases.yaml",
-      "size_bytes": 884,
-      "sha256": "797bebc3895817f46aebf3d8ba122d53028f56c46d005c78376213b78e154267"
-    },
-    {
-      "path": "04-skills/07-ddmf-development-finance/bankability-gap-analyzer/SKILL.md",
-      "size_bytes": 6481,
-      "sha256": "8ff10f653245a0ac2999d4e8a0a0075b853ccfdb7278fadd4a5a8b755e1a08a7"
-    },
-    {
-      "path": "04-skills/07-ddmf-development-finance/bankability-gap-analyzer/references/README.md",
-      "size_bytes": 168,
-      "sha256": "bd42fe18e727c260c5d96f971fe8744c834da44e18e800d0b140df596d469b05"
-    },
-    {
-      "path": "04-skills/07-ddmf-development-finance/bankability-gap-analyzer/tests/trigger_cases.yaml",
-      "size_bytes": 891,
-      "sha256": "d8af240d115a57e396cf708d8445d8e8a1f1ddb7ca5df911761d56a70a131289"
-    },
-    {
-      "path": "04-skills/07-ddmf-development-finance/blended-finance-designer/SKILL.md",
-      "size_bytes": 6236,
-      "sha256": "b59f541c9594a4c3b9056e6dc6ddc3bfcb0fabcfa53161791dd5bba4bd6371fa"
-    },
-    {
-      "path": "04-skills/07-ddmf-development-finance/blended-finance-designer/references/README.md",
-      "size_bytes": 168,
-      "sha256": "3a6300bc5a29f3f4ed938cfe3af998fe282f93180f6c7963770d3d17cb1858c5"
-    },
-    {
-      "path": "04-skills/07-ddmf-development-finance/blended-finance-designer/tests/trigger_cases.yaml",
-      "size_bytes": 836,
-      "sha256": "500f8653064f3e03a9aa4e0683758b44cb577c91db544c2cb2e7c791e0eb6e33"
-    },
-    {
-      "path": "04-skills/07-ddmf-development-finance/catalytic-capital-optimizer/SKILL.md",
-      "size_bytes": 6500,
-      "sha256": "d73794636d05f69e4bf4f932e75eb7b5fbf217a0e5ba9109bdcef92744260a9b"
-    },
-    {
-      "path": "04-skills/07-ddmf-development-finance/catalytic-capital-optimizer/references/README.md",
-      "size_bytes": 171,
-      "sha256": "20f8c282c7edace7f7a38e926e5279cedc2f749e4d701e15239bd39090c0d899"
-    },
-    {
-      "path": "04-skills/07-ddmf-development-finance/catalytic-capital-optimizer/tests/trigger_cases.yaml",
-      "size_bytes": 904,
-      "sha256": "36a770a7a33c695053f15347b1ab5a4f30aa29ba94046eca25eae8ab8a8c17dc"
-    },
-    {
-      "path": "04-skills/07-ddmf-development-finance/development-impact-assessor/SKILL.md",
-      "size_bytes": 6527,
-      "sha256": "e7c8a1897f0be41d64e2a04f08ec924c1afe192cb2aaeccd223abaf7dc59038a"
-    },
-    {
-      "path": "04-skills/07-ddmf-development-finance/development-impact-assessor/references/README.md",
-      "size_bytes": 171,
-      "sha256": "a10650fc23d1b0eb9fb8778a2a100af3260b74758d8b0cb27d2afa88e926600a"
-    },
-    {
-      "path": "04-skills/07-ddmf-development-finance/development-impact-assessor/tests/trigger_cases.yaml",
-      "size_bytes": 913,
-      "sha256": "97e3ea4d2e81d9a9e7706c3844296ba020df628d42028f8e75c4b1bb66b55dd3"
-    },
-    {
-      "path": "04-skills/07-ddmf-development-finance/development-outcome-monitor/SKILL.md",
-      "size_bytes": 6428,
-      "sha256": "1b89846958fb40dbd6e182c7eb0293e905ab4f366bdb9a00d26190dc8f39241f"
-    },
-    {
-      "path": "04-skills/07-ddmf-development-finance/development-outcome-monitor/references/README.md",
-      "size_bytes": 171,
-      "sha256": "11765789ca530c978d070256987ad62f12d4188eea7a92f38ed11ca6b878096d"
-    },
-    {
-      "path": "04-skills/07-ddmf-development-finance/development-outcome-monitor/tests/trigger_cases.yaml",
-      "size_bytes": 884,
-      "sha256": "f5428b527705c413a62c40b9008b5ac6a5e3265e5f351d5aa85b39797ef6b401"
-    },
-    {
-      "path": "04-skills/07-ddmf-development-finance/multilateral-partner-matcher/SKILL.md",
-      "size_bytes": 6464,
-      "sha256": "5db9da0daadccec61ee3aff7494bf127decbc1581d582f124dd558d7151ad370"
-    },
-    {
-      "path": "04-skills/07-ddmf-development-finance/multilateral-partner-matcher/references/README.md",
-      "size_bytes": 172,
-      "sha256": "a6db4f8c383a96aa6f8a38fdbe0deeb5a39339f4ccc513b5ca138ffafede74ac"
-    },
-    {
-      "path": "04-skills/07-ddmf-development-finance/multilateral-partner-matcher/tests/trigger_cases.yaml",
-      "size_bytes": 896,
-      "sha256": "212652310f3c678bd2693e7377202128e48d849452459a783cfa21b57d52fa46"
-    },
-    {
-      "path": "04-skills/07-ddmf-development-finance/ppp-risk-allocation/SKILL.md",
-      "size_bytes": 6451,
-      "sha256": "3b72be82ee6d65bf572dab828935b096581d3ae87744c1b4699257e8e38fffd4"
-    },
-    {
-      "path": "04-skills/07-ddmf-development-finance/ppp-risk-allocation/references/README.md",
-      "size_bytes": 163,
-      "sha256": "688c4834681c513c82c1983b6b2833b38b31c9d7428b7b89308ebb9e1d70a1b5"
-    },
-    {
-      "path": "04-skills/07-ddmf-development-finance/ppp-risk-allocation/tests/trigger_cases.yaml",
-      "size_bytes": 877,
-      "sha256": "6974bd069fd873ff8bf70951b29baefa267bd7ed249204df3815e6d3efcf5e02"
-    },
-    {
-      "path": "04-skills/07-ddmf-development-finance/project-delivery-monitor/SKILL.md",
-      "size_bytes": 6387,
-      "sha256": "dcb8837eaa42ceb498f697beb08152b348b25be8adc140ea4fd4b93e5ecb1c14"
-    },
-    {
-      "path": "04-skills/07-ddmf-development-finance/project-delivery-monitor/references/README.md",
-      "size_bytes": 168,
-      "sha256": "e1c55e58b5b735c30fd4991abb27a6222c391a59b29131511a2227f8bded8b66"
+      "sha256": "dc64dfb42a1993b5d0ee7b21c397623f0d13f3cbf123de77520ba37a71ddae4c"
     },
     {
       "path": "04-skills/07-ddmf-development-finance/project-delivery-monitor/tests/trigger_cases.yaml",
@@ -1532,79 +1977,329 @@
       "sha256": "24539c06472bc0737662a9c28268076645dd11c8bf7b622d375839ce192532b3"
     },
     {
-      "path": "04-skills/07-ddmf-development-finance/project-finance-structurer/SKILL.md",
-      "size_bytes": 6426,
-      "sha256": "fd4aa6ecab2459ede6d74f998abb18919755de91f456c189423cdd483ce15906"
+      "path": "04-skills/07-ddmf-development-finance/project-delivery-monitor/SKILL.md",
+      "size_bytes": 6387,
+      "sha256": "dcb8837eaa42ceb498f697beb08152b348b25be8adc140ea4fd4b93e5ecb1c14"
     },
     {
-      "path": "04-skills/07-ddmf-development-finance/project-finance-structurer/references/README.md",
-      "size_bytes": 170,
-      "sha256": "1ddecb7ead552347b896c88264e7dcb92825397136690ba8aedf72fbb4bb2d0a"
+      "path": "04-skills/06-dim-investment-management/risk-adjusted-return-analyzer/tests/trigger_cases.yaml",
+      "size_bytes": 899,
+      "sha256": "dab17fd4c5a556605d558338ba4c1541202918a18cc32cd6b31f985cb3d5ebdd"
     },
     {
-      "path": "04-skills/07-ddmf-development-finance/project-finance-structurer/tests/trigger_cases.yaml",
-      "size_bytes": 871,
-      "sha256": "47915800beb0afedc2f817116c47d968e37a51605940e6bbddf301f33aee137c"
+      "path": "04-skills/06-dim-investment-management/risk-adjusted-return-analyzer/SKILL.md",
+      "size_bytes": 6379,
+      "sha256": "02ba81d979eae9f38365ad74072b80d5cb1593f3c185ce455c38416a9b4aa2d9"
     },
     {
-      "path": "04-skills/07-ddmf-development-finance/project-readiness-gate/SKILL.md",
-      "size_bytes": 6454,
-      "sha256": "5ecec1f9710d148354ea2a514b87d1cf236ebefb2a6e7e1b8bd9a1739a1ac356"
+      "path": "04-skills/06-dim-investment-management/investment-mandate-interpreter/tests/trigger_cases.yaml",
+      "size_bytes": 5605,
+      "sha256": "ac4b45da80198b23bd8e358c8a2aa4b36fbf2d42c8cf02f9e22fff53acb9bcb3"
     },
     {
-      "path": "04-skills/07-ddmf-development-finance/project-readiness-gate/references/README.md",
-      "size_bytes": 166,
-      "sha256": "9638861f05a24e66c3370b6484e56b3e7211ee095e8dc1aec0788ba0f004569a"
+      "path": "04-skills/06-dim-investment-management/investment-mandate-interpreter/SKILL.md",
+      "size_bytes": 15335,
+      "sha256": "de3d83ee382338256cf36ec4759bb950a4c0f7da9b57cefa16387e54bc417e2c"
     },
     {
-      "path": "04-skills/07-ddmf-development-finance/project-readiness-gate/tests/trigger_cases.yaml",
-      "size_bytes": 883,
-      "sha256": "8d33a15891263540b264e20277e55ffa540a4cd00a1725ad7f0ca81b49ec8eb4"
+      "path": "04-skills/06-dim-investment-management/post-investment-monitor/tests/trigger_cases.yaml",
+      "size_bytes": 856,
+      "sha256": "7ea221bf0915f7ae1e2d3f1c40beb481f4c44c29aeacac9d6130388169872832"
     },
     {
-      "path": "04-skills/07-ddmf-development-finance/public-service-obligation-analyzer/SKILL.md",
-      "size_bytes": 6479,
-      "sha256": "5c788237e0d5ccb6471f111c0b46a37f35d15d16b4a2316586c8bb4ca3dff7b0"
+      "path": "04-skills/06-dim-investment-management/post-investment-monitor/SKILL.md",
+      "size_bytes": 6284,
+      "sha256": "6f5d8863da34cc438ab417b2faaa06a137a3255d07746bd2f34166a6250fe849"
     },
     {
-      "path": "04-skills/07-ddmf-development-finance/public-service-obligation-analyzer/references/README.md",
-      "size_bytes": 178,
-      "sha256": "45b0c55ce0f1fbcfb32ac4d28a809a5813e5026950cd5ed92eae43880a22f5bf"
+      "path": "04-skills/06-dim-investment-management/esg-impact-due-diligence/references/README.md",
+      "size_bytes": 168,
+      "sha256": "522a2e7a03dc09fb354593793a152719f37d73b5ba86da8ecba9a76d77546405"
     },
     {
-      "path": "04-skills/07-ddmf-development-finance/public-service-obligation-analyzer/tests/trigger_cases.yaml",
-      "size_bytes": 905,
-      "sha256": "54152477340778cda686454845b208a9638dcfa854bc48d05868fdb43721d1c8"
+      "path": "04-skills/06-dim-investment-management/investment-committee-memo/tests/trigger_cases.yaml",
+      "size_bytes": 904,
+      "sha256": "11fa773ec28e11e9d97c1c9584fadaa702fa34f6923b9936c5f5e68a9f5bd118"
     },
     {
-      "path": "04-skills/07-ddmf-development-finance/socioeconomic-multiplier-modeler/SKILL.md",
-      "size_bytes": 6505,
-      "sha256": "ddf83cdc5016215d91b5efd2acec40387ff6406f83a624252fa12e68a6ce42aa"
+      "path": "04-skills/07-ddmf-development-finance/project-delivery-monitor/references/README.md",
+      "size_bytes": 168,
+      "sha256": "e1c55e58b5b735c30fd4991abb27a6222c391a59b29131511a2227f8bded8b66"
     },
     {
-      "path": "04-skills/07-ddmf-development-finance/socioeconomic-multiplier-modeler/references/README.md",
-      "size_bytes": 176,
-      "sha256": "03c778124533dadcfe017a1704598a1965efeea66972fb6617183f8a5f02f86b"
+      "path": "04-skills/06-dim-investment-management/investment-committee-memo/SKILL.md",
+      "size_bytes": 6410,
+      "sha256": "47ef59d152cf49bea4c3f1871c439dc123612cce05756ae23072a56c256ddd84"
     },
     {
-      "path": "04-skills/07-ddmf-development-finance/socioeconomic-multiplier-modeler/tests/trigger_cases.yaml",
-      "size_bytes": 911,
-      "sha256": "1c60df8acaf12c85e47ed10b046f9b94a5aee36467473c891345840f7fb3ac4b"
+      "path": "04-skills/06-dim-investment-management/investment-theme-generator/tests/trigger_cases.yaml",
+      "size_bytes": 894,
+      "sha256": "a9ee5a08a1ef13af831a186b6fdc72f0ebc25b7791d736e9cbddb7d35efca4d6"
     },
     {
-      "path": "04-skills/07-ddmf-development-finance/viability-gap-support-assessor/SKILL.md",
-      "size_bytes": 6255,
-      "sha256": "5d800fe872a76d0f3ae2f5414735ec7d1a7b4edf3d916df939d6dae6d5792775"
+      "path": "04-skills/06-dim-investment-management/investment-theme-generator/SKILL.md",
+      "size_bytes": 6374,
+      "sha256": "ac0e7b06a637cfcae4b1989fea8356acc8d82ac0a4504f72a75ee1252721b09d"
     },
     {
-      "path": "04-skills/07-ddmf-development-finance/viability-gap-support-assessor/references/README.md",
+      "path": "04-skills/06-dim-investment-management/dcf-model-challenger/tests/trigger_cases.yaml",
+      "size_bytes": 5536,
+      "sha256": "850346950420737e1e695a881d21f959061d18fc57ec065f925c6d25109eef6c"
+    },
+    {
+      "path": "04-skills/06-dim-investment-management/dcf-model-challenger/SKILL.md",
+      "size_bytes": 14899,
+      "sha256": "bc343c5b1b88f87e1fa09b84b703da7cc73d037544dd884928215ffb623f833c"
+    },
+    {
+      "path": "04-skills/06-dim-investment-management/financial-due-diligence/tests/trigger_cases.yaml",
+      "size_bytes": 879,
+      "sha256": "3fa00055a62015acc1e3d7ce842baff640e9305c3c19d1821e7c2af8631266ce"
+    },
+    {
+      "path": "04-skills/06-dim-investment-management/financial-due-diligence/SKILL.md",
+      "size_bytes": 6343,
+      "sha256": "06c638f1d1d575c57f8f1c3aeb99234beaa03f1a9cf70bb16fcffd67cc7bbf47"
+    },
+    {
+      "path": "04-skills/06-dim-investment-management/post-investment-monitor/references/README.md",
+      "size_bytes": 167,
+      "sha256": "02ffff22c4c767aef02cb15239dd0db2a8904e3f138d3cf4049eca3b6e5596cc"
+    },
+    {
+      "path": "04-skills/06-dim-investment-management/risk-adjusted-return-analyzer/references/README.md",
+      "size_bytes": 173,
+      "sha256": "9ad6d825ee8d4c085c7d6480727ea95de430c29b9879ff370b8ef7e342870363"
+    },
+    {
+      "path": "04-skills/06-dim-investment-management/investment-mandate-interpreter/references/README.md",
       "size_bytes": 174,
-      "sha256": "9e879a4472fbc7b0f3c716eec916cb9b5a3b0421d4827149f13f911400ec3d16"
+      "sha256": "aa4680bbb8b6cee03d642464f4dbf05c0a40905e50fba2d09580ab385ca2e3dd"
     },
     {
-      "path": "04-skills/07-ddmf-development-finance/viability-gap-support-assessor/tests/trigger_cases.yaml",
-      "size_bytes": 834,
-      "sha256": "60118009a9eecb7d5add9c98a54349a63886cfdd8783a37239126b7c36d484ee"
+      "path": "04-skills/06-dim-investment-management/investment-mandate-interpreter/references/legal-mandate-basis.md",
+      "size_bytes": 11042,
+      "sha256": "32b6a776068bac968adcf42fc80e7595cd45ff9fc7712845b4483ab8a82a9afd"
+    },
+    {
+      "path": "04-skills/06-dim-investment-management/portfolio-diversification-analyzer/tests/trigger_cases.yaml",
+      "size_bytes": 904,
+      "sha256": "78262f2792f05b1dc6147dd6a2b05af504153fb2343505470d2773ff80b3418b"
+    },
+    {
+      "path": "04-skills/06-dim-investment-management/portfolio-diversification-analyzer/SKILL.md",
+      "size_bytes": 6373,
+      "sha256": "e67dd11316de435bdaba4c8047a2b5cc91518fb1f493e20a150c7d5d022e1c78"
+    },
+    {
+      "path": "04-skills/06-dim-investment-management/dcf-model-challenger/references/README.md",
+      "size_bytes": 164,
+      "sha256": "1e28678339fad7c05400fc3b52eb2da4f15666571c4c40e39771d60b92bdf65d"
+    },
+    {
+      "path": "04-skills/06-dim-investment-management/dcf-model-challenger/references/dcf-challenge-protocol.md",
+      "size_bytes": 10024,
+      "sha256": "dc6c8821de69d0ad831a380396f8f387b9179ed4044acb3701e409d2e2cb025b"
+    },
+    {
+      "path": "04-skills/06-dim-investment-management/investment-committee-memo/references/README.md",
+      "size_bytes": 169,
+      "sha256": "cf5eb193b296c75c1f9715c6be280a17a343f3da5e4dfc7712d0b45d76ecd84e"
+    },
+    {
+      "path": "04-skills/06-dim-investment-management/investment-theme-generator/references/README.md",
+      "size_bytes": 170,
+      "sha256": "128c7cdd3fcc210bc6b825156dcfde7901b1d2f3f138f1fa342c263ab241b5af"
+    },
+    {
+      "path": "04-skills/06-dim-investment-management/financial-due-diligence/references/README.md",
+      "size_bytes": 167,
+      "sha256": "799774a49e4056a5b984d8e21d5c1f4f1c25febd4ba06f2199d7861d4863a8f1"
+    },
+    {
+      "path": "04-skills/07-ddmf-development-finance/ppp-risk-allocation/tests/trigger_cases.yaml",
+      "size_bytes": 877,
+      "sha256": "6974bd069fd873ff8bf70951b29baefa267bd7ed249204df3815e6d3efcf5e02"
+    },
+    {
+      "path": "04-skills/07-ddmf-development-finance/ppp-risk-allocation/SKILL.md",
+      "size_bytes": 6451,
+      "sha256": "3b72be82ee6d65bf572dab828935b096581d3ae87744c1b4699257e8e38fffd4"
+    },
+    {
+      "path": "04-skills/06-dim-investment-management/portfolio-diversification-analyzer/references/README.md",
+      "size_bytes": 178,
+      "sha256": "857f0830e2e80f1fd8935ef0753a8cd89be226a383fb7f815e40a6906d9d0ea8"
+    },
+    {
+      "path": "04-skills/07-ddmf-development-finance/bankability-gap-analyzer/SKILL.md",
+      "size_bytes": 6481,
+      "sha256": "8ff10f653245a0ac2999d4e8a0a0075b853ccfdb7278fadd4a5a8b755e1a08a7"
+    },
+    {
+      "path": "04-skills/07-ddmf-development-finance/catalytic-capital-optimizer/tests/trigger_cases.yaml",
+      "size_bytes": 904,
+      "sha256": "36a770a7a33c695053f15347b1ab5a4f30aa29ba94046eca25eae8ab8a8c17dc"
+    },
+    {
+      "path": "04-skills/07-ddmf-development-finance/catalytic-capital-optimizer/SKILL.md",
+      "size_bytes": 6500,
+      "sha256": "d73794636d05f69e4bf4f932e75eb7b5fbf217a0e5ba9109bdcef92744260a9b"
+    },
+    {
+      "path": "04-skills/06-dim-investment-management/legal-tax-due-diligence/tests/trigger_cases.yaml",
+      "size_bytes": 880,
+      "sha256": "ad64d28f7e0a42469528f10d672c7cafe54453ba2de63080422c2dac6c9bc78f"
+    },
+    {
+      "path": "04-skills/06-dim-investment-management/legal-tax-due-diligence/SKILL.md",
+      "size_bytes": 6360,
+      "sha256": "c3d97aa19fd4c507e0d5474fce451aa9145df6c6b623d11004d9faabb9a9ca49"
+    },
+    {
+      "path": "04-skills/07-ddmf-development-finance/bankability-gap-analyzer/tests/trigger_cases.yaml",
+      "size_bytes": 891,
+      "sha256": "d8af240d115a57e396cf708d8445d8e8a1f1ddb7ca5df911761d56a70a131289"
+    },
+    {
+      "path": "04-skills/07-ddmf-development-finance/ppp-risk-allocation/references/README.md",
+      "size_bytes": 163,
+      "sha256": "688c4834681c513c82c1983b6b2833b38b31c9d7428b7b89308ebb9e1d70a1b5"
+    },
+    {
+      "path": "04-skills/07-ddmf-development-finance/blended-finance-designer/tests/trigger_cases.yaml",
+      "size_bytes": 836,
+      "sha256": "500f8653064f3e03a9aa4e0683758b44cb577c91db544c2cb2e7c791e0eb6e33"
+    },
+    {
+      "path": "04-skills/07-ddmf-development-finance/blended-finance-designer/SKILL.md",
+      "size_bytes": 6236,
+      "sha256": "b59f541c9594a4c3b9056e6dc6ddc3bfcb0fabcfa53161791dd5bba4bd6371fa"
+    },
+    {
+      "path": "04-skills/07-ddmf-development-finance/catalytic-capital-optimizer/references/README.md",
+      "size_bytes": 171,
+      "sha256": "20f8c282c7edace7f7a38e926e5279cedc2f749e4d701e15239bd39090c0d899"
+    },
+    {
+      "path": "04-skills/07-ddmf-development-finance/development-outcome-monitor/SKILL.md",
+      "size_bytes": 6428,
+      "sha256": "1b89846958fb40dbd6e182c7eb0293e905ab4f366bdb9a00d26190dc8f39241f"
+    },
+    {
+      "path": "04-skills/07-ddmf-development-finance/bankability-gap-analyzer/references/README.md",
+      "size_bytes": 168,
+      "sha256": "bd42fe18e727c260c5d96f971fe8744c834da44e18e800d0b140df596d469b05"
+    },
+    {
+      "path": "04-skills/06-dim-investment-management/opportunity-screening/tests/trigger_cases.yaml",
+      "size_bytes": 877,
+      "sha256": "bffb5addfa52d2d6f89ed3240de2b8421b377a41f3ea1839d8dd1420b394f35f"
+    },
+    {
+      "path": "04-skills/06-dim-investment-management/opportunity-screening/SKILL.md",
+      "size_bytes": 6344,
+      "sha256": "a70dbcdaf4661cc8bba46d1a412dc32593637884e09f6f2ec05aebb157790826"
+    },
+    {
+      "path": "04-skills/06-dim-investment-management/legal-tax-due-diligence/references/README.md",
+      "size_bytes": 167,
+      "sha256": "4ed4ca921b4a5d2215b5ad6f8d67071d569a730295abcda270bf1e42178bfdca"
+    },
+    {
+      "path": "04-skills/06-dim-investment-management/deal-structuring-optimizer/SKILL.md",
+      "size_bytes": 6385,
+      "sha256": "8767a8360454d71df3df9b36849bb285748e764d72c237d3a0334c447908cf2f"
+    },
+    {
+      "path": "04-skills/07-ddmf-development-finance/blended-finance-designer/references/README.md",
+      "size_bytes": 168,
+      "sha256": "3a6300bc5a29f3f4ed938cfe3af998fe282f93180f6c7963770d3d17cb1858c5"
+    },
+    {
+      "path": "04-skills/07-ddmf-development-finance/development-outcome-monitor/tests/trigger_cases.yaml",
+      "size_bytes": 884,
+      "sha256": "f5428b527705c413a62c40b9008b5ac6a5e3265e5f351d5aa85b39797ef6b401"
+    },
+    {
+      "path": "04-skills/09-sector-overlays/financial-services-sector-pack/SKILL.md",
+      "size_bytes": 6270,
+      "sha256": "4a2899f7f6b4719e081090b4527c07274c82c853c636fdfc34ccd1261aa51f7a"
+    },
+    {
+      "path": "04-skills/07-ddmf-development-finance/multilateral-partner-matcher/SKILL.md",
+      "size_bytes": 6464,
+      "sha256": "5db9da0daadccec61ee3aff7494bf127decbc1581d582f124dd558d7151ad370"
+    },
+    {
+      "path": "04-skills/07-ddmf-development-finance/development-outcome-monitor/references/README.md",
+      "size_bytes": 171,
+      "sha256": "11765789ca530c978d070256987ad62f12d4188eea7a92f38ed11ca6b878096d"
+    },
+    {
+      "path": "04-skills/06-dim-investment-management/deal-structuring-optimizer/references/README.md",
+      "size_bytes": 170,
+      "sha256": "5b5da9e48b983b8fb03585ac49c1c188877f823c97f6c6691e5384bc0acc709f"
+    },
+    {
+      "path": "04-skills/06-dim-investment-management/deal-structuring-optimizer/tests/trigger_cases.yaml",
+      "size_bytes": 892,
+      "sha256": "bc0de0ba1be816448fbe3ed28dcd0661eabb3c7b5eb1660c37bfd54785610869"
+    },
+    {
+      "path": "04-skills/07-ddmf-development-finance/additionality-assessor/SKILL.md",
+      "size_bytes": 6459,
+      "sha256": "3d4d4290d916f02a4220a09600a6cd06ad4cd60f2cced4e56fdec8b42e6ce7e8"
+    },
+    {
+      "path": "04-skills/07-ddmf-development-finance/additionality-assessor/tests/trigger_cases.yaml",
+      "size_bytes": 884,
+      "sha256": "797bebc3895817f46aebf3d8ba122d53028f56c46d005c78376213b78e154267"
+    },
+    {
+      "path": "04-skills/09-sector-overlays/financial-services-sector-pack/tests/trigger_cases.yaml",
+      "size_bytes": 869,
+      "sha256": "3f954ddb7fa3a48b78b916b061711667d67ecd37f1955dfbca81f1a280fa3f3c"
+    },
+    {
+      "path": "04-skills/07-ddmf-development-finance/additionality-assessor/references/README.md",
+      "size_bytes": 166,
+      "sha256": "daf533acb2d7257c2335deac85bb598e2ea4be106453a043a42336242d971260"
+    },
+    {
+      "path": "04-skills/09-sector-overlays/financial-services-sector-pack/references/README.md",
+      "size_bytes": 174,
+      "sha256": "6c876c3cf3ac6723740dba6493efe40186a5cbca204654c690f9f83d65312daa"
+    },
+    {
+      "path": "04-skills/07-ddmf-development-finance/development-impact-assessor/SKILL.md",
+      "size_bytes": 6527,
+      "sha256": "e7c8a1897f0be41d64e2a04f08ec924c1afe192cb2aaeccd223abaf7dc59038a"
+    },
+    {
+      "path": "04-skills/07-ddmf-development-finance/multilateral-partner-matcher/tests/trigger_cases.yaml",
+      "size_bytes": 896,
+      "sha256": "212652310f3c678bd2693e7377202128e48d849452459a783cfa21b57d52fa46"
+    },
+    {
+      "path": "04-skills/06-dim-investment-management/opportunity-screening/references/README.md",
+      "size_bytes": 165,
+      "sha256": "ef78e43e38f4370921a69035403b8c275ac52895bd615b7686acbf73ebf754b6"
+    },
+    {
+      "path": "04-skills/07-ddmf-development-finance/development-impact-assessor/references/README.md",
+      "size_bytes": 171,
+      "sha256": "a10650fc23d1b0eb9fb8778a2a100af3260b74758d8b0cb27d2afa88e926600a"
+    },
+    {
+      "path": "04-skills/07-ddmf-development-finance/multilateral-partner-matcher/references/README.md",
+      "size_bytes": 172,
+      "sha256": "a6db4f8c383a96aa6f8a38fdbe0deeb5a39339f4ccc513b5ca138ffafede74ac"
+    },
+    {
+      "path": "04-skills/07-ddmf-development-finance/development-impact-assessor/tests/trigger_cases.yaml",
+      "size_bytes": 913,
+      "sha256": "97e3ea4d2e81d9a9e7706c3844296ba020df628d42028f8e75c4b1bb66b55dd3"
     },
     {
       "path": "04-skills/08-cross-functional/cybersecurity-by-design/SKILL.md",
@@ -1620,526 +2315,6 @@
       "path": "04-skills/08-cross-functional/cybersecurity-by-design/tests/trigger_cases.yaml",
       "size_bytes": 908,
       "sha256": "3d56639495c4150e63c39da761b3076f8a70ea2d37195693420d8322f1123bcc"
-    },
-    {
-      "path": "04-skills/08-cross-functional/data-sovereignty-assessor/SKILL.md",
-      "size_bytes": 6363,
-      "sha256": "096903952735f2bb053196bd28edb37151bc8d13246d15ade262adfb8236eee3"
-    },
-    {
-      "path": "04-skills/08-cross-functional/data-sovereignty-assessor/references/README.md",
-      "size_bytes": 169,
-      "sha256": "e2d7f84a26a35075e028970ca714f9d55dd84d7ab58f84048de0ec93771f4c8a"
-    },
-    {
-      "path": "04-skills/08-cross-functional/data-sovereignty-assessor/tests/trigger_cases.yaml",
-      "size_bytes": 904,
-      "sha256": "499eb2ec6af2e37ee89b696526f3b5b2fdcd00970ad6ef02546b4f0acd54ff53"
-    },
-    {
-      "path": "04-skills/08-cross-functional/enterprise-risk-aggregator/SKILL.md",
-      "size_bytes": 6318,
-      "sha256": "239325e5e7c039af2eee0c0b0fbb7f3a73d86689b8f7b29c810a447db81550b4"
-    },
-    {
-      "path": "04-skills/08-cross-functional/enterprise-risk-aggregator/references/README.md",
-      "size_bytes": 170,
-      "sha256": "b6cd8521a862e0b20f5f431906feee48a1e86f79d995a4e40dc58ad59c1166f3"
-    },
-    {
-      "path": "04-skills/08-cross-functional/enterprise-risk-aggregator/tests/trigger_cases.yaml",
-      "size_bytes": 895,
-      "sha256": "671667a4af7845a3b7e73c368cde1d1cd885ba4a75ac2a2662a1ac2a89d4cfb0"
-    },
-    {
-      "path": "04-skills/08-cross-functional/financial-model-validator/SKILL.md",
-      "size_bytes": 6240,
-      "sha256": "af0f4e87c44a412e51d025eb14a4ac580e8d48e220b6702969a720bff747e526"
-    },
-    {
-      "path": "04-skills/08-cross-functional/financial-model-validator/references/README.md",
-      "size_bytes": 169,
-      "sha256": "e6f93216f54529834b66aba4eed1504a560ddee75b591614f93c8db6cf3271c3"
-    },
-    {
-      "path": "04-skills/08-cross-functional/financial-model-validator/tests/trigger_cases.yaml",
-      "size_bytes": 868,
-      "sha256": "3000211716afce02e0a277302a7af0a673952399f29cddd85707e081cbfa36d5"
-    },
-    {
-      "path": "04-skills/08-cross-functional/governance-board-paper-reviewer/SKILL.md",
-      "size_bytes": 6294,
-      "sha256": "6f2e5ed75c1881b2f876f5be575e3c3b6d76637aba97a2b643df0c172dea55e7"
-    },
-    {
-      "path": "04-skills/08-cross-functional/governance-board-paper-reviewer/references/README.md",
-      "size_bytes": 175,
-      "sha256": "580392a9907b29ed592fd3d529f33a760934b60e32a7baf029efa5fcb916a159"
-    },
-    {
-      "path": "04-skills/08-cross-functional/governance-board-paper-reviewer/tests/trigger_cases.yaml",
-      "size_bytes": 892,
-      "sha256": "df5dcbb21e1a37450b25d6ae99db219050b1dea706e1ccefdb56aa384f18c72b"
-    },
-    {
-      "path": "04-skills/08-cross-functional/industrialization-hilirisasi-analyzer/SKILL.md",
-      "size_bytes": 6390,
-      "sha256": "03cfecbd77e2763eb69660124fc42b74fa42e4508ac4d88768bb6677f4dcaeee"
-    },
-    {
-      "path": "04-skills/08-cross-functional/industrialization-hilirisasi-analyzer/references/README.md",
-      "size_bytes": 181,
-      "sha256": "f7f3b4e5b403bc6f0bd5e8a5680bce9a113802ae26c661a5495269a9084f50fb"
-    },
-    {
-      "path": "04-skills/08-cross-functional/industrialization-hilirisasi-analyzer/tests/trigger_cases.yaml",
-      "size_bytes": 935,
-      "sha256": "d8cd246b806fcdddb1243a1384dd0f6254c7af1ba068f884b61009c32124cba8"
-    },
-    {
-      "path": "04-skills/08-cross-functional/job-quality-and-productivity-impact/SKILL.md",
-      "size_bytes": 6072,
-      "sha256": "e6db26d801569ce050d92fc3f283c07dbbb293119c3861f25ace44a025969f3a"
-    },
-    {
-      "path": "04-skills/08-cross-functional/job-quality-and-productivity-impact/references/README.md",
-      "size_bytes": 179,
-      "sha256": "5b04cc872cc0b14cea70ffef6ef953e5766944d00c8287eb2ac479509ffba96f"
-    },
-    {
-      "path": "04-skills/08-cross-functional/job-quality-and-productivity-impact/tests/trigger_cases.yaml",
-      "size_bytes": 823,
-      "sha256": "fce3cf2dd5ef2a3cbb0a38e61a2829d8f25b681dc270419c0ebfd04dfdc674d9"
-    },
-    {
-      "path": "04-skills/08-cross-functional/legal-sufficiency-checker/SKILL.md",
-      "size_bytes": 6315,
-      "sha256": "ea8eff4b1fe7edc521db854da6143bcd6d9f13dd54bd5a64e159d5aca54a4988"
-    },
-    {
-      "path": "04-skills/08-cross-functional/legal-sufficiency-checker/references/README.md",
-      "size_bytes": 169,
-      "sha256": "8c9505e8eba2220234a2a6803b09defc9608ee8c9c0ea78f1b25786d2f202309"
-    },
-    {
-      "path": "04-skills/08-cross-functional/legal-sufficiency-checker/tests/trigger_cases.yaml",
-      "size_bytes": 896,
-      "sha256": "8123e3642a21a8ceb08894e4b7f4c2648d4b928baebf4645658e9ab25c75c5be"
-    },
-    {
-      "path": "04-skills/08-cross-functional/national-champion-competitiveness/SKILL.md",
-      "size_bytes": 6366,
-      "sha256": "155409e11438c828a9e837bbe099325eb6ef1260791226db4bef7d653ab2414e"
-    },
-    {
-      "path": "04-skills/08-cross-functional/national-champion-competitiveness/references/README.md",
-      "size_bytes": 177,
-      "sha256": "0736dfea77dbefd1e1d336e74c0d37ced2ea06d03739fc37b0cb3fbe97bd1f01"
-    },
-    {
-      "path": "04-skills/08-cross-functional/national-champion-competitiveness/tests/trigger_cases.yaml",
-      "size_bytes": 921,
-      "sha256": "59a30e14acdf145e9a2257145be2cf6af8e6764f52c33a27f1f2a90ff01c8e04"
-    },
-    {
-      "path": "04-skills/08-cross-functional/procurement-commercial-strategy/SKILL.md",
-      "size_bytes": 6290,
-      "sha256": "00219620d709b2e5f92e13ae15a56e2702b2f6bc69e5058cb1b673a5087a74b2"
-    },
-    {
-      "path": "04-skills/08-cross-functional/procurement-commercial-strategy/references/README.md",
-      "size_bytes": 175,
-      "sha256": "69b487e009fb3a3832f0cd3ebdc87d41ffd204b37223c7509a098857f0994d93"
-    },
-    {
-      "path": "04-skills/08-cross-functional/procurement-commercial-strategy/tests/trigger_cases.yaml",
-      "size_bytes": 895,
-      "sha256": "4d1cf84200c68c7192e890e4ed46c27af957dafc9bfdc72108142df78846334e"
-    },
-    {
-      "path": "04-skills/08-cross-functional/scenario-stress-testing/SKILL.md",
-      "size_bytes": 6342,
-      "sha256": "334fe84134c1fedb5dae1fadeec89d1940db1e6c9a31b5f246abf187e588f986"
-    },
-    {
-      "path": "04-skills/08-cross-functional/scenario-stress-testing/references/README.md",
-      "size_bytes": 167,
-      "sha256": "b5d9f462636171f92aa9a35b9e5b758e2fcf00956df008be5891ae2c75db603e"
-    },
-    {
-      "path": "04-skills/08-cross-functional/scenario-stress-testing/tests/trigger_cases.yaml",
-      "size_bytes": 901,
-      "sha256": "0259ce1efb443a4a8d9c83c4e6887421732e107f3084e1d140c10953d6e3828a"
-    },
-    {
-      "path": "04-skills/08-cross-functional/selective-import-substitution-test/SKILL.md",
-      "size_bytes": 6357,
-      "sha256": "fdc94a2d585946047c65580919dd6063f062b1023ad9f28ed2db8fe220e5b014"
-    },
-    {
-      "path": "04-skills/08-cross-functional/selective-import-substitution-test/references/README.md",
-      "size_bytes": 178,
-      "sha256": "aa85db23f74d3d9a9a05b76fa97f754bae12b9cbe2c9ccf06a1fcb4ae73aff87"
-    },
-    {
-      "path": "04-skills/08-cross-functional/selective-import-substitution-test/tests/trigger_cases.yaml",
-      "size_bytes": 917,
-      "sha256": "541e53df713a9b34615c21f886fa6d974b88dd36a9270cb16c0791b9ac23169b"
-    },
-    {
-      "path": "04-skills/08-cross-functional/stakeholder-communications-planner/SKILL.md",
-      "size_bytes": 6365,
-      "sha256": "6ad11c963640e8a6403c12d96410fe82e2e0728993a948047544d5ee1b9a30a6"
-    },
-    {
-      "path": "04-skills/08-cross-functional/stakeholder-communications-planner/references/README.md",
-      "size_bytes": 178,
-      "sha256": "d809418dfdd7b6e5326ef478ad7cf7d26ce97a5751e00781363dd4efecfbc495"
-    },
-    {
-      "path": "04-skills/08-cross-functional/stakeholder-communications-planner/tests/trigger_cases.yaml",
-      "size_bytes": 920,
-      "sha256": "2c6405b7f4f07b0ff17533526d0a82c385f48487b097554e04389ca6a1852e48"
-    },
-    {
-      "path": "04-skills/08-cross-functional/technology-transfer-assessor/SKILL.md",
-      "size_bytes": 6360,
-      "sha256": "6b06f50e6180bde7af589401a285fcabf7b7cccb51c25c7d94d49e1b039130a7"
-    },
-    {
-      "path": "04-skills/08-cross-functional/technology-transfer-assessor/references/README.md",
-      "size_bytes": 172,
-      "sha256": "e365744d14b7eda892f5dee624cb664a2aa09fcdead6dd635a0106ca47a6b97d"
-    },
-    {
-      "path": "04-skills/08-cross-functional/technology-transfer-assessor/tests/trigger_cases.yaml",
-      "size_bytes": 911,
-      "sha256": "befe12b3bc378fdbb53a3105bb7a7267cff06351226c6f3596c0da4587dd4c4e"
-    },
-    {
-      "path": "04-skills/09-sector-overlays/digital-infrastructure-sector-pack/SKILL.md",
-      "size_bytes": 6352,
-      "sha256": "d2d841f8806e3d8ded8f95c7aaab9b25653e8ac5b59da767f7f0afcbe339eb5d"
-    },
-    {
-      "path": "04-skills/09-sector-overlays/digital-infrastructure-sector-pack/references/README.md",
-      "size_bytes": 178,
-      "sha256": "572b60b66ba28ba9eab298d8ac2abc4e70216df4fdb29a38ff1ad7258de8afa8"
-    },
-    {
-      "path": "04-skills/09-sector-overlays/digital-infrastructure-sector-pack/tests/trigger_cases.yaml",
-      "size_bytes": 900,
-      "sha256": "dbf5755e3efb3b92840488f11e6cad16607caefe38a0adab3e5d4f6118db2e81"
-    },
-    {
-      "path": "04-skills/09-sector-overlays/energy-transition-sector-pack/SKILL.md",
-      "size_bytes": 6426,
-      "sha256": "304ac7ea369684bc087203bde83f482c07c14e9cb99705eb6f70c668a37dbd59"
-    },
-    {
-      "path": "04-skills/09-sector-overlays/energy-transition-sector-pack/references/README.md",
-      "size_bytes": 173,
-      "sha256": "7cd35038dc61e2396f958eea279769c9fcc921a359179557224b80ff20c4cef3"
-    },
-    {
-      "path": "04-skills/09-sector-overlays/energy-transition-sector-pack/tests/trigger_cases.yaml",
-      "size_bytes": 918,
-      "sha256": "d2d67ee571bd8269443a735986c6221c3ceba95d6153f270da62a7fa04f488fd"
-    },
-    {
-      "path": "04-skills/09-sector-overlays/financial-services-sector-pack/SKILL.md",
-      "size_bytes": 6270,
-      "sha256": "4a2899f7f6b4719e081090b4527c07274c82c853c636fdfc34ccd1261aa51f7a"
-    },
-    {
-      "path": "04-skills/09-sector-overlays/financial-services-sector-pack/references/README.md",
-      "size_bytes": 174,
-      "sha256": "6c876c3cf3ac6723740dba6493efe40186a5cbca204654c690f9f83d65312daa"
-    },
-    {
-      "path": "04-skills/09-sector-overlays/financial-services-sector-pack/tests/trigger_cases.yaml",
-      "size_bytes": 869,
-      "sha256": "3f954ddb7fa3a48b78b916b061711667d67ecd37f1955dfbca81f1a280fa3f3c"
-    },
-    {
-      "path": "04-skills/09-sector-overlays/food-agriculture-sector-pack/SKILL.md",
-      "size_bytes": 6262,
-      "sha256": "28cb345c3bf6da4a58068018201ebccbcf121a4e956f1b494212fa1ea05a9365"
-    },
-    {
-      "path": "04-skills/09-sector-overlays/food-agriculture-sector-pack/references/README.md",
-      "size_bytes": 172,
-      "sha256": "2e80e9632719703870b9043b4d5a4430e4e09cfdc9ceaae71800d323f6862294"
-    },
-    {
-      "path": "04-skills/09-sector-overlays/food-agriculture-sector-pack/tests/trigger_cases.yaml",
-      "size_bytes": 862,
-      "sha256": "ed5968d2e11e7e36e479b66f8e8f0a2bdf87deaa21bf1b4919469b8b8a02a7e9"
-    },
-    {
-      "path": "04-skills/09-sector-overlays/healthcare-sector-pack/SKILL.md",
-      "size_bytes": 6241,
-      "sha256": "1597b771fd2b4a1f1bf2c24e08a020cd3fcf076ec1408abfa2f2012691fb92ab"
-    },
-    {
-      "path": "04-skills/09-sector-overlays/healthcare-sector-pack/references/README.md",
-      "size_bytes": 166,
-      "sha256": "8eea32eb36bafd6a98994998484d5c3a625a71392e3e30a350f1fa135975642c"
-    },
-    {
-      "path": "04-skills/09-sector-overlays/healthcare-sector-pack/tests/trigger_cases.yaml",
-      "size_bytes": 847,
-      "sha256": "05c4e4f84734925b5ad0ee6c133411b0332af152b4b638dffc58fbd69b8d11e6"
-    },
-    {
-      "path": "04-skills/09-sector-overlays/infrastructure-utilities-sector-pack/SKILL.md",
-      "size_bytes": 6335,
-      "sha256": "8b7c7adb77ffbc9e030a531db310ede5a551914e6c5e8ab04254fdc572ca4d7b"
-    },
-    {
-      "path": "04-skills/09-sector-overlays/infrastructure-utilities-sector-pack/references/README.md",
-      "size_bytes": 180,
-      "sha256": "09e0cb918c61f5c1d95cc1a1eaec53e4b62511d5415db5ea9608de373f2981c1"
-    },
-    {
-      "path": "04-skills/09-sector-overlays/infrastructure-utilities-sector-pack/tests/trigger_cases.yaml",
-      "size_bytes": 897,
-      "sha256": "c584a7d094b56e7d3cac54713624b2c7c01dc53fc574451b7f8015796619f335"
-    },
-    {
-      "path": "04-skills/09-sector-overlays/minerals-downstream-sector-pack/SKILL.md",
-      "size_bytes": 6361,
-      "sha256": "c252d666d89984fd81306bb552fae796c7e517b7c4d703a366b50877c05570d9"
-    },
-    {
-      "path": "04-skills/09-sector-overlays/minerals-downstream-sector-pack/references/README.md",
-      "size_bytes": 175,
-      "sha256": "8920eaf2e806f850b0fe1aaa867bec51eb87711d24b131247cbe62d649fe4e7e"
-    },
-    {
-      "path": "04-skills/09-sector-overlays/minerals-downstream-sector-pack/tests/trigger_cases.yaml",
-      "size_bytes": 899,
-      "sha256": "35b5c3f256793f0c27f8a724363dae4aed0ca5bd15dcce14e80229d4e42af2c5"
-    },
-    {
-      "path": "04-skills/09-sector-overlays/real-estate-sez-sector-pack/SKILL.md",
-      "size_bytes": 6293,
-      "sha256": "ad52377f5bcffd9fbea59ac7ea0190d9bd02ff3fcebc91311c4a5a092924bd05"
-    },
-    {
-      "path": "04-skills/09-sector-overlays/real-estate-sez-sector-pack/references/README.md",
-      "size_bytes": 171,
-      "sha256": "e0b61f71bc4bef3b05c1523fd1c43a522c86abd4fcd0af6f00342a2771bf4283"
-    },
-    {
-      "path": "04-skills/09-sector-overlays/real-estate-sez-sector-pack/tests/trigger_cases.yaml",
-      "size_bytes": 871,
-      "sha256": "46d99413e16b0ff9289ca897bc6fef30515bcb753361e9738a7942cfcdc6e30a"
-    },
-    {
-      "path": "04-skills/09-sector-overlays/upstream-energy-sector-pack/SKILL.md",
-      "size_bytes": 6365,
-      "sha256": "96a6d8d4c02d9ed514de11732846e38e0d05dc9a48a0faece7dafed97ff509c5"
-    },
-    {
-      "path": "04-skills/09-sector-overlays/upstream-energy-sector-pack/references/README.md",
-      "size_bytes": 171,
-      "sha256": "c429ca8e018c596f6c046e3bf6a32b2086c59e42c96befcc96d867c27af0fe3e"
-    },
-    {
-      "path": "04-skills/09-sector-overlays/upstream-energy-sector-pack/tests/trigger_cases.yaml",
-      "size_bytes": 895,
-      "sha256": "873305cfa3e2dc6c6475d7ae9f49b5e48864801131f1b5233d3f3dadbca18177"
-    },
-    {
-      "path": "04-skills/10-assurance-evaluation/audit-trail-packager/SKILL.md",
-      "size_bytes": 6270,
-      "sha256": "9052ddb187eed90a9d233e549358fb8a69b807cc5015d6c4ff49520b80798155"
-    },
-    {
-      "path": "04-skills/10-assurance-evaluation/audit-trail-packager/references/README.md",
-      "size_bytes": 164,
-      "sha256": "f9dd50d536026f960871abd33ffbf6d6266070c0eb21d840213bd392a9b1b1c5"
-    },
-    {
-      "path": "04-skills/10-assurance-evaluation/audit-trail-packager/tests/trigger_cases.yaml",
-      "size_bytes": 870,
-      "sha256": "4192b49e32119fce7a8e6ac6168b129fe0e5c5eb17b1695856c5eaeceb3e05d7"
-    },
-    {
-      "path": "04-skills/10-assurance-evaluation/bias-and-independence-review/SKILL.md",
-      "size_bytes": 6306,
-      "sha256": "385f2208168072d239f64073d7c9f7b0ae15e895fb7e9dec44e30c7313520d69"
-    },
-    {
-      "path": "04-skills/10-assurance-evaluation/bias-and-independence-review/references/README.md",
-      "size_bytes": 172,
-      "sha256": "b1f6cebda533f092f73b8312f3b3049ed958cbb2062a93fa652f574ef337f351"
-    },
-    {
-      "path": "04-skills/10-assurance-evaluation/bias-and-independence-review/tests/trigger_cases.yaml",
-      "size_bytes": 891,
-      "sha256": "9bdc73a18d577171e9ea989cbd3819a5c75646713674e7857b54c8b6b2096c3d"
-    },
-    {
-      "path": "04-skills/10-assurance-evaluation/compliance-policy-checker/SKILL.md",
-      "size_bytes": 6286,
-      "sha256": "9097a363ee9d1dfc530a575d389b9a0e7b8e756a6d1e3c117a8586c8dcb336d6"
-    },
-    {
-      "path": "04-skills/10-assurance-evaluation/compliance-policy-checker/references/README.md",
-      "size_bytes": 169,
-      "sha256": "3b05e9fcdae51e544ee6b795c2848d522a3ec80084f7971e2ce01c27479a2880"
-    },
-    {
-      "path": "04-skills/10-assurance-evaluation/compliance-policy-checker/tests/trigger_cases.yaml",
-      "size_bytes": 881,
-      "sha256": "cd803dc5cdef4ac2f402eb862787ce460c0c5f4931f6e8172d2c0acafc0246d8"
-    },
-    {
-      "path": "04-skills/10-assurance-evaluation/confidentiality-leakage-check/SKILL.md",
-      "size_bytes": 6352,
-      "sha256": "2661ae57fbf74be658dedf2fa6697d4d5dc282c45c24d2793220d7bc967bbae3"
-    },
-    {
-      "path": "04-skills/10-assurance-evaluation/confidentiality-leakage-check/references/README.md",
-      "size_bytes": 173,
-      "sha256": "cb2df25be95542d33f77810c3864658da1f3099e8826a9a239c46aa003d423fb"
-    },
-    {
-      "path": "04-skills/10-assurance-evaluation/confidentiality-leakage-check/tests/trigger_cases.yaml",
-      "size_bytes": 907,
-      "sha256": "92424bdf1040724575256133967c569a30ffd5a784d42eac1412b2d864ea6bff"
-    },
-    {
-      "path": "04-skills/10-assurance-evaluation/decision-quality-gate/SKILL.md",
-      "size_bytes": 4860,
-      "sha256": "e95b220c374277855c55004cc52486c9a8135db757ca2fa567faa5f4571089ef"
-    },
-    {
-      "path": "04-skills/10-assurance-evaluation/decision-quality-gate/references/README.md",
-      "size_bytes": 165,
-      "sha256": "d59c7ef89eb23130a177bb8d164bc0b3c4b1f529108a3de963f1fd2f007f2567"
-    },
-    {
-      "path": "04-skills/10-assurance-evaluation/decision-quality-gate/tests/trigger_cases.yaml",
-      "size_bytes": 885,
-      "sha256": "c3b3c511d83bb4973dce47bd841992d55a2d4a51be8e28abee4ee5ced3144b2d"
-    },
-    {
-      "path": "04-skills/10-assurance-evaluation/evidence-citation-auditor/SKILL.md",
-      "size_bytes": 6304,
-      "sha256": "d5195b791e50ed8ab8276c9ab86f322934fb691434800f9f59be78d062ba51e4"
-    },
-    {
-      "path": "04-skills/10-assurance-evaluation/evidence-citation-auditor/references/README.md",
-      "size_bytes": 169,
-      "sha256": "aa75bac3eb4e43f2b7c60d2cae6f1fa58887dba5b7ebbf792f341c0ae4b975b0"
-    },
-    {
-      "path": "04-skills/10-assurance-evaluation/evidence-citation-auditor/tests/trigger_cases.yaml",
-      "size_bytes": 889,
-      "sha256": "a39f2889a559f5d4160e57b3b597d45698310be802468a5369cb50dfad83bf72"
-    },
-    {
-      "path": "04-skills/10-assurance-evaluation/model-risk-validator/SKILL.md",
-      "size_bytes": 6283,
-      "sha256": "7db8aa1733dbf5d5d2f5b0bb7246ed38aec31cfd3bb14fa72a6e53e9829fd47d"
-    },
-    {
-      "path": "04-skills/10-assurance-evaluation/model-risk-validator/references/README.md",
-      "size_bytes": 164,
-      "sha256": "cfa55046a657b9a188e2209dc580e32e41d389f4ac82c8a6145fdd98a7dbd841"
-    },
-    {
-      "path": "04-skills/10-assurance-evaluation/model-risk-validator/tests/trigger_cases.yaml",
-      "size_bytes": 870,
-      "sha256": "c473f14969cd28780e5381cf8dd8cfd5af42fc8ec39d68a6da3dce5bc5da7c5b"
-    },
-    {
-      "path": "04-skills/10-assurance-evaluation/post-decision-learning/SKILL.md",
-      "size_bytes": 6318,
-      "sha256": "43165c191abdac821b022cbf5209fa6a47e8606ccf9057cc2dcee30f554c9c2e"
-    },
-    {
-      "path": "04-skills/10-assurance-evaluation/post-decision-learning/references/README.md",
-      "size_bytes": 166,
-      "sha256": "5520126f3285ad74f5e2302798c3b23fb3cd0e7b82a04689cf89e3fa65a3fda0"
-    },
-    {
-      "path": "04-skills/10-assurance-evaluation/post-decision-learning/tests/trigger_cases.yaml",
-      "size_bytes": 887,
-      "sha256": "1134c523333bda8c65ff1ca2108c2e6b8cdc77285cc704737c809cae732a42d6"
-    },
-    {
-      "path": "04-skills/10-assurance-evaluation/skill-evaluation-runner/SKILL.md",
-      "size_bytes": 6246,
-      "sha256": "383f54c1bb98c0cadec04c34a43b36930e3b6abfb459dcefdb8b31d75a5302c1"
-    },
-    {
-      "path": "04-skills/10-assurance-evaluation/skill-evaluation-runner/references/README.md",
-      "size_bytes": 167,
-      "sha256": "8d437e59ce45c67beb064c000a431968fcda4f46cd53009da0cc81b4308e218d"
-    },
-    {
-      "path": "04-skills/10-assurance-evaluation/skill-evaluation-runner/tests/trigger_cases.yaml",
-      "size_bytes": 872,
-      "sha256": "50e62287d667940083cfe80e662453dbcd9e01978c45dc0b10a8cc0ece561f6e"
-    },
-    {
-      "path": "04-skills/10-assurance-evaluation/skill-lifecycle-governor/SKILL.md",
-      "size_bytes": 6323,
-      "sha256": "1773023b705474a94e0e5a987e9067e08e6c7c52362ff477631bcb6addbf2a60"
-    },
-    {
-      "path": "04-skills/10-assurance-evaluation/skill-lifecycle-governor/references/README.md",
-      "size_bytes": 168,
-      "sha256": "8fd488e8d7583119f1a19a88d009e733ef7f23c414dbd0b96adef01de8f55cc5"
-    },
-    {
-      "path": "04-skills/10-assurance-evaluation/skill-lifecycle-governor/tests/trigger_cases.yaml",
-      "size_bytes": 896,
-      "sha256": "7f7bbe5f57c28738fcaa3293dae8f8accb4c0000dad9933263407a6acd202551"
-    },
-    {
-      "path": "05-evaluations/ADVERSARIAL_CASES.yaml",
-      "size_bytes": 1902,
-      "sha256": "502ddbd15f39f6320da9194667b2113d5c955baf2bd511eb7c9ceee06b1ddc2f"
-    },
-    {
-      "path": "05-evaluations/EVALUATION_STRATEGY.md",
-      "size_bytes": 2029,
-      "sha256": "6e8e8827c8de80b6b5924ad396c920a83797a548c54e2058c584214e833673ea"
-    },
-    {
-      "path": "06-scripts/lint_vocabulary.py",
-      "size_bytes": 1341,
-      "sha256": "7b3a6984e990a0d713e235783b5768acc6cbb683f2634f6de0624f7a9d2f227b"
-    },
-    {
-      "path": "06-scripts/validate_skills.py",
-      "size_bytes": 3278,
-      "sha256": "39e5364b37839408ed8a154ef7f3c5ad7808b88408cf8eefaf699b45de437389"
-    },
-    {
-      "path": "07-schemas/canonical_decision_output.schema.json",
-      "size_bytes": 1759,
-      "sha256": "b8653c8b55ad043bb19a0b3a7f58228bf629451d4e8d1aae30dfe470468fbe6d"
-    },
-    {
-      "path": "07-schemas/skill_registry.schema.json",
-      "size_bytes": 988,
-      "sha256": "36045e62edc8f9f9882a8450a826e7e7126fcb0e58eee1f09f32f1437ef57eaa"
-    },
-    {
-      "path": "08-sources/SOURCE_REGISTER.md",
-      "size_bytes": 1894,
-      "sha256": "233e29c03227f88ab2239a73a848a0deca5f46d25de1f17936f984583bc3f7f1"
-    },
-    {
-      "path": "README.md",
-      "size_bytes": 1819,
-      "sha256": "2e1f08339cd4377f3f61632fa0740228ea2a8bf857d975ee8c4367174ccd4745"
     }
   ]
 }
