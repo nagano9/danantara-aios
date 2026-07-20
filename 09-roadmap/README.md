@@ -154,8 +154,10 @@ source layer is grounded, the first operational agents should be:
 - a source-layer curator that keeps the registry, backlog, and status aligned
 - a source-layer enrichment agent that turns audit findings into a tracked plan
 - a decision packager that converts workflow outputs into a handoff package
+- a workflow-state agent that preserves the current loop state for resumption
 - a repo audit gate that catches drift before it spreads into downstream work
 
 The first workflow should be a repo maintenance loop that routes a task,
 curates the source layer, generates an enrichment plan, packages the decision,
-runs the repo checks, and returns a consolidated audit decision.
+tracks workflow state, runs the repo checks, and returns a consolidated audit
+decision.

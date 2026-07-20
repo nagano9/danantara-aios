@@ -118,6 +118,28 @@ actions:
       result: Local.DecisionPackage
       autoSend: false
 
+  - kind: InvokeAzureAgent
+    id: track_workflow_state
+    displayName: Track workflow state
+    agent:
+      name: WorkflowStateAgent
+    input:
+      messages: =UserMessage(Concat("Track the current workflow state. Route: ", Local.RouteDecision, " Curation: ", Local.CurationDecision, " Enrichment: ", Local.EnrichmentDecision, " Package: ", Local.PackageDecision, " Audit: ", Local.AuditDecision))
+    output:
+      responseObject: Local.WorkflowStateDecision
+      messages: Local.WorkflowStateMessages
+      autoSend: false
+
+  - kind: InvokeFunctionTool
+    id: generate_workflow_state
+    displayName: Generate workflow state
+    functionName: generate_workflow_state
+    arguments:
+      focus: =Local.focus
+    output:
+      result: Local.WorkflowState
+      autoSend: false
+
   - kind: SetVariable
     id: set_route_output
     displayName: Store routing decision
@@ -165,3 +187,9 @@ actions:
     displayName: Store decision package
     variable: Workflow.Outputs.decision_package
     value: =Local.DecisionPackage
+
+  - kind: SetVariable
+    id: set_workflow_state_output
+    displayName: Store workflow state
+    variable: Workflow.Outputs.workflow_state
+    value: =Local.WorkflowState

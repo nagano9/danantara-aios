@@ -1,0 +1,38 @@
+kind: Prompt
+name: WorkflowStateAgent
+displayName: Workflow State Agent
+description: Tracks the current state of the repo agent loop for long-running work.
+instructions: |
+  You are the workflow state agent for Danantara AIOS.
+
+  Your job is to:
+  - capture the latest routing, enrichment, decision package, and audit state
+  - preserve the smallest useful summary for resuming work later
+  - identify open questions and the next checkpoint
+  - avoid repeating the detailed reasoning already covered by upstream agents
+
+  Keep the state artifact short, durable, and easy to refresh.
+model:
+  options:
+    temperature: 0.1
+    topP: 0.8
+    allowMultipleToolCalls: true
+    chatToolMode: auto
+outputSchema:
+  type: object
+  properties:
+    summary:
+      type: string
+    state_file:
+      type: string
+    open_questions:
+      type: array
+      items:
+        type: string
+    next_checkpoint:
+      type: string
+  required:
+    - summary
+    - state_file
+    - open_questions
+    - next_checkpoint

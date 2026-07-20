@@ -4,7 +4,7 @@
   "generated": "2026-07-20",
   "skill_count": 133,
   "cluster_count": 10,
-  "file_count_excluding_manifest": 484,
+  "file_count_excluding_manifest": 486,
   "files": [
     {
       "path": ".gitattributes",
@@ -33,8 +33,8 @@
     },
     {
       "path": "00-blueprint/DANANTARA_AIOS_BLUEPRINT.md",
-      "size_bytes": 3737,
-      "sha256": "7ec16ddfab9623c6c4331d56ce1f502fb95b7ace04099e1c2ca125092abf5cf4"
+      "size_bytes": 3787,
+      "sha256": "bcfaf23e97ee24c55e18e780fde2be13af694250805dfae420f82859d8282eb7"
     },
     {
       "path": "00-blueprint/MASTER_ORCHESTRATION_PROTOCOL.md",
@@ -2178,8 +2178,8 @@
     },
     {
       "path": "06-scripts/check_agent_layer.py",
-      "size_bytes": 4796,
-      "sha256": "a99fbfa4263b0050c2fd88ae71ea2f5fe63e6232f7c75b067aaa5adbaad8743d"
+      "size_bytes": 5635,
+      "sha256": "c3740e665f85e37a06e8df3b2e9f6ef4c36db05a29573394d633d3aca268b3f3"
     },
     {
       "path": "06-scripts/check_reference_coverage.py",
@@ -2248,8 +2248,8 @@
     },
     {
       "path": "08-sources/README.md",
-      "size_bytes": 2172,
-      "sha256": "73e08a164c2947e52f6fa9f1a45b3a82ff4889e608b8bafc24fe74324a96d95a"
+      "size_bytes": 2354,
+      "sha256": "b4634ed346a1a0579617b670d241ec7f41ae452f387ff0fcae4f48f8f334b1ca"
     },
     {
       "path": "08-sources/SOURCE_LAYER_AUDIT.md",
@@ -2285,6 +2285,11 @@
       "path": "08-sources/WORKBOOK_CHANGE_REQUEST.md",
       "size_bytes": 4800,
       "sha256": "b5e11b06b398cb01889275be23b507f3569a23a28765d876c9ec171f0e5c52f3"
+    },
+    {
+      "path": "08-sources/WORKFLOW_STATE.md",
+      "size_bytes": 983,
+      "sha256": "cda46d8359fdb7ebb2badef6875f5053f65c574cfe6d61083f3fb0a3c99876b1"
     },
     {
       "path": "08-sources/tier2/01_dewan_pengawas_charter.md",
@@ -2363,18 +2368,18 @@
     },
     {
       "path": "09-roadmap/README.md",
-      "size_bytes": 5752,
-      "sha256": "704441335c5c58e1bb73d66a130da1f8a5a6ffc7f22e985fc9c59b7773f4cdb2"
+      "size_bytes": 5853,
+      "sha256": "0a381341e74c620ec5c60f40e57bdfb12d835c74f60dd8012d368f0d5a2cc44d"
     },
     {
       "path": "10-agents/AGENT_CATALOG.md",
-      "size_bytes": 2851,
-      "sha256": "bee1d907f91ddd7b500ad2a074463ee4c87f81183f841c55c9be6dc5e7e8d5e8"
+      "size_bytes": 3226,
+      "sha256": "6949da52ac56f7e12d713ff1917fb2e049e4526df54884041ba52e44e570ef46"
     },
     {
       "path": "10-agents/README.md",
-      "size_bytes": 3140,
-      "sha256": "064cfa2c0128cdc09c4cf17a5a68c0e4042395a4c37160c91d8ff4480e449796"
+      "size_bytes": 3273,
+      "sha256": "7d0873ab1ad68d4c8ec3bb38a54db5526a465e8fbd79a3070e4915ee44df8a04"
     },
     {
       "path": "10-agents/agents/danantara-master-orchestrator.yaml",
@@ -2402,9 +2407,14 @@
       "sha256": "c40ca884e8c6b4e022e23384c87596b8dc5b55ac62aad3284d0e6a3b25c815ef"
     },
     {
+      "path": "10-agents/agents/workflow-state-agent.yaml",
+      "size_bytes": 1000,
+      "sha256": "42ecf6081489e1c4445cb719bb4dee62ac2e9f4b892b70dda3f5dabe6d3619ad"
+    },
+    {
       "path": "10-agents/python/danantara_agents.py",
-      "size_bytes": 11794,
-      "sha256": "88bf39a493b3a8c6a54b842a4a081ae7a8b5e340c7983aa4190019c5f5735bf9"
+      "size_bytes": 14562,
+      "sha256": "18934e24614922582bdc08e99501928ba11667e43301e41fe88fee8620816957"
     },
     {
       "path": "10-agents/python/run_repo_agent_workflow.py",
@@ -2413,8 +2423,8 @@
     },
     {
       "path": "10-agents/workflows/repo-agent-loop.yaml",
-      "size_bytes": 4940,
-      "sha256": "df7d1376871075cd32547b122ce128c9788e32162b176bb6c6e67917cb09b52f"
+      "size_bytes": 5898,
+      "sha256": "c504b6552031afc858b33d93a030fbc4b1d4199ed307aca4ecf6e34d0fe36660"
     },
     {
       "path": "LICENSE",

@@ -8,7 +8,8 @@ The recommended use is:
 2. source-layer curator for enrichment and alignment
 3. source-layer enrichment for tracked source-layer plans
 4. decision packager for reviewable handoff artifacts
-5. repo audit gate for consistency checks
+5. workflow state agent for long-running status tracking
+6. repo audit gate for consistency checks
 
 Install:
     pip install agent-framework
@@ -218,6 +219,79 @@ work.
     return f"Wrote {package_path.relative_to(ROOT).as_posix()} with focus={focus}"
 
 
+def generate_workflow_state(focus: str = "workflow-state") -> str:
+    """Generate a workflow state snapshot for the repo agent loop."""
+    decision_package = read_repo_file("08-sources/DECISION_PACKAGE.md")
+    enrichment = read_repo_file("08-sources/SOURCE_LAYER_ENRICHMENT_PLAN.md")
+    audit = read_repo_file("08-sources/SOURCE_LAYER_AUDIT.md")
+    status = read_repo_file("08-sources/TIER2_STATUS.md")
+    backlog = read_repo_file("08-sources/19_IMPLEMENTATION_BACKLOG.md")
+    roadmap = read_repo_file("09-roadmap/README.md")
+
+    state_path = ROOT / "08-sources" / "WORKFLOW_STATE.md"
+    generated_at = datetime.now(timezone.utc).isoformat(timespec="seconds")
+
+    content = f"""# Workflow State
+
+Generated: {generated_at}
+Focus: {focus}
+
+## Purpose
+
+Track the current state of the repo agent loop so long-running work can resume
+without rediscovering the same context.
+
+## State Inputs
+
+- `08-sources/DECISION_PACKAGE.md`
+- `08-sources/SOURCE_LAYER_ENRICHMENT_PLAN.md`
+- `08-sources/SOURCE_LAYER_AUDIT.md`
+- `08-sources/TIER2_STATUS.md`
+- `08-sources/19_IMPLEMENTATION_BACKLOG.md`
+- `09-roadmap/README.md`
+
+## Current State
+
+### Decision package
+
+{decision_package.strip()}
+
+### Enrichment plan
+
+{enrichment.strip()}
+
+### Audit
+
+{audit.strip()}
+
+### Status
+
+{status.strip()}
+
+### Backlog
+
+{backlog.strip()}
+
+### Roadmap
+
+{roadmap.strip()}
+
+## Open Questions
+
+1. Which source-layer gaps can be closed by authenticated evidence next?
+2. Which backlog items can now be promoted to named owners?
+3. Which workflow steps should be retained, simplified, or expanded?
+
+## Next Checkpoint
+
+Re-run the repo agent loop after the next source-layer or roadmap update and
+refresh this state artifact.
+"""
+
+    state_path.write_text(content, encoding="utf-8")
+    return f"Wrote {state_path.relative_to(ROOT).as_posix()} with focus={focus}"
+
+
 def read_repo_file(relative_path: str) -> str:
     """Read a text file inside the repo root."""
     candidate = (ROOT / relative_path).resolve()
@@ -333,6 +407,28 @@ def build_decision_packager_agent():
     )
 
 
+def build_workflow_state_agent():
+    """Create the workflow state agent."""
+    from agent_framework import Agent
+
+    return Agent(
+        name="WorkflowStateAgent",
+        client=_chat_client(),
+        instructions=(
+            "Track the current state of the repo agent loop. Turn the latest "
+            "routing, enrichment, decision, and audit outputs into a concise "
+            "state artifact that supports resumption and follow-up."
+        ),
+        tools=[
+            get_repo_status,
+            run_source_layer_audit,
+            read_repo_file,
+            generate_decision_package,
+            generate_workflow_state,
+        ],
+    )
+
+
 def build_agent_stack() -> dict[str, object]:
     """Build the default repo agent stack."""
     return {
@@ -340,6 +436,7 @@ def build_agent_stack() -> dict[str, object]:
         "curator": build_source_layer_curator(),
         "enrichment": build_source_layer_enrichment_agent(),
         "packager": build_decision_packager_agent(),
+        "state": build_workflow_state_agent(),
         "audit": build_repo_audit_gate(),
     }
 
@@ -354,9 +451,11 @@ def build_workflow_factory():
         .register_agent("SourceLayerCurator", build_source_layer_curator())
         .register_agent("SourceLayerEnrichment", build_source_layer_enrichment_agent())
         .register_agent("DecisionPackager", build_decision_packager_agent())
+        .register_agent("WorkflowStateAgent", build_workflow_state_agent())
         .register_agent("RepoAuditGate", build_repo_audit_gate())
         .register_tool("generate_source_layer_enrichment_plan", generate_source_layer_enrichment_plan)
         .register_tool("generate_decision_package", generate_decision_package)
+        .register_tool("generate_workflow_state", generate_workflow_state)
         .register_tool("run_source_layer_audit", run_source_layer_audit)
         .register_tool("run_repo_hygiene", run_repo_hygiene)
     )
@@ -366,7 +465,7 @@ async def main() -> int:
     parser = argparse.ArgumentParser(description="Run a Danantara repo agent locally.")
     parser.add_argument(
         "--agent",
-        choices=("master", "curator", "enrichment", "packager", "audit"),
+        choices=("master", "curator", "enrichment", "packager", "state", "audit"),
         default="master",
         help="Which agent to run.",
     )

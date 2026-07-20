@@ -34,11 +34,12 @@ See the official references:
 2. `source-layer-curator`
 3. `source-layer-enrichment`
 4. `decision-packager`
-5. `repo-audit-gate`
+5. `workflow-state-agent`
+6. `repo-audit-gate`
 
-These five give the repo a practical operating loop:
+These six give the repo a practical operating loop:
 
-`master orchestrator -> source curator -> enrichment -> decision packager -> audit gate`
+`master orchestrator -> source curator -> enrichment -> decision packager -> workflow state -> audit gate`
 
 ## Workflow
 
@@ -56,6 +57,8 @@ run with [`python/run_repo_agent_workflow.py`](./python/run_repo_agent_workflow.
   enrichment plan artifact.
 - `decision-packager` converts the workflow outputs into a final reviewable
   decision package.
+- `workflow-state-agent` tracks the loop state so long-running work can resume
+  cleanly.
 - `repo-audit-gate` checks consistency across the source layer, backlog,
   roadmap, and build manifest.
 

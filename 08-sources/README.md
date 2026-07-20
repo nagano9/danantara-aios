@@ -15,6 +15,7 @@ implementation backlog, and the Tier 2 source-pack workspace.
 - `SOURCE_LAYER_ENRICHMENT_PLAN.md` - tracked enrichment plan generated from
   source-layer findings
 - `DECISION_PACKAGE.md` - consolidated handoff package from the agent loop
+- `WORKFLOW_STATE.md` - long-running state snapshot for the agent loop
 - `tier2/` - working folder for Tier 2 source documents
 - `tier2/INDEX.md` - working index for Tier 2 placeholders
 - `tier2/TIER2_SOURCE_TEMPLATE.md` - standard template for future authenticated sources
@@ -36,6 +37,8 @@ implementation backlog, and the Tier 2 source-pack workspace.
   roadmap state.
 - `10-agents/python/danantara_agents.py` can also generate
   `DECISION_PACKAGE.md` from the current workflow outputs.
+- `10-agents/python/danantara_agents.py` can generate `WORKFLOW_STATE.md` from
+  the current workflow outputs.
 
 ## Priority
 
