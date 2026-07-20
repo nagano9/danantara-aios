@@ -11,6 +11,7 @@ implementation backlog, and the Tier 2 source-pack workspace.
 - `TIER2_SOURCE_PACK.md` - index and folder plan for missing Tier 2 sources
 - `TIER2_FILL_PLAYBOOK.md` - the operating playbook for promoting placeholders
 - `TIER2_STATUS.md` - current status snapshot for the Tier 2 working area
+- `SOURCE_LAYER_AUDIT.md` - cross-artifact consistency audit for the source layer
 - `tier2/` - working folder for Tier 2 source documents
 - `tier2/INDEX.md` - working index for Tier 2 placeholders
 - `tier2/TIER2_SOURCE_TEMPLATE.md` - standard template for future authenticated sources
@@ -23,6 +24,8 @@ implementation backlog, and the Tier 2 source-pack workspace.
   still internally consistent.
 - `06-scripts/ingest_actual_condition.py` can ingest the external workbook and
   emit `tier2_index.json` plus an optional markdown status summary.
+- `06-scripts/report_source_layer_audit.py` cross-checks the source register,
+  roadmap, backlog, and Tier 2 status into a single audit view.
 - `06-scripts/report_tier2_status.py` prints a quick status summary for the
   Tier 2 working area.
 

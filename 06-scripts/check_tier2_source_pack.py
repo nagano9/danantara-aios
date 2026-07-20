@@ -18,6 +18,7 @@ EXPECTED_ROOT_FILES = {
     SOURCE_ROOT / "TIER2_SOURCE_PACK.md",
     SOURCE_ROOT / "TIER2_FILL_PLAYBOOK.md",
     SOURCE_ROOT / "TIER2_STATUS.md",
+    SOURCE_ROOT / "SOURCE_LAYER_AUDIT.md",
 }
 
 EXPECTED_TIER2_FILES = {
@@ -105,6 +106,18 @@ if status_path.exists():
     for phrase in required_phrases:
         if phrase not in text:
             errors.append(f"TIER2_STATUS.md missing heading {phrase}")
+
+audit_path = SOURCE_ROOT / "SOURCE_LAYER_AUDIT.md"
+if audit_path.exists():
+    text = audit_path.read_text(encoding="utf-8")
+    required_phrases = [
+        "## Checks",
+        "## Snapshot",
+        "## Open Gaps",
+    ]
+    for phrase in required_phrases:
+        if phrase not in text:
+            errors.append(f"SOURCE_LAYER_AUDIT.md missing heading {phrase}")
 
 template_path = TIER2_ROOT / "TIER2_SOURCE_TEMPLATE.md"
 if template_path.exists():

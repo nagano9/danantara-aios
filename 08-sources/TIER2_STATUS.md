@@ -19,6 +19,7 @@ snapshot, not a source of authority.
 - the Tier 2 source pack skeleton exists
 - the Tier 2 fill playbook exists
 - the Tier 2 status report script exists
+- the source-layer audit report exists
 - the Tier 2 backlog sink exists
 
 ## What is still missing
@@ -38,4 +39,3 @@ snapshot, not a source of authority.
 - `python 06-scripts/check_tier2_source_pack.py`
 - `python 06-scripts/report_tier2_status.py`
 - `python 06-scripts/check_repo_hygiene.py`
-
