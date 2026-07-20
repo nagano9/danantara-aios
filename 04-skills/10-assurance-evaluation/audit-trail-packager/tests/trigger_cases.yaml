@@ -1,9 +1,13 @@
 skill: audit-trail-packager
 should_trigger:
-  - "Use audit-trail-packager to support a material Danantara decision."
-  - "Packages request, evidence, versions, analysis, assumptions, tool actions, challenges, approvals, decisions, conditions, and follow-up into a tamper-evident audit record. Use at every material workflow milestone."
-  - "Apply this capability within an approved BPI, DAM, DIM, or DDMF workflow."
+  - "Use audit-trail-packager to preserve the audit record after a material decision milestone."
+  - "Package request, evidence, versions, analysis, assumptions, tool actions, challenges, approvals, decisions, conditions, and follow-up into a tamper-evident audit record."
+  - "Apply this capability when a BPI, DAM, DIM, or DDMF workflow needs a complete record for review."
+  - "We need to package the approval trail and evidence for the board pack."
 should_not_trigger:
+  - "Decide whether the analysis is good enough to proceed."  # decision-quality-gate
+  - "Validate whether the claimed approval is actually valid." # human-approval-orchestrator
+  - "Determine whether a conflict requires recusal."           # conflict-of-interest-gate
   - "Format this paragraph without changing its meaning."
   - "Answer a general knowledge question unrelated to Danantara."
   - "Make the final institutional decision and approve it without human review."
