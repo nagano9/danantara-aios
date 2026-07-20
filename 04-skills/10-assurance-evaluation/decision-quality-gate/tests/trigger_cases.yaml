@@ -16,6 +16,7 @@ should_trigger:
   - "This scores well overall. Worth taking forward?"
   - "Semua sudah siap, komitenya lusa. Tinggal formalitas kan?"
   - "Nobody objected during review, so we're clear to proceed?"
+  - "Before approval, can you separate the quality findings from the conflict and approval checks?"
 
 should_not_trigger:
   - "Siapa yang harus tanda tangan ini?"
@@ -23,6 +24,9 @@ should_not_trigger:
   - "Challenge the terminal value in this model."
   - "Red-team the investment thesis."
   - "Prediksinya meleset. Apa pelajarannya?"
+  - "Who needs to recuse from the decision?"                 # conflict-of-interest-gate
+  - "Is the approval actually valid?"                       # human-approval-orchestrator
+  - "Package the audit trail for retention."                 # audit-trail-packager
   - "Format this paragraph without changing its meaning."
   - "Answer a general knowledge question unrelated to Danantara."
 

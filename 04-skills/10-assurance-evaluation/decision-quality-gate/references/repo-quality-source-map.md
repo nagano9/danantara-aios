@@ -22,12 +22,17 @@ If the pack blends findings, omits a dated prediction, or hides a blocker behind
 | `01-registry/workflow_routing_matrix.csv` | Workflows that depend on this gate for routing. |
 | `02-governance/AI_CONSTITUTION.md` | Required governance boundary, traceability, and refusal rules. |
 | `02-governance/RISK_APPROVAL_MATRIX.md` | Risk-tier implications for review depth and escalation. |
+| `04-skills/01-governance-doctrine/conflict-of-interest-gate/references/repo-conflict-source-map.md` | Conflict and recusal findings that must stay separate from quality. |
 | `04-skills/02-orchestration/human-approval-orchestrator/references/approval-validity-protocol.md` | What happens after quality is good enough: approval validity remains separate. |
+| `04-skills/02-orchestration/human-approval-orchestrator/references/repo-approval-source-map.md` | Approval routing and validity remain distinct from decision quality. |
+| `04-skills/10-assurance-evaluation/audit-trail-packager/references/repo-audit-source-map.md` | How the evidence and findings are preserved without merging them. |
+| `04-skills/02-orchestration/workflow-state-manager/references/repo-workflow-source-map.md` | How open issues, blockers, and handoffs persist after the gate. |
 | `04-skills/10-assurance-evaluation/post-decision-learning/references/learning-loop-protocol.md` | Why a recorded prediction is mandatory before decision. |
 
 ## Usage notes
 
 - Use the source map before drafting the verdict.
 - Keep the four findings separate; never compress them into a single score.
+- Keep quality separate from conflict, approval validity, audit packaging, and workflow state.
 - If the pack lacks a falsifiable prediction, return it.
 - If downside is unbounded, stop or escalate instead of conditioning the risk.

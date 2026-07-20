@@ -34,10 +34,22 @@ Full method: `references/decision-quality-protocol.md`.
 - The user asks whether a decision is ready to proceed, return, stop, or escalate.
 
 ## Do not use when
+- The question is whether a conflict requires recusal; use `conflict-of-interest-gate`.
+- The question is whether a claimed approval is valid; use `human-approval-orchestrator`.
+- The question is whether the record should be packaged for retention; use `audit-trail-packager`.
+- The question is whether the workflow state needs to persist; use `workflow-state-manager`.
+
 Do not treat a pass as institutional approval. The gate evaluates decision quality and control completeness; the competent human body still decides.
 
 ## Required inputs
 Complete decision artifact; evidence register; models; assumptions; alternatives; risk register; conflict declarations; independent challenge; legal and policy review; authority map; approval route; conditions; monitoring plan.
+
+## Dependencies
+- `conflict-of-interest-gate` - separates conflicts and recusal needs from quality.
+- `human-approval-orchestrator` - validates the approval once the pack is good enough.
+- `audit-trail-packager` - preserves the record of the quality review and its findings.
+- `workflow-state-manager` - keeps blockers, owners, and handoffs open after the verdict.
+- `post-decision-learning` - consumes the recorded prediction after the decision outcome.
 
 ## Authoritative sources
 Start with `references/repo-quality-source-map.md` for the repo-native assurance hierarchy.
@@ -118,6 +130,7 @@ Return:
 - recommendation to proceed, return, stop, or escalate
 - audit reference
 - prediction status, review date, and named Risk Owner
+- handoff target for conflict, approval, audit, or state if any are still open
 
 ## Human approval
 The independent assurance owner signs the gate result; the competent authority makes the decision. AI may not approve, waive findings, or mark remediation complete without verified evidence.
@@ -144,6 +157,7 @@ Escalate `STOP` when downside cannot be bounded or when the pack tries to hide a
 - The result is reproducible from the audit record.
 - Commercial, strategic, governance, and intergenerational tests are separate.
 - Final status is consistent with finding severity.
+- The gate does not collapse quality into conflict, approval, audit, or state decisions.
 
 ## Audit record
 Retain artifact versions, evidence, models, reviewer identity, independence declaration, tests performed, findings, sponsor responses, remediation evidence, gate status, escalation, human decision, and subsequent outcomes.
