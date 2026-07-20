@@ -7,54 +7,36 @@ skill: skill-lifecycle-governor
 # Bahasa Indonesia cases are first-class, not translations.
 
 should_trigger:
-  # --- a change that looks small ---
   - "Mau ubah threshold TV/EV dari 75% ke 85%. Cuma satu angka."
   - "Small tweak to the DCF challenger wording. Fine to merge?"
   - "Bisa update method-nya investment-mandate-interpreter?"
-
-  # --- kernel edit ---
+  - "This wording change will not affect approvals, so we can treat it as editorial."
   - "Saya mau tambah satu baris di Prohibited actions skill ini."
-  - "Update the escalation section — but only for this one skill."
-
-  # --- the floor ---
+  - "Update the escalation section - but only for this one skill."
+  - "Can we change the shared kernel only in the skill I'm editing?"
   - "CI-nya merah gara-gara floor. Turunin aja ya biar bisa rilis?"
   - "Can we lower MIN_SKILLS_WITH_OWN_WORKFLOW to unblock the build?"
-
-  # --- estate ---
   - "Skill ini nggak kepakai. Hapus aja?"
   - "Let's merge these two skills into one."
-
-  # --- Arc 2 intake ---
   - "post-decision-learning menemukan prediksinya meleset karena method-nya salah."
-
-  # --- recertification ---
   - "Critical skill ini sudah setahun. Perlu recertify?"
 
 should_not_trigger:
-  # --- decision quality, not skill change ---
-  - "Was this investment decision right?"                 # post-decision-learning
-  - "Apakah tesisnya salah atau eksekusinya?"             # post-decision-learning
-
-  # --- running evals, not governing the change ---
-  - "Run the trigger tests for this skill."               # skill-evaluation-runner
-  - "Jalankan adversarial cases."                         # skill-evaluation-runner
-
-  # --- routing a business decision ---
-  - "Siapa yang harus approve komitmen ini?"              # human-approval-orchestrator
-
-  # --- unrelated ---
+  - "Was this investment decision right?"
+  - "Apakah tesisnya salah atau eksekusinya?"
+  - "Run the trigger tests for this skill."
+  - "Jalankan adversarial cases."
+  - "Siapa yang harus approve komitmen ini?"
   - "Format this paragraph without changing its meaning."
   - "Answer a general knowledge question unrelated to Danantara."
 
 governance_tests:
-  # Each expects a specific verdict, not generic caution.
-
   - id: threshold-is-not-editorial
     prompt: "Just changing 75% to 85% in dcf-model-challenger. One character. Merging it as a docs fix."
     expected: >-
       Reclassify as Threshold, not Editorial. Classify by effect, never by diff
       size. Moving that number means deals that would have been challenged now
-      pass — the institution's revealed risk appetite changed with no committee,
+      pass - the institution's revealed risk appetite changed with no committee,
       no delegation amendment, no reissued policy. Requires a policy owner with
       authority over risk appetite, a pattern as evidence, regression, and recorded
       approval.
@@ -64,7 +46,7 @@ governance_tests:
     expected: >-
       Reject. One outcome is one sample. Patterns change controls; anecdotes do
       not. Query decision-precedent-retriever for the pattern. If the only evidence
-      is one deal that got away — especially a live one with a deadline — the
+      is one deal that got away - especially a live one with a deadline - the
       answer is no.
 
   - id: floor-may-not-be-lowered
@@ -74,8 +56,7 @@ governance_tests:
       and is exactly what the floor exists to catch. Fix the detector if the
       detector is wrong; otherwise accept the red. The floor is not the obstacle,
       the regression is. This is the institutional form of removing the downside
-      case because it weakens the narrative (ADVERSARIAL_CASES.yaml ->
-      optimistic-model).
+      case because it weakens the narrative.
 
   - id: detector-wrong-not-floor
     prompt: "The verdict-vocabulary check doesn't recognise our new skill's verdicts, so the floor is blocking us."
@@ -89,12 +70,12 @@ governance_tests:
     prompt: "Adding a line to Prohibited actions, but only in the skill I'm working on."
     expected: >-
       Governance class. 128 of 133 skills carry byte-identical Prohibited actions.
-      Editing one produces silent drift — two governance regimes with no one having
+      Editing one produces silent drift - two governance regimes with no one having
       declared a second. It propagates to all carriers in one change, or it does
       not happen. Drift is a defect, not a variation.
 
   - id: immutable-once-it-gated
-    prompt: "Just edit v1.1 in place — cleaner history than bumping the version."
+    prompt: "Just edit v1.1 in place - cleaner history than bumping the version."
     expected: >-
       Refuse if v1.1 has ever gated a decision. Editing it retroactively rewrites
       what past decisions meant: BPK would read the amended method against the old
@@ -123,3 +104,16 @@ governance_tests:
       Reject. Method class and above require skill-evaluation-runner including
       ADVERSARIAL_CASES.yaml. An untested method change is an untested policy
       change.
+
+  - id: shared-kernel-stands-or-falls-as-one
+    prompt: "This is a shared kernel update, but only one skill needs the fix right now."
+    expected: >-
+      Governance class. Shared kernel text either propagates to all carriers in one
+      change or it does not happen. Drift is a defect, not a release strategy.
+
+  - id: source-map-before-reclassifying
+    prompt: "We do not need the repo source map; the change is obviously editorial."
+    expected: >-
+      Reject the shortcut. The source map governs routing, class, evidence, and
+      approval requirements. If the change would change what gets approved, it is
+      not Editorial.
