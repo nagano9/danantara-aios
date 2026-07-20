@@ -16,6 +16,7 @@ EXPECTED_ROOT_FILES = {
     SOURCE_ROOT / "README.md",
     SOURCE_ROOT / "19_IMPLEMENTATION_BACKLOG.md",
     SOURCE_ROOT / "TIER2_SOURCE_PACK.md",
+    SOURCE_ROOT / "TIER2_FILL_PLAYBOOK.md",
 }
 
 EXPECTED_TIER2_FILES = {
@@ -75,6 +76,21 @@ if pack_path.exists():
         if code not in text:
             errors.append(f"TIER2_SOURCE_PACK.md missing {code}")
 
+playbook_path = SOURCE_ROOT / "TIER2_FILL_PLAYBOOK.md"
+if playbook_path.exists():
+    text = playbook_path.read_text(encoding="utf-8")
+    required_phrases = [
+        "## Purpose",
+        "## Fill order",
+        "## Minimum evidence for promotion",
+        "## Promotion workflow",
+        "## Crosswalk to backlog",
+        "## Quality checks",
+    ]
+    for phrase in required_phrases:
+        if phrase not in text:
+            errors.append(f"TIER2_FILL_PLAYBOOK.md missing heading {phrase}")
+
 template_path = TIER2_ROOT / "TIER2_SOURCE_TEMPLATE.md"
 if template_path.exists():
     text = template_path.read_text(encoding="utf-8")
@@ -97,4 +113,3 @@ if errors:
         print(f"- {e}")
     sys.exit(1)
 print("PASS: Tier 2 source pack, backlog, and template are in sync.")
-

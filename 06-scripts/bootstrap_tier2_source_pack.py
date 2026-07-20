@@ -193,6 +193,7 @@ def render_source_root_readme():
         "- `WORKBOOK_CHANGE_REQUEST.md` - open workbook change request CR-001\n"
         "- `19_IMPLEMENTATION_BACKLOG.md` - sink for blocked or indeterminate decisions\n"
         "- `TIER2_SOURCE_PACK.md` - index and folder plan for missing Tier 2 sources\n"
+        "- `TIER2_FILL_PLAYBOOK.md` - operating playbook for promoting placeholders\n"
         "- `tier2/` - working folder for Tier 2 source documents\n"
         "- `tier2/INDEX.md` - working index for Tier 2 placeholders\n"
         "- `tier2/TIER2_SOURCE_TEMPLATE.md` - standard template for future authenticated sources\n\n"
@@ -203,6 +204,66 @@ def render_source_root_readme():
         "The source layer is the highest-leverage part of the operating system because it\n"
         "decides whether downstream skills can answer from real Danantara instruments or\n"
         "only from a generic template.\n"
+    )
+
+
+def render_fill_playbook():
+    return (
+        "# Tier 2 Fill Playbook\n\n"
+        "This playbook explains how to turn the Tier 2 source-layer scaffold into a set\n"
+        "of authenticated Danantara policy and delegation documents.\n\n"
+        "## Purpose\n\n"
+        "- fill the most blocking source gaps first\n"
+        "- keep each Tier 2 document tied to a real decision\n"
+        "- make every document traceable by owner, effective date, and retrieval location\n"
+        "- preserve an audit trail from placeholder to authenticated source\n\n"
+        "## Fill order\n\n"
+        "Follow the order that blocks the most decisions:\n\n"
+        "1. Badan Pelaksana delegation of authority matrix\n"
+        "2. DIM Investment Committee charter\n"
+        "3. Investment policy statement\n"
+        "4. Conflict-of-interest and recusal policy\n"
+        "5. Data classification and approved-AI-environment policy\n"
+        "6. Entity model map\n\n"
+        "Then proceed to:\n\n"
+        "7. Dewan Pengawas charter\n"
+        "8. DAM active-ownership and transformation policy\n"
+        "9. DDMF development-finance and additionality policy\n"
+        "10. Valuation policy and model-approval standard\n"
+        "11. Procurement and integrity due-diligence standard\n"
+        "12. Whistleblowing and escalation procedure\n\n"
+        "## Minimum evidence for promotion\n\n"
+        "Before a placeholder can be promoted, the source must have:\n\n"
+        "- owner\n"
+        "- title\n"
+        "- version\n"
+        "- effective date\n"
+        "- approval body\n"
+        "- document location\n"
+        "- classification\n"
+        "- retrieval path that an independent reviewer can follow\n\n"
+        "If a document is amended, cite the amended instrument, not the older draft.\n\n"
+        "## Promotion workflow\n\n"
+        "1. Collect the authenticated document.\n"
+        "2. Record the metadata in the Tier 2 template.\n"
+        "3. Link the document to the backlog items it unlocks.\n"
+        "4. Remove or retire the placeholder entry.\n"
+        "5. Update the index and the source register.\n"
+        "6. Re-run the Tier 2 scaffold validator.\n\n"
+        "## Crosswalk to backlog\n\n"
+        "| Tier 2 item | Backlog item(s) |\n"
+        "|---|---|\n"
+        "| `02_badan_pelaksana_doa.md` | IB-002 |\n"
+        "| `03_dim_ic_charter.md` | IB-003 |\n"
+        "| `06_investment_policy_statement.md` | IB-006 |\n"
+        "| `08_conflict_of_interest_policy.md` | IB-008 |\n"
+        "| `09_data_classification_policy.md` | IB-009 |\n"
+        "| `12_entity_model_map.md` | IB-012 |\n\n"
+        "## Quality checks\n\n"
+        "- every promoted document must be independently retrievable\n"
+        "- no placeholder may be treated as a source\n"
+        "- the source register must stay aligned with the working folder\n"
+        "- the backlog must show which decisions the source unlocks\n"
     )
 
 
@@ -413,6 +474,7 @@ def main():
         SOURCE_ROOT / "README.md": render_source_root_readme(),
         SOURCE_ROOT / "19_IMPLEMENTATION_BACKLOG.md": render_backlog(),
         SOURCE_ROOT / "TIER2_SOURCE_PACK.md": render_tier2_source_pack(),
+        SOURCE_ROOT / "TIER2_FILL_PLAYBOOK.md": render_fill_playbook(),
         TIER2_ROOT / "README.md": (
             "# Tier 2 Working Folder\n\n"
             "This folder is the working area for authenticated Danantara policy,\n"
