@@ -17,6 +17,8 @@ implementation backlog, and the Tier 2 source-pack workspace.
 
 - `06-scripts/bootstrap_tier2_source_pack.py` can recreate the source-layer
   scaffolding if files are removed.
+- `06-scripts/check_tier2_source_pack.py` validates that the Tier 2 scaffold is
+  still internally consistent.
 
 ## Priority
 
