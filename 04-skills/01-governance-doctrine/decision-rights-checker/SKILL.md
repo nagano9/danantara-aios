@@ -19,7 +19,10 @@ metadata:
 Identifies who proposes, reviews, recommends, approves, executes, monitors, and bears accountability for a decision. Use before issuing recommendations, commitments, capital allocations, corporate actions, disclosures, or binding instructions.
 
 ## Use when
-Identifies who proposes, reviews, recommends, approves, executes, monitors, and bears accountability for a decision. Use before issuing recommendations, commitments, capital allocations, corporate actions, disclosures, or binding instructions.
+- A request needs a decision-rights map: who proposes, reviews, recommends, approves, executes, monitors, and bears accountability.
+- A proposal may affect capital, corporate action, disclosure, exception handling, or a binding instruction.
+- The user is asking whether a path is routable at all, or whether the named decision owner is actually authorized.
+- A downstream approval workflow depends on knowing the correct decision owner, risk owner, and escalation path.
 
 ## Do not use when
 Do not use this skill to bypass a competent authority, replace licensed or accountable professional judgment, process unauthorized information, or make an institutional commitment. Route unrelated requests to `intent-and-entity-router`.
@@ -31,11 +34,14 @@ Decision request; mandate and authority documents; proposal; stakeholder and con
 mandate-authority-interpreter
 
 ## Authoritative sources
+Start with `references/repo-governance-source-map.md` for the repo-native source hierarchy.
 1. Applicable law, regulation, official decision, and formal mandate.
 2. Effective Danantara and entity policies, delegations, charters, standards, and controlled templates.
 3. Audited or owner-certified internal data and primary transaction or project documents.
 4. Independent external evidence, sector benchmarks, and expert reports where relevant.
 5. Prior decisions and precedents only as context; never as a substitute for current analysis.
+
+If a mandate, delegation, charter, or source is not in the approved register or is not current, treat it as absent authority until a human owner resolves it.
 
 Record source owner, title, version, effective date, retrieval date, classification, and exact location. Resolve discrepancies through `source-hierarchy-resolver`.
 
