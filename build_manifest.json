@@ -4,8 +4,28 @@
   "generated": "2026-07-20",
   "skill_count": 133,
   "cluster_count": 10,
-  "file_count_excluding_manifest": 467,
+  "file_count_excluding_manifest": 478,
   "files": [
+    {
+      "path": ".gitattributes",
+      "size_bytes": 773,
+      "sha256": "2b575167d8ce39c0524cbe915711e3105823c29e0db97b0f0c997fb3de835192"
+    },
+    {
+      "path": ".github/CODEOWNERS",
+      "size_bytes": 3639,
+      "sha256": "b609aeadbf22eac49d87b3ed852e17878429d1b8e389910d3d5f47fe798f6cd6"
+    },
+    {
+      "path": ".github/workflows/validate.yml",
+      "size_bytes": 2366,
+      "sha256": "401779d4de0ca7cb8ae339499ca226364e8321525ec270c5e4018e8ef360a65a"
+    },
+    {
+      "path": ".gitignore",
+      "size_bytes": 1220,
+      "sha256": "050aeca475025f475016134cd04357d692c390884fbb432e476a145316465483"
+    },
     {
       "path": "00-blueprint/ARCHITECTURE.mmd",
       "size_bytes": 466,
@@ -13,8 +33,8 @@
     },
     {
       "path": "00-blueprint/DANANTARA_AIOS_BLUEPRINT.md",
-      "size_bytes": 3016,
-      "sha256": "320f3fdc887f9f9a5653eec408c57227db219fe174557f06ef88f55429f49b63"
+      "size_bytes": 3496,
+      "sha256": "2989a0acd51613a2a3bc65e4227f606d2f32709fb5e7685f58c59b09aa77703f"
     },
     {
       "path": "00-blueprint/MASTER_ORCHESTRATION_PROTOCOL.md",
@@ -2157,6 +2177,11 @@
       "sha256": "e93352e8bacc08d665eabe650702ac9918561699115aaa037b21ad9d959ed8e3"
     },
     {
+      "path": "06-scripts/check_agent_layer.py",
+      "size_bytes": 2659,
+      "sha256": "a66871a100a9368f33758f86dc3a95a4bc1e31e9fa2b8ca7231bc19ba5bfc3fd"
+    },
+    {
       "path": "06-scripts/check_reference_coverage.py",
       "size_bytes": 3466,
       "sha256": "aacb421ec09397ca78b1e9f89b257d64e4cd667ba1c04b3363d3da136b1ca454"
@@ -2328,8 +2353,38 @@
     },
     {
       "path": "09-roadmap/README.md",
-      "size_bytes": 5002,
-      "sha256": "2d072587eca7747f46fcd9f08ec19b9ffeb02cf1402e77f21b6bb92922d1038e"
+      "size_bytes": 5378,
+      "sha256": "a9e8473cc413654ddd2b297c27b8ff9c2780c3b05707979c0c59fc16c25915ce"
+    },
+    {
+      "path": "10-agents/AGENT_CATALOG.md",
+      "size_bytes": 1940,
+      "sha256": "8c7091411d644cfa4ca7666d469eabb71c992fb2dd188f8876266c642609ab0d"
+    },
+    {
+      "path": "10-agents/README.md",
+      "size_bytes": 2632,
+      "sha256": "0fce8ddaa05283cd3f43f18567dc4691396deb1a31473f531bd4bf9ff6ccbfb2"
+    },
+    {
+      "path": "10-agents/agents/danantara-master-orchestrator.yaml",
+      "size_bytes": 1576,
+      "sha256": "4f1a402a2d49c50ae48eeceb59fd0b5cf2c68a166bb304f94fefbcab782c248b"
+    },
+    {
+      "path": "10-agents/agents/repo-audit-gate.yaml",
+      "size_bytes": 1339,
+      "sha256": "09447bf4e341914e40d84beae4557dce96a247ededd4eaedc6dc7c2ea62bab8a"
+    },
+    {
+      "path": "10-agents/agents/source-layer-curator.yaml",
+      "size_bytes": 1529,
+      "sha256": "d8d9b81b69b1e0c8303db08fef2a85563467088fe67bc5d81dd3a3989dc8779a"
+    },
+    {
+      "path": "10-agents/python/danantara_agents.py",
+      "size_bytes": 4973,
+      "sha256": "66edf5c6c28ef8831d189c1273586116193d23d93b93a5fb3c11caedc4f70b53"
     },
     {
       "path": "LICENSE",
@@ -2338,8 +2393,8 @@
     },
     {
       "path": "README.md",
-      "size_bytes": 2151,
-      "sha256": "35fb997c45ad80e6b6b69f1f86cd48362933fbee2482473a243faceb4e0a54be"
+      "size_bytes": 2472,
+      "sha256": "e22f7fee51be4b14848c5abbc3068a931435ee12eba3d937e655404b8156bb97"
     }
   ]
 }

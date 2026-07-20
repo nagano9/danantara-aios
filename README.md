@@ -13,6 +13,7 @@ This package contains a governed enterprise Skills architecture for BPI Danantar
 - **07-schemas/** — registry and decision-output schemas
 - **08-sources/** — authoritative source register
 - **09-roadmap/** — prioritized build plan, backlog themes, and next-release waves
+- **10-agents/** — code-first and declarative agent layer for orchestration, enrichment, and audit
 
 ## Installation concept
 For Claude Code, approved skills can be copied into the relevant `.claude/skills/` scope. Do not bulk-enable all critical skills without access control, tool restrictions, source configuration, human approval routing, and evaluation.
@@ -41,6 +42,10 @@ the operating system real rather than merely complete on paper.
 
 See [`09-roadmap/README.md`](./09-roadmap/README.md) for the prioritized build
 plan.
+
+The agent layer in [`10-agents/`](./10-agents/) is the operational companion to
+the skill layer. Skills define domain capability; agents turn those capabilities
+into routable, inspectable, and reusable execution roles.
 
 ## Version
 Draft 1.0.0, generated 2026-07-16.

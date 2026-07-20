@@ -146,3 +146,10 @@ The next three deliverables that would change the most are:
 - a structured implementation backlog with blocker, owner, and priority fields
 - a pilot release of the mandate and approval workflow stack with real trigger
   cases
+
+The new agent layer is the companion deliverable to those three items. Once the
+source layer is grounded, the first operational agents should be:
+
+- a master orchestrator that routes requests into the right skill chain
+- a source-layer curator that keeps the registry, backlog, and status aligned
+- a repo audit gate that catches drift before it spreads into downstream work

@@ -1,0 +1,35 @@
+# Agent Catalog
+
+This catalog defines the first repo-level agents. They are intentionally small,
+because the repository already has deep domain coverage in skills.
+
+## Core agents
+
+| Agent | Purpose | Trigger | Primary inputs | Output |
+|---|---|---|---|---|
+| `danantara-master-orchestrator` | Route a request to the right skill chain or repo operation | Any ambiguous, multi-step, or cross-folder request | User intent, repo status, source layer state, skill registry context | Routing plan, next agent, required skills, and human gate |
+| `source-layer-curator` | Keep source-layer artifacts and roadmap in sync | Source updates, backlog changes, new evidence, or placeholder promotion | `08-sources/`, `01-registry/`, `09-roadmap/`, `06-scripts/` | Suggested edits, consistency notes, and promotion candidates |
+| `repo-audit-gate` | Detect drift, missing artifacts, and consistency gaps | Before merges, after source updates, or after scaffold changes | Manifest, source register, roadmap, status snapshot, script checks | Audit summary, failed checks, and remediation list |
+
+## Recommended tool scope
+
+| Agent | Safe tools |
+|---|---|
+| `danantara-master-orchestrator` | Read-only repo inspection, status reporting, audit script execution |
+| `source-layer-curator` | Read-only repo inspection, source audit, status reporting |
+| `repo-audit-gate` | Audit scripts, repo hygiene checks, manifest checks |
+
+## Future agents
+
+These are natural next additions once the first three are stable:
+
+- `knowledge-enrichment-agent` for converting new evidence into source-layer
+  updates
+- `workflow-state-agent` for tracking long-running repo or program states
+- `decision-packager-agent` for generating board-ready or committee-ready
+  summaries from the existing skill outputs
+
+## Design rule
+
+If a task can be handled by an existing skill, do not re-encode it as a new
+agent. Agents should route and coordinate, not duplicate domain logic.

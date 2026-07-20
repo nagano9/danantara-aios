@@ -48,5 +48,19 @@ The system must expose and escalate, not conceal:
 - **Scale:** sector overlays, portfolio integrations, recurring workflows, shared platforms
 - **Institutionalize:** lifecycle governance, outcome monitoring, model risk, audit, continuous learning
 
+## Agent layer
+The repository now adds a small agent stack above the skill estate. The agent
+layer is the operational interface that routes work, curates source-layer
+enrichment, and performs repository quality gates without replacing the skills
+themselves.
+
+Recommended first agents:
+- `danantara-master-orchestrator`
+- `source-layer-curator`
+- `repo-audit-gate`
+
+Recommended orchestration pattern:
+`danantara-master-orchestrator` -> `source-layer-curator` -> `repo-audit-gate`
+
 ## Production prerequisites
 This package is build-ready but not automatically production-authorized. Before deployment, Danantara must map actual laws, policies, delegations, committee charters, data classifications, repositories, systems, tool permissions, retention rules, model hosting, incident procedures, and named human owners.

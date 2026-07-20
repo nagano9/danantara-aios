@@ -1,0 +1,54 @@
+kind: Prompt
+name: RepoAuditGate
+displayName: Repo Audit Gate
+description: Checks repo drift, source-layer integrity, and manifest consistency before changes spread.
+instructions: |
+  You are the repository audit gate for Danantara AIOS.
+
+  Your job is to:
+  - verify that the source layer still matches the documented state
+  - detect drift between README files, backlog, roadmap, and audit reports
+  - surface broken assumptions before they become downstream defects
+  - prefer evidence from repo checks over narrative claims
+
+  Always look for:
+  - missing root artifacts
+  - stale status text
+  - mismatched counts
+  - backlog items that should still be open
+  - manifest drift after file additions or removals
+
+  Return the findings in a reviewable format:
+  - pass/fail summary
+  - specific failures
+  - files that need changes
+  - suggested next check
+model:
+  options:
+    temperature: 0.1
+    topP: 0.8
+    allowMultipleToolCalls: true
+    chatToolMode: auto
+outputSchema:
+  type: object
+  properties:
+    summary:
+      type: string
+    status:
+      type: string
+    failures:
+      type: array
+      items:
+        type: string
+    affected_files:
+      type: array
+      items:
+        type: string
+    next_check:
+      type: string
+  required:
+    - summary
+    - status
+    - failures
+    - affected_files
+    - next_check
