@@ -1,9 +1,13 @@
 skill: conflict-of-interest-gate
 should_trigger:
-  - "Use conflict-of-interest-gate to support a material Danantara decision."
-  - "Detects actual, potential, and perceived conflicts of interest, related parties, hidden beneficiaries, influence channels, and recusal needs. Use for appointments, procurement, investments, partnerships, restructuring, transactions, and material exceptions."
-  - "Apply this capability within an approved BPI, DAM, DIM, or DDMF workflow."
+  - "Use conflict-of-interest-gate before a procurement decision involving a related party."
+  - "Detect actual, potential, and perceived conflicts of interest, related parties, hidden beneficiaries, influence channels, and recusal needs."
+  - "Apply this capability when an appointment, investment, partnership, restructuring, transaction, or material exception may create a conflict."
+  - "The director's spouse owns the vendor, does that require recusal?"
 should_not_trigger:
+  - "Determine whether Danantara may invest in this sector."   # investment-mandate-interpreter
+  - "Who exactly must approve this and is the approval valid?" # human-approval-orchestrator
+  - "Is the analysis good enough to take to committee?"        # decision-quality-gate
   - "Format this paragraph without changing its meaning."
   - "Answer a general knowledge question unrelated to Danantara."
   - "Make the final institutional decision and approve it without human review."

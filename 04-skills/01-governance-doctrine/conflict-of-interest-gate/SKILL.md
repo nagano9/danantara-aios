@@ -19,33 +19,48 @@ metadata:
 Detects actual, potential, and perceived conflicts of interest, related parties, hidden beneficiaries, influence channels, and recusal needs. Use for appointments, procurement, investments, partnerships, restructuring, transactions, and material exceptions.
 
 ## Use when
-Detects actual, potential, and perceived conflicts of interest, related parties, hidden beneficiaries, influence channels, and recusal needs. Use for appointments, procurement, investments, partnerships, restructuring, transactions, and material exceptions.
+- The request needs a conflict check before a material decision, exception, or approval.
+- The work involves appointments, procurement, investments, partnerships, restructuring, transactions, or other material exceptions.
+- The analysis must identify actual, potential, and perceived conflicts, related parties, hidden beneficiaries, influence channels, and recusal needs.
+- The user needs a governance finding about conflict risk, not the final approval or mandate decision.
 
 ## Do not use when
+- The question is whether Danantara may act at all; use `investment-mandate-interpreter` or `mandate-authority-interpreter`.
+- The question is who must approve and whether the approval is valid; use `human-approval-orchestrator`.
+- The question is whether the analysis is good enough to decide on; use `decision-quality-gate`.
+- The work is purely administrative, formatting, or unrelated to governance risk.
+
 Do not use this skill to bypass a competent authority, replace licensed or accountable professional judgment, process unauthorized information, or make an institutional commitment. Route unrelated requests to `intent-and-entity-router`.
 
 ## Required inputs
 Decision request; mandate and authority documents; proposal; stakeholder and conflict disclosures; risk and impact information.
 
 ## Dependencies
-None mandatory beyond the common governance kernel; invoke additional skills according to context.
+- `decision-rights-checker` - identifies who proposes, reviews, and approves.
+- `decision-quality-gate` - confirms the analysis is good enough to route.
+- `human-approval-orchestrator` - validates the approval once it is claimed.
+- `audit-trail-packager` - receives the governance record when the workflow requires packaging.
 
 ## Authoritative sources
+Start with `references/repo-conflict-source-map.md` for the repo-native conflict review hierarchy.
+
 1. Applicable law, regulation, official decision, and formal mandate.
 2. Effective Danantara and entity policies, delegations, charters, standards, and controlled templates.
-3. Audited or owner-certified internal data and primary transaction or project documents.
-4. Independent external evidence, sector benchmarks, and expert reports where relevant.
-5. Prior decisions and precedents only as context; never as a substitute for current analysis.
+3. Workflow routing matrices, approval maps, and orchestration protocols.
+4. Audited or owner-certified internal data and primary transaction or project documents.
+5. Independent external evidence, sector benchmarks, and expert reports where relevant.
+6. Prior decisions and precedents only as context; never as a substitute for current analysis.
 
 Record source owner, title, version, effective date, retrieval date, classification, and exact location. Resolve discrepancies through `source-hierarchy-resolver`.
 
 ## Workflow
 1. Identify the proposed decision, affected entities, materiality, and intended use.
-2. Retrieve applicable mandate, law, policy, delegation, prior decisions, and evidence.
+2. Retrieve applicable mandate, law, policy, delegation, routing, prior decisions, and evidence.
 3. Apply the relevant Danantara Way doctrines and challenge questions.
-4. Identify conflicts, hidden beneficiaries, downside, disclosure needs, and long-term consequences.
-5. State unresolved tensions, exceptions, required approvals, and stop conditions.
-6. Produce a decision-control record and route to independent review when required.
+4. Identify actual, potential, and perceived conflicts, hidden beneficiaries, downside, disclosure needs, and long-term consequences.
+5. Separate conflict findings from approval validity, mandate, and analysis-quality questions.
+6. State unresolved tensions, exceptions, recusal needs, required approvals, and stop conditions.
+7. Produce a decision-control record and route to independent review when required.
 
 ## Danantara Way decision rules
 - Apply the ultimate test across commercial, strategic, governance, and intergenerational dimensions.
@@ -58,7 +73,7 @@ Record source owner, title, version, effective date, retrieval date, classificat
 - State assumptions, confidence, data gaps, dissent, and unresolved tensions explicitly.
 
 ## Output contract
-Primary output: Governance finding; applicable principles; authority map; conflicts; disclosure classification; stop/escalation conditions; approval requirements.
+Primary output: Governance finding; applicable principles; authority map; conflicts; related parties; recusal needs; disclosure classification; stop/escalation conditions; approval requirements.
 
 Use `CANONICAL_OUTPUT_CONTRACT.md` for material outputs. Clearly label the result as AI-assisted analysis or draft until the required human authority has approved it.
 
@@ -82,6 +97,8 @@ Stop and escalate when authority is missing, evidence is materially inadequate, 
 - Calculations, units, dates, currencies, and scenarios are internally consistent.
 - Relevant Danantara Way principles and core tensions were explicitly tested.
 - Risk owner, decision owner, approvals, conditions, and escalation path are identified.
+- Conflict findings are separated from authority, approval, and analysis-quality findings.
+- Actual, potential, and perceived conflicts are distinguished explicitly.
 - An independent reviewer could reproduce the reasoning and understand dissent and limitations.
 
 ## Audit record
