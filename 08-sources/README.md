@@ -1,0 +1,25 @@
+# Source Layer
+
+This folder groups the source register, the workbook change request, the
+implementation backlog, and the Tier 2 source-pack workspace.
+
+## What lives here
+
+- `SOURCE_REGISTER.md` - authoritative source hierarchy and gaps
+- `WORKBOOK_CHANGE_REQUEST.md` - open workbook change request CR-001
+- `19_IMPLEMENTATION_BACKLOG.md` - sink for blocked or indeterminate decisions
+- `TIER2_SOURCE_PACK.md` - index and folder plan for missing Tier 2 sources
+- `tier2/` - working folder for Tier 2 source documents
+- `tier2/INDEX.md` - working index for Tier 2 placeholders
+- `tier2/TIER2_SOURCE_TEMPLATE.md` - standard template for future authenticated sources
+
+## Helper script
+
+- `06-scripts/bootstrap_tier2_source_pack.py` can recreate the source-layer
+  scaffolding if files are removed.
+
+## Priority
+
+The source layer is the highest-leverage part of the operating system because it
+decides whether downstream skills can answer from real Danantara instruments or
+only from a generic template.
