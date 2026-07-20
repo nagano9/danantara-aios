@@ -100,12 +100,14 @@ Source: Sekretariat Negara —
 
 ## Tier 2 — Danantara and entity policy, delegation, charter, standard
 
-**This tier is empty. That is the single largest gap in this package.**
+**The authenticated tier is still empty, but the scaffold is now in place.**
 
 Every skill in `04-skills/` declares Tier 2 sources under `## Authoritative
-sources`, and not one of them can currently point to a real document. Until this
-tier is populated, the skills reason about a *generic* sovereign fund, not about
-Danantara. The following are required and can only come from inside Danantara:
+sources`, and not one of them can currently point to a real authenticated
+document. The repository now includes the Tier 2 source pack, fill playbook,
+status snapshot, and backlog sink, but the skills still reason about a
+*generic* sovereign fund until the authenticated sources are promoted. The
+following are required and can only come from inside Danantara:
 
 - [ ] BPI Danantara Dewan Pengawas charter
 - [ ] Badan Pelaksana delegation of authority matrix (the operative source for

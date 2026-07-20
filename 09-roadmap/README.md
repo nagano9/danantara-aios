@@ -14,10 +14,13 @@ The repository already has a strong structural base:
 
 The most important gaps are not in volume. They are in operational grounding:
 
-- Tier 2 sources are still empty, so most skills reason from a generic model
+- the authenticated Tier 2 source layer is still empty, so most skills reason
+  from a generic model
+- the Tier 2 scaffold, fill playbook, status snapshot, and backlog sink now
+  exist, but they still need authenticated source content
 - only 7 skills currently have real references and trigger cases
-- the implementation backlog sink `19_IMPLEMENTATION_BACKLOG` is referenced but
-  not yet present as an explicit repo artifact
+- the implementation backlog sink `19_IMPLEMENTATION_BACKLOG` is now present as
+  an explicit repo artifact, but it still needs real intake
 - the entity model still needs to be aligned and pinned against the operative
   authenticated instruments
 
@@ -33,6 +36,8 @@ on it.
 - populate Tier 2 with actual charters, delegations, policies, and limits
 - create a visible implementation backlog for every indeterminate or blocked
   mandate question
+- promote authenticated source documents into the Tier 2 scaffold and retire
+  the corresponding placeholders
 - confirm the operative entity model and approval hierarchy
 - map source ownership, effective dates, and document locations for the pilot
   set
@@ -141,4 +146,3 @@ The next three deliverables that would change the most are:
 - a structured implementation backlog with blocker, owner, and priority fields
 - a pilot release of the mandate and approval workflow stack with real trigger
   cases
-

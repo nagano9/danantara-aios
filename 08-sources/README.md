@@ -10,6 +10,7 @@ implementation backlog, and the Tier 2 source-pack workspace.
 - `19_IMPLEMENTATION_BACKLOG.md` - sink for blocked or indeterminate decisions
 - `TIER2_SOURCE_PACK.md` - index and folder plan for missing Tier 2 sources
 - `TIER2_FILL_PLAYBOOK.md` - the operating playbook for promoting placeholders
+- `TIER2_STATUS.md` - current status snapshot for the Tier 2 working area
 - `tier2/` - working folder for Tier 2 source documents
 - `tier2/INDEX.md` - working index for Tier 2 placeholders
 - `tier2/TIER2_SOURCE_TEMPLATE.md` - standard template for future authenticated sources
