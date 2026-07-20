@@ -4,7 +4,7 @@
   "generated": "2026-07-20",
   "skill_count": 133,
   "cluster_count": 10,
-  "file_count_excluding_manifest": 478,
+  "file_count_excluding_manifest": 480,
   "files": [
     {
       "path": ".gitattributes",
@@ -33,8 +33,8 @@
     },
     {
       "path": "00-blueprint/DANANTARA_AIOS_BLUEPRINT.md",
-      "size_bytes": 3496,
-      "sha256": "2989a0acd51613a2a3bc65e4227f606d2f32709fb5e7685f58c59b09aa77703f"
+      "size_bytes": 3636,
+      "sha256": "9966d42dd3830d6b01cfb34734705cf7a5a34f789c2aa91e8db2508a03770f7c"
     },
     {
       "path": "00-blueprint/MASTER_ORCHESTRATION_PROTOCOL.md",
@@ -2178,8 +2178,8 @@
     },
     {
       "path": "06-scripts/check_agent_layer.py",
-      "size_bytes": 2659,
-      "sha256": "a66871a100a9368f33758f86dc3a95a4bc1e31e9fa2b8ca7231bc19ba5bfc3fd"
+      "size_bytes": 3238,
+      "sha256": "ba1800d44f814d6aee27cd9f98a4544cc4456315f69e86f344b53bedfab9a5ab"
     },
     {
       "path": "06-scripts/check_reference_coverage.py",
@@ -2353,18 +2353,18 @@
     },
     {
       "path": "09-roadmap/README.md",
-      "size_bytes": 5378,
-      "sha256": "a9e8473cc413654ddd2b297c27b8ff9c2780c3b05707979c0c59fc16c25915ce"
+      "size_bytes": 5543,
+      "sha256": "95ec795af8d763d18ff57ae09d10b22f201f6ac8c446fc530178b2b46a0fa3fb"
     },
     {
       "path": "10-agents/AGENT_CATALOG.md",
-      "size_bytes": 1940,
-      "sha256": "8c7091411d644cfa4ca7666d469eabb71c992fb2dd188f8876266c642609ab0d"
+      "size_bytes": 2123,
+      "sha256": "cc0b9e0cd8ef2999f373db8bef985f5eb3c6e715cc5956e6ada76ba897eec7ae"
     },
     {
       "path": "10-agents/README.md",
-      "size_bytes": 2632,
-      "sha256": "0fce8ddaa05283cd3f43f18567dc4691396deb1a31473f531bd4bf9ff6ccbfb2"
+      "size_bytes": 2855,
+      "sha256": "fc1bcad5d486cdecaa059fa065c5b6da38bf452e131059371c9a807c20563f01"
     },
     {
       "path": "10-agents/agents/danantara-master-orchestrator.yaml",
@@ -2383,8 +2383,18 @@
     },
     {
       "path": "10-agents/python/danantara_agents.py",
-      "size_bytes": 4973,
-      "sha256": "66edf5c6c28ef8831d189c1273586116193d23d93b93a5fb3c11caedc4f70b53"
+      "size_bytes": 5549,
+      "sha256": "91ff31614efb64802ee5d41c886cd69fc0715d2664234d06ffa66381ecc61f26"
+    },
+    {
+      "path": "10-agents/python/run_repo_agent_workflow.py",
+      "size_bytes": 1404,
+      "sha256": "757043b2c0db8b6cada0c50706f1178e7821d5584ffafc5ff43f9876567a3476"
+    },
+    {
+      "path": "10-agents/workflows/repo-agent-loop.yaml",
+      "size_bytes": 3009,
+      "sha256": "d22e067a7b0748a5f682abc15e8712ffe88931bb84a9d5172a773bdd0f2ab3fb"
     },
     {
       "path": "LICENSE",

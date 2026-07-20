@@ -62,5 +62,9 @@ Recommended first agents:
 Recommended orchestration pattern:
 `danantara-master-orchestrator` -> `source-layer-curator` -> `repo-audit-gate`
 
+First workflow:
+`repo-agent-loop` stitches the three agents together with the repo audit and
+repo hygiene scripts as supporting functions.
+
 ## Production prerequisites
 This package is build-ready but not automatically production-authorized. Before deployment, Danantara must map actual laws, policies, delegations, committee charters, data classifications, repositories, systems, tool permissions, retention rules, model hosting, incident procedures, and named human owners.

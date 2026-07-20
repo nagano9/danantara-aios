@@ -142,6 +142,20 @@ def build_agent_stack() -> dict[str, object]:
     }
 
 
+def build_workflow_factory():
+    """Create a workflow factory wired to the local repo agents and tools."""
+    from agent_framework.declarative import WorkflowFactory
+
+    return (
+        WorkflowFactory()
+        .register_agent("DanantaraMasterOrchestrator", build_master_orchestrator())
+        .register_agent("SourceLayerCurator", build_source_layer_curator())
+        .register_agent("RepoAuditGate", build_repo_audit_gate())
+        .register_tool("run_source_layer_audit", run_source_layer_audit)
+        .register_tool("run_repo_hygiene", run_repo_hygiene)
+    )
+
+
 async def main() -> int:
     parser = argparse.ArgumentParser(description="Run a Danantara repo agent locally.")
     parser.add_argument(

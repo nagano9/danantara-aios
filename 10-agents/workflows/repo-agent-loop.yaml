@@ -1,0 +1,105 @@
+name: repo-agent-loop
+description: Sequential repo agent loop for routing, source enrichment, and audit
+
+inputs:
+  request:
+    type: string
+    description: User request or maintenance task for the repo agent layer
+  focus:
+    type: string
+    description: Optional emphasis such as source-layer, roadmap, or audit
+
+actions:
+  - kind: SetVariable
+    id: set_request
+    displayName: Capture request
+    variable: Local.request
+    value: =Workflow.Inputs.request
+
+  - kind: SetVariable
+    id: set_focus
+    displayName: Capture focus
+    variable: Local.focus
+    value: =If(IsBlank(Workflow.Inputs.focus), "source-layer", Workflow.Inputs.focus)
+
+  - kind: InvokeAzureAgent
+    id: route_request
+    displayName: Route task
+    agent:
+      name: DanantaraMasterOrchestrator
+    input:
+      messages: =UserMessage(Concat("Route this Danantara AIOS repo task. Request: ", Local.request, ". Focus: ", Local.focus))
+    output:
+      responseObject: Local.RouteDecision
+      messages: Local.RouteMessages
+      autoSend: false
+
+  - kind: InvokeAzureAgent
+    id: curate_sources
+    displayName: Curate source layer
+    agent:
+      name: SourceLayerCurator
+    input:
+      messages: =UserMessage(Concat("Curate the source layer and roadmap for this repo task: ", Local.request))
+    output:
+      responseObject: Local.CurationDecision
+      messages: Local.CurationMessages
+      autoSend: false
+
+  - kind: InvokeFunctionTool
+    id: run_source_audit
+    displayName: Run source-layer audit
+    functionName: run_source_layer_audit
+    output:
+      result: Local.SourceAudit
+      autoSend: false
+
+  - kind: InvokeFunctionTool
+    id: run_repo_hygiene
+    displayName: Run repo hygiene checks
+    functionName: run_repo_hygiene
+    output:
+      result: Local.RepoHygiene
+      autoSend: false
+
+  - kind: InvokeAzureAgent
+    id: audit_gate
+    displayName: Audit gate review
+    agent:
+      name: RepoAuditGate
+    input:
+      messages: =UserMessage(Concat("Review the repo audit outputs and return a decision. Source audit: ", Local.SourceAudit, " Repo hygiene: ", Local.RepoHygiene))
+    output:
+      responseObject: Local.AuditDecision
+      messages: Local.AuditMessages
+      autoSend: false
+
+  - kind: SetVariable
+    id: set_route_output
+    displayName: Store routing decision
+    variable: Workflow.Outputs.route
+    value: =Local.RouteDecision
+
+  - kind: SetVariable
+    id: set_curation_output
+    displayName: Store curation decision
+    variable: Workflow.Outputs.curation
+    value: =Local.CurationDecision
+
+  - kind: SetVariable
+    id: set_audit_output
+    displayName: Store audit report
+    variable: Workflow.Outputs.audit
+    value: =Local.SourceAudit
+
+  - kind: SetVariable
+    id: set_hygiene_output
+    displayName: Store hygiene report
+    variable: Workflow.Outputs.hygiene
+    value: =Local.RepoHygiene
+
+  - kind: SetVariable
+    id: set_audit_gate_output
+    displayName: Store audit gate decision
+    variable: Workflow.Outputs.audit_gate
+    value: =Local.AuditDecision

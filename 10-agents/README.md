@@ -38,6 +38,12 @@ These three give the repo a practical operating loop:
 
 `master orchestrator -> source curator -> audit gate`
 
+## Workflow
+
+The first end-to-end workflow is defined in
+[`workflows/repo-agent-loop.yaml`](./workflows/repo-agent-loop.yaml) and can be
+run with [`python/run_repo_agent_workflow.py`](./python/run_repo_agent_workflow.py).
+
 ## How they map to the repo
 
 - `danantara-master-orchestrator` uses the orchestration skills already present

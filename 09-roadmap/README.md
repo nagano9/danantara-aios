@@ -153,3 +153,7 @@ source layer is grounded, the first operational agents should be:
 - a master orchestrator that routes requests into the right skill chain
 - a source-layer curator that keeps the registry, backlog, and status aligned
 - a repo audit gate that catches drift before it spreads into downstream work
+
+The first workflow should be a repo maintenance loop that routes a task,
+curates the source layer, runs the repo checks, and returns a consolidated
+audit decision.

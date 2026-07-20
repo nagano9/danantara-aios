@@ -11,6 +11,12 @@ because the repository already has deep domain coverage in skills.
 | `source-layer-curator` | Keep source-layer artifacts and roadmap in sync | Source updates, backlog changes, new evidence, or placeholder promotion | `08-sources/`, `01-registry/`, `09-roadmap/`, `06-scripts/` | Suggested edits, consistency notes, and promotion candidates |
 | `repo-audit-gate` | Detect drift, missing artifacts, and consistency gaps | Before merges, after source updates, or after scaffold changes | Manifest, source register, roadmap, status snapshot, script checks | Audit summary, failed checks, and remediation list |
 
+## Workflow pairing
+
+| Workflow | Purpose |
+|---|---|
+| `repo-agent-loop` | Routes a repo task, curates the source layer, runs repository checks, and returns a consolidated result |
+
 ## Recommended tool scope
 
 | Agent | Safe tools |
