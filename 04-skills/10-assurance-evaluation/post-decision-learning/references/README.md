@@ -1,3 +1,8 @@
 # References for post-decision-learning
 
-Add only approved, versioned, authoritative references. Record owner, effective date, classification, and superseded status.
+Keep this folder focused on the learning loop, prediction settlement, and the source hierarchy that feeds post-decision review.
+
+Primary entry point:
+- `repo-learning-source-map.md` - repo-native source hierarchy for decision outcome learning.
+
+Use these references when the task needs a source-backed answer about what was learned from an outcome.
