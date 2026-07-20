@@ -67,6 +67,8 @@ decides.
 - `audit-trail-packager` — receives the routing record.
 
 ## Authoritative sources
+Start with `references/repo-approval-source-map.md` for the repo-native approval hierarchy.
+
 1. **Law, regulation, official decision, formal mandate.** UU 1/2025 jo.
    UU 16/2025 (Pasal 3E delegation; concurrent-position prohibition; separation of
    supervisory and operational functions; BPK examination); PP 10/2025 jo.
@@ -240,6 +242,8 @@ Specific to this skill — escalate when:
 - Eligibility was tested against the concurrent-position prohibition.
 - `Risk Bearer` is named, or the decision is held.
 - No approval is recorded that an authorized system did not evidence.
+- The verdict cleanly distinguishes `routable`, `routable with conditions`,
+  `indeterminate pending named cell`, and `void`.
 - Material claims have traceable sources and clear fact/assumption/inference
   labels.
 - Relevant Danantara Way principles and core tensions were explicitly tested.

@@ -29,6 +29,7 @@ should_trigger:
 
   # --- ceiling ---
   - "Nilainya di atas plafon komite. Gimana?"
+  - "Who exactly must approve this and is the claimed approval actually valid?"
 
 should_not_trigger:
   # --- authority to act at all, not who signs ---
@@ -41,6 +42,7 @@ should_not_trigger:
 
   # --- who does what generally, not validity of an approval ---
   - "Map the RACI for this process."                        # decision-rights-checker
+  - "Route the workflow through approval and record the state." # workflow-state-manager
 
   # --- unrelated ---
   - "Format this paragraph without changing its meaning."

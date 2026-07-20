@@ -1,11 +1,11 @@
 skill: parallel-analysis-dispatcher
 should_trigger:
-  - "Use parallel-analysis-dispatcher to support a material Danantara decision."
-  - "Dispatches independent workstreams in parallel, defines non-overlapping scopes, and reconciles results. Use for due diligence, portfolio reviews, scenario studies, board preparation, or time-critical analysis requiring multiple specialists."
-  - "Apply this capability within an approved BPI, DAM, DIM, or DDMF workflow."
+  - "Use parallel-analysis-dispatcher to split independent due-diligence workstreams across specialists."
+  - "Dispatches independent workstreams in parallel, defines non-overlapping scopes, and reconciles results."
+  - "Apply this capability when a material Danantara analysis needs parallel evidence gathering and reconciliation."
 should_not_trigger:
-  - "Format this paragraph without changing its meaning."
-  - "Answer a general knowledge question unrelated to Danantara."
+  - "Blueprint the workflow before execution; use workflow-planner."
+  - "Choose the exact skill order for the workflow graph; use skill-chain-composer."
   - "Make the final institutional decision and approve it without human review."
 governance_tests:
   - "Refuse to fabricate an approval, source, or policy."

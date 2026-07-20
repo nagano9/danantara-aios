@@ -19,33 +19,48 @@ metadata:
 Dispatches independent workstreams in parallel, defines non-overlapping scopes, and reconciles results. Use for due diligence, portfolio reviews, scenario studies, board preparation, or time-critical analysis requiring multiple specialists.
 
 ## Use when
-Dispatches independent workstreams in parallel, defines non-overlapping scopes, and reconciles results. Use for due diligence, portfolio reviews, scenario studies, board preparation, or time-critical analysis requiring multiple specialists.
+- The request has independent workstreams that can be run in parallel without sharing the same analytic responsibility.
+- The work needs explicit non-overlapping scopes, owners, and reconciliation of results.
+- The request is for due diligence, portfolio review, scenario study, board preparation, or other time-critical analysis requiring multiple specialists.
+- The user needs a dispatch plan for parallel work, not the final strategic sequence or the long-running state record.
 
 ## Do not use when
+- The task is only to blueprint the workflow; use `workflow-planner`.
+- The task needs exact skill sequencing or serial/parallel graph design; use `skill-chain-composer`.
+- The task needs persistent workflow state, blockers, or handoffs over time; use `workflow-state-manager`.
+- The work is simple, single-threaded, or a direct answer.
+
 Do not use this skill to bypass a competent authority, replace licensed or accountable professional judgment, process unauthorized information, or make an institutional commitment. Route unrelated requests to `intent-and-entity-router`.
 
 ## Required inputs
 User objective; intended output; affected entities; deadline; available evidence; data classification; authority and audience.
 
 ## Dependencies
-None mandatory beyond the common governance kernel; invoke additional skills according to context.
+- `workflow-planner` - defines the blueprint before dispatch if the workflow is not yet scoped.
+- `skill-chain-composer` - sequences skills when the parallel dispatch is part of a larger workflow.
+- `workflow-state-manager` - records owners, blockers, and handoffs after dispatch.
+- `danantara-master-orchestrator` - supplies end-to-end orchestration context when the work is material.
 
 ## Authoritative sources
+Start with `references/repo-parallel-source-map.md` for the repo-native parallel dispatch hierarchy.
+
 1. Applicable law, regulation, official decision, and formal mandate.
 2. Effective Danantara and entity policies, delegations, charters, standards, and controlled templates.
-3. Audited or owner-certified internal data and primary transaction or project documents.
-4. Independent external evidence, sector benchmarks, and expert reports where relevant.
-5. Prior decisions and precedents only as context; never as a substitute for current analysis.
+3. Approved workflow blueprints, routing matrices, orchestration protocols, and skill boundaries.
+4. Audited or owner-certified internal data and primary transaction or project documents.
+5. Independent external evidence, sector benchmarks, and expert reports where relevant.
+6. Prior decisions and precedents only as context; never as a substitute for current analysis.
 
 Record source owner, title, version, effective date, retrieval date, classification, and exact location. Resolve discrepancies through `source-hierarchy-resolver`.
 
 ## Workflow
 1. Classify intent, entity, risk tier, data sensitivity, decision stage, and required outcome.
 2. Confirm authority, permitted tools, data access, human owners, and escalation path.
-3. Decompose the work into evidence, domain, sector, model, challenge, assurance, and approval tasks.
-4. Select and sequence non-overlapping skills; dispatch parallel work where useful.
-5. Reconcile evidence and specialist outputs; preserve assumptions and dissent.
-6. Run final assurance gates, assemble the canonical output, and route for human approval.
+3. Identify which workstreams are genuinely independent and which must remain serial.
+4. Define non-overlapping scopes, owners, deliverables, and stop conditions for each workstream.
+5. Dispatch parallel work where useful; capture the evidence path and chain of custody for each stream.
+6. Reconcile outputs, surface overlaps, preserve assumptions and dissent, and remove duplicated analysis.
+7. Route the consolidated output to the next skill, state record, or human gate.
 
 ## Danantara Way decision rules
 - Apply the ultimate test across commercial, strategic, governance, and intergenerational dimensions.
@@ -58,7 +73,7 @@ Record source owner, title, version, effective date, retrieval date, classificat
 - State assumptions, confidence, data gaps, dissent, and unresolved tensions explicitly.
 
 ## Output contract
-Primary output: Workflow plan; selected skill chain; task ownership; evidence plan; approval route; consolidated output; state and audit record.
+Primary output: Parallel dispatch plan; workstream scope map; task ownership; evidence plan; reconciliation notes; approval route; consolidated output; state and audit record.
 
 Use `CANONICAL_OUTPUT_CONTRACT.md` for material outputs. Clearly label the result as AI-assisted analysis or draft until the required human authority has approved it.
 
@@ -82,6 +97,8 @@ Stop and escalate when authority is missing, evidence is materially inadequate, 
 - Calculations, units, dates, currencies, and scenarios are internally consistent.
 - Relevant Danantara Way principles and core tensions were explicitly tested.
 - Risk owner, decision owner, approvals, conditions, and escalation path are identified.
+- Workstreams are genuinely independent, non-overlapping, and not a substitute for planning or sequencing.
+- The dispatch preserves dissent, overlap checks, and the point of handoff to the next skill.
 - An independent reviewer could reproduce the reasoning and understand dissent and limitations.
 
 ## Audit record
