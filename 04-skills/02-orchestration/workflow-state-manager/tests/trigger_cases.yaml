@@ -1,10 +1,14 @@
 skill: workflow-state-manager
 should_trigger:
   - "Track the current stage, blockers, owners, and deadlines for a distressed BUMN turnaround."
-  - "Maintain workflow state across decision-quality-gate, human-approval-orchestrator, and audit-trail-packager."
+  - "Maintain workflow state across decision-quality-gate, human-approval-orchestrator, conflict-of-interest-gate, and audit-trail-packager."
   - "Keep the evidence, dependencies, approvals, and next handoff current for a DAM value creation plan."
   - "Update the state for an enterprise portfolio early warning case after a new issue is identified."
+  - "What is blocked, who owns it, and what is the next handoff?"
 should_not_trigger:
+  - "Decide whether the analysis is good enough to go to committee." # decision-quality-gate
+  - "Validate whether the claimed approval is actually valid."         # human-approval-orchestrator
+  - "Determine whether a conflict requires recusal."                   # conflict-of-interest-gate
   - "Format this paragraph without changing its meaning."
   - "Answer a general knowledge question unrelated to a live workflow."
   - "Make the final institutional decision and approve it without human review."

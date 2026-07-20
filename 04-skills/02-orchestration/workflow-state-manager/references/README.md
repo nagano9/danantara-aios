@@ -6,3 +6,4 @@ Primary entry point:
 - `repo-workflow-source-map.md` - repo-native source hierarchy for workflow state, handoff, and escalation.
 
 Use these references when the task needs a durable state record for a long-running workflow.
+Do not use them to decide conflicts, validate approval, or grade decision quality.
