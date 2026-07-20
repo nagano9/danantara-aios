@@ -17,6 +17,7 @@ EXPECTED_ROOT_FILES = {
     SOURCE_ROOT / "19_IMPLEMENTATION_BACKLOG.md",
     SOURCE_ROOT / "TIER2_SOURCE_PACK.md",
     SOURCE_ROOT / "TIER2_FILL_PLAYBOOK.md",
+    SOURCE_ROOT / "TIER2_STATUS.md",
 }
 
 EXPECTED_TIER2_FILES = {
@@ -91,6 +92,20 @@ if playbook_path.exists():
         if phrase not in text:
             errors.append(f"TIER2_FILL_PLAYBOOK.md missing heading {phrase}")
 
+status_path = SOURCE_ROOT / "TIER2_STATUS.md"
+if status_path.exists():
+    text = status_path.read_text(encoding="utf-8")
+    required_phrases = [
+        "## Snapshot",
+        "## What is live",
+        "## What is still missing",
+        "## Next priority order",
+        "## Validation",
+    ]
+    for phrase in required_phrases:
+        if phrase not in text:
+            errors.append(f"TIER2_STATUS.md missing heading {phrase}")
+
 template_path = TIER2_ROOT / "TIER2_SOURCE_TEMPLATE.md"
 if template_path.exists():
     text = template_path.read_text(encoding="utf-8")
@@ -112,4 +127,4 @@ if errors:
     for e in errors:
         print(f"- {e}")
     sys.exit(1)
-print("PASS: Tier 2 source pack, backlog, and template are in sync.")
+print("PASS: Tier 2 source-layer scaffold is in sync.")

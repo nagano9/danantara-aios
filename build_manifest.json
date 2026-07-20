@@ -4,7 +4,7 @@
   "generated": "2026-07-20",
   "skill_count": 133,
   "cluster_count": 10,
-  "file_count_excluding_manifest": 464,
+  "file_count_excluding_manifest": 465,
   "files": [
     {
       "path": "00-blueprint/ARCHITECTURE.mmd",
@@ -2153,8 +2153,8 @@
     },
     {
       "path": "06-scripts/bootstrap_tier2_source_pack.py",
-      "size_bytes": 25334,
-      "sha256": "4b580c32897f1e6854c9ddffa9f959be2a140de20b551971a835f10c26adcf2d"
+      "size_bytes": 27273,
+      "sha256": "06067c0d0db5d930e0af40cc1e34ec38265e328e0d1a8242ee2502a6933b38b6"
     },
     {
       "path": "06-scripts/check_reference_coverage.py",
@@ -2173,8 +2173,8 @@
     },
     {
       "path": "06-scripts/check_tier2_source_pack.py",
-      "size_bytes": 4219,
-      "sha256": "40cd624e679f70cfaf7c1211302c4dfdd93c0987c7ca083e19d791f5cf3274db"
+      "size_bytes": 4679,
+      "sha256": "246ad0377a11f36eb6e8af2ff94e4713a52a71053b7daf8c8aa8cdbaa319e209"
     },
     {
       "path": "06-scripts/ingest_actual_condition.py",
@@ -2213,13 +2213,13 @@
     },
     {
       "path": "08-sources/README.md",
-      "size_bytes": 1289,
-      "sha256": "a4b8f05a6c2f19cd3dcb2c9840e70f208fda324ce4cb027ff3e98ddcd76866ea"
+      "size_bytes": 1363,
+      "sha256": "9512e80aa167fc37484ca7312e00a075d28f23b3cb917cc6594c92cdf93e4f23"
     },
     {
       "path": "08-sources/SOURCE_REGISTER.md",
-      "size_bytes": 10286,
-      "sha256": "b4abeecffe0bcf5fcb2dc5c310eedcc514f68b63c3e35fe0edc63a39aaf21725"
+      "size_bytes": 10411,
+      "sha256": "438bb914f67a50567ac7a65dfcebf23668c089d6e0ab8eec86081417a8089384"
     },
     {
       "path": "08-sources/TIER2_FILL_PLAYBOOK.md",
@@ -2228,8 +2228,13 @@
     },
     {
       "path": "08-sources/TIER2_SOURCE_PACK.md",
-      "size_bytes": 3471,
-      "sha256": "8e587fee283bf42edd03dc39be466ffe9bb618215759aed02c8fe0326567a34b"
+      "size_bytes": 3489,
+      "sha256": "6c7e48d6c33e06df3f3024a9ba1f20d1a2c9f8f3ba8d80fb12da5320d743e84b"
+    },
+    {
+      "path": "08-sources/TIER2_STATUS.md",
+      "size_bytes": 1002,
+      "sha256": "81a2ef2c731ecbdc3798b1bc7086023432e393417816bcdca398dc9c8c437039"
     },
     {
       "path": "08-sources/WORKBOOK_CHANGE_REQUEST.md",
@@ -2313,8 +2318,8 @@
     },
     {
       "path": "09-roadmap/README.md",
-      "size_bytes": 4722,
-      "sha256": "88025fde20508756389fa52149699aea48bf189219403d8677df7dc6976a2d57"
+      "size_bytes": 5002,
+      "sha256": "2d072587eca7747f46fcd9f08ec19b9ffeb02cf1402e77f21b6bb92922d1038e"
     },
     {
       "path": "LICENSE",

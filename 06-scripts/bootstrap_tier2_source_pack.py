@@ -6,6 +6,8 @@ This script creates the source-layer scaffolding that the repo now expects:
 - 08-sources/README.md
 - 08-sources/19_IMPLEMENTATION_BACKLOG.md
 - 08-sources/TIER2_SOURCE_PACK.md
+- 08-sources/TIER2_FILL_PLAYBOOK.md
+- 08-sources/TIER2_STATUS.md
 - 08-sources/tier2/
 - tier2 index, template, and placeholder files
 
@@ -194,12 +196,17 @@ def render_source_root_readme():
         "- `19_IMPLEMENTATION_BACKLOG.md` - sink for blocked or indeterminate decisions\n"
         "- `TIER2_SOURCE_PACK.md` - index and folder plan for missing Tier 2 sources\n"
         "- `TIER2_FILL_PLAYBOOK.md` - operating playbook for promoting placeholders\n"
+        "- `TIER2_STATUS.md` - current status snapshot for the Tier 2 working area\n"
         "- `tier2/` - working folder for Tier 2 source documents\n"
         "- `tier2/INDEX.md` - working index for Tier 2 placeholders\n"
         "- `tier2/TIER2_SOURCE_TEMPLATE.md` - standard template for future authenticated sources\n\n"
         "## Helper script\n\n"
         "- `06-scripts/bootstrap_tier2_source_pack.py` can recreate the source-layer\n"
         "  scaffolding if files are removed.\n\n"
+        "- `06-scripts/check_tier2_source_pack.py` validates that the Tier 2 scaffold is\n"
+        "  still internally consistent.\n"
+        "- `06-scripts/report_tier2_status.py` prints a quick status summary for the\n"
+        "  Tier 2 working area.\n\n"
         "## Priority\n\n"
         "The source layer is the highest-leverage part of the operating system because it\n"
         "decides whether downstream skills can answer from real Danantara instruments or\n"
@@ -264,6 +271,39 @@ def render_fill_playbook():
         "- no placeholder may be treated as a source\n"
         "- the source register must stay aligned with the working folder\n"
         "- the backlog must show which decisions the source unlocks\n"
+    )
+
+
+def render_tier2_status():
+    return (
+        "# Tier 2 Status Snapshot\n\n"
+        "Snapshot date: 2026-07-20\n\n"
+        "This note records the current state of the Tier 2 working area. It is a\n"
+        "snapshot, not a source of authority.\n\n"
+        "## Snapshot\n\n"
+        "- numbered docs: 12\n"
+        "- placeholders: 12\n"
+        "- promoted sources: 0\n"
+        "- scaffold files: 3\n"
+        "- total markdown files under `08-sources/tier2/`: 15\n"
+        "- backlog rows: 13\n\n"
+        "## What is live\n\n"
+        "- the Tier 2 source pack skeleton exists\n"
+        "- the Tier 2 fill playbook exists\n"
+        "- the Tier 2 status report script exists\n"
+        "- the Tier 2 backlog sink exists\n\n"
+        "## What is still missing\n\n"
+        "- authenticated Danantara charters, delegations, policies, and standards\n"
+        "- a populated source register for Tier 2 instruments\n"
+        "- real owner, version, effective-date, and retrieval metadata for each item\n\n"
+        "## Next priority order\n\n"
+        "1. delegation of authority matrix\n"
+        "2. investment committee charter\n"
+        "3. investment policy statement\n\n"
+        "## Validation\n\n"
+        "- `python 06-scripts/check_tier2_source_pack.py`\n"
+        "- `python 06-scripts/report_tier2_status.py`\n"
+        "- `python 06-scripts/check_repo_hygiene.py`\n"
     )
 
 
@@ -427,6 +467,8 @@ def render_tier2_source_pack():
         "08-sources/\n"
         "  README.md\n"
         "  TIER2_SOURCE_PACK.md\n"
+        "  TIER2_FILL_PLAYBOOK.md\n"
+        "  TIER2_STATUS.md\n"
         "  19_IMPLEMENTATION_BACKLOG.md\n"
         "  tier2/\n"
         "    INDEX.md\n"
@@ -475,6 +517,7 @@ def main():
         SOURCE_ROOT / "19_IMPLEMENTATION_BACKLOG.md": render_backlog(),
         SOURCE_ROOT / "TIER2_SOURCE_PACK.md": render_tier2_source_pack(),
         SOURCE_ROOT / "TIER2_FILL_PLAYBOOK.md": render_fill_playbook(),
+        SOURCE_ROOT / "TIER2_STATUS.md": render_tier2_status(),
         TIER2_ROOT / "README.md": (
             "# Tier 2 Working Folder\n\n"
             "This folder is the working area for authenticated Danantara policy,\n"
